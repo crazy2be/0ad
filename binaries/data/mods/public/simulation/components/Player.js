@@ -186,6 +186,8 @@ Player.prototype.SetResourceCounts = function(resources)
 		this.resourceCount.stone = resources.stone;
 	if (resources.metal !== undefined)
 		this.resourceCount.metal = resources.metal;
+	Engine.FirebaseHTTP("PUT", "/players/" + this.playerID + "/res.json",
+		JSON.stringify(this.resourceCount));
 };
 
 Player.prototype.GetResourceCounts = function()
@@ -201,8 +203,10 @@ Player.prototype.GetResourceCounts = function()
 Player.prototype.AddResource = function(type, amount)
 {
 	this.resourceCount[type] += (+amount);
-	Engine.FirebaseHTTP("PUT", "/" + type + ".json",
-			"{\"amount\": " + +amount + ", \"time\": {\".sv\": \"timestamp\"}}");
+	Engine.FirebaseHTTP("PUT", "/players/" + this.playerID + "/res.json",
+		JSON.stringify(this.resourceCount));
+	//Engine.FirebaseHTTP("PUT", "/" + type + ".json",
+	//		"{\"amount\": " + +amount + ", \"time\": {\".sv\": \"timestamp\"}}");
 };
 
 /**
@@ -210,10 +214,11 @@ Player.prototype.AddResource = function(type, amount)
  */
 Player.prototype.AddResources = function(amounts)
 {
-	for (var type in amounts)
-	{
+	for (var type in amounts) {
 		this.resourceCount[type] += (+amounts[type]);
 	}
+	Engine.FirebaseHTTP("PUT", "/players/" + this.playerID + "/res.json",
+		JSON.stringify(this.resourceCount));
 };
 
 Player.prototype.GetNeededResources = function(amounts)
@@ -281,6 +286,8 @@ Player.prototype.SubtractResourcesOrNotify = function(amounts)
 	// Subtract the resources
 	for (var type in amounts)
 		this.resourceCount[type] -= amounts[type];
+	Engine.FirebaseHTTP("PUT", "/players/" + this.playerID + "/res.json",
+		JSON.stringify(this.resourceCount));
 
 	return true;
 };
