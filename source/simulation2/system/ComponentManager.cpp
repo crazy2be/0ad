@@ -53,6 +53,7 @@ public:
 	JS::PersistentRootedValue msg;
 };
 
+#include "ps/scripting/JSInterface_Firebase.h"
 CComponentManager::CComponentManager(CSimContext& context, shared_ptr<ScriptRuntime> rt, bool skipScriptFunctions) :
 	m_NextScriptComponentTypeId(CID__LastNative),
 	m_ScriptInterface("Engine", "Simulation", rt),
@@ -70,6 +71,8 @@ CComponentManager::CComponentManager(CSimContext& context, shared_ptr<ScriptRunt
 	// these functions, so we skip registering them here in those cases
 	if (!skipScriptFunctions)
 	{
+		JSI_Firebase::RegisterScriptFunctions(m_ScriptInterface);
+
 		m_ScriptInterface.RegisterFunction<void, int, std::string, JS::HandleValue, CComponentManager::Script_RegisterComponentType> ("RegisterComponentType");
 		m_ScriptInterface.RegisterFunction<void, int, std::string, JS::HandleValue, CComponentManager::Script_RegisterSystemComponentType> ("RegisterSystemComponentType");
 		m_ScriptInterface.RegisterFunction<void, int, std::string, JS::HandleValue, CComponentManager::Script_ReRegisterComponentType> ("ReRegisterComponentType");

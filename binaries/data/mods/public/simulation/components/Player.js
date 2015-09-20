@@ -201,6 +201,8 @@ Player.prototype.GetResourceCounts = function()
 Player.prototype.AddResource = function(type, amount)
 {
 	this.resourceCount[type] += (+amount);
+	Engine.FirebaseHTTP("PUT", "/" + type + ".json",
+			"{\"amount\": " + +amount + ", \"time\": {\".sv\": \"timestamp\"}}");
 };
 
 /**

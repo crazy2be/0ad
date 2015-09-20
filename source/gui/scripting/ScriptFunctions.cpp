@@ -69,6 +69,8 @@
 #include "soundmanager/scripting/JSInterface_Sound.h"
 #include "tools/atlas/GameInterface/GameLoop.h"
 
+#include "ps/scripting/JSInterface_Firebase.h"
+
 /*
  * This file defines a set of functions that are available to GUI scripts, to allow
  * interaction with the rest of the engine.
@@ -923,6 +925,9 @@ void GuiScriptingInit(ScriptInterface& scriptInterface)
 	JSI_Sound::RegisterScriptFunctions(scriptInterface);
 	JSI_L10n::RegisterScriptFunctions(scriptInterface);
 	JSI_Lobby::RegisterScriptFunctions(scriptInterface);
+
+	// !!!FIREBASE!!!
+	JSI_Firebase::RegisterScriptFunctions(scriptInterface);
 
 	// VFS (external)
 	scriptInterface.RegisterFunction<JS::Value, std::wstring, std::wstring, bool, &JSI_VFS::BuildDirEntList>("BuildDirEntList");
