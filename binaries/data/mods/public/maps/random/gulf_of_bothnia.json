@@ -1,0 +1,12 @@
+{
+	"settings" : {
+		"Name" : "Gulf of Bothnia",
+		"Script" : "gulf_of_bothnia.js",
+		"Description" : "Players start around a gulf dotted with small islands.\n\nThe Gulf of Bothnia is the northernmost arm of the Baltic Sea.",
+		"BaseTerrain" : ["alpine_dirt_grass_50"],
+		"BaseHeight" : 3,
+		"Preview" : "gulf_of_bothnia.png",
+		"CircularMap" : true,
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

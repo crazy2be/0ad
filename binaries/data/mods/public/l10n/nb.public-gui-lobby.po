@@ -1,0 +1,584 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# Erling Ekholt Kristiansen <kongrapemann@gmail.com>, 2014
+# Jarl.Arntzen <jarl.arntzen@gmail.com>, 2014-2015
+# Kurt-Håkon Eilertsen <kurt@kheds.com>, 2014
+# Ole Sannes Riiser <OLE-SR@online.no>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2015-07-21 23:21+0200\n"
+"PO-Revision-Date: 2015-08-04 17:09+0000\n"
+"Last-Translator: Ole Sannes Riiser <OLE-SR@online.no>\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/wildfire-games/0ad/language/nb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: gui/lobby/lobby.js:13
+msgctxt "map"
+msgid "Skirmish"
+msgstr "Trefning"
+
+#: gui/lobby/lobby.js:13
+msgctxt "map"
+msgid "Random"
+msgstr "Tilfeldig"
+
+#: gui/lobby/lobby.js:13
+msgid "Scenario"
+msgstr "Kartoppsett"
+
+#: gui/lobby/lobby.js:32
+msgctxt "map size"
+msgid "Any"
+msgstr "Alle"
+
+#: gui/lobby/lobby.js:40
+msgctxt "player number"
+msgid "Any"
+msgstr "Alle"
+
+#: gui/lobby/lobby.js:44
+msgctxt "map"
+msgid "Any"
+msgstr "Alle"
+
+#: gui/lobby/lobby.js:288 gui/lobby/lobby.js:289 gui/lobby/lobby.js:290
+#: gui/lobby/lobby.js:291 gui/lobby/lobby.js:292 gui/lobby/lobby.js:293
+msgid "N/A"
+msgstr "Ikke tilgjengelig"
+
+#: gui/lobby/lobby.js:318 gui/lobby/lobby.js:346
+#, javascript-format
+msgid "%(nick)s (%(rating)s)"
+msgstr "%(nick)s (%(rating)s)"
+
+#: gui/lobby/lobby.js:329 gui/lobby/lobby.js:357
+#, javascript-format
+msgid "%(percentage)s%%"
+msgstr "%(percentage)s%%"
+
+#: gui/lobby/lobby.js:331 gui/lobby/lobby.js:359
+msgctxt "Used for an undefined winning rate"
+msgid "-"
+msgstr "-"
+
+#: gui/lobby/lobby.js:519
+msgid "Busy"
+msgstr "Opptatt"
+
+#: gui/lobby/lobby.js:524
+msgid "Away"
+msgstr "Borte"
+
+#: gui/lobby/lobby.js:528
+msgid "Online"
+msgstr "Tilkoblet"
+
+#: gui/lobby/lobby.js:532
+msgid "Offline"
+msgstr "Frakoblet"
+
+#: gui/lobby/lobby.js:537
+msgctxt "lobby presence"
+msgid "Unknown"
+msgstr "Ukjent"
+
+#: gui/lobby/lobby.js:586
+msgid "A randomly selected map."
+msgstr "Et tilfeldig valgt kart"
+
+#: gui/lobby/lobby.js:612
+msgid "Sorry, no description available."
+msgstr "Beklager, ingen beskrivelse tilgjengelig."
+
+#: gui/lobby/lobby.js:640
+#, javascript-format
+msgid "This game's address '%(ip)s' does not appear to be valid."
+msgstr "Dette spillets adresse '%(ip)s' ser ikke ut til å være gyldig."
+
+#: gui/lobby/lobby.js:723
+#, javascript-format
+msgid "%(nick)s has joined."
+msgstr "%(nick)s har blitt med."
+
+#: gui/lobby/lobby.js:733
+#, javascript-format
+msgid "%(nick)s has left."
+msgstr "%(nick)s har gått."
+
+#: gui/lobby/lobby.js:740
+#, javascript-format
+msgid "Invalid nickname: %(nick)s"
+msgstr "Ugyldig kallenavn: %(nick)s"
+
+#: gui/lobby/lobby.js:747
+#, javascript-format
+msgid "%(oldnick)s is now known as %(newnick)s."
+msgstr "%(oldnick)s er nå kjent som %(newnick)s."
+
+#: gui/lobby/lobby.js:875
+#, javascript-format
+msgid "We're sorry, the '%(cmd)s' command is not supported."
+msgstr "Vi beklager, kommandoen '%(cmd)s' støttes ikke."
+
+#. Translation: IRC message prefix when the sender uses the /me command.
+#: gui/lobby/lobby.js:959
+#, javascript-format
+msgid "* %(sender)s"
+msgstr "* %(sender)s"
+
+#. Translation: IRC message issued using the ‘/me’ command.
+#: gui/lobby/lobby.js:961
+#, javascript-format
+msgid "%(sender)s %(action)s"
+msgstr "%(sender)s %(action)s"
+
+#. Translation: IRC message prefix.
+#: gui/lobby/lobby.js:965 gui/lobby/lobby.js:976 gui/lobby/lobby.js:989
+#, javascript-format
+msgid "<%(sender)s>"
+msgstr "<%(sender)s>"
+
+#. Translation: IRC message.
+#: gui/lobby/lobby.js:967 gui/lobby/lobby.js:978 gui/lobby/lobby.js:991
+#, javascript-format
+msgid "%(sender)s %(message)s"
+msgstr "%(sender)s %(message)s"
+
+#. Translation: IRC system message.
+#: gui/lobby/lobby.js:972
+#, javascript-format
+msgid "== %(message)s"
+msgstr "== %(message)s"
+
+#. Translation: Time as shown in the multiplayer lobby (when you enable it in
+#. the options page).
+#. For a list of symbols that you can use, see:
+#. https://sites.google.com/site/icuprojectuserguide/formatparse/datetime?pli=1
+#. #TOC-Date-Field-Symbol-Table
+#: gui/lobby/lobby.js:1013
+msgid "HH:mm"
+msgstr "HH:mm"
+
+#. Translation: Time prefix as shown in the multiplayer lobby (when you enable
+#. it in the options page).
+#: gui/lobby/lobby.js:1016
+#, javascript-format
+msgid "\\[%(time)s]"
+msgstr "\\[%(time)s]"
+
+#. Translation: IRC message format when there is a time prefix.
+#: gui/lobby/lobby.js:1019
+#, javascript-format
+msgid "%(time)s %(message)s"
+msgstr "%(time)s %(message)s"
+
+#: gui/lobby/lobby.js:1069
+msgid "Please do not spam. You have been blocked for thirty seconds."
+msgstr "Ikke send for mange meldinger. Du har blitt blokkert i 30 sekunder."
+
+#: gui/lobby/prelobby.js:40
+msgid "Connecting..."
+msgstr "Kobler til..."
+
+#: gui/lobby/prelobby.js:62
+msgid "Registering..."
+msgstr "Registrerer..."
+
+#: gui/lobby/prelobby.js:99
+msgid "Please enter your username"
+msgstr "Skriv inn ditt brukernavn"
+
+#: gui/lobby/prelobby.js:105
+msgid "Usernames can't contain [, ], unicode, whitespace, or commas"
+msgstr "Brukernavn kan ikke inneholde tegnene [ eller ] unicode-tegn, mellomrom eller komma."
+
+#: gui/lobby/prelobby.js:111
+msgid "Please enter your password"
+msgstr "Skriv inn ditt passord"
+
+#: gui/lobby/prelobby.js:124
+msgid "Please enter your password again"
+msgstr "Skriv inn ditt passord igjen"
+
+#: gui/lobby/prelobby.js:130
+msgid "Passwords do not match"
+msgstr "Passordene er ikke like"
+
+#: gui/lobby/prelobby.js:136
+msgid "Please read the Terms of Service"
+msgstr "Vennligst les tjenestevilkårene"
+
+#: gui/lobby/prelobby.js:142
+msgid "Please read the Terms of Use"
+msgstr "Vennligst les bruksvilkårene"
+
+#: gui/lobby/prelobby.js:148
+msgid "Please agree to the Terms of Service and Terms of Use"
+msgstr "Vennligst godkjenn tjenestevilkårene og bruksvilkårene"
+
+#: gui/lobby/prelobby.js:195
+msgid "Registered"
+msgstr "Registrert"
+
+#: gui/lobby/prelobby.js:205
+msgid "Disconnected"
+msgstr "Frakoblet"
+
+#: gui/lobby/prelobby.js:246
+msgid "Register"
+msgstr "Registrer"
+
+#: gui/lobby/prelobby.js:251 gui/lobby/prelobby.xml:(caption):109
+msgid "Connect"
+msgstr "Koble til"
+
+#: gui/lobby/prelobby.js:261 gui/lobby/prelobby.xml:(caption):78
+msgid "Terms of Service"
+msgstr "Tjenestevilkår"
+
+#: gui/lobby/prelobby.js:270 gui/lobby/prelobby.xml:(caption):83
+msgid "Terms of Use"
+msgstr "Bruksvilkår"
+
+#: gui/lobby/lobby.xml:(caption):14 gui/lobby/prelobby.xml:(caption):18
+msgid "Multiplayer Lobby"
+msgstr "Flerspiller-lobby"
+
+#: gui/lobby/lobby.xml:(caption):48 gui/lobby/lobby.xml:(caption):300
+msgid "Current Rank:"
+msgstr "Gjeldende rangering:"
+
+#: gui/lobby/lobby.xml:(caption):52 gui/lobby/lobby.xml:(caption):304
+msgid "Highest Rating:"
+msgstr "Høyeste rangering:"
+
+#: gui/lobby/lobby.xml:(caption):56 gui/lobby/lobby.xml:(caption):308
+msgid "Total Games:"
+msgstr "Totale spill:"
+
+#: gui/lobby/lobby.xml:(caption):60 gui/lobby/lobby.xml:(caption):312
+msgid "Wins:"
+msgstr "Seirer:"
+
+#: gui/lobby/lobby.xml:(caption):64 gui/lobby/lobby.xml:(caption):316
+msgid "Losses:"
+msgstr "Tap:"
+
+#: gui/lobby/lobby.xml:(caption):68 gui/lobby/lobby.xml:(caption):320
+msgid "Win Rate:"
+msgstr "Seiersrate:"
+
+#: gui/lobby/lobby.xml:(caption):77 gui/lobby/lobby.xml:(caption):248
+msgid "Leaderboard"
+msgstr "Toppliste"
+
+#: gui/lobby/lobby.xml:(caption):85 gui/lobby/lobby.xml:(caption):283
+msgid "User Profile Lookup"
+msgstr "Bruker profil oppslag"
+
+#: gui/lobby/lobby.xml:(caption):114
+msgid "Map Type:"
+msgstr "Karttype:"
+
+#: gui/lobby/lobby.xml:(caption):126
+msgid "Map Size:"
+msgstr "Kartstørrelse:"
+
+#: gui/lobby/lobby.xml:(caption):143
+msgid "Players:"
+msgstr "Spillere:"
+
+#. Join the game currently selected in the list.
+#: gui/lobby/lobby.xml:(caption):152
+msgid "Join Game"
+msgstr "Delta i spillet"
+
+#: gui/lobby/lobby.xml:(caption):158
+msgid "Host Game"
+msgstr "Arrangér spill"
+
+#: gui/lobby/lobby.xml:(caption):165
+msgid "Main Menu"
+msgstr "Hovedmeny"
+
+#: gui/lobby/lobby.xml:(caption):222
+msgid "Show full games"
+msgstr "Vis fulle spill"
+
+#: gui/lobby/lobby.xml:(caption):268 gui/lobby/lobby.xml:(caption):330
+msgid "Back"
+msgstr "Tilbake"
+
+#: gui/lobby/lobby.xml:(caption):276
+msgid "Update"
+msgstr "Oppdater"
+
+#: gui/lobby/lobby.xml:(caption):286
+msgid "Enter username:"
+msgstr "Skriv brukernavn:"
+
+#: gui/lobby/lobby.xml:(caption):292
+msgid "View Profile"
+msgstr "Vis profil"
+
+#: gui/lobby/lobby.xml:(caption):325
+msgid "Player not found."
+msgstr "Spiller finnes ikke."
+
+#: gui/lobby/lobby.xml:(heading):25
+msgid "Status"
+msgstr "Status"
+
+#: gui/lobby/lobby.xml:(heading):28 gui/lobby/lobby.xml:(heading):179
+#: gui/lobby/lobby.xml:(heading):258
+msgid "Name"
+msgstr "Navn"
+
+#: gui/lobby/lobby.xml:(heading):31 gui/lobby/lobby.xml:(heading):261
+msgid "Rating"
+msgstr "Vurdering"
+
+#: gui/lobby/lobby.xml:(heading):183
+msgid "Map Name"
+msgstr "Kartnavn"
+
+#: gui/lobby/lobby.xml:(heading):186
+msgctxt "map"
+msgid "Size"
+msgstr "Størrelse"
+
+#: gui/lobby/lobby.xml:(heading):189
+msgctxt "map"
+msgid "Type"
+msgstr "Type"
+
+#: gui/lobby/lobby.xml:(heading):192
+msgid "Players"
+msgstr "Spillere"
+
+#: gui/lobby/lobby.xml:(heading):255
+msgid "Rank"
+msgstr "Grad"
+
+#: gui/lobby/prelobby.xml:(caption):23
+msgid "Create a new account"
+msgstr "Lag en ny konto"
+
+#: gui/lobby/prelobby.xml:(caption):27
+msgid "Login to an existing account"
+msgstr "ogg inn til en eksisterende konto"
+
+#: gui/lobby/prelobby.xml:(caption):33
+msgid "Connect to the game lobby"
+msgstr "Koble til spillets lobby"
+
+#: gui/lobby/prelobby.xml:(caption):36 gui/lobby/prelobby.xml:(caption):63
+msgid "Login:"
+msgstr "Brukernavn:"
+
+#: gui/lobby/prelobby.xml:(caption):44 gui/lobby/prelobby.xml:(caption):68
+msgid "Password:"
+msgstr "Passord:"
+
+#: gui/lobby/prelobby.xml:(caption):59
+msgid "Registration"
+msgstr "Registrering"
+
+#: gui/lobby/prelobby.xml:(caption):73
+msgid "Password again:"
+msgstr "Gjenta passord:"
+
+#: gui/lobby/prelobby.xml:(caption):88
+msgid "I have read and agree to the Terms of Service and Terms of Use:"
+msgstr "Jeg har lest og er enig i tjenestevilkårene og bruksvilkårene:"
+
+#: gui/lobby/prelobby.xml:(caption):97
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: gui/lobby/Terms_of_Service.txt:1
+msgid "0 A.D. Empires Ascendant Multiplayer Lobby Terms of Service"
+msgstr "0 A.D. Empires Ascendant Multiplayer Lobby tjenestevilkår"
+
+#: gui/lobby/Terms_of_Service.txt:2 gui/lobby/Terms_of_Use.txt:2
+msgid "Definitions:"
+msgstr "Defenisjoner:"
+
+#: gui/lobby/Terms_of_Service.txt:3 gui/lobby/Terms_of_Use.txt:3
+msgid ""
+" * The \"service\" is the 0 A.D. Empires Ascendant Multiplayer Lobby "
+"provided by Wildfire Games (WFG)."
+msgstr " * \"Tjenesten\" er 0 A.D. Empires Ascendant Multiplayer Lobby levert av Wildfire Games (WFG)."
+
+#: gui/lobby/Terms_of_Service.txt:4 gui/lobby/Terms_of_Use.txt:4
+msgid " * \"You\" are the user of the service."
+msgstr "* \"Du\" er brukeren av tjenesten."
+
+#: gui/lobby/Terms_of_Service.txt:5
+msgid " * \"We\" are the collective of all Wildfire Games (WFG) team members."
+msgstr "* \"Vi\" er kollektivet av alle Wildfire Games (WFG) medlemmer."
+
+#: gui/lobby/Terms_of_Service.txt:6
+msgid ""
+" * \"Rating\" refers to the process of analyzing various user statistics for"
+" the purpose of generating a single comprehensive score."
+msgstr "* \"Vurdering\" henviser til prosessen med å analysere diverse brukerstatistikker med det formål å lage en enkelt sammenfattende poengsum."
+
+#: gui/lobby/Terms_of_Service.txt:7
+msgid " * \"Moderate\" refers to the process of enforcing usage policies."
+msgstr "* \"Moderere\" viser til prosessen med å håndheve bruksreglene."
+
+#: gui/lobby/Terms_of_Service.txt:8
+msgid "By using the service you agree to:"
+msgstr "Ved å ta i bruk tjenesten er du enig i:"
+
+#: gui/lobby/Terms_of_Service.txt:9
+msgid " 1. Follow all usage policies."
+msgstr "1. Å følge alle bruksregler"
+
+#: gui/lobby/Terms_of_Service.txt:10
+msgid ""
+" 2. Allow user identifiable statistics to be gathered for the purposes of "
+"rating, user profiles, and community statistics."
+msgstr "2. Tillat at brukeridentifiserbar statistikk blir samlet inn for rangeringer, brukerprofiler og nettsamfunn."
+
+#: gui/lobby/Terms_of_Service.txt:11 gui/lobby/Terms_of_Use.txt:18
+msgid "We also reserve the right to:"
+msgstr "Vi forbeholder oss også retten til:"
+
+#: gui/lobby/Terms_of_Service.txt:12
+msgid " 1. Moderate the service."
+msgstr "1. Moderer tjenesten."
+
+#: gui/lobby/Terms_of_Service.txt:13
+msgid " 2. Appoint others to moderate the service."
+msgstr "2. Utnevn andre til å moderere tjenesten."
+
+#: gui/lobby/Terms_of_Service.txt:14
+msgid ""
+" 3. Discontinue or interrupt service at any time with or without prior "
+"announcement."
+msgstr "3. Avslutte eller avbryte tjenesten til enhver tid med eller uten forhåndsvarsel."
+
+#: gui/lobby/Terms_of_Service.txt:15
+msgid " 4. Change the service at any time with or without announcement."
+msgstr "4. Endre tjenesten til enhver tid med eller uten varsel."
+
+#: gui/lobby/Terms_of_Service.txt:16
+msgid ""
+" 5. Delete any and all service data at any time with or without "
+"announcement."
+msgstr "5. Slette enhver og alle tjenestedata når som helst med eller uten varsel."
+
+#: gui/lobby/Terms_of_Service.txt:17
+msgid ""
+" 6. Collect any or all user identifiable statistics at any time without "
+"consent for:"
+msgstr "6. Samle enhver eller alle brukderidentifiserbare statistikker til enhver tid uten samtykke for: "
+
+#: gui/lobby/Terms_of_Service.txt:18
+msgid ""
+"  a. Private analysis by Wildfire Games (WFG) team members and their "
+"affiliates."
+msgstr "a. Privat analyse ved Wildfire Games (WFG) og dets medlemmer og deres samarbeidspartnere."
+
+#: gui/lobby/Terms_of_Service.txt:19
+msgid "  b. Anonymized public release by Wildfire Games (WFG) team members."
+msgstr "b. Anonymisert offentlig publisering ved Wildfire Games (WFG) medlemmer."
+
+#: gui/lobby/Terms_of_Service.txt:20
+msgid ""
+" 7. Change this document in any way; at any time; on the condition that the "
+"user of the service is given adequate notice of the change (the definition "
+"of adequate notice will be determined at the time by a panel of Wildfire "
+"Games (WFG) team members)."
+msgstr "7. Endre dette dokumentet på enhver måte, til enhver tid, på betingelse av at brukeren av tjenesten gis tilstrekkelig varsel om endringen (definisjonen av \"tilstrekkelig\" avgjøres på tidspunktet for endringen av Wildfire Games (WFG) medlemmer.)"
+
+#: gui/lobby/Terms_of_Use.txt:1
+msgid "0 A.D. Empires Ascendant Multiplayer Lobby Terms of Use"
+msgstr "0 A.D. Empires Ascendant Multiplayer Lobby bruksvilkår"
+
+#: gui/lobby/Terms_of_Use.txt:5
+msgid ""
+" * \"Impersonate\" refers to the action in which you attempt to exploit "
+"another's identity for your own purposes."
+msgstr "* \"Utgi seg for\" henviser til det å utnytte en annens identitet for dine egne formål."
+
+#: gui/lobby/Terms_of_Use.txt:6
+msgid ""
+" * \"Spam\" refers to irrelevant or inappropriate messages sent to a large "
+"number of recipients."
+msgstr "* \"Spam\" henviser til uvesentlige eller upassende meldinger sendt til et stort antall mottakere."
+
+#: gui/lobby/Terms_of_Use.txt:7
+msgid " * \"Rating\" refers to the per-user comprehensive score."
+msgstr "* \"Vurdering\" henviser til den sammenfattende poengsummen som gjelder for en bruker."
+
+#: gui/lobby/Terms_of_Use.txt:8
+msgid ""
+" * \"Ranked games\" refers to games in which rating changing statistics are "
+"tracked."
+msgstr "* \"Vurderte spill\" henviser til spill som sporer statistikk som kan endre en spillers vurdering."
+
+#: gui/lobby/Terms_of_Use.txt:9
+msgid "You agree to:"
+msgstr "Du er enig i:"
+
+#: gui/lobby/Terms_of_Use.txt:10
+msgid ""
+" 1. Only create one account per unique user on the service unless authorized"
+" by a Wildfire Games (WFG) team member."
+msgstr "1. Opprett kun en konto per unike bruker på tjenesten untatt hvis annet er godkjent av et Wildfire Games (WFG) medlem."
+
+#: gui/lobby/Terms_of_Use.txt:11
+msgid ""
+" 2. Not post profane statements, rude humor, pornographic content, or "
+"discriminatory comments on the service."
+msgstr "2. Ikke poste sjikanerende uttalelser, grov humor, pornografisk innhold eller diskriminerende kommentarer på tjenesten."
+
+#: gui/lobby/Terms_of_Use.txt:12
+msgid " 3. Not purposefully demean the worth of others using the service."
+msgstr "3. Ikke med overlegg nedvurdere verdien av andre som bruker tjenesten."
+
+#: gui/lobby/Terms_of_Use.txt:13
+msgid ""
+" 4. Not use the service to promote specific goods, services, or products."
+msgstr "4. Ikke bruke tjenesten til å fremheve eller promotere spesifikke varer, tjenester eller produkter."
+
+#: gui/lobby/Terms_of_Use.txt:14
+msgid " 5. Not impersonate other users of the service."
+msgstr "5. Ikke utgi seg for å være andre brukere av tjenesten."
+
+#: gui/lobby/Terms_of_Use.txt:15
+msgid " 6. Not spam the service."
+msgstr "6. Ikke oversvømme tjenesten."
+
+#: gui/lobby/Terms_of_Use.txt:16
+msgid ""
+" 7. Not attempt to artificially adjust any user of the service's rating or "
+"any of the statistics which impact it. (Examples of this are, but are not "
+"limited to: cheating in ranked games, reverse engineering the service, and "
+"taking advantage of other users of the service.)"
+msgstr "7. Ikke forsøke å kunstig justere noen brukere av tjenestens vurdering eller noen av statistikkene som påvirker den. (Eksempler på dette er, men er ikke begrenset til: juks i vurderte spill, revers analyse av tjenesten, og utnyttelse av andre brukere av tjenesten.)"
+
+#: gui/lobby/Terms_of_Use.txt:17
+msgid ""
+" 8. Allow yourself to be removed from the service if at any time a moderator"
+" determines your behavior is not consistent with these rules."
+msgstr "8. Tillate at du kan bli fjernet fra tjenesten hvis, på ethvert tidspunkt, en moderator avgjør at din adferd ikke er i samsvar med disse reglene."
+
+#: gui/lobby/Terms_of_Use.txt:19
+msgid ""
+" 1. Change this document in any way; at any time; on the condition that the "
+"user of the service is given adequate notice of the change (the definition "
+"of adequate notice will be determined at the time by a panel of Wildfire "
+"Games (WFG) team members)."
+msgstr "1. Endre dette dokumentet på hvilken som helst måte, når som helst, på betingelse av at brukeren av tjenesten gis tilstrekkelig varsel om endringen (definisjonen på tilstrekkelig varsel besluttes av et panel bestående av medlemmer fra Wildfire Games (WFT))"

@@ -1,0 +1,1598 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# Akihiro Kawakami <akinobu329@yahoo.co.jp>, 2013
+# Asakura, 2015
+# guicho2.71828 <guicho2.71828@gmail.com>, 2014
+# jiroramo <billiken316@yahoo.co.jp>, 2013
+# Kanetaka Suto, 2013
+# Kanetaka Suto, 2014-2015
+# llen_llen, 2013
+# llen_llen, 2014
+# Mephisto Books <martin.route66.blues+transifex@gmail.com>, 2014
+# naoki yoshida <oimotanaka1122@gmail.com>, 2015
+# sgensum, 2014
+# UNJIRO <beer_nondakure@yahoo.co.jp>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2015-07-21 23:21+0200\n"
+"PO-Revision-Date: 2015-07-25 13:06+0000\n"
+"Last-Translator: Kanetaka Suto\n"
+"Language-Team: Japanese (http://www.transifex.com/wildfire-games/0ad/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: gui/aiconfig/aiconfig.js:10
+msgctxt "ai"
+msgid "None"
+msgstr "なし"
+
+#: gui/aiconfig/aiconfig.js:10
+msgid "AI will be disabled for this player."
+msgstr "このプレイヤーのAIが無効になります。"
+
+#. Translation: AI difficulty level.
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Sandbox"
+msgstr "練習"
+
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Very Easy"
+msgstr "とても簡単"
+
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Easy"
+msgstr "簡単"
+
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Medium"
+msgstr "中"
+
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Hard"
+msgstr "難しい"
+
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Very Hard"
+msgstr "とても難しい"
+
+#. Translation: Type of victory condition.
+#: gui/gamesetup/gamesetup.js:10
+msgid "Unlimited"
+msgstr "無制限"
+
+#. Translation: Amount of starting resources.
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "Very Low"
+msgstr "非常に少ない"
+
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "Low"
+msgstr "少ない"
+
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "Medium"
+msgstr "中"
+
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "High"
+msgstr "多い"
+
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "Very High"
+msgstr "非常に多い"
+
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "Deathmatch"
+msgstr "デスマッチ"
+
+#. Translation: Ceasefire.
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "No ceasefire"
+msgstr "停戦不可"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "5 minutes"
+msgstr "5分"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "10 minutes"
+msgstr "10分"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "15 minutes"
+msgstr "15分"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "20 minutes"
+msgstr "20分"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "30 minutes"
+msgstr "30分"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "45 minutes"
+msgstr "45分"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "60 minutes"
+msgstr "60分"
+
+#: gui/gamesetup/gamesetup.js:112
+msgid "Return to the main menu."
+msgstr "メインメニューに戻ります。"
+
+#: gui/gamesetup/gamesetup.js:114
+msgid "Return to the lobby."
+msgstr "ロビーに戻ります。"
+
+#: gui/gamesetup/gamesetup.js:142
+msgctxt "map"
+msgid "Skirmish"
+msgstr "短期戦"
+
+#: gui/gamesetup/gamesetup.js:142 gui/gamesetup/gamesetup.js:638
+#: gui/gamesetup/gamesetup.js:1370
+msgctxt "map"
+msgid "Random"
+msgstr "ランダム"
+
+#: gui/gamesetup/gamesetup.js:142
+msgid "Scenario"
+msgstr "シナリオ"
+
+#: gui/gamesetup/gamesetup.js:146 gui/gamesetup/gamesetup.js:1286
+#: gui/gamesetup/gamesetup.js:1350
+msgid "Default"
+msgstr "デフォルト"
+
+#: gui/gamesetup/gamesetup.js:147
+msgid "Naval Maps"
+msgstr "海洋マップ"
+
+#: gui/gamesetup/gamesetup.js:148
+msgid "Demo Maps"
+msgstr "デモマップ"
+
+#: gui/gamesetup/gamesetup.js:149
+msgid "All Maps"
+msgstr "すべてのマップ"
+
+#: gui/gamesetup/gamesetup.js:356
+msgctxt "team"
+msgid "None"
+msgstr "なし"
+
+#: gui/gamesetup/gamesetup.js:572 gui/gamesetup/gamesetup.js:1435
+msgctxt "civilization"
+msgid "Random"
+msgstr "ランダム"
+
+#: gui/gamesetup/gamesetup.js:875 gui/gamesetup/gamesetup.js:1003
+msgid "You"
+msgstr "あなた"
+
+#: gui/gamesetup/gamesetup.js:1092
+#, javascript-format
+msgid "%(playerName)s %(romanNumber)s"
+msgstr "%(playerName)s %(romanNumber)s"
+
+#: gui/gamesetup/gamesetup.js:1214 gui/gamesetup/gamesetup.js:1219
+#: gui/gamesetup/gamesetup.js:1276 gui/gamesetup/gamesetup.js:1277
+#: gui/gamesetup/gamesetup.js:1278 gui/gamesetup/gamesetup.js:1280
+#: gui/gamesetup/gamesetup.js:1315 gui/gamesetup/gamesetup.js:1316
+#: gui/gamesetup/gamesetup.js:1317 gui/gamesetup/gamesetup.js:1319
+#: gui/gamesetup/gamesetup.js:1351 gui/gamesetup/gamesetup.js:1352
+#: gui/gamesetup/gamesetup.js:1355
+msgid "Yes"
+msgstr "はい"
+
+#: gui/gamesetup/gamesetup.js:1214 gui/gamesetup/gamesetup.js:1219
+#: gui/gamesetup/gamesetup.js:1276 gui/gamesetup/gamesetup.js:1277
+#: gui/gamesetup/gamesetup.js:1278 gui/gamesetup/gamesetup.js:1280
+#: gui/gamesetup/gamesetup.js:1315 gui/gamesetup/gamesetup.js:1316
+#: gui/gamesetup/gamesetup.js:1317 gui/gamesetup/gamesetup.js:1319
+#: gui/gamesetup/gamesetup.js:1351 gui/gamesetup/gamesetup.js:1352
+#: gui/gamesetup/gamesetup.js:1353 gui/gamesetup/gamesetup.js:1355
+msgid "No"
+msgstr "いいえ"
+
+#: gui/gamesetup/gamesetup.js:1357 gui/gamesetup/gamesetup.js:1358
+#: gui/gamesetup/gamesetup.js:1359
+msgid "Determined by scenario"
+msgstr "シナリオで決定"
+
+#: gui/gamesetup/gamesetup.js:1371
+msgid "Randomly selects a map from the list"
+msgstr "リストの中からマップをランダムに選択"
+
+#: gui/gamesetup/gamesetup.js:1378
+msgid "Sorry, no description available."
+msgstr "すみませんが、説明はありません。"
+
+#: gui/gamesetup/gamesetup.js:1381
+#, javascript-format
+msgid "%(number)s player. "
+msgid_plural "%(number)s players. "
+msgstr[0] "%(number)s 人用。"
+
+#: gui/gamesetup/gamesetup.js:1385 gui/gamesetup/gamesetup.xml:(caption):290
+msgid "Victory Condition:"
+msgstr "勝利条件："
+
+#: gui/gamesetup/gamesetup.js:1421
+msgid "Loading..."
+msgstr "読込中..."
+
+#: gui/gamesetup/gamesetup.js:1537
+#, javascript-format
+msgid "AI: %(ai)s"
+msgstr "AI: %(ai)s"
+
+#: gui/gamesetup/gamesetup.js:1542
+msgid "Unassigned"
+msgstr "なし"
+
+#: gui/gamesetup/gamesetup.js:1726 gui/gamesetup/gamesetup.js:1731
+#: gui/gamesetup/gamesetup.js:1749
+#, javascript-format
+msgid "== %(message)s"
+msgstr "== %(message)s"
+
+#: gui/gamesetup/gamesetup.js:1726
+#, javascript-format
+msgid "%(username)s has joined"
+msgstr "%(username)sが参加しました"
+
+#: gui/gamesetup/gamesetup.js:1731
+#, javascript-format
+msgid "%(username)s has left"
+msgstr "%(username)sが退出しました"
+
+#: gui/gamesetup/gamesetup.js:1736
+#, javascript-format
+msgid "<%(username)s>"
+msgstr "<%(username)s>"
+
+#: gui/gamesetup/gamesetup.js:1737
+#, javascript-format
+msgid "%(username)s %(message)s"
+msgstr "%(username)s %(message)s"
+
+#: gui/gamesetup/gamesetup.js:1743
+#, javascript-format
+msgid "* %(username)s is ready!"
+msgstr "* %(username)sが準備完了です。"
+
+#: gui/gamesetup/gamesetup.js:1745
+#, javascript-format
+msgid "* %(username)s is not ready."
+msgstr "* %(username)sの準備がまだです。"
+
+#: gui/gamesetup/gamesetup.js:1749
+msgid "Game settings have been changed"
+msgstr "ゲーム設定が変更されました"
+
+#: gui/gamesetup/gamesetup.js:1774
+msgid "I'm not ready"
+msgstr "わたしはまだ準備できていない"
+
+#: gui/gamesetup/gamesetup.js:1775
+msgid "State that you are not ready to play."
+msgstr "プレイの準備ができていないことを表明します。"
+
+#: gui/gamesetup/gamesetup.js:1780 gui/gamesetup/gamesetup.js:1858
+msgid "I'm ready!"
+msgstr "準備できた！"
+
+#: gui/gamesetup/gamesetup.js:1781
+msgid "State that you are ready to play!"
+msgstr "プレイの準備ができたことを表明します。"
+
+#: gui/gamesetup/gamesetup.js:1859
+msgid "State that you accept the current settings and are ready to play!"
+msgstr "現行の設定を受け入れプレイの準備ができたことを表明します。"
+
+#: gui/gamesetup/gamesetup.js:1977
+msgid "None"
+msgstr "なし"
+
+#: gui/gamesetup/gamesetup_mp.js:34
+#, javascript-format
+msgid "%(name)s's game"
+msgstr "%(name)sのゲーム"
+
+#: gui/gamesetup/gamesetup_mp.js:60
+msgid "Connecting to server..."
+msgstr "サーバーに接続しています…"
+
+#: gui/gamesetup/gamesetup_mp.js:79
+#, javascript-format
+msgid "Net message: %(message)s"
+msgstr "ネットメッセージ：%(message)s"
+
+#: gui/gamesetup/gamesetup_mp.js:146
+msgid "Registering with server..."
+msgstr "サーバーに登録しています…"
+
+#: gui/gamesetup/gamesetup_mp.js:152
+msgid "Game has already started, rejoining..."
+msgstr "ゲームはすでに始まっています。復帰中…"
+
+#: gui/gamesetup/gamesetup_mp.js:198
+msgid "Game name already in use."
+msgstr "ゲーム名がすでに使われています。"
+
+#: gui/gamesetup/gamesetup_mp.js:259
+#, javascript-format
+msgid "%(playername)s's game"
+msgstr "%(playername)sのゲーム"
+
+#: gui/gamesetup/victory_conditions/conquest.js:2
+msgid "Conquest"
+msgstr "征服"
+
+#: gui/gamesetup/victory_conditions/conquest.js:3
+msgid "Defeat all opponents"
+msgstr "すべての敵を倒す"
+
+#: gui/gamesetup/victory_conditions/conquestStructures.js:2
+msgid "Conquest Structures"
+msgstr "建造物の征服"
+
+#: gui/gamesetup/victory_conditions/conquestStructures.js:3
+msgid "Destroy all structures of enemies"
+msgstr "すべての敵の建造物を破壊"
+
+#: gui/gamesetup/victory_conditions/conquestUnits.js:2
+msgid "Conquest Units"
+msgstr "ユニットの征服"
+
+#: gui/gamesetup/victory_conditions/conquestUnits.js:3
+msgid "Destroy all units of enemies"
+msgstr "すべての敵ユニットを破壊"
+
+#: gui/gamesetup/victory_conditions/wonder.js:2
+msgid "Wonder"
+msgstr "象徴"
+
+#: gui/gamesetup/victory_conditions/wonder.js:3
+msgid "Build a wonder to win"
+msgstr "奇観を建造する"
+
+#: gui/loading/loading.js:49
+#, javascript-format
+msgid "Loading “%(map)s”"
+msgstr "「%(map)s」を読込み中"
+
+#: gui/loading/loading.js:53
+#, javascript-format
+msgid "Generating “%(map)s”"
+msgstr "「%(map)s」を生成中"
+
+#: gui/aiconfig/aiconfig.xml:(caption):13
+msgid "AI Configuration"
+msgstr "AI設定"
+
+#: gui/aiconfig/aiconfig.xml:(caption):18
+msgid "AI Player:"
+msgstr "AIプレイヤー："
+
+#: gui/aiconfig/aiconfig.xml:(caption):26
+msgid "AI Difficulty:"
+msgstr "AI難易度："
+
+#: gui/aiconfig/aiconfig.xml:(caption):36
+#: gui/gamesetup/gamesetup_mp.xml:(caption):104
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: gui/aiconfig/aiconfig.xml:(caption):41
+#: gui/gamesetup/gamesetup.xml:(caption):397
+msgid "OK"
+msgstr "OK"
+
+#: gui/gamesetup/gamesetup.xml:(caption):17
+msgid "Match Setup"
+msgstr "対戦設定"
+
+#: gui/gamesetup/gamesetup.xml:(caption):23
+msgid "Loading"
+msgstr "読込み中"
+
+#: gui/gamesetup/gamesetup.xml:(caption):27
+msgid "Loading map data. Please wait..."
+msgstr "マップデータ読込み中。しばらくお待ちください…"
+
+#: gui/gamesetup/gamesetup.xml:(caption):42
+msgid "Player Name"
+msgstr "プレイヤー名"
+
+#: gui/gamesetup/gamesetup.xml:(caption):45
+msgid "Player Placement"
+msgstr "プレイヤーの割当て"
+
+#: gui/gamesetup/gamesetup.xml:(caption):48
+msgid "Civilization"
+msgstr "文明"
+
+#: gui/gamesetup/gamesetup.xml:(caption):63
+msgid "Team"
+msgstr "チーム"
+
+#: gui/gamesetup/gamesetup.xml:(caption):101
+msgid "Map Type:"
+msgstr "マップの種類："
+
+#: gui/gamesetup/gamesetup.xml:(caption):104
+msgid "Map Filter:"
+msgstr "マップ絞込み："
+
+#: gui/gamesetup/gamesetup.xml:(caption):107
+msgid "Select Map:"
+msgstr "マップ選択："
+
+#: gui/gamesetup/gamesetup.xml:(caption):110
+msgid "Number of Players:"
+msgstr "プレイヤー数："
+
+#: gui/gamesetup/gamesetup.xml:(caption):113
+msgid "Map Size:"
+msgstr "マップの大きさ："
+
+#: gui/gamesetup/gamesetup.xml:(caption):199
+msgid "Send"
+msgstr "送信"
+
+#: gui/gamesetup/gamesetup.xml:(caption):223
+msgid "Start game!"
+msgstr "ゲーム開始！"
+
+#: gui/gamesetup/gamesetup.xml:(caption):241
+msgid "Back"
+msgstr "戻る"
+
+#: gui/gamesetup/gamesetup.xml:(caption):263
+#: gui/gamesetup/gamesetup.xml:(caption):275
+msgid "More Options"
+msgstr "詳細設定"
+
+#: gui/gamesetup/gamesetup.xml:(caption):280
+msgid "Game Speed:"
+msgstr "ゲーム速度："
+
+#: gui/gamesetup/gamesetup.xml:(caption):300
+msgid "Population Cap:"
+msgstr "人口上限："
+
+#: gui/gamesetup/gamesetup.xml:(caption):310
+msgid "Starting Resources:"
+msgstr "開始時資源："
+
+#: gui/gamesetup/gamesetup.xml:(caption):320
+msgid "Ceasefire:"
+msgstr "停戦："
+
+#. Make sure to differentiate between the revealed map and explored map
+#. options!
+#: gui/gamesetup/gamesetup.xml:(caption):330
+msgid "Revealed Map:"
+msgstr "マップ可視化："
+
+#. Make sure to differentiate between the revealed map and explored map
+#. options!
+#: gui/gamesetup/gamesetup.xml:(caption):340
+msgid "Explored Map:"
+msgstr "探索済みマップ："
+
+#: gui/gamesetup/gamesetup.xml:(caption):350
+msgid "Disable Treasures:"
+msgstr "財宝の無効化："
+
+#: gui/gamesetup/gamesetup.xml:(caption):360
+msgid "Teams Locked:"
+msgstr "固定チーム："
+
+#: gui/gamesetup/gamesetup.xml:(caption):370
+msgid "Cheats:"
+msgstr "チート："
+
+#: gui/gamesetup/gamesetup.xml:(caption):380
+msgid "Rated Game:"
+msgstr "格付けする："
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):57
+msgid "View civilization info"
+msgstr "文明の情報を表示します"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):72
+msgid "Select player."
+msgstr "プレイヤーを選択します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):82
+msgid "Configure AI settings."
+msgstr "AIの設定を調整します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):85
+msgid "Select player's civilization."
+msgstr "プレイヤーの文明を選択します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):89
+msgid "Select player's team."
+msgstr "プレイヤーのチームを選択します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):130
+msgid "Select a map type."
+msgstr "マップの種類を選択します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):139
+msgid "Select a map filter."
+msgstr "マップの絞込みを選択します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):149
+msgid "Select a map to play on."
+msgstr "プレイするマップを選択します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):163
+msgid "Select number of players."
+msgstr "プレイヤーの人数を選択します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):168
+msgid "Select map size. (Larger sizes may reduce performance.)"
+msgstr "マップの大きさを選択します。（大きくなるほど性能が落ちることがあります）"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):224
+msgid "Start a new game with the current settings."
+msgstr "現在の設定で新しいゲームを開始します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):264
+msgid "See more game options"
+msgstr "ゲームの詳細設定を表示します"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):284
+msgid "Select game speed."
+msgstr "ゲーム速度を選択します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):294
+msgid "Select victory condition."
+msgstr "勝利条件を選択します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):304
+msgid "Select population cap."
+msgstr "人口上限を選択します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):314
+msgid "Select the game's starting resources."
+msgstr "ゲーム開始時の資源を選択します。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):324
+msgid "Set time where no attacks are possible."
+msgstr "攻撃を禁ずる時間を設定してください。"
+
+#. Make sure to differentiate between the revealed map and explored map
+#. options!
+#: gui/gamesetup/gamesetup.xml:(tooltip):334
+msgid "Toggle revealed map (see everything)."
+msgstr "マップ全域を可視にするか切り替えます（すべて見えます）。"
+
+#. Make sure to differentiate between the revealed map and explored map
+#. options!
+#: gui/gamesetup/gamesetup.xml:(tooltip):344
+msgid "Toggle explored map (see initial map)."
+msgstr "全体マップの切り替え(初期マップが見える)。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):354
+msgid "Disable all treasures on the map."
+msgstr "マップのすべての財宝を無効にします。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):364
+msgid "Toggle locked teams."
+msgstr "チームを固定するか切り替えます。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):374
+msgid "Toggle the usability of cheats."
+msgstr "チートを利用可能にするか切り替えます。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):384
+msgid "Toggle if this game will be rated for the leaderboard."
+msgstr "ゲームをランキング用に格付けするか切り替えます。"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):398
+msgid "Close more game options window"
+msgstr "ゲームの詳細設定ウィンドウを閉じます"
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):19
+msgid "Multiplayer"
+msgstr "マルチプレイヤー"
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):25
+msgid "Joining an existing game."
+msgstr "既存のゲームに参加します。"
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):29
+#: gui/gamesetup/gamesetup_mp.xml:(caption):67
+msgid "Player name:"
+msgstr "プレイヤー名："
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):39
+msgid "Server Hostname or IP:"
+msgstr "サーバーのホスト名かIPアドレス："
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):49
+#: gui/gamesetup/gamesetup_mp.xml:(caption):91
+msgid "Continue"
+msgstr "続行"
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):62
+msgid "Set up your server to host."
+msgstr "あなたのサーバーをホストにします。"
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):80
+msgid "Server name:"
+msgstr "サーバー名："
+
+#: gui/loading/loading.xml:(caption):48
+msgid "Quote of the Day:"
+msgstr "今日の名言："
+
+#: gui/text/quotes.txt:1
+msgid "\"A prosperous fool is a grievous burden.\" - Aeschylus"
+msgstr "「金を持った愚か者ほど始末に負えないものはない」 – アイスキュロス"
+
+#: gui/text/quotes.txt:2
+msgid ""
+"\"From him \\[Death] alone of all the powers of heaven Persuasion holds "
+"aloof.\" - Aeschylus"
+msgstr "「神々のうち彼（死神）だけは、ペイトー（説得の女神）も避けている」 – アイスキュロス"
+
+#: gui/text/quotes.txt:3
+msgid "\"To be rather than to seem.\" - Aeschylus, \"Seven Against Thebes\""
+msgstr "「そう思われるのではなく、そうなれ」 – アイスキュロス『テーバイ攻めの七将』"
+
+#: gui/text/quotes.txt:4
+msgid ""
+"\"It is not the oath that makes us believe the man, but the man the oath.\" "
+"- Aeschylus"
+msgstr "「我々はこの誓いゆえに誓いを立てた人を信ずるのではない。この人ゆえにその誓いを信ずるのだ」 – アイスキュロス"
+
+#: gui/text/quotes.txt:5
+msgid ""
+"\"In every tyrant's heart there springs in the end this poison, that he "
+"cannot trust a friend.\" - Aeschylus, \"Prometheus Bound\""
+msgstr "「どんな暴君の心にも、いずれこの毒がわき出てくる。誰も信用できる友がいなくなるということが」 – アイスキュロス『縛られたプロメテウス』"
+
+#: gui/text/quotes.txt:6
+msgid "\"Time as he grows old teaches all things.\" - Aeschylus, \"Prometheus Bound\""
+msgstr "「過ごした年月がすべてを教えてくれる」 – アイスキュロス『縛られたプロメテウス』"
+
+#: gui/text/quotes.txt:7
+msgid ""
+"\"Wisdom comes through suffering... Favours come to us from gods.\" - "
+"Aeschylus, \"Agamemnon\""
+msgstr "「知恵は痛みとともに来たり、……恩寵は神々より来たる」 – アイスキュロス『アガメムノン』"
+
+#: gui/text/quotes.txt:8
+msgid ""
+"\"She \\[Helen] brought to Ilium her dowry, destruction.\" - Aeschylus, "
+"\"Agamemnon\""
+msgstr "「彼女（ヘレネー）はトロイアに支度金として破壊をもたらした」 – アイスキュロス『アガメムノン』"
+
+#: gui/text/quotes.txt:9
+msgid ""
+"\"It is in the character of very few men to honor without envy a friend who "
+"has prospered.\" - Aeschylus, \"Agamemnon\""
+msgstr "「友の幸せをねたまずに称えられる心根を持つ者は、わずかである」 – アイスキュロス『アガメムノン』"
+
+#: gui/text/quotes.txt:10
+msgid ""
+"\"For a deadly blow let him pay with a deadly blow; it is for him who has "
+"done a deed to suffer.\" - Aeschylus"
+msgstr "「致命傷には致命傷で償わせよ。それが凶行を犯した者への報いである」 – アイスキュロス"
+
+#: gui/text/quotes.txt:11
+msgid "\"Any excuse will serve a tyrant.\" - Aesop"
+msgstr "「暴君はいくらでも口実を見つける」 – アイソーポス"
+
+#: gui/text/quotes.txt:12
+msgid "\"Better be wise by the misfortunes of others than by your own.\" - Aesop"
+msgstr "「己のよりも他人の不運に学ぶ方がよい」 – アイソーポス"
+
+#: gui/text/quotes.txt:13
+msgid "\"Familiarity breeds contempt; acquaintance softens prejudices.\" - Aesop"
+msgstr "「馴染みは侮りを育むが、面識は偏見を和らげる」 – アイソーポス"
+
+#: gui/text/quotes.txt:14
+msgid "\"It is easy to be brave from a safe distance.\" - Aesop"
+msgstr "「安全なところにいて勇ましくあるのはたやすい」 – アイソーポス"
+
+#: gui/text/quotes.txt:15
+msgid "\"It is thrifty to prepare today for the wants of tomorrow.\" - Aesop"
+msgstr "「明日のために今日備えるのが倹約」 – アイソーポス"
+
+#: gui/text/quotes.txt:16
+msgid "\"It is not only fine feathers that make fine birds.\" - Aesop"
+msgstr " 「立派な羽根のみで立派な鳥にはなれない」 – アイソーポス"
+
+#: gui/text/quotes.txt:17
+msgid ""
+"\"Never trust advice from a man in the throes of his own difficulty.\" - "
+"Aesop"
+msgstr "「自身の困難に苦悶している人の助言を信用してはならない」 – アイソーポス"
+
+#: gui/text/quotes.txt:18
+msgid "\"Persuasion is often more effectual than force.\" - Aesop"
+msgstr "「説得はしばしば強制よりも有効である」 – アイソーポス"
+
+#: gui/text/quotes.txt:19
+msgid "\"Self-conceit may lead to self-destruction.\" - Aesop"
+msgstr "「うぬぼれは自滅のもと」 – アイソーポス"
+
+#: gui/text/quotes.txt:20
+msgid "\"Slow and steady wins the race.\" - Aesop"
+msgstr "「手堅いのろまが一着になる」 – アイソーポス"
+
+#: gui/text/quotes.txt:21
+msgid "\"The gods help them that help themselves.\" - Aesop"
+msgstr "「神は自ら助ける者を助ける」 – アイソーポス"
+
+#: gui/text/quotes.txt:22
+msgid ""
+"\"The shaft of the arrow had been feathered with one of the eagle's own "
+"plumes. We often give our enemies the means of our own destruction.\" - "
+"Aesop"
+msgstr "「矢にはその鷲自身の羽根が付けられていた。我々はしばしば敵に自らを滅ぼす術を与える」 – アイソーポス"
+
+#: gui/text/quotes.txt:23
+msgid "\"Union gives strength.\" - Aesop, \"The Bundle of Sticks\""
+msgstr "「団結は力」 – アイソーポス『棒の束』"
+
+#: gui/text/quotes.txt:24
+msgid "\"Enemies' promises were made to be broken.\" - Aesop"
+msgstr "「敵の約束は破られる定めにある」 – アイソーポス"
+
+#: gui/text/quotes.txt:25
+msgid ""
+"\"Spartans do not ask how many, only where the enemy are.\" - Agis II of "
+"Sparta"
+msgstr "「スパルタ人は敵は幾人かと問わない。ただ何処かと問うのみ」 – アギス2世スパルタ王"
+
+#: gui/text/quotes.txt:26
+msgid ""
+"\"Weep not for me, suffering as I do unjustly, I am in a happier case than "
+"my murderers.\" - Agis IV, 24th Spartan king of the Eurypontid dynasty"
+msgstr "「私のために泣かないでくれ。このように不当に苦しめられているが、私は私を殺す者たちよりも幸福なのだから」 – アギス4世、エウリュポン家24代スパルタ王"
+
+#: gui/text/quotes.txt:27
+msgid ""
+"\"He who doeth good shall meet with good; and he who doeth evil shall meet "
+"with evil, for the Lord judgeth a man according to the measure of his "
+"work.\" - Ahiqar, Assyrian sage"
+msgstr "「善い行いをすれば善い報いがあり、悪い行いをすれば悪い報いがある。主は人の行いを見定めて裁きを下すのだから」 – アヒカー、アッシリアの賢人"
+
+#: gui/text/quotes.txt:28
+msgid ""
+"\"If I were not Alexander, I should wish to be Diogenes.\" - Alexander the "
+"Great"
+msgstr "「余がアレクサンドロスでなければディオゲネスになりたいものだ」 – アレクサンドロス大王"
+
+#: gui/text/quotes.txt:29
+msgid "\"I do not steal victory.\" - Alexander the Great"
+msgstr "「余は勝利を盗まず」 – アレクサンドロス大王"
+
+#: gui/text/quotes.txt:30
+msgid ""
+"\"Are you still to learn that the end and perfection of our victories is to "
+"avoid the vices and infirmities of those whom we subdue?\" - Alexander the "
+"Great"
+msgstr "「我らの勝利の成就と終結は我らに下った者たちの悪行と衰退を防ぐことにあるということを、未だにわかっていないのか」 – アレクサンドロス大王"
+
+#: gui/text/quotes.txt:31
+msgid ""
+"\"To the strongest!\" - Alexander, on his death bed, when asked who should "
+"succeed him as king"
+msgstr "「最強の者へ！」 – アレクサンドロス、死の床にて誰が王として彼を継ぐべきか問われて。"
+
+#: gui/text/quotes.txt:32
+msgid "\"There is nothing impossible to him who will try\" - Alexander the Great"
+msgstr "「努力する者に不可能はない」 – アレクサンドロス大王"
+
+#: gui/text/quotes.txt:33
+msgid ""
+"\"Sex and sleep alone make me conscious that I am mortal.\" - Alexander the "
+"Great"
+msgstr "「性交と睡眠のみが己が人であると感じさせる」 – アレクサンドロス大王"
+
+#: gui/text/quotes.txt:34
+msgid ""
+"\"The agora is an established place for men to cheat one another, and behave"
+" covetously.\" - Anacharsis"
+msgstr "「アゴラは互いに欺き、貪欲に振る舞う男の殿堂である」 – アナカルシス"
+
+#: gui/text/quotes.txt:35
+msgid ""
+"\"Written laws are like spiders’ webs; they will catch, it is true, the weak"
+" and poor, but would be torn in pieces by the rich and powerful.\" - "
+"Anacharsis"
+msgstr "「成文法とは蜘蛛の巣のようなものだ。法が捕えるのは、実際、弱く貧しい者で、強く富める者には破れる」 – アナカルシス"
+
+#: gui/text/quotes.txt:36
+msgid "\"The fox knows many tricks; the hedgehog one good one.\" - Archilochus"
+msgstr "「狐には多くの知恵がある。一方、ハリネズミは一つだが飛び切りのものがある」 – アルキロコス"
+
+#: gui/text/quotes.txt:37
+msgid ""
+"\"States are doomed when they are unable to distinguish good men from bad.\""
+" - Antisthenes"
+msgstr "「国家の命運が尽きるのは悪人と善人の区別ができなくなった時である」 – アンティステネス"
+
+#: gui/text/quotes.txt:38
+msgid ""
+"\"Give me a place to stand, and I shall move the world.\" - Archimedes, on "
+"his usage of the lever."
+msgstr "「支点を一つ与えよ。されば地球を動かしてみせよう」 – アルキメデス、てこの使い方について。"
+
+#: gui/text/quotes.txt:39
+msgid ""
+"\"It is from their foes, not their friends, that cities learn the lesson of "
+"building high walls and ships of war.\" - Aristophanes"
+msgstr "「都市は高い壁と軍艦を作る教訓を敵から学んだ。友からではない」 – アリストパネス"
+
+#: gui/text/quotes.txt:40
+msgid ""
+"\"Words give wings to the mind and make a man soar to heaven.\" - "
+"Aristophanes"
+msgstr "「言葉は心に翼を与え人を天界に舞い上がらせる」 – アリストパネス"
+
+#: gui/text/quotes.txt:41
+msgid ""
+"\"It is the compelling power of great thoughts and ideas to engender "
+"language of equal greatness.\" - Aristophanes"
+msgstr "「壮大な考えや構想に説得力を与えるにはこれに匹敵する言葉を生み出すことである」 – アリストパネス"
+
+#: gui/text/quotes.txt:42
+msgid "\"Hunger knows no friend but its feeder.\" - Aristophanes"
+msgstr "「飢えが知るのは友ではなく飢えを満たすものである」 – アリストパネス"
+
+#: gui/text/quotes.txt:43
+msgid ""
+"\"I count him braver who overcomes his desires than him who overcomes his "
+"enemies.\" - Aristotle"
+msgstr "「己の欲に打ち勝つ者のほうが敵に打ち勝つ者よりも勇敢だと私は考える」 – アリストテレス"
+
+#: gui/text/quotes.txt:44
+msgid "\"Our characters are the result of our conduct.\" - Aristotle"
+msgstr "「性格は行為の結果である」 – アリストテレス"
+
+#: gui/text/quotes.txt:45
+msgid "\"Man is by nature a political animal.\" - Aristotle"
+msgstr "「人は本来政治的な動物である」 – アリストテレス"
+
+#: gui/text/quotes.txt:46
+msgid ""
+"\"If liberty and equality, as is thought by some, are chiefly to be found in"
+" democracy, they will be best attained when all persons alike share in the "
+"government to the utmost.\" - Aristotle"
+msgstr "「ある人々が考えるように、もし自由および平等がとりわけ民主制に見いだされるならば、最も達成されるのはすべての者が同じように国制に最大限に参与するときであろう」 – アリストテレス"
+
+#: gui/text/quotes.txt:47
+msgid ""
+"\"Both oligarch and tyrant mistrust the people, and therefore deprive them "
+"of their arms.\" - Aristotle"
+msgstr "「寡頭支配者と僭主はいずれも人民を信用せず、それゆえに人民から武器を取り上げる」 – アリストテレス"
+
+#: gui/text/quotes.txt:48
+msgid "\"Wit is well-bred insolence.\" - Aristotle"
+msgstr "「機知とは育ちの良い傲慢である」 – アリストテレス"
+
+#: gui/text/quotes.txt:49
+msgid ""
+"\"It is simplicity that makes the uneducated more effective than the "
+"educated when addressing popular audiences.\" - Aristotle"
+msgstr "「単純さによって無学な者は教育を受けた者より大衆に訴える」 – アリストテレス"
+
+#: gui/text/quotes.txt:50
+msgid ""
+"\"Poetry demands a man with a special gift for it, or else one with a touch "
+"of madness in him.\" - Aristotle"
+msgstr "「詩に必要なのは天賦の才ある者、もしくは狂気を秘めた者である」 – アリストテレス"
+
+#: gui/text/quotes.txt:51
+msgid ""
+"\"I have gained this by philosophy: that I do without being commanded what "
+"others do only from fear of the law.\" - Aristotle"
+msgstr "「私が哲学から得たことは、他の者が法を恐れてのみ行うことを命ぜられずに行うことである」 – アリストテレス"
+
+#: gui/text/quotes.txt:52
+msgid ""
+"\"Choose the course which you adopt with deliberation; but when you have "
+"adopted it, then persevere in it with firmness.\" - Bias of Priene"
+msgstr "「採るべき路は慎重に選ぶべし。しかしひとたび踏み入らば断固として突き進むべし」– プリエネのビアス"
+
+#: gui/text/quotes.txt:53
+msgid ""
+"\"How stupid it was for the king to tear out his hair in grief, as if "
+"baldness were a cure for sorrow.\" - Bion of Borysthenes"
+msgstr "「悲しいからと髪を引きちぎる王様は馬鹿だ。禿頭が悲しみを癒すと思っているのか」 – ボリュステネスのビオン"
+
+#: gui/text/quotes.txt:54
+msgid ""
+"\"He has not acquired a fortune; the fortune has acquired him.\" - Bion of "
+"Borysthenes"
+msgstr "「彼が財産を持ったのではない、財産に持たれているのだ」 – ボリュステネスのビオン"
+
+#: gui/text/quotes.txt:55
+msgid "\"Woe to the Defeated\" - Brennus"
+msgstr "「敗者に災いあれ」 – ブレンヌス"
+
+#: gui/text/quotes.txt:56
+msgid ""
+"\"Thus always to tyrants.\" - Marcus Junius Brutus, after assassinating "
+"Gaius Julius Caesar"
+msgstr "「これが暴君の末路だ」 – マルクス・ユニウス・ブルトゥス、ガイウス・ユリウス・カエサルの暗殺後に"
+
+#: gui/text/quotes.txt:57
+msgid ""
+"\"Escape, yes, but this time with my hands, not my feet.\" - Marcus Junius "
+"Brutus, before committing suicide"
+msgstr "「逃げる、そうとも、だが今回は足ではなく、この手で」 – マルクス・ユニウス・ブルトゥス、自害の前に"
+
+#: gui/text/quotes.txt:58
+msgid "\"I came, I saw, I conquered.\" - Gaius Julius Caesar"
+msgstr "「来た、見た、勝った」 – ガイウス・ユリウス・カエサル"
+
+#: gui/text/quotes.txt:59
+msgid "\"Men willingly believe what they wish.\" - Gaius Julius Caesar"
+msgstr "「人は好んで己が欲するものを信じる」 – ガイウス・ユリウス・カエサル"
+
+#: gui/text/quotes.txt:60
+msgid "\"The die is cast.\" - Gaius Julius Caesar"
+msgstr "「賽は投げられた」 – ガイウス・ユリウス・カエサル"
+
+#: gui/text/quotes.txt:61
+msgid ""
+"\"It is not the well-fed long-haired man I fear, but the pale and the hungry"
+" looking.\" - Gaius Julius Caesar"
+msgstr "「私が恐れるのは太った長髪の男ではなく、蒼白で飢えた顔つきの奴だ」 – ガイウス・ユリウス・カエサル"
+
+#: gui/text/quotes.txt:62
+msgid "\"Set a thief to catch a thief.\" - Callimachus"
+msgstr "「泥棒に泥棒を捕らえさせよ」 – カリマコス"
+
+#: gui/text/quotes.txt:63
+msgid ""
+"\"Wise men learn more from fools than fools from the wise.\" - Cato the "
+"Elder"
+msgstr "「賢者は愚者が賢者から学ぶよりも多くを愚者から学ぶ」 – 大カト"
+
+#: gui/text/quotes.txt:64
+msgid ""
+"\"Moreover, I consider that Carthage should be destroyed.\" - Cato the Elder"
+msgstr "「ともあれ、カルタゴは滅ぶべきであると考える次第である」 – 大カト"
+
+#: gui/text/quotes.txt:65
+msgid ""
+"\"All mankind rules its women, and we rule all mankind, but our women rule "
+"us.\" - Cato the Elder"
+msgstr "「全人類は女性を支配し、我らは全人類を支配するが、我らが女性は我らを支配する」 – 大カト"
+
+#: gui/text/quotes.txt:66
+msgid "\"Be firm or mild as the occasion may require.\" - Cato the Elder"
+msgstr "「場面に応じて厳しくも優しくもなれ」 – 大カト"
+
+#: gui/text/quotes.txt:67
+msgid "\"The worst ruler is one who cannot rule himself.\" - Cato the Elder"
+msgstr "「最悪の統治者とは自らを治められない者のことである」 – 大カト"
+
+#: gui/text/quotes.txt:68
+msgid ""
+"\"Whoever imposes severe punishment becomes repulsive to the people; while "
+"he who awards mild punishment becomes contemptible. But whoever imposes "
+"punishment as deserved becomes respectable.\" - Chanakya"
+msgstr "「厳しい罰を科す者は誰であれ人民の反感を買う。いっぽう寛大な罰で許す者は侮られる。しかし、相応な罰を科す者は誰であれ尊敬される」 – チャーナキヤ"
+
+#: gui/text/quotes.txt:69
+msgid ""
+"\"If a king is energetic, his subjects will be equally energetic.\" - "
+"Chanakya"
+msgstr "「王が活気に満ちれば、臣下も同じく活気づくだろう」 – チャーナキヤ"
+
+#: gui/text/quotes.txt:70
+msgid ""
+"\"For there is but one essential justice which cements society, and one law "
+"which establishes this justice. This law is right reason, which is the true "
+"rule of all commandments and prohibitions.\" - Marcus Tullius Cicero"
+msgstr "「なぜなら、ただ一つ、社会を束ねる根本的な正義があるのみで、ただ一つの法がこの正義を制定する。この法とは正しい理性であり、すべての命令と禁止に関する真の法理である」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:71
+msgid "\"O, the times, O, the customs!\" - Marcus Tullius Cicero"
+msgstr "「何たる時代か！何たる風俗か！」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:72
+msgid ""
+"\"No one is so old as to think that he cannot live one more year.\" - Marcus"
+" Tullius Cicero"
+msgstr "「どれだけ老いようともあと一年生きられないと思う者はいない」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:73
+msgid ""
+"\"We are not born, we do not live for ourselves alone; our country, our "
+"friends, have a share in us.\" - Marcus Tullius Cicero"
+msgstr "「我々は己のみのために生まれ生きるにあらず。祖国や友の一員なり」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:74
+msgid ""
+"\"Yield, ye arms, to the toga; to civic praise, ye laurels.\" - Marcus "
+"Tullius Cicero"
+msgstr "「武具は平服に譲るべし。月桂冠は文民の誉れに勝らず」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:75
+msgid "\"At my signal, unleash Hell.\" - Maximus Decimus Meridius"
+msgstr "「我が合図にて、地獄が開く」 – マクシムス・デキムス・メリディウス"
+
+#: gui/text/quotes.txt:76
+msgid "\"Time heals all wounds.\" - Marcus Tullius Cicero"
+msgstr "「時はすべての傷を癒す」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:77
+msgid ""
+"\"That, Senators, is what a favour from gangs amounts to. They refrain from "
+"murdering someone; then they boast that they have spared him!\" - Marcus "
+"Tullius Cicero"
+msgstr "「それは、元老院議員諸君、結局悪党どもからの恩義も同然だ。 彼らは誰かを殺すことを差し控え、その後に彼を見逃してやったと自慢するのだ」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:78
+msgid "\"Genius is fostered by energy.\" - Marcus Tullius Cicero"
+msgstr "「天才を育むのは活力である」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:79
+msgid "\"While there's life, there's hope.\" - Marcus Tullius Cicero"
+msgstr "「命ある限り希望あり」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:80
+msgid ""
+"\"We must not say that every mistake is a foolish one.\" - Marcus Tullius "
+"Cicero"
+msgstr "「過ちをすべて愚かだと切り捨ててはならない」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:81
+msgid "\"Let the punishment match the offense.\" - Marcus Tullius Cicero"
+msgstr "「罰は罪に見合うものにせよ」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:82
+msgid ""
+"\"Let the welfare of the people be the ultimate law.\" - Marcus Tullius "
+"Cicero"
+msgstr "「人民の福利を最高の法とせよ」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:83
+msgid "\"Endless money forms the sinews of war.\" - Marcus Tullius Cicero"
+msgstr "「無尽蔵の金が戦争を支える」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:84
+msgid "\"Laws are silent in time of war.\" - Marcus Tullius Cicero"
+msgstr "「戦時には法は沈黙する」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:85
+msgid ""
+"\"A war is never undertaken by the ideal State, except in defense of its "
+"honor or its safety.\" - Marcus Tullius Cicero"
+msgstr "「戦争が理想国家で企てられることはない、その名誉と安全を守るためを除いては」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:86
+msgid ""
+"\"The first duty of a man is the seeking after and the investigation of "
+"truth.\" - Marcus Tullius Cicero"
+msgstr "「人の本分は真理を探し追い求めること」 – マルクス・トゥッリウス・キケロ"
+
+#: gui/text/quotes.txt:87
+msgid ""
+"\"In peace the sons bury their fathers, but in war the fathers bury their "
+"sons.\" - Croesus (Greek: Kroisos), king of Lydia"
+msgstr "「平時には子が父を葬るが、戦時には父が子を葬る」 – クロイソス、リュディア王"
+
+#: gui/text/quotes.txt:88
+msgid "\"I am Cyrus, king of the world...\" - Cyrus the Great"
+msgstr "「余はキュロス、世界の王...」 – キュロス大王"
+
+#: gui/text/quotes.txt:89
+msgid "\"Diversity in counsel, unity in command.\" - Cyrus the Great"
+msgstr "「闊達に評議し、断固として指揮す」 – キュロス大王"
+
+#: gui/text/quotes.txt:90
+msgid ""
+"\"Do not therefore begrudge me this bit of earth that covers my bones.\" - "
+"Epitaph of Cyrus the Great"
+msgstr "「願わくば、余の骨を埋めるこの一握りの土を妬むことなかれ」 – キュロス大王の墓銘"
+
+#: gui/text/quotes.txt:91
+msgid ""
+"\"Success always calls for greater generosity — though most people, lost in "
+"the darkness of their own egos, treat it as an occasion for greater greed.\""
+" - Cyrus the Great"
+msgstr "「成功は常にさらなる寛大さを求める— だが多くの人々は自らの自我の暗闇に迷い、さらに欲を貪る機会と捉える」 – キュロス大王"
+
+#: gui/text/quotes.txt:92
+msgid ""
+"\"Whether men lie, or say true, it is with one and the same object.\" - "
+"Darius I"
+msgstr "「人が嘘をつこうが誠を述べようが、目的は一つで同じものだ」 – ダレイオス一世"
+
+#: gui/text/quotes.txt:93
+msgid ""
+"\"Good breeding in cattle depends on physical health, but in men on a well-"
+"formed character.\" - Democritus"
+msgstr "「牛の育ちは身体の健やかさで決まるが、人は人格で決まる」 – デモクリトス"
+
+#: gui/text/quotes.txt:94
+msgid ""
+"\"If your desires are not great, a little will seem much to you; for small "
+"appetite makes poverty equivalent to wealth.\" - Democritus"
+msgstr "「欲を張らなければ少しのものがたくさんに感じるだろう。つまり、小さな欲は貧困を裕福と等価にする」 – デモクリトス"
+
+#: gui/text/quotes.txt:95
+msgid ""
+"\"Delivery, delivery, delivery.\" - Demosthenes, when asked what were the "
+"three most important elements of rhetoric"
+msgstr "「話しぶり、話しぶり、話しぶり」 – デモステネス、修辞法の三大要素は何かと尋ねられて"
+
+#: gui/text/quotes.txt:96
+msgid ""
+"\"It is not possible to found a lasting power upon injustice, perjury, and "
+"treachery.\" - Demosthenes"
+msgstr "「不正、偽り、裏切りの上に持続する権力を築くことはできない」 – デモステネス"
+
+#: gui/text/quotes.txt:97
+msgid "\"Small opportunities often presage great enterprises.\" - Demosthenes"
+msgstr "「小さな機会がしばしば偉大な企てのきっかけとなる」 – デモステネス"
+
+#: gui/text/quotes.txt:98
+msgid ""
+"\"Every advantage in the past is judged in the light of the final issue.\" -"
+" Demosthenes"
+msgstr "「過去に有益であったことの一つ一つは最終的な結果に照らして判定される」 – デモステネス"
+
+#: gui/text/quotes.txt:99
+msgid ""
+"\"Yes, stand a little out of my sunshine.\" - Diogenes of Sinope, when "
+"Alexander the Great found him sunbathing and asked if he could help in in "
+"any way"
+msgstr "「ございます。少しどいて私に日を当ててください」 – シノーペのディオゲネス、アレクサンドロス大王が日光浴中の彼を見つけ、何か望みはないかと尋ねられて。"
+
+#: gui/text/quotes.txt:100
+msgid "\"I am a citizen of the world.\" - Diogenes of Sinope"
+msgstr "「我は世界市民なり」 – シノーペのディオゲネス"
+
+#: gui/text/quotes.txt:101
+msgid ""
+"\"It is not that I am mad, it is only that my head is different from "
+"yours.\" - Diogenes of Sinope"
+msgstr "「私が狂っているのではない。私の頭があなたとは異なるに過ぎない」 – シノーペのディオゲネス"
+
+#: gui/text/quotes.txt:102
+msgid ""
+"\"Let thy speech be better than silence, or be silent.\" - Dionysius I of "
+"Syracuse"
+msgstr "「沈黙よりましな演説をせよ、さもなくば黙れ」 – シュラクサイのディオニュシオス1世"
+
+#: gui/text/quotes.txt:103
+msgid "\"Nothing has more strength than dire necessity.\" - Euripides"
+msgstr "「切迫した必要に勝るものはない」 – エウリピデス"
+
+#: gui/text/quotes.txt:104
+msgid "\"A coward turns away, but a brave man's choice is danger.\" - Euripides"
+msgstr "「臆病者は踵を返すが、勇者は危険を選ぶ」 – エウリピデス"
+
+#: gui/text/quotes.txt:105
+msgid ""
+"\"Cowards do not count in battle; they are there, but not in it.\" - "
+"Euripides"
+msgstr "「臆病者は戦場で無意味である。そこにいるが関わっていないから」 – エウリピデス"
+
+#: gui/text/quotes.txt:106
+msgid "\"Chance fights ever on the side of the prudent.\" - Euripides"
+msgstr "「好機は常に慎重な側に味方する」 – エウリピデス"
+
+#: gui/text/quotes.txt:107
+msgid ""
+"\"If a man put out the eye of another man, his eye shall be put out.\" - "
+"Hammurabi"
+msgstr "「ある者が他人の目をくり抜いたならば、その者の目はくり抜かれるものとする」 – ハンムラビ"
+
+#: gui/text/quotes.txt:108
+msgid ""
+"\"I have come not to make war on the Italians, but to aid the Italians "
+"against Rome.\" - Hannibal Barca"
+msgstr "「私はイタリア人と戦うために来たのではない。ローマに抵抗するイタリア人の支援に来たのだ」 – ハンニバル・バルカ"
+
+#: gui/text/quotes.txt:109
+msgid "\"I will either find a way, or make one.\" - Hannibal Barca"
+msgstr "「道が見つからないなら、作るまでだ」 – ハンニバル・バルカ"
+
+#: gui/text/quotes.txt:110
+msgid ""
+"\"My ancestors yielded to Roman valour. I am endeavouring that others, in "
+"their turn, will be obliged to yield to my good fortune, and my valour.\" - "
+"Hannibal Barca"
+msgstr "「我が祖先はローマの武勇に屈した。私は、今度は他の者が我が幸運と武勇に屈する他ないよう努めている」 – ハンニバル・バルカ"
+
+#: gui/text/quotes.txt:111
+msgid "\"Everything flows, nothing stands still.\" - Herakleitos"
+msgstr "「万物は流転して、何ものもとどまらない」 – ヘラクレイトス"
+
+#: gui/text/quotes.txt:112
+msgid "\"Nothing endures but change.\" - Herakleitos"
+msgstr "「存在し続けるのは変化のみである 」 – ヘラクレイトス"
+
+#: gui/text/quotes.txt:113
+msgid "\"You could not step twice into the same river.\" - Herakleitos"
+msgstr "「同じ川に二度足を浸すことはできない」 – ヘラクレイトス"
+
+#: gui/text/quotes.txt:114
+msgid "\"Character is destiny.\" - Herakleitos"
+msgstr "「性格は運命である」 – ヘラクレイトス"
+
+#: gui/text/quotes.txt:115
+msgid "\"Circumstances rule men; men do not rule circumstances.\" - Herodotus"
+msgstr "「境遇が人を左右し、人は境遇を左右しない」 – ヘロドトス"
+
+#: gui/text/quotes.txt:116
+msgid ""
+"\"The Lacedaemonians fought a memorable battle; they made it quite clear "
+"that they were the experts, and that they were fighting against amateurs.\" "
+"- Herodotus"
+msgstr "「スパルタ人の戦いぶりはめざましかった。彼らが専門家であること、そして素人と戦っていることをきわめて明確に示した」 – ヘロドトス"
+
+#: gui/text/quotes.txt:117
+msgid ""
+"\"This is the bitterest pain among men, to have much knowledge but no "
+"power.\" - Herodotus"
+msgstr "「これこそ人にとって最大の苦痛、多くを知りながら力を持たぬこと」 – ヘロドトス"
+
+#: gui/text/quotes.txt:118
+msgid "\"In soft regions are born soft men.\" - Herodotus"
+msgstr "「穏やかな土地は穏やかな人を産む」 – ヘロドトス"
+
+#: gui/text/quotes.txt:119
+msgid "\"It is sweet and honorable to die for one's country.\" - Horace"
+msgstr "「甘美で名誉なるは祖国のために死すこと」 – ホラティウス"
+
+#: gui/text/quotes.txt:120
+msgid "\"We are but dust and shadow.\" - Horace"
+msgstr "「我々は塵と影に過ぎぬ」 – ホラティウス"
+
+#: gui/text/quotes.txt:121
+msgid ""
+"\"I am not bound over to swear allegiance to any master; where the storm "
+"drives me I turn in for shelter.\" - Horace"
+msgstr "\"I am not bound over to swear allegiance to any master; where the storm drives me I turn in for shelter.\" - Horace"
+
+#: gui/text/quotes.txt:122
+msgid ""
+"\"Conquered Greece took captive her savage conqueror and brought her arts "
+"into rustic Latium.\" - Horace"
+msgstr "「征服されたギリシアは野蛮な征服者を虜にし、その芸術を粗野なラティウムにもたらした」 – ホラティウス"
+
+#: gui/text/quotes.txt:123
+msgid ""
+"\"Guard yourself against accusations, even if they are false; for the "
+"multitude are ignorant of the truth and look only to reputation.\" - "
+"Isocrates"
+msgstr "「例え言い掛かりでも潔白を自ら示せ、大衆は真実を知らず評判でしか見ないから」 – イソクラテス"
+
+#: gui/text/quotes.txt:124
+msgid ""
+"\"I never learned how to tune a harp, or play upon a lute; but I know how to"
+" raise a small and inconsiderable city to glory and greatness.\" - "
+"Themistocles"
+msgstr "「私はハープの調律やリュートの演奏の方法を学んだことはない。しかし、小さくささやかな都市を栄光ある偉大なものへ発展させる方法は心得ている」 – テミストクレス"
+
+#: gui/text/quotes.txt:125
+msgid "\"I have with me two gods, Persuasion and Compulsion.\" - Themistocles"
+msgstr "「私には二人の神、『説得』と『強制』がついている」 – テミストクレス"
+
+#: gui/text/quotes.txt:126
+msgid ""
+"\"For the Athenians command the rest of Greece, I command the Athenians; "
+"your mother commands me, and you command your mother.\" - Themistocles, in a"
+" statement to his son"
+msgstr "「アテナイ人が残りのギリシアに命令するために、私はアテナイ人に命令する。同様にお前の母は私に命じ、お前は母に命ずる」 – テミストクレス、息子への発言"
+
+#: gui/text/quotes.txt:127
+msgid "\"Strike, if you will, but listen.\" - Themistocles"
+msgstr "「打つなら打て、しかし聞け」 – テミストクレス"
+
+#: gui/text/quotes.txt:128
+msgid ""
+"\"Marry a good man, and bear good children.\" - Leonidas, to his wife before"
+" he left for Thermopylae"
+msgstr "「良き男と結婚し、良き子を儲けよ」 – レオニダス、テルモピュライへ発つ際に妻へ"
+
+#: gui/text/quotes.txt:129
+msgid ""
+"\"Come and get them!\" - Leonidas, to the Persian messenger who demanded "
+"that he and his men lay down their arms"
+msgstr "「奪いに来い！」 – レオニダス、彼とその兵に武器を捨てて投降せよと伝えたペルシアの使者に"
+
+#: gui/text/quotes.txt:130
+msgid "\"For a thinking man is where Wisdom is at home.\" - Zoroaster"
+msgstr "「考える者には知恵のある所こそが家である」 – ゾロアスター"
+
+#: gui/text/quotes.txt:131
+msgid "\"I call a fig a fig, a spade a spade.\" - Menander"
+msgstr "「イチジクをイチジクと呼び、鍬を鍬と呼ぶ」 – メナンドロス"
+
+#: gui/text/quotes.txt:132
+msgid "\"The man who runs may fight again.\" - Menander"
+msgstr "「逃げる者は再び戦えるだろう」 – メナンドロス"
+
+#: gui/text/quotes.txt:133
+msgid ""
+"\"At times discretion should be thrown aside, and with the foolish we should"
+" play the fool.\" - Menander"
+msgstr "「分別を捨てるべきときには愚か者と共に愚かなふりをすべきだ」 – メナンドロス"
+
+#: gui/text/quotes.txt:134
+msgid ""
+"\"Freedom is the sure possession of those alone who have the courage to "
+"defend it.\" - Pericles"
+msgstr "「自由とはそれを守る勇気のある者のみが確実に手にするものだ」 – ペリクレス"
+
+#: gui/text/quotes.txt:135
+msgid ""
+"\"What you leave behind is not what is engraved in stone monuments, but what"
+" is woven into the lives of others.\" - Pericles"
+msgstr "「汝がこの世に残すものは石の碑に刻んだものではない。他人の人生に織り込んだものだ」 – ペリクレス"
+
+#: gui/text/quotes.txt:136
+msgid ""
+"\"We do not say that a man who takes no interest in politics is a man who "
+"minds his own business; we say that he has no business here at all.\" - "
+"Pericles"
+msgstr "「政治に関心のない者は自分の利害を追求する者だとは我々は見なさない。代わりに、ここで一切権利を持たない者と見なす」 – ペリクレス"
+
+#: gui/text/quotes.txt:137
+msgid ""
+"\"They gave her their lives, to Her and to all of us, and for their own "
+"selves they won praises that never grow old, the most splendid of "
+"sepulchers...\" - Pericles, Funeral Oration"
+msgstr "「彼らは祖国に命を捧げた、祖国と我々すべてへ、そして彼らへの賞賛は朽ちることなく、荘厳を極めた墓に眠る...」 – ペリクレス、弔辞"
+
+#: gui/text/quotes.txt:138
+msgid ""
+"\"Make up your minds that happiness depends on being free, and freedom "
+"depends on being courageous.\" - Pericles"
+msgstr "「幸福は自由に、自由は勇敢さにかかっていることを覚悟せよ」 – ペリクレス"
+
+#: gui/text/quotes.txt:139
+msgid ""
+"\"Your empire is now like a tyranny: it may have been wrong to take it; it "
+"is certainly dangerous to let it go.\" - Pericles"
+msgstr "「諸君の帝国は今やいわば専制国家だ。その地位を得たことが不正であったのかも知れないが、手放すのは誠に危険だ」 – ペリクレス"
+
+#: gui/text/quotes.txt:140
+msgid ""
+"\"If Athens shall appear great to you, consider then that her glories were "
+"purchased by valiant men, and by men who learned their duty.\" - Pericles"
+msgstr "「アテナイの偉大な姿を目にしたら、その栄光は勇敢な人々および自らの義務を知る人々によって購われたことに思いを馳せよ」 – ペリクレス"
+
+#: gui/text/quotes.txt:141
+msgid ""
+"\"Just because you do not take an interest in politics doesn't mean politics"
+" won't take an interest in you.\" - Pericles"
+msgstr "「自分が政治に関心がないからといって、政治に関心を持たれないとは限らない」 – ペリクレス"
+
+#: gui/text/quotes.txt:142
+msgid ""
+"\"War is sweet to those who have no experience of it, but the experienced "
+"man trembles exceedingly at heart on its approach.\" - Pindar"
+msgstr "「戦いは知らざる人には甘美なれど、知る人はその近づくをあまりにも怖れる」 – ピンダロス"
+
+#: gui/text/quotes.txt:143
+msgid ""
+"\"The hour of departure has arrived, and we go our ways — I to die, and you "
+"to live. Which is better God only knows.\" - Plato"
+msgstr "「別れの時間がやってきた、我らはそれぞれの道を歩む—我は死に、汝は生きる。いずれが良いかは神のみぞ知る」 – プラトン"
+
+#: gui/text/quotes.txt:144
+msgid "\"Life without examination is not worth living.\" - Plato"
+msgstr "「試練なき人生など生きるに値せず」 – プラトン"
+
+#: gui/text/quotes.txt:145
+msgid ""
+"\"Let every man remind their descendants that they also are soldiers who "
+"must not desert the ranks of their ancestors, or from cowardice fall "
+"behind.\" - Plato"
+msgstr "「すべての者は彼らの子孫をこう励ますことが務めである。彼らもまた戦士であり、父祖の戦列を離脱することも、臆病に屈して退却することも許されぬと」 – プラトン"
+
+#: gui/text/quotes.txt:146
+msgid ""
+"\"False words are not only evil in themselves, but they infect the soul with"
+" evil.\" - Plato"
+msgstr "「偽りの言葉はそれ自体が悪なだけでなく、魂をも悪で染める」 – プラトン"
+
+#: gui/text/quotes.txt:147
+msgid ""
+"\"Democracy, which is a charming form of government, full of variety and "
+"disorder, and dispensing a sort of equality to equals and unequals alike.\" "
+"- Plato"
+msgstr "「民主制、それは魅力的な政体であり、多様さと乱雑さの宝庫だ。そして平等な者にもそうでない者にも等しく平等性の類を分け与える」 – プラトン"
+
+#: gui/text/quotes.txt:148
+msgid "\"Death is not the worst that can happen to men.\" - Plato"
+msgstr "「死は人に起こりうる最悪の事態ではない」 – プラトン"
+
+#: gui/text/quotes.txt:149
+msgid "\"Only the dead have seen the end of war.\" - Unknown"
+msgstr "「死者のみが終戦を見てきた」 – 作者不明"
+
+#: gui/text/quotes.txt:150
+msgid "\"Our need will be the real creator.\" - Plato"
+msgstr "「必要は発明の母」 – プラトン"
+
+#: gui/text/quotes.txt:151
+msgid "\"A man with courage has every blessing.\" - Plautus"
+msgstr "「勇敢な者はあらゆる天恵に浴する」 – プラウトゥス"
+
+#: gui/text/quotes.txt:152
+msgid ""
+"\"No guest is so welcome in a friend's house that he will not become a "
+"nuisance after three days.\" - Plautus"
+msgstr "「友の家で三日後に厄介者でなく客としていられる者はいない」 – プラウトゥス"
+
+#: gui/text/quotes.txt:153
+msgid "\"He whom the gods love dies young.\" - Plautus"
+msgstr "「神々が愛する男は早世する」 – プラウトゥス"
+
+#: gui/text/quotes.txt:154
+msgid "\"Practice yourself what you preach.\" - Plautus"
+msgstr "「人に勧めることを自ら実践せよ」 – プラウトゥス"
+
+#: gui/text/quotes.txt:155
+msgid "\"Drink, live like the Greeks, eat, gorge.\" - Plautus"
+msgstr "「飲めや、ギリシア人のように遊び暮らせ。食えや、たらふく腹を満たせ」 – プラウトゥス"
+
+#: gui/text/quotes.txt:156
+msgid ""
+"\"Stop quoting laws, we carry weapons!\" - Gnaeus Pompeius Magnus (Pompey "
+"the Great)"
+msgstr "「法を説くな、我々には武器がある！」 – グナエウス・ポンペイウス・マグヌス（大ポンペイウス）"
+
+#: gui/text/quotes.txt:157
+msgid ""
+"\"Man is the measure of all things: of things which are, that they are, and "
+"of things which are not, that they are not.\" - Protagoras"
+msgstr "「人間は万物の尺度である。そうであるものはそうであるからであり、そうでないものはそうでないからである」 – プロタゴラス"
+
+#: gui/text/quotes.txt:158
+msgid ""
+"\"We ought so to behave to one another as to avoid making enemies of our "
+"friends, and at the same time to make friends of our enemies.\" - Pythagoras"
+msgstr "「我々は互いに友の敵となることを避け、同時に敵の友となるよう振る舞うべきだ」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:159
+msgid "\"In anger we should refrain both from speech and action.\" - Pythagoras"
+msgstr "「怒りに任せて話したり行動したりするのは避けるべきだ」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:160
+msgid "\"Power is the near neighbor of necessity.\" - Pythagoras"
+msgstr "「能力は必要のすぐそばにある」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:161
+msgid "\"Numbers rule the Universe.\" - Pythagoras"
+msgstr "「数が宇宙を統べる」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:162
+msgid ""
+"\"Rest satisfied with doing well, and leave others to talk of you as they "
+"please.\" - Pythagoras"
+msgstr "「善きことをしたと満ち足りて眠れ、そして他人には好きに言わせておけ」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:163
+msgid "\"Anger begins in folly, and ends in repentance.\" - Pythagoras"
+msgstr "「怒りは無謀に始まり後悔に終わる」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:164
+msgid "\"There is no word or action but has its echo in Eternity.\" - Pythagoras"
+msgstr "「永遠の中に残響をひかぬ言葉も行いもない」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:165
+msgid ""
+"\"There is geometry in the humming of the strings, there is music in the "
+"spacing of the spheres.\" - Pythagoras"
+msgstr "「弦の響き合う中に幾何学はある。球の広がりの中に音楽はある」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:166
+msgid ""
+"\"Practice justice in word and deed, and do not get in the habit of acting "
+"thoughtlessly about anything.\" - Pythagoras"
+msgstr "「言行で正義を実践せよ。何事にも考えなしにふるまう習慣をつけてはならぬ」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:167
+msgid "\"Do not even think of doing what ought not to be done.\" - Pythagoras"
+msgstr "「なすべきでないことをしようとは考えてすらならぬ」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:168
+msgid ""
+"\"When the wise man opens his mouth, the beauties of his soul present "
+"themselves to the view, like the statues in a temple.\" - Pythagoras"
+msgstr "「賢人が口を開けば、魂の美がおのずと神殿の彫像のごとき姿を現す」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:169
+msgid ""
+"\"Remind yourself that all men assert that wisdom is the greatest good, but "
+"that there are few who strenuously seek out that greatest good.\" - "
+"Pythagoras"
+msgstr "「誰もが知恵こそが最上の善と断言するが、その最上の善を熱心に追求する者は稀であることに注意せよ」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:170
+msgid "\"Without Justice, no realm may prosper.\" - Pythagoras"
+msgstr "「正義なく栄えられる王国などない」 – ピュタゴラス"
+
+#: gui/text/quotes.txt:171
+msgid ""
+"\"For harmony makes small states great, while discord undermines the "
+"mightiest empires.\" - Sallust"
+msgstr "「絆は小さな国を大きくするが、不和は強大な帝国をも揺るがす」 – サッルスティウス"
+
+#: gui/text/quotes.txt:172
+msgid ""
+"\"I am mindful of human weakness, and I reflect upon the might of Fortune "
+"and know that everything that we do is exposed to a thousand chances.\" - "
+"Scipio Africanus"
+msgstr "「私は人間の弱さをよく知っている。そして運命の強大さを思えば、我々がなすことすべてが千の偶然によって試されるのだと思い知る」 – スキピオ・アフリカヌス"
+
+#: gui/text/quotes.txt:173
+msgid ""
+"\"Prepare for war, since you have been unable to endure a peace.\" - Scipio "
+"Africanus"
+msgstr "「戦争の準備だ。もう平和には耐えられないのだから」 – スキピオ・アフリカヌス"
+
+#: gui/text/quotes.txt:174
+msgid ""
+"\"Go, tell the Spartans, stranger passing by that here, obedient to their "
+"laws, we lie.\" - Simonides of Ceos, epitaph on the Cenotaph of Thermopylae"
+msgstr "「通りすがりの旅人よ、行きてスパルタ人へ伝えよ。国法の定めに従い、我らここに眠れると」 – ケオスのシモニデス、テルモピュライの慰霊碑への墓銘"
+
+#: gui/text/quotes.txt:175
+msgid "\"Not even the gods fight against necessity.\" - Simonides of Ceos"
+msgstr "「神々でさえ必然には抗えぬ」 – ケオスのシモニデス"
+
+#: gui/text/quotes.txt:176
+msgid ""
+"\"We did not flinch but gave our lives to save Greece when her fate hung on "
+"a razor's edge.\" - Simonides of Ceos"
+msgstr "「ギリシアの命運が危うく尽きんとした時、我らは臆せず命を捧げた」 – ケオスのシモニデス"
+
+#: gui/text/quotes.txt:177
+msgid ""
+"\"The bravest are surely those who have the clearest vision of what is "
+"before them, glory and danger alike, and yet notwithstanding, go out to meet"
+" it.\" - Thucydides"
+msgstr "「最も勇敢な者とはまさに、行く手にあるものを十二分に知っていて、それが栄誉であれ危険であれ、構わず向かって行く者である」 – トゥキュディデス"

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<styles>
+	<!--
+	==========================================
+	- DEFAULT STYLE: The style with the name 'default' is special, it will
+	- be called by every object before any other style is loaded.
+	==========================================
+	-->
+
+	<style 	name="default"
+		absolute="false"
+		enabled="true"
+		ghost="false"
+		hidden="false"
+		size="0 0 100% 100%"
+		z="0"
+
+		font="sans-14"
+		buffer_zone="5"
+		multiline="false"
+	/>
+</styles>

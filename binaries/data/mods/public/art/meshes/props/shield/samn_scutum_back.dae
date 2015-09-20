@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2011-07-25T21:49:16Z</created>
+    <modified>2011-07-25T21:49:16Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="0.025400"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map__2-image" name="Map__2">
+      <init_from>file://C:\Users\Michael\Wildfire Games\0 A.D\binaries\data\mods\public\art\textures\skins\props\shield\rome_imp_scutum_back.dds</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="_02___Default" name="_02___Default">
+      <instance_effect url="#_02___Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="_02___Default-fx" name="_02___Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Mesh-lib" name="MeshMesh">
+      <mesh>
+        <source id="Mesh-lib-Position">
+          <float_array id="Mesh-lib-Position-array" count="54">
+0.508600 1.069800 -0.186100
+0.621600 1.007500 -0.228100
+0.444400 -1.022700 0.129900
+0.360700 -1.066900 0.190700
+0.671500 0.872500 -0.273700
+0.476900 -0.911500 0.040900
+0.011900 1.115100 -0.094100
+0.371800 1.107400 -0.137800
+0.255200 -1.086000 0.249000
+0.010200 -1.078300 0.292700
+-0.601300 1.007500 -0.228100
+-0.511400 1.069800 -0.186100
+-0.347000 -1.066900 0.190700
+-0.425900 -1.022700 0.129900
+-0.261700 -1.086000 0.249000
+-0.387200 1.107400 -0.137800
+-0.456500 -0.911500 0.040900
+-0.652000 0.872500 -0.273700
+</float_array>
+          <technique_common>
+            <accessor source="#Mesh-lib-Position-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh-lib-Normal0">
+          <float_array id="Mesh-lib-Normal0-array" count="144">
+-0.433302 -0.127537 -0.892148
+-0.582385 -0.092624 -0.807611
+-0.555284 -0.099002 -0.825739
+-0.555284 -0.099002 -0.825739
+-0.429182 -0.128635 -0.893979
+-0.433302 -0.127537 -0.892148
+-0.582385 -0.092624 -0.807611
+-0.853511 -0.008667 -0.520951
+-0.853511 -0.008667 -0.520951
+-0.853511 -0.008667 -0.520951
+-0.555284 -0.099002 -0.825739
+-0.582385 -0.092624 -0.807611
+-0.007141 -0.169927 -0.985412
+-0.274880 -0.153172 -0.949187
+-0.263619 -0.154576 -0.952147
+-0.263619 -0.154576 -0.952147
+-0.007019 -0.169927 -0.985412
+-0.007141 -0.169927 -0.985412
+-0.274880 -0.153172 -0.949187
+-0.433302 -0.127537 -0.892148
+-0.429182 -0.128635 -0.893979
+-0.429182 -0.128635 -0.893979
+-0.263619 -0.154576 -0.952147
+-0.274880 -0.153172 -0.949187
+0.620808 -0.083407 -0.779504
+0.485977 -0.117069 -0.866054
+0.481765 -0.118229 -0.868282
+0.481765 -0.118229 -0.868282
+0.599353 -0.088778 -0.795526
+0.620808 -0.083407 -0.779504
+0.277169 -0.151646 -0.948759
+0.481765 -0.118229 -0.868282
+0.485977 -0.117069 -0.866054
+0.485977 -0.117069 -0.866054
+0.293649 -0.149480 -0.944121
+0.277169 -0.151646 -0.948759
+0.620808 -0.083407 -0.779504
+0.599353 -0.088778 -0.795526
+0.856533 -0.007691 -0.515976
+0.856533 -0.007691 -0.515976
+0.856533 -0.007691 -0.515976
+0.620808 -0.083407 -0.779504
+0.293649 -0.149480 -0.944121
+-0.007141 -0.169927 -0.985412
+-0.007019 -0.169927 -0.985412
+-0.007019 -0.169927 -0.985412
+0.277169 -0.151646 -0.948759
+0.293649 -0.149480 -0.944121
+</float_array>
+          <technique_common>
+            <accessor source="#Mesh-lib-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh-lib-UV0">
+          <float_array id="Mesh-lib-UV0-array" count="64">
+0.129100 0.950200
+0.045100 0.927700
+0.146000 0.071200
+0.214000 0.048700
+0.045100 0.927700
+0.008000 0.875800
+0.119600 0.123100
+0.146000 0.071200
+0.497900 0.962100
+0.230600 0.962100
+0.299800 0.036700
+0.498900 0.036700
+0.230600 0.962100
+0.129100 0.950200
+0.214000 0.048700
+0.299800 0.036700
+0.953300 0.927700
+0.886500 0.950200
+0.789200 0.048700
+0.853400 0.071200
+0.719900 0.036700
+0.789200 0.048700
+0.886500 0.950200
+0.794300 0.962100
+0.953300 0.927700
+0.853400 0.071200
+0.878200 0.123100
+0.991000 0.875800
+0.794300 0.962100
+0.497900 0.962100
+0.498900 0.036700
+0.719900 0.036700
+</float_array>
+          <technique_common>
+            <accessor source="#Mesh-lib-UV0-array" count="32" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mesh-lib-Vertex">
+          <input semantic="POSITION" source="#Mesh-lib-Position"/>
+        </vertices>
+        <polygons material="_02___Default" count="16">
+          <input semantic="VERTEX" offset="0" source="#Mesh-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#Mesh-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Mesh-lib-UV0"/>
+          <p>0 0 0 1 1 1 2 2 2</p>
+          <p>2 3 2 3 4 3 0 5 0</p>
+          <p>1 6 4 4 7 5 5 8 6</p>
+          <p>5 9 6 2 10 7 1 11 4</p>
+          <p>6 12 8 7 13 9 8 14 10</p>
+          <p>8 15 10 9 16 11 6 17 8</p>
+          <p>7 18 12 0 19 13 3 20 14</p>
+          <p>3 21 14 8 22 15 7 23 12</p>
+          <p>10 24 16 11 25 17 12 26 18</p>
+          <p>12 27 18 13 28 19 10 29 16</p>
+          <p>14 30 20 12 31 21 11 32 22</p>
+          <p>11 33 22 15 34 23 14 35 20</p>
+          <p>10 36 24 13 37 25 16 38 26</p>
+          <p>16 39 26 17 40 27 10 41 24</p>
+          <p>15 42 28 6 43 29 9 44 30</p>
+          <p>9 45 30 14 46 31 15 47 28</p>
+        </polygons>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="Mesh" name="Mesh">
+        <matrix sid="matrix">0.984104 0.000000 0.000000 -0.005756 0.000000 0.984104 -0.000000 -0.009668 0.000000 0.000000 0.984104 -0.011779 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Mesh-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_02___Default" target="#_02___Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+

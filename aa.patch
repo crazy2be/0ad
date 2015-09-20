@@ -1,0 +1,121 @@
+Index: binaries/data/mods/public/simulation/components/Foundation.js
+===================================================================
+--- binaries/data/mods/public/simulation/components/Foundation.js	(revision 16918)
++++ binaries/data/mods/public/simulation/components/Foundation.js	(working copy)
+@@ -33,6 +33,12 @@
+ 	this.maxProgress = 0;
+ 
+ 	this.initialised = true;
++
++	// Give our foundation a small amount of initial health, so that
++	// it is possible to construct buildings within range of enemy
++	// towers (otherwise, the first hit destroys it immediately).
++	var health = Engine.QueryInterface(this.entity, IID_Health);
++	health.Increase(~~(health.GetMaxHitpoints() * 0.05));
+ };
+ 
+ /**
+Index: binaries/data/mods/public/simulation/components/ResourceGatherer.js
+===================================================================
+--- binaries/data/mods/public/simulation/components/ResourceGatherer.js	(revision 16918)
++++ binaries/data/mods/public/simulation/components/ResourceGatherer.js	(working copy)
+@@ -290,9 +290,9 @@
+ 	// The cosine function is an oscillating curve, normally between -1 and 1. Multiplying by 0.5 squishes that down to
+ 	// between -0.5 and 0.5. Adding 0.5 to that changes the range to 0 to 1. The diminishingReturns constant
+ 	// adjusts the period of the curve.
+-	let diminishingReturns = cmpResourceSupply.GetDiminishingReturns();
+-	if (diminishingReturns)
+-		rate = (0.5 * Math.cos((cmpResourceSupply.GetNumGatherers() - 1) * Math.PI / diminishingReturns) + 0.5) * rate;
++	//let diminishingReturns = cmpResourceSupply.GetDiminishingReturns();
++	//if (diminishingReturns)
++	//	rate = (0.5 * Math.cos((cmpResourceSupply.GetNumGatherers() - 1) * Math.PI / diminishingReturns) + 0.5) * rate;
+ 
+ 	return rate;
+ };
+Index: binaries/data/mods/public/simulation/helpers/Commands.js
+===================================================================
+--- binaries/data/mods/public/simulation/helpers/Commands.js	(revision 16918)
++++ binaries/data/mods/public/simulation/helpers/Commands.js	(working copy)
+@@ -1316,7 +1316,7 @@
+ 		// if we move them to it. We should check if we can use formations
+ 		// for the other cases.
+ 		var nullFormation = (formationTemplate || cmpUnitAI.GetLastFormationTemplate()) == "formations/null";
+-		if (!nullFormation && cmpIdentity && cmpIdentity.CanUseFormation(formationTemplate || "formations/line_closed"))
++		if (!nullFormation && cmpIdentity && cmpIdentity.CanUseFormation(formationTemplate || "formations/null"))
+ 			formedEnts.push(ent);
+ 		else
+ 		{
+@@ -1395,7 +1395,7 @@
+ 				if (lastFormationTemplate && CanMoveEntsIntoFormation(cluster, lastFormationTemplate))
+ 					formationTemplate = lastFormationTemplate;
+ 				else
+-					formationTemplate = "formations/line_closed";
++					formationTemplate = "formations/null";
+ 			}
+ 
+ 			// Create the new controller
+Index: binaries/data/mods/public/simulation/helpers/TraderGain.js
+===================================================================
+--- binaries/data/mods/public/simulation/helpers/TraderGain.js	(revision 16918)
++++ binaries/data/mods/public/simulation/helpers/TraderGain.js	(working copy)
+@@ -1,6 +1,5 @@
+ // This constant used to adjust gain value depending on distance
+-const DISTANCE_FACTOR = 1 / 115;
+-
++const DISTANCE_FACTOR = 1 / 25;
+ // Additional gain (applying to each market) for trading performed between markets of different players, in percents
+ const INTERNATIONAL_TRADING_ADDITION = 25;
+ 
+@@ -19,8 +18,13 @@
+ 	// Calculate ordinary Euclidean distance between markets.
+ 	// We don't use pathfinder, because ordinary distance looks more fair.
+ 	var distance = Math.sqrt(Math.pow(firstMarketPosition.x - secondMarketPosition.x, 2) + Math.pow(firstMarketPosition.y - secondMarketPosition.y, 2));
+-	// We calculate gain as square of distance to encourage trading between remote markets
+-	gain.traderGain = Math.pow(distance * DISTANCE_FACTOR, 2);
++    // We calculate gain as square of distance to encourage trading between remote markets
++	var distFactor = distance * DISTANCE_FACTOR;
++	gain.traderGain = distFactor * Math.log(distFactor);
++	if (gain.traderGain < 0) {
++	    gain.traderGain = 0;
++	}
++
+ 	if (template && template.GainMultiplier)
+ 	{
+ 		if (trader)
+Index: source/network/NetMessages.h
+===================================================================
+--- source/network/NetMessages.h	(revision 16918)
++++ source/network/NetMessages.h	(working copy)
+@@ -29,7 +29,7 @@
+ #define PS_PROTOCOL_MAGIC				0x5073013f		// 'P', 's', 0x01, '?'
+ #define PS_PROTOCOL_MAGIC_RESPONSE		0x50630121		// 'P', 'c', 0x01, '!'
+ #define PS_PROTOCOL_VERSION				0x01010006		// Arbitrary protocol
+-#define PS_DEFAULT_PORT					0x5073			// 'P', 's'
++#define PS_DEFAULT_PORT					0x5073			// 'P', 's'   20595
+ 
+ // Defines the list of message types. The order of the list must not change.
+ // The message types having a negative value are used internally and not sent
+Index: source/simulation2/components/CCmpPathfinder_Vertex.cpp
+===================================================================
+--- source/simulation2/components/CCmpPathfinder_Vertex.cpp	(revision 16918)
++++ source/simulation2/components/CCmpPathfinder_Vertex.cpp	(working copy)
+@@ -184,7 +184,8 @@
+ 
+ 	CFixedVector2D abn = (b - a).Perpendicular();
+ 
+-	for (size_t i = 0; i < edges.size(); ++i)
++	size_t edgesCount = edges.size();
++	for (size_t i = 0; i < edgesCount; ++i)
+ 	{
+ 		if (b.X < edges[i].p0.X)
+ 			continue;
+@@ -212,7 +213,8 @@
+ 
+ 	CFixedVector2D abn = (b - a).Perpendicular();
+ 
+-	for (size_t i = 0; i < edges.size(); ++i)
++	size_t edgesCount = edges.size();
++	for (size_t i = 0; i < edgesCount; ++i)
+ 	{
+ 		if (b.X > edges[i].p0.X)
+ 			continue;

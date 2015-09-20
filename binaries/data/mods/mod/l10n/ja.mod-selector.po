@@ -1,0 +1,141 @@
+# Translation template for Pyrogenesis - Mod Selector.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the Pyrogenesis - Mod Selector project.
+# 
+# Translators:
+# Kanetaka Suto, 2014
+# llen_llen, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2014-11-09 02:36+0100\n"
+"PO-Revision-Date: 2015-02-02 01:48+0000\n"
+"Last-Translator: Kanetaka Suto\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/0ad/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: gui/modmod/modmod.js:30 gui/modmod/modmod.xml:(heading):94
+#: gui/modmod/modmod.xml:(heading):135
+msgid "Name"
+msgstr "名前"
+
+#: gui/modmod/modmod.js:30
+msgid "Folder"
+msgstr "フォルダー"
+
+#: gui/modmod/modmod.js:30
+msgid "Label"
+msgstr "ラベル"
+
+#: gui/modmod/modmod.js:30 gui/modmod/modmod.xml:(heading):97
+#: gui/modmod/modmod.xml:(heading):138
+msgid "Version"
+msgstr "バージョン"
+
+#: gui/modmod/modmod.js:36
+msgid "Type: Any"
+msgstr "種類：不問"
+
+#: gui/modmod/modmod.js:62 gui/modmod/modmod.js:308
+msgid "Filter"
+msgstr "絞込み"
+
+#: gui/modmod/modmod.js:74
+msgid "Message: Mods Loaded."
+msgstr "メッセージ：MODが読み込まれました。"
+
+#: gui/modmod/modmod.js:372
+msgid "All dependencies met"
+msgstr "依存性をすべて解決しました。"
+
+#: gui/modmod/modmod.js:498
+msgid "No mod has been selected."
+msgstr "MODが選択されていません。"
+
+#: gui/modmod/modmod.xml:116
+msgid "Description"
+msgstr "説明"
+
+#: gui/modmod/modmod.xml:(caption):10
+msgid "Modifications"
+msgstr "MOD"
+
+#: gui/modmod/modmod.xml:(caption):18
+msgid "Reset Filters"
+msgstr "絞込みの解除"
+
+#: gui/modmod/modmod.xml:(caption):52
+msgid "Negate"
+msgstr "反転"
+
+#: gui/modmod/modmod.xml:(caption):59
+msgid "Sorting:"
+msgstr "並び替え："
+
+#: gui/modmod/modmod.xml:(caption):71
+msgid "Descending."
+msgstr "降順"
+
+#: gui/modmod/modmod.xml:(caption):87
+msgid "Available Mods"
+msgstr "利用可能なMOD"
+
+#: gui/modmod/modmod.xml:(caption):119
+msgid "Enable"
+msgstr "有効化"
+
+#: gui/modmod/modmod.xml:(caption):128
+msgid "Enabled Mods"
+msgstr "有効なMOD"
+
+#: gui/modmod/modmod.xml:(caption):158
+msgid "Up"
+msgstr "上"
+
+#: gui/modmod/modmod.xml:(caption):162
+msgid "X"
+msgstr "X"
+
+#: gui/modmod/modmod.xml:(caption):166
+msgid "Down"
+msgstr "下"
+
+#: gui/modmod/modmod.xml:(caption):174
+msgid "Quit"
+msgstr "中止"
+
+#: gui/modmod/modmod.xml:(caption):179
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: gui/modmod/modmod.xml:(caption):184
+msgid "Save Configuration"
+msgstr "設定の保存"
+
+#: gui/modmod/modmod.xml:(caption):189
+msgid "Start Mods"
+msgstr "MODの開始"
+
+#: gui/modmod/modmod.xml:(heading):100 gui/modmod/modmod.xml:(heading):141
+msgid "(Folder)"
+msgstr "（フォルダー）"
+
+#: gui/modmod/modmod.xml:(heading):103 gui/modmod/modmod.xml:(heading):144
+msgid "Mod Label"
+msgstr "MODラベル"
+
+#: gui/modmod/modmod.xml:(heading):106 gui/modmod/modmod.xml:(heading):147
+msgid "Mod Type"
+msgstr "MODの種類"
+
+#: gui/modmod/modmod.xml:(heading):109 gui/modmod/modmod.xml:(heading):150
+msgid "Dependencies"
+msgstr "依存性"
+
+#: gui/modmod/modmod.xml:(heading):112 gui/modmod/modmod.xml:(heading):153
+msgid "Website"
+msgstr "ウェブサイト"

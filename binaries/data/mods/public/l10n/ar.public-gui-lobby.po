@@ -1,0 +1,586 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# Houssem Mhamdi <houss.sword@gmail.com>, 2014
+# Rayan <nitro361@gmail.com>, 2015
+# Rayan <nitro361@gmail.com>, 2015
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2014
+# salama <salamacast@yahoo.com>, 2014
+# صفا الفليج <safaalfulaij@hotmail.com>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2015-07-21 23:21+0200\n"
+"PO-Revision-Date: 2015-07-22 08:42+0000\n"
+"Last-Translator: Adrián Chaves Fernández <adriyetichaves@gmail.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/wildfire-games/0ad/language/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: gui/lobby/lobby.js:13
+msgctxt "map"
+msgid "Skirmish"
+msgstr "مناوشة"
+
+#: gui/lobby/lobby.js:13
+msgctxt "map"
+msgid "Random"
+msgstr "عشوائيّة"
+
+#: gui/lobby/lobby.js:13
+msgid "Scenario"
+msgstr "سيناريو"
+
+#: gui/lobby/lobby.js:32
+msgctxt "map size"
+msgid "Any"
+msgstr "أيّ حجم"
+
+#: gui/lobby/lobby.js:40
+msgctxt "player number"
+msgid "Any"
+msgstr "أيّ عدد"
+
+#: gui/lobby/lobby.js:44
+msgctxt "map"
+msgid "Any"
+msgstr "أيّ خريطة"
+
+#: gui/lobby/lobby.js:288 gui/lobby/lobby.js:289 gui/lobby/lobby.js:290
+#: gui/lobby/lobby.js:291 gui/lobby/lobby.js:292 gui/lobby/lobby.js:293
+msgid "N/A"
+msgstr "غ/م"
+
+#: gui/lobby/lobby.js:318 gui/lobby/lobby.js:346
+#, javascript-format
+msgid "%(nick)s (%(rating)s)"
+msgstr "%(nick)s ‏(%(rating)s)"
+
+#: gui/lobby/lobby.js:329 gui/lobby/lobby.js:357
+#, javascript-format
+msgid "%(percentage)s%%"
+msgstr "%(percentage)s%%"
+
+#: gui/lobby/lobby.js:331 gui/lobby/lobby.js:359
+msgctxt "Used for an undefined winning rate"
+msgid "-"
+msgstr ""
+
+#: gui/lobby/lobby.js:519
+msgid "Busy"
+msgstr "مشغول"
+
+#: gui/lobby/lobby.js:524
+msgid "Away"
+msgstr "بعيد"
+
+#: gui/lobby/lobby.js:528
+msgid "Online"
+msgstr "متّصل"
+
+#: gui/lobby/lobby.js:532
+msgid "Offline"
+msgstr "غير متّصل"
+
+#: gui/lobby/lobby.js:537
+msgctxt "lobby presence"
+msgid "Unknown"
+msgstr "مجهولة"
+
+#: gui/lobby/lobby.js:586
+msgid "A randomly selected map."
+msgstr "خريطة محدّدة عشوائيًّا."
+
+#: gui/lobby/lobby.js:612
+msgid "Sorry, no description available."
+msgstr "آسفون، لا وصف متوفّر."
+
+#: gui/lobby/lobby.js:640
+#, javascript-format
+msgid "This game's address '%(ip)s' does not appear to be valid."
+msgstr "عنوان اللعبة '%(ip)s' هذا لا يبدو صالحًا."
+
+#: gui/lobby/lobby.js:723
+#, javascript-format
+msgid "%(nick)s has joined."
+msgstr "لقد انضمّ %(nick)s."
+
+#: gui/lobby/lobby.js:733
+#, javascript-format
+msgid "%(nick)s has left."
+msgstr "لقد غادر %(nick)s."
+
+#: gui/lobby/lobby.js:740
+#, javascript-format
+msgid "Invalid nickname: %(nick)s"
+msgstr "الاسم المستعار هذا غير صالح: %(nick)s"
+
+#: gui/lobby/lobby.js:747
+#, javascript-format
+msgid "%(oldnick)s is now known as %(newnick)s."
+msgstr "%(oldnick)s معروف الآن كَـ %(newnick)s."
+
+#: gui/lobby/lobby.js:875
+#, javascript-format
+msgid "We're sorry, the '%(cmd)s' command is not supported."
+msgstr "نحن آسفون، الأمر '%(cmd)s' غير مدعوم."
+
+#. Translation: IRC message prefix when the sender uses the /me command.
+#: gui/lobby/lobby.js:959
+#, javascript-format
+msgid "* %(sender)s"
+msgstr "* %(sender)s"
+
+#. Translation: IRC message issued using the ‘/me’ command.
+#: gui/lobby/lobby.js:961
+#, javascript-format
+msgid "%(sender)s %(action)s"
+msgstr "%(sender)s ‏%(action)s"
+
+#. Translation: IRC message prefix.
+#: gui/lobby/lobby.js:965 gui/lobby/lobby.js:976 gui/lobby/lobby.js:989
+#, javascript-format
+msgid "<%(sender)s>"
+msgstr "<%(sender)s>"
+
+#. Translation: IRC message.
+#: gui/lobby/lobby.js:967 gui/lobby/lobby.js:978 gui/lobby/lobby.js:991
+#, javascript-format
+msgid "%(sender)s %(message)s"
+msgstr "%(sender)s ‏%(message)s"
+
+#. Translation: IRC system message.
+#: gui/lobby/lobby.js:972
+#, javascript-format
+msgid "== %(message)s"
+msgstr "== %(message)s"
+
+#. Translation: Time as shown in the multiplayer lobby (when you enable it in
+#. the options page).
+#. For a list of symbols that you can use, see:
+#. https://sites.google.com/site/icuprojectuserguide/formatparse/datetime?pli=1
+#. #TOC-Date-Field-Symbol-Table
+#: gui/lobby/lobby.js:1013
+msgid "HH:mm"
+msgstr "HH:mm"
+
+#. Translation: Time prefix as shown in the multiplayer lobby (when you enable
+#. it in the options page).
+#: gui/lobby/lobby.js:1016
+#, javascript-format
+msgid "\\[%(time)s]"
+msgstr "\\[%(time)s]"
+
+#. Translation: IRC message format when there is a time prefix.
+#: gui/lobby/lobby.js:1019
+#, javascript-format
+msgid "%(time)s %(message)s"
+msgstr "%(time)s %(message)s"
+
+#: gui/lobby/lobby.js:1069
+msgid "Please do not spam. You have been blocked for thirty seconds."
+msgstr "فضلًا لا تنشر السّخام. لقد حُظرت لثلاثين ثانية."
+
+#: gui/lobby/prelobby.js:40
+msgid "Connecting..."
+msgstr "يتّصل..."
+
+#: gui/lobby/prelobby.js:62
+msgid "Registering..."
+msgstr "يسجّل..."
+
+#: gui/lobby/prelobby.js:99
+msgid "Please enter your username"
+msgstr "فضلًا أدخل اسم المستخدم"
+
+#: gui/lobby/prelobby.js:105
+msgid "Usernames can't contain [, ], unicode, whitespace, or commas"
+msgstr "لا يمكن أن تحوي أسماء المستخدمين [، أو ]، أو يونيكود، أو المسافات أو الفواصل"
+
+#: gui/lobby/prelobby.js:111
+msgid "Please enter your password"
+msgstr "فضلًا أدخل كلمة المرور"
+
+#: gui/lobby/prelobby.js:124
+msgid "Please enter your password again"
+msgstr "فضلًا أدخل كلمة المرور مجدّدًا"
+
+#: gui/lobby/prelobby.js:130
+msgid "Passwords do not match"
+msgstr "كلمات المرور لا تتطابق"
+
+#: gui/lobby/prelobby.js:136
+msgid "Please read the Terms of Service"
+msgstr "فضلًا اقرأ شروط الخدمة"
+
+#: gui/lobby/prelobby.js:142
+msgid "Please read the Terms of Use"
+msgstr "فضلًا اقرأ شروط الاستخدام"
+
+#: gui/lobby/prelobby.js:148
+msgid "Please agree to the Terms of Service and Terms of Use"
+msgstr "فضلًا وافق على شروط الخدمة والاستخدام"
+
+#: gui/lobby/prelobby.js:195
+msgid "Registered"
+msgstr "مسجّل"
+
+#: gui/lobby/prelobby.js:205
+msgid "Disconnected"
+msgstr "انقطع الاتّصال"
+
+#: gui/lobby/prelobby.js:246
+msgid "Register"
+msgstr "سجّل"
+
+#: gui/lobby/prelobby.js:251 gui/lobby/prelobby.xml:(caption):109
+msgid "Connect"
+msgstr "اتّصل"
+
+#: gui/lobby/prelobby.js:261 gui/lobby/prelobby.xml:(caption):78
+msgid "Terms of Service"
+msgstr "شروط الخدمة"
+
+#: gui/lobby/prelobby.js:270 gui/lobby/prelobby.xml:(caption):83
+msgid "Terms of Use"
+msgstr "شروط الاستخدام"
+
+#: gui/lobby/lobby.xml:(caption):14 gui/lobby/prelobby.xml:(caption):18
+msgid "Multiplayer Lobby"
+msgstr "ردهة اللاعبين"
+
+#: gui/lobby/lobby.xml:(caption):48 gui/lobby/lobby.xml:(caption):300
+msgid "Current Rank:"
+msgstr "الرّتبة الحاليّة:"
+
+#: gui/lobby/lobby.xml:(caption):52 gui/lobby/lobby.xml:(caption):304
+msgid "Highest Rating:"
+msgstr "أعلى تقييم:"
+
+#: gui/lobby/lobby.xml:(caption):56 gui/lobby/lobby.xml:(caption):308
+msgid "Total Games:"
+msgstr "مجموع المباريات:"
+
+#: gui/lobby/lobby.xml:(caption):60 gui/lobby/lobby.xml:(caption):312
+msgid "Wins:"
+msgstr "الانتصارات:"
+
+#: gui/lobby/lobby.xml:(caption):64 gui/lobby/lobby.xml:(caption):316
+msgid "Losses:"
+msgstr "الخسائر:"
+
+#: gui/lobby/lobby.xml:(caption):68 gui/lobby/lobby.xml:(caption):320
+msgid "Win Rate:"
+msgstr "معدّل الفوز:"
+
+#: gui/lobby/lobby.xml:(caption):77 gui/lobby/lobby.xml:(caption):248
+msgid "Leaderboard"
+msgstr "لوحة الصّدارة"
+
+#: gui/lobby/lobby.xml:(caption):85 gui/lobby/lobby.xml:(caption):283
+msgid "User Profile Lookup"
+msgstr "ابحث عن ملفّ شخصيّ لمستخدم"
+
+#: gui/lobby/lobby.xml:(caption):114
+msgid "Map Type:"
+msgstr "نوع الخريطة:"
+
+#: gui/lobby/lobby.xml:(caption):126
+msgid "Map Size:"
+msgstr "حجم الخريطة:"
+
+#: gui/lobby/lobby.xml:(caption):143
+msgid "Players:"
+msgstr "اللاعبون:"
+
+#. Join the game currently selected in the list.
+#: gui/lobby/lobby.xml:(caption):152
+msgid "Join Game"
+msgstr "انضمّ إلى اللعبة"
+
+#: gui/lobby/lobby.xml:(caption):158
+msgid "Host Game"
+msgstr "استضف لعبة"
+
+#: gui/lobby/lobby.xml:(caption):165
+msgid "Main Menu"
+msgstr "القائمة الرّئيسيّة"
+
+#: gui/lobby/lobby.xml:(caption):222
+msgid "Show full games"
+msgstr "أظهر كامل الألعاب"
+
+#: gui/lobby/lobby.xml:(caption):268 gui/lobby/lobby.xml:(caption):330
+msgid "Back"
+msgstr "ارجع"
+
+#: gui/lobby/lobby.xml:(caption):276
+msgid "Update"
+msgstr "حدّث"
+
+#: gui/lobby/lobby.xml:(caption):286
+msgid "Enter username:"
+msgstr "أدخل اسم المستخدم:"
+
+#: gui/lobby/lobby.xml:(caption):292
+msgid "View Profile"
+msgstr "اعرض الملفّ الشخصيّ"
+
+#: gui/lobby/lobby.xml:(caption):325
+msgid "Player not found."
+msgstr "لم يُعثر على اللاعب."
+
+#: gui/lobby/lobby.xml:(heading):25
+msgid "Status"
+msgstr "الحالة"
+
+#: gui/lobby/lobby.xml:(heading):28 gui/lobby/lobby.xml:(heading):179
+#: gui/lobby/lobby.xml:(heading):258
+msgid "Name"
+msgstr "الاسم"
+
+#: gui/lobby/lobby.xml:(heading):31 gui/lobby/lobby.xml:(heading):261
+msgid "Rating"
+msgstr "التّقييم"
+
+#: gui/lobby/lobby.xml:(heading):183
+msgid "Map Name"
+msgstr "اسم الخريطة"
+
+#: gui/lobby/lobby.xml:(heading):186
+msgctxt "map"
+msgid "Size"
+msgstr "الحجم"
+
+#: gui/lobby/lobby.xml:(heading):189
+msgctxt "map"
+msgid "Type"
+msgstr "النّوع"
+
+#: gui/lobby/lobby.xml:(heading):192
+msgid "Players"
+msgstr "اللاعبون"
+
+#: gui/lobby/lobby.xml:(heading):255
+msgid "Rank"
+msgstr "الرّتبة"
+
+#: gui/lobby/prelobby.xml:(caption):23
+msgid "Create a new account"
+msgstr "أنشئ حسابًا جديدًا"
+
+#: gui/lobby/prelobby.xml:(caption):27
+msgid "Login to an existing account"
+msgstr "لِج إلى حساب موجود"
+
+#: gui/lobby/prelobby.xml:(caption):33
+msgid "Connect to the game lobby"
+msgstr "اتّصل بردهة اللعب"
+
+#: gui/lobby/prelobby.xml:(caption):36 gui/lobby/prelobby.xml:(caption):63
+msgid "Login:"
+msgstr "لِج:"
+
+#: gui/lobby/prelobby.xml:(caption):44 gui/lobby/prelobby.xml:(caption):68
+msgid "Password:"
+msgstr "كلمة المرور:"
+
+#: gui/lobby/prelobby.xml:(caption):59
+msgid "Registration"
+msgstr "سجّل"
+
+#: gui/lobby/prelobby.xml:(caption):73
+msgid "Password again:"
+msgstr "كلمة المرور مجدّدًا:"
+
+#: gui/lobby/prelobby.xml:(caption):88
+msgid "I have read and agree to the Terms of Service and Terms of Use:"
+msgstr "لقد قرأت وأوافق على شروط الخدمة والاستخدام:"
+
+#: gui/lobby/prelobby.xml:(caption):97
+msgid "Cancel"
+msgstr "ألغِ"
+
+#: gui/lobby/Terms_of_Service.txt:1
+msgid "0 A.D. Empires Ascendant Multiplayer Lobby Terms of Service"
+msgstr "شروط خدمة ردهة الألعاب متعدّدة اللاعبين في «0م الامبراطوريّات المسيطرة»"
+
+#: gui/lobby/Terms_of_Service.txt:2 gui/lobby/Terms_of_Use.txt:2
+msgid "Definitions:"
+msgstr "التّعاريف:"
+
+#: gui/lobby/Terms_of_Service.txt:3 gui/lobby/Terms_of_Use.txt:3
+msgid ""
+" * The \"service\" is the 0 A.D. Empires Ascendant Multiplayer Lobby "
+"provided by Wildfire Games (WFG)."
+msgstr "* \"الخدمة\" هي ردهة الألعاب متعدّدة اللاعبين في «0م الامبراطوريّات المسيطرة» والتي تقدّمها «ألعاب الهشيم (WFG)»."
+
+#: gui/lobby/Terms_of_Service.txt:4 gui/lobby/Terms_of_Use.txt:4
+msgid " * \"You\" are the user of the service."
+msgstr " * \"أنت\" هو مستخدم الخدمة."
+
+#: gui/lobby/Terms_of_Service.txt:5
+msgid " * \"We\" are the collective of all Wildfire Games (WFG) team members."
+msgstr "* \"نحن\" هم جماعة أعضاء فريق «ألعاب الهشيم (WFG)»."
+
+#: gui/lobby/Terms_of_Service.txt:6
+msgid ""
+" * \"Rating\" refers to the process of analyzing various user statistics for"
+" the purpose of generating a single comprehensive score."
+msgstr "* \"التّقييم\" تشير إلى عمليّة تحليل مختلف إحصائيّات المستخدمين لأغراض توليد نتيجة واحدة شاملة."
+
+#: gui/lobby/Terms_of_Service.txt:7
+msgid " * \"Moderate\" refers to the process of enforcing usage policies."
+msgstr "* \"الاعتدال\" يشير إلى عمليّة فرض سياسات الاستخدام."
+
+#: gui/lobby/Terms_of_Service.txt:8
+msgid "By using the service you agree to:"
+msgstr "باستخدام الخدمة أنت توافق على:"
+
+#: gui/lobby/Terms_of_Service.txt:9
+msgid " 1. Follow all usage policies."
+msgstr " 1. اتّباع كلّ سياسات الاستخدام."
+
+#: gui/lobby/Terms_of_Service.txt:10
+msgid ""
+" 2. Allow user identifiable statistics to be gathered for the purposes of "
+"rating, user profiles, and community statistics."
+msgstr " 2. السّماح بجمع إحصائيّات المستخدم لأغراض التّقييم، وملفّات المستخدمين الشّخصيّة وإحصائيّات المجتمع."
+
+#: gui/lobby/Terms_of_Service.txt:11 gui/lobby/Terms_of_Use.txt:18
+msgid "We also reserve the right to:"
+msgstr "نحن نحتفظ بحقّ:"
+
+#: gui/lobby/Terms_of_Service.txt:12
+msgid " 1. Moderate the service."
+msgstr "1. الاعتدال في الخدمة."
+
+#: gui/lobby/Terms_of_Service.txt:13
+msgid " 2. Appoint others to moderate the service."
+msgstr "2. تعيين آخرين لاعتدال الخدمة."
+
+#: gui/lobby/Terms_of_Service.txt:14
+msgid ""
+" 3. Discontinue or interrupt service at any time with or without prior "
+"announcement."
+msgstr " 3. إيقاف أو قطع الخدمة في أيّ وقت مع أو دون إعلان مسبق."
+
+#: gui/lobby/Terms_of_Service.txt:15
+msgid " 4. Change the service at any time with or without announcement."
+msgstr " 4. تغيير الخدمة في أيّ وقت مع أو دون إعلان مسبق."
+
+#: gui/lobby/Terms_of_Service.txt:16
+msgid ""
+" 5. Delete any and all service data at any time with or without "
+"announcement."
+msgstr " 5. حذف أيّ من بيانات الخدمة أو كلّها في أيّ وقت مع أو دون إعلان مسبق."
+
+#: gui/lobby/Terms_of_Service.txt:17
+msgid ""
+" 6. Collect any or all user identifiable statistics at any time without "
+"consent for:"
+msgstr "6. جمع بعض أو كلّ إحصائيّات المستخدم في أيّ وقت دون الحصول على موافقة لِـ:"
+
+#: gui/lobby/Terms_of_Service.txt:18
+msgid ""
+"  a. Private analysis by Wildfire Games (WFG) team members and their "
+"affiliates."
+msgstr "أ. تحليل خاصّ عبر أعضاء فريق «ألعاب الهشيم (WFG)» والتّابعون له."
+
+#: gui/lobby/Terms_of_Service.txt:19
+msgid "  b. Anonymized public release by Wildfire Games (WFG) team members."
+msgstr "ب. نشر المصادر علنًا بشكل مجهول عبر أعضاء فريق «ألعاب الهشيم (WFG)»."
+
+#: gui/lobby/Terms_of_Service.txt:20
+msgid ""
+" 7. Change this document in any way; at any time; on the condition that the "
+"user of the service is given adequate notice of the change (the definition "
+"of adequate notice will be determined at the time by a panel of Wildfire "
+"Games (WFG) team members)."
+msgstr "7. تغيير هذه الوثيقة بأيّ شكل من الأشكال، وفي أيّ وقت، على شرط أن يُمنح مستخدم الخدمة المهلة الكافية للتّغيير (ستُحدّد المهلة الكافية في ذلك الوقت عبر لجنة من أعضاء فريق «ألعاب الهشيم (WFG)»)."
+
+#: gui/lobby/Terms_of_Use.txt:1
+msgid "0 A.D. Empires Ascendant Multiplayer Lobby Terms of Use"
+msgstr "شروط استخدام ردهة الألعاب متعدّدة اللاعبين في «0م الامبراطوريّات المسيطرة»"
+
+#: gui/lobby/Terms_of_Use.txt:5
+msgid ""
+" * \"Impersonate\" refers to the action in which you attempt to exploit "
+"another's identity for your own purposes."
+msgstr " * \"الانتحال\" يشير إلى إجراءك محاولة لاستغلال معرّف آخر لمصالحك الخاصّة."
+
+#: gui/lobby/Terms_of_Use.txt:6
+msgid ""
+" * \"Spam\" refers to irrelevant or inappropriate messages sent to a large "
+"number of recipients."
+msgstr "* \"السّخام\" يشير إلى الرّسائل اللاصلة لها أو اللامناسبة لها والمُرسلة إلى عدد كبير من الأشخاص."
+
+#: gui/lobby/Terms_of_Use.txt:7
+msgid " * \"Rating\" refers to the per-user comprehensive score."
+msgstr "* \"التّقييم\" يشير إلى النّتيجة الشّاملة لكلّ مستخدم."
+
+#: gui/lobby/Terms_of_Use.txt:8
+msgid ""
+" * \"Ranked games\" refers to games in which rating changing statistics are "
+"tracked."
+msgstr "* \"الألعاب المصنّفة\" تشير إلى الألعاب التي يُتعقّب فيها تغيّر إحصائيّات التّقييم."
+
+#: gui/lobby/Terms_of_Use.txt:9
+msgid "You agree to:"
+msgstr "أنت توافق على:"
+
+#: gui/lobby/Terms_of_Use.txt:10
+msgid ""
+" 1. Only create one account per unique user on the service unless authorized"
+" by a Wildfire Games (WFG) team member."
+msgstr "1. إنشاء حساب واحد فقط لكلّ مستخدم في الخدمة ما لم يخوّل لك ذلك أحد أعضاء فريق «ألعاب الهشيم (WFG)»."
+
+#: gui/lobby/Terms_of_Use.txt:11
+msgid ""
+" 2. Not post profane statements, rude humor, pornographic content, or "
+"discriminatory comments on the service."
+msgstr "2. عدم نشر البيانات المدنسة أو السماجات أو المحتوى الإباحي أو التعليقات التمييزية في الخدمة."
+
+#: gui/lobby/Terms_of_Use.txt:12
+msgid " 3. Not purposefully demean the worth of others using the service."
+msgstr "3. عدم تحقير قيم الآخرين المستخدمين للخدمة عن قصد."
+
+#: gui/lobby/Terms_of_Use.txt:13
+msgid ""
+" 4. Not use the service to promote specific goods, services, or products."
+msgstr " 4. عدم استخدام الخدمة لترويج بضائع، أو خدمات أو منتجات محدّدة."
+
+#: gui/lobby/Terms_of_Use.txt:14
+msgid " 5. Not impersonate other users of the service."
+msgstr "5. عدم انتحال شخصيّة الآخرين في الخدمة."
+
+#: gui/lobby/Terms_of_Use.txt:15
+msgid " 6. Not spam the service."
+msgstr " 6. عدم نشر السّخام في الخدمة."
+
+#: gui/lobby/Terms_of_Use.txt:16
+msgid ""
+" 7. Not attempt to artificially adjust any user of the service's rating or "
+"any of the statistics which impact it. (Examples of this are, but are not "
+"limited to: cheating in ranked games, reverse engineering the service, and "
+"taking advantage of other users of the service.)"
+msgstr "7. عدم محاولة ضبط مصطنع أي مستخدم لتقييم الخدمة أو أي من الإحصاءات التي تؤثر عليه. (ومن الأمثلة على ذلك، ولكن لا تقتصر على: الغش في الألعاب في المرتبة، والهندسة العكسية للخدمة، والاستفادة من غيرهم من مستخدمي الخدمة.)"
+
+#: gui/lobby/Terms_of_Use.txt:17
+msgid ""
+" 8. Allow yourself to be removed from the service if at any time a moderator"
+" determines your behavior is not consistent with these rules."
+msgstr " 8. السّماح لنفسك بأن تُزال من الخدمة في أيّ وقت يرى فيه المدير أنّ سلوكك ليس ملائمًا مع هذه القوانين."
+
+#: gui/lobby/Terms_of_Use.txt:19
+msgid ""
+" 1. Change this document in any way; at any time; on the condition that the "
+"user of the service is given adequate notice of the change (the definition "
+"of adequate notice will be determined at the time by a panel of Wildfire "
+"Games (WFG) team members)."
+msgstr "1 تغيير هذه الوثيقة بأي شكل من الأشكال؛ في أي وقت؛ على شرط أن المستخدم للخدمة وتعطى مهلة كافية للتغيير (سيتم تحديد تعريف مهلة كافية في ذلك الوقت من قبل لجنة من (games Wildfire (WFG أعضاء الفريق)."

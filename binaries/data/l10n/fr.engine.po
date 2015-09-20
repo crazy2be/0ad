@@ -1,0 +1,198 @@
+# Translation template for Pyrogenesis.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the Pyrogenesis project.
+# 
+# Translators:
+# Arthur Jaouen <arthur.jaouen@gmail.com>, 2015
+# Cajetan Bouchard <cajetan.bouchard@gmail.com>, 2014
+# gZen <gzen.tb@free.fr>, 2014
+# Nicolas Auvray <na.itms76@gmail.com>, 2013-2015
+# Olivier <olivier.torrens@gmail.com>, 2013
+# PRIME Gildas <prime.gildas@gmail.com>, 2013
+# Ross1396, 2014
+# Simon Georges <simon.georges@makina-corpus.com>, 2014
+# Tonton <tontonloul@hotmail.fr>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2015-01-24 20:15+0100\n"
+"PO-Revision-Date: 2015-02-12 11:23+0000\n"
+"Last-Translator: Nicolas Auvray <na.itms76@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/0ad/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Translation: First item is a date and time, item between parenthesis is the
+#. Subversion revision number of the current build.
+#: gui/scripting/ScriptFunctions.cpp:767
+#, c-format
+msgid "%s (custom build)"
+msgstr "%s (custom build)"
+
+#. Translation: First item is a date and time, item between parenthesis is the
+#. Subversion revision number of the current build.
+#: gui/scripting/ScriptFunctions.cpp:772
+#, c-format
+msgid "%s (%ls)"
+msgstr "%s (%ls)"
+
+#: gui/scripting/ScriptFunctions.cpp:793
+msgid "custom build"
+msgstr "custom build"
+
+#: i18n/L10n.cpp:276
+msgid "Long strings"
+msgstr "Chaînes longues"
+
+#: lobby/XmppClient.cpp:221
+msgid "Authentication failed"
+msgstr "L'identification a échoué"
+
+#: lobby/XmppClient.cpp:455
+msgid "Registration not acceptable"
+msgstr "Inscription non acceptable"
+
+#: lobby/XmppClient.cpp:456
+msgid "Registration conflict"
+msgstr "Conflit d'inscription"
+
+#: lobby/XmppClient.cpp:457
+msgid "Registration not authorized"
+msgstr "Inscription non autorisée"
+
+#: lobby/XmppClient.cpp:458
+msgid "Registration bad request"
+msgstr "Mauvaise requête d'inscription"
+
+#: lobby/XmppClient.cpp:459
+msgid "Registration forbidden"
+msgstr "Inscription interdite"
+
+#: lobby/XmppClient.cpp:460 lobby/XmppClient.cpp:997
+msgid "Registration required"
+msgstr "Inscription nécessaire"
+
+#: lobby/XmppClient.cpp:461
+msgid "Registration unexpected request"
+msgstr "Requête d'inscription inattendue"
+
+#: lobby/XmppClient.cpp:462
+msgid "Registration not allowed"
+msgstr "Inscription interdite"
+
+#: lobby/XmppClient.cpp:463
+msgid "Registration unknown error"
+msgstr "Erreur inconnue lors de l'inscription"
+
+#: lobby/XmppClient.cpp:736
+msgid "unknown subtype (see logs)"
+msgstr "sous-type inconnu (voir les journaux d'erreur)"
+
+#: lobby/XmppClient.cpp:982
+msgid "Bad request"
+msgstr "Mauvaise requête"
+
+#: lobby/XmppClient.cpp:983
+msgid "Player name already in use"
+msgstr "Nom de joueur déjà utilisé"
+
+#: lobby/XmppClient.cpp:984
+msgid "Feature not implemented"
+msgstr "Fonctionnalité non implémentée"
+
+#: lobby/XmppClient.cpp:985
+msgid "Forbidden"
+msgstr "Interdit"
+
+#: lobby/XmppClient.cpp:986
+msgid "Recipient or server gone"
+msgstr "Destinataire ou serveur déconnecté"
+
+#: lobby/XmppClient.cpp:987
+msgid "Internal server error"
+msgstr "Erreur interne du serveur"
+
+#: lobby/XmppClient.cpp:988
+msgid "Item not found"
+msgstr "Élément non trouvé"
+
+#: lobby/XmppClient.cpp:989
+msgid "Jid malformed"
+msgstr "Jid malformé"
+
+#: lobby/XmppClient.cpp:990
+msgid "Not acceptable"
+msgstr "Non acceptable"
+
+#: lobby/XmppClient.cpp:991
+msgid "Not allowed"
+msgstr "Interdit"
+
+#: lobby/XmppClient.cpp:992
+msgid "Not authorized"
+msgstr "Non autorisé"
+
+#: lobby/XmppClient.cpp:993
+msgid "Not modified"
+msgstr "Non modifié"
+
+#: lobby/XmppClient.cpp:994
+msgid "Payment required"
+msgstr "Paiement requis"
+
+#: lobby/XmppClient.cpp:995
+msgid "Recipient unavailable"
+msgstr "Destinataire indisponible"
+
+#: lobby/XmppClient.cpp:996
+msgid "Redirect"
+msgstr "Redirection"
+
+#: lobby/XmppClient.cpp:998
+msgid "Remote server not found"
+msgstr "Serveur distant introuvable"
+
+#: lobby/XmppClient.cpp:999
+msgid "Remote server timeout"
+msgstr "Le serveur distant met trop de temps à répondre"
+
+#: lobby/XmppClient.cpp:1000
+msgid "Resource constraint"
+msgstr "Contrainte de ressource"
+
+#: lobby/XmppClient.cpp:1001
+msgid "Service unavailable"
+msgstr "Service indisponible"
+
+#: lobby/XmppClient.cpp:1002
+msgid "Subscription Required"
+msgstr "Souscription requise"
+
+#: lobby/XmppClient.cpp:1003
+msgid "Undefined condition"
+msgstr "Condition non définie"
+
+#: lobby/XmppClient.cpp:1004
+msgid "Unexpected request"
+msgstr "Requête inattendue"
+
+#: lobby/XmppClient.cpp:1005
+msgid "Unknown sender"
+msgstr "Expéditeur inconnu"
+
+#: lobby/XmppClient.cpp:1007
+msgid "Error undefined"
+msgstr "Erreur indéfinie"
+
+#: ps/SavedGame.cpp:131
+#, c-format
+msgid "Saved game to '%s'"
+msgstr "Partie sauvegardée dans '%s'"
+
+#: ps/Util.cpp:244 ps/Util.cpp:377
+#, c-format
+msgid "Screenshot written to '%s'"
+msgstr "Capture d'écran enregistrée sous '%s'"

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Helmet-Illyrian-NoCrest">
+      <mesh>props/helmet/hele_helmet_c.dae</mesh>
+      <textures>
+        <texture file="props/helmet/hele_c1.dds" name="baseTex"/>
+        <texture file="props/helmet/hele_a-h_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Helmet-Attic-NoCrest">
+      <mesh>props/helmet/hele_helmet_i.dae</mesh>
+      <textures>
+        <texture file="props/helmet/hele_h1.dds" name="baseTex"/>
+        <texture file="props/helmet/hele_a-h_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Helmet-Chalcidean">
+      <mesh>props/helmet/mace_helmet_n.dae</mesh>
+      <textures>
+        <texture file="props/helmet/mace-g.dds" name="baseTex"/>
+        <texture file="props/helmet/hele_a-h_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_spec_helmet.xml</material>
+</actor>

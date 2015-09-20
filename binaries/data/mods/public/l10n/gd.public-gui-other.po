@@ -1,0 +1,2323 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# GunChleoc, 2014-2015
+# GunChleoc, 2014
+# GunChleoc, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2015-07-21 23:21+0200\n"
+"PO-Revision-Date: 2015-07-23 07:50+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Gaelic, Scottish (http://www.transifex.com/wildfire-games/0ad/language/gd/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gd\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
+
+#: gui/civinfo/civinfo.js:89
+#, javascript-format
+msgid "%(civilization)s Gameplay"
+msgstr "Cluiche %(civilization)s"
+
+#: gui/civinfo/civinfo.js:92
+msgid "Civilization Bonus"
+msgid_plural "Civilization Bonuses"
+msgstr[0] "Buannachd an t-sìobhaltais"
+msgstr[1] "Buannachdan an t-sìobhaltais"
+msgstr[2] "Buannachdan an t-sìobhaltais"
+msgstr[3] "Buannachdan an t-sìobhaltais"
+
+#: gui/civinfo/civinfo.js:97
+msgid "Team Bonus"
+msgid_plural "Team Bonuses"
+msgstr[0] "Buannachd an sgioba"
+msgstr[1] "Buannachdan an sgioba"
+msgstr[2] "Buannachdan an sgioba"
+msgstr[3] "Buannachdan an sgioba"
+
+#: gui/civinfo/civinfo.js:106
+msgid "Special Technologies"
+msgstr "Teicneolasan sònraichte"
+
+#: gui/civinfo/civinfo.js:115
+msgid "Special Building"
+msgid_plural "Special Buildings"
+msgstr[0] "Togalach sònraichte"
+msgstr[1] "Togalaichean sònraichte"
+msgstr[2] "Togalaichean sònraichte"
+msgstr[3] "Togalaichean sònraichte"
+
+#: gui/civinfo/civinfo.js:124 gui/summary/layout.js:54
+msgid "Heroes"
+msgstr "Curaidhean"
+
+#: gui/civinfo/civinfo.js:138
+#, javascript-format
+msgid "History of the %(civilization)s"
+msgstr "An eachdraidh aig %(civilization)s"
+
+#: gui/common/functions_global_object.js:74
+#, javascript-format
+msgid ""
+"Opening %(url)s\n"
+" in default web browser. Please wait...."
+msgstr "A' fosgladh %(url)s\n sa bhrabhsair-lìn bhunaiteach. Fuirich ort...."
+
+#: gui/common/functions_global_object.js:74
+msgid "Opening page"
+msgstr "A' fosgladh duilleige"
+
+#: gui/common/functions_global_object.js:85
+#, javascript-format
+msgid "FPS: %(fps)4s"
+msgstr "FPS: %(fps)4s"
+
+#: gui/common/functions_global_object.js:102
+#, javascript-format
+msgid "%(time)s (%(speed)sx)"
+msgstr "%(time)s (%(speed)sx)"
+
+#: gui/common/functions_global_object.js:119
+#, javascript-format
+msgctxt "ceasefire"
+msgid "Time remaining until ceasefire is over: %(time)s."
+msgstr "Falbhaidh an ùine air an fhois-losgaidh an ceann %(time)s."
+
+#: gui/common/functions_utility.js:191
+msgid "mm:ss"
+msgstr "mm:ss"
+
+#: gui/common/functions_utility.js:193
+msgid "HH:mm:ss"
+msgstr "HH:mm:ss"
+
+#: gui/common/functions_utility_error.js:22
+msgid "Loading Aborted"
+msgstr "Chaidh sgur dhen luchdadh"
+
+#: gui/common/functions_utility_loadsave.js:8
+msgid "yyyy-MM-dd HH:mm:ss"
+msgstr "yyyy-MM-dd HH:mm:ss"
+
+#: gui/common/functions_utility_loadsave.js:9
+#, javascript-format
+msgid "\\[%(date)s]"
+msgstr "\\[%(date)s]"
+
+#: gui/common/functions_utility_loadsave.js:18
+#, javascript-format
+msgid "%(dateString)s %(map)s - %(description)s"
+msgstr "%(dateString)s %(map)s - %(description)s"
+
+#: gui/common/functions_utility_loadsave.js:20
+#, javascript-format
+msgid "%(dateString)s %(map)s"
+msgstr "%(dateString)s %(map)s"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:4
+msgctxt "firstWord"
+msgid "Food"
+msgstr "Biadh"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:6
+msgctxt "firstWord"
+msgid "Meat"
+msgstr "Feòil"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:8
+msgctxt "firstWord"
+msgid "Metal"
+msgstr "Meatailt"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:10
+msgctxt "firstWord"
+msgid "Ore"
+msgstr "Clach-mheatailt"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:12
+msgctxt "firstWord"
+msgid "Rock"
+msgstr "Clach"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:14
+msgctxt "firstWord"
+msgid "Ruins"
+msgstr "Làrach"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:16
+msgctxt "firstWord"
+msgid "Stone"
+msgstr "Clach"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:18
+msgctxt "firstWord"
+msgid "Treasure"
+msgstr "Ulaidh"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:20
+msgctxt "firstWord"
+msgid "Tree"
+msgstr "Craobh"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:22
+msgctxt "firstWord"
+msgid "Wood"
+msgstr "Fiodh"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:24
+msgctxt "firstWord"
+msgid "Fruit"
+msgstr "Meas"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:26
+msgctxt "firstWord"
+msgid "Grain"
+msgstr "Gràn"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:28
+msgctxt "firstWord"
+msgid "Fish"
+msgstr "Iasg"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:32
+msgctxt "withinSentence"
+msgid "Food"
+msgstr "Biadh"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:34
+msgctxt "withinSentence"
+msgid "Meat"
+msgstr "Feòil"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:36
+msgctxt "withinSentence"
+msgid "Metal"
+msgstr "Meatailt"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:38
+msgctxt "withinSentence"
+msgid "Ore"
+msgstr "Clach-mheatailt"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:40
+msgctxt "withinSentence"
+msgid "Rock"
+msgstr "Clach"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:42
+msgctxt "withinSentence"
+msgid "Ruins"
+msgstr "Làrach"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:44
+msgctxt "withinSentence"
+msgid "Stone"
+msgstr "Clach"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:46
+msgctxt "withinSentence"
+msgid "Treasure"
+msgstr "Ulaidh"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:48
+msgctxt "withinSentence"
+msgid "Tree"
+msgstr "Craobh"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:50
+msgctxt "withinSentence"
+msgid "Wood"
+msgstr "Fiodh"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:52
+msgctxt "withinSentence"
+msgid "Fruit"
+msgstr "Meas"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:54
+msgctxt "withinSentence"
+msgid "Grain"
+msgstr "Gràn"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:56
+msgctxt "withinSentence"
+msgid "Fish"
+msgstr "Iasg"
+
+#: gui/common/network.js:6
+msgid "Unknown reason"
+msgstr "Chan eil fhios dè as adhbhar"
+
+#: gui/common/network.js:7
+msgid "Unexpected shutdown"
+msgstr "Dùnadh sìos gun dùil"
+
+#: gui/common/network.js:8
+msgid "Incorrect network protocol version"
+msgstr "Chan eil tionndadh a' phròtacail lìonraidh mar bu chòir"
+
+#: gui/common/network.js:9
+msgid "Game has already started"
+msgstr "Chaidh an geama a thòiseachadh mar-thà"
+
+#: gui/common/network.js:10
+#, javascript-format
+msgid "\\[Invalid value %(id)s]"
+msgstr "\\[Luach mì-dhligheach %(id)s]"
+
+#: gui/common/network.js:19
+msgid "Lost connection to the server."
+msgstr "Chaidh an ceangal dhan fhrithealaiche a bhriseadh."
+
+#: gui/common/network.js:19
+#, javascript-format
+msgid "Reason: %(reason)s."
+msgstr "Adhbhar: %(reason)s."
+
+#: gui/common/network.js:20
+msgid "Disconnected"
+msgstr "Air a dhì-cheangal"
+
+#: gui/common/tooltips.js:27 gui/common/tooltips.js:84
+#: gui/common/tooltips.js:116
+msgid "(None)"
+msgstr "(Chan eil gin)"
+
+#: gui/common/tooltips.js:31 gui/common/tooltips.js:36
+#: gui/common/tooltips.js:41 gui/common/tooltips.js:120
+#: gui/common/tooltips.js:125 gui/common/tooltips.js:130
+#, javascript-format
+msgid "%(damage)s %(damageType)s"
+msgstr "%(damage)s %(damageType)s"
+
+#: gui/common/tooltips.js:33 gui/common/tooltips.js:91
+#: gui/common/tooltips.js:122
+msgid "Hack"
+msgstr "Spealgadh"
+
+#: gui/common/tooltips.js:38 gui/common/tooltips.js:97
+#: gui/common/tooltips.js:127
+msgid "Pierce"
+msgstr "Biorach"
+
+#: gui/common/tooltips.js:43 gui/common/tooltips.js:103
+#: gui/common/tooltips.js:132
+msgid "Crush"
+msgstr "Brùilleadh"
+
+#: gui/common/tooltips.js:46 gui/common/tooltips.js:109
+#: gui/common/tooltips.js:135 gui/common/tooltips.js:400
+#: gui/common/tooltips.js:426 gui/common/tooltips.js:494
+msgid ", "
+msgstr ", "
+
+#: gui/common/tooltips.js:52
+#, javascript-format
+msgid "%(time)s %(second)s"
+msgstr "%(time)s %(second)s"
+
+#: gui/common/tooltips.js:54 gui/common/tooltips.js:423
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "diog"
+msgstr[1] "dhiog"
+msgstr[2] "diogan"
+msgstr[3] "diog"
+
+#: gui/common/tooltips.js:61
+#, javascript-format
+msgid "%(arrowcount)s %(arrow)s"
+msgstr "%(arrowcount)s %(arrow)s"
+
+#: gui/common/tooltips.js:63
+msgid "arrow"
+msgid_plural "arrows"
+msgstr[0] "saighead"
+msgstr[1] "shaighead"
+msgstr[2] "saighdean"
+msgstr[3] "saighead"
+
+#: gui/common/tooltips.js:65
+#, javascript-format
+msgid "%(arrowString)s / %(timeString)s"
+msgstr "%(arrowString)s / %(timeString)s"
+
+#: gui/common/tooltips.js:80
+msgid "Armor:"
+msgstr "Armachd:"
+
+#: gui/common/tooltips.js:82 gui/common/tooltips.js:107
+#: gui/common/tooltips.js:167 gui/structree/draw.js:260
+#: gui/structree/draw.js:285
+#, javascript-format
+msgid "%(label)s %(details)s"
+msgstr "%(label)s %(details)s"
+
+#: gui/common/tooltips.js:89 gui/common/tooltips.js:95
+#: gui/common/tooltips.js:101
+#, javascript-format
+msgid "%(damage)s %(damageType)s %(armorPercentage)s"
+msgstr "%(damage)s %(damageType)s %(armorPercentage)s"
+
+#: gui/common/tooltips.js:92 gui/common/tooltips.js:98
+#: gui/common/tooltips.js:104
+#, javascript-format
+msgid "(%(armorPercentage)s)"
+msgstr "(%(armorPercentage)s)"
+
+#: gui/common/tooltips.js:140
+msgid "Charge Attack:"
+msgstr "Ionnsaigh cruinn-leuma:"
+
+#: gui/common/tooltips.js:141
+msgid "Melee Attack:"
+msgstr "Ionnsaigh dhlùth:"
+
+#: gui/common/tooltips.js:142
+msgid "Ranged Attack:"
+msgstr "Ionnsaigh astair:"
+
+#: gui/common/tooltips.js:143
+msgid "Capture Attack:"
+msgstr "Ionnsaigh glacaidh:"
+
+#: gui/common/tooltips.js:146
+msgid "Attack:"
+msgstr "Ionnsaigh:"
+
+#: gui/common/tooltips.js:156
+msgid "Interval:"
+msgstr "Eadaramh:"
+
+#: gui/common/tooltips.js:158 gui/common/tooltips.js:421
+msgid "Rate:"
+msgstr "Reat:"
+
+#: gui/common/tooltips.js:175 gui/common/tooltips.js:184
+#, javascript-format
+msgid "%(attackLabel)s %(details)s, %(rate)s"
+msgstr "%(attackLabel)s %(details)s, %(rate)s"
+
+#: gui/common/tooltips.js:194 gui/common/tooltips.js:416
+msgid "Range:"
+msgstr "Astar:"
+
+#: gui/common/tooltips.js:196 gui/common/tooltips.js:418
+msgid "meters"
+msgstr "meatair"
+
+#: gui/common/tooltips.js:199
+#, javascript-format
+msgid ""
+"%(attackLabel)s %(details)s, %(rangeLabel)s %(range)s %(meters)s "
+"(%(relative)s), %(rate)s"
+msgstr "%(attackLabel)s %(details)s, %(rangeLabel)s %(range)s %(meters)s (%(relative)s), %(rate)s"
+
+#: gui/common/tooltips.js:209
+#, javascript-format
+msgid ""
+"%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(range)s %(meters)s, "
+"%(rate)s"
+msgstr "%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(range)s %(meters)s, %(rate)s"
+
+#: gui/common/tooltips.js:259 gui/common/tooltips.js:260
+#: gui/common/tooltips.js:261 gui/common/tooltips.js:262
+#: gui/common/tooltips.js:263 gui/common/tooltips.js:264
+#: gui/common/tooltips.js:380
+#, javascript-format
+msgid "%(component)s %(cost)s"
+msgstr "%(component)s %(cost)s"
+
+#. Translation: This string is part of the resources cost string on
+#. the tooltip for wall structures.
+#: gui/common/tooltips.js:318
+#, javascript-format
+msgid "%(resourceIcon)s %(minimum)s to %(resourceIcon)s %(maximum)s"
+msgstr "%(resourceIcon)s %(minimum)s gu %(resourceIcon)s %(maximum)s"
+
+#: gui/common/tooltips.js:349
+#, javascript-format
+msgid "Walls:  %(costs)s"
+msgstr "Ballachan:  %(costs)s"
+
+#: gui/common/tooltips.js:350
+#, javascript-format
+msgid "Towers:  %(costs)s"
+msgstr "Tùir:  %(costs)s"
+
+#: gui/common/tooltips.js:366
+#, javascript-format
+msgid "%(label)s %(populationBonus)s"
+msgstr "%(label)s %(populationBonus)s"
+
+#: gui/common/tooltips.js:367
+msgid "Population Bonus:"
+msgstr "Buannachd sluaigh:"
+
+#: gui/common/tooltips.js:385
+msgid "Insufficient resources:"
+msgstr "Tha stòras a dhìth:"
+
+#: gui/common/tooltips.js:393
+msgid "Speed:"
+msgstr "Luaths:"
+
+#: gui/common/tooltips.js:396 gui/common/tooltips.js:398
+#, javascript-format
+msgid "%(speed)s %(movementType)s"
+msgstr "%(speed)s %(movementType)s"
+
+#: gui/common/tooltips.js:396
+msgid "Walk"
+msgstr "Coisich"
+
+#: gui/common/tooltips.js:398
+msgid "Run"
+msgstr "Ruith"
+
+#: gui/common/tooltips.js:400
+#, javascript-format
+msgid "%(label)s %(speeds)s"
+msgstr "%(label)s %(speeds)s"
+
+#: gui/common/tooltips.js:409 gui/common/tooltips.js:415
+#: gui/common/tooltips.js:420
+#, javascript-format
+msgid "%(label)s %(val)s %(unit)s"
+msgstr "%(label)s %(val)s %(unit)s"
+
+#: gui/common/tooltips.js:410
+msgid "Heal:"
+msgstr "Slànachadh:"
+
+#. Translation: Short for Health Points (that are healed in one healing
+#. action)
+#: gui/common/tooltips.js:413
+msgid "HP"
+msgstr "PB"
+
+#: gui/common/tooltips.js:436
+#, javascript-format
+msgid "%(auralabel)s %(aurainfo)s"
+msgstr "%(auralabel)s %(aurainfo)s"
+
+#: gui/common/tooltips.js:437
+#, javascript-format
+msgid "%(auraname)s:"
+msgstr "%(auraname)s:"
+
+#: gui/common/tooltips.js:450
+#, javascript-format
+msgid "%(specificName)s (%(genericName)s)"
+msgstr "%(specificName)s (%(genericName)s)"
+
+#: gui/common/tooltips.js:460
+msgid "???"
+msgstr "???"
+
+#: gui/common/tooltips.js:490
+msgid "Classes:"
+msgstr "Clasaichean:"
+
+#: gui/locale/locale_advanced.js:22 gui/locale/locale_advanced.js:76
+msgctxt "localeCountry"
+msgid "None"
+msgstr "—"
+
+#: gui/locale/locale_advanced.js:91
+msgid "<invalid>"
+msgstr "<invalid>"
+
+#: gui/msgbox/msgbox.js:40 gui/pregame/mainmenu.js:287
+#: gui/savedgames/load.js:46 gui/savedgames/load.js:108
+#: gui/savedgames/save.js:59 gui/savedgames/save.js:89
+msgid "Yes"
+msgstr "Tha"
+
+#: gui/msgbox/msgbox.js:40 gui/pregame/mainmenu.js:287
+#: gui/savedgames/load.js:46 gui/savedgames/load.js:108
+#: gui/savedgames/save.js:59 gui/savedgames/save.js:89
+msgid "No"
+msgstr "Chan eil"
+
+#: gui/msgbox/msgbox.js:44 gui/pregame/mainmenu.js:165
+#: gui/splashscreen/splashscreen.xml:(caption):28
+msgid "OK"
+msgstr "Ceart ma-thà"
+
+#: gui/msgbox/msgbox.js:48
+msgid "Retry"
+msgstr "Feuch ris a-rithist"
+
+#: gui/msgbox/msgbox.js:48
+msgid "Ignore"
+msgstr "Leig seachad"
+
+#: gui/msgbox/msgbox.js:48
+msgid "Abort"
+msgstr "Sguir dheth"
+
+#: gui/options/options.js:9
+msgid "Windowed Mode"
+msgstr "Am modh uinneagach"
+
+#: gui/options/options.js:9
+msgid "Start 0 A.D. in a window"
+msgstr "Tòisich 0 A.D. ann an uinneag"
+
+#: gui/options/options.js:10
+msgid "Background Pause"
+msgstr "'Na stad sa chùlaibh"
+
+#: gui/options/options.js:10
+msgid "Pause single player games when window loses focus"
+msgstr "Cuir geamannan aon-chluicheadair 'nan stad mur eil fòcas air an uinneag"
+
+#: gui/options/options.js:11
+msgid "Disable Welcome Screen"
+msgstr "Gun sgrìn fàilteachaidh"
+
+#: gui/options/options.js:11
+msgid ""
+"If you disable this screen completely, you may miss important announcements.\n"
+"You can still launch it using the main menu."
+msgstr "Ma chuireas tu an sgrìn seo à comas gu tur, dh'fhaoidte gun caill thu brathan cudromach.\n'S urrainn dhut a thòiseachadh fhathast sa phrìomh chlàr-taice"
+
+#: gui/options/options.js:12
+msgid "Detailed Tooltips"
+msgstr "Gliocasan-sgrìn mionaideach"
+
+#: gui/options/options.js:12
+msgid ""
+"Show detailed tooltips for trainable units in unit-producing buildings."
+msgstr "Seall gliocasan-sgrìn mionaideach airson aonadan a ghabhas trèanadh ann an togalach a nì aonadan."
+
+#: gui/options/options.js:13
+msgid "FPS Overlay"
+msgstr "Nochd FPS"
+
+#: gui/options/options.js:13
+msgid "Show frames per second in top right corner."
+msgstr "Seall na frèaman gach diog san oisean deas air a' bharr."
+
+#: gui/options/options.js:14
+msgid "Realtime Overlay"
+msgstr "Nochd am fìor-àm"
+
+#: gui/options/options.js:14
+msgid "Show current system time in top right corner."
+msgstr "Seall àm làithreach an t-siostaim san oisean deas air a' bharr."
+
+#: gui/options/options.js:15
+msgid "Gametime Overlay"
+msgstr "Nochd àm a' gheama"
+
+#: gui/options/options.js:15
+msgid "Show current simulation time in top right corner."
+msgstr "Seall àm làithreach am broinn a' gheama san oisean deas air a' bharr."
+
+#: gui/options/options.js:16
+msgid "Ceasefire Time Overlay"
+msgstr "Nochd ùine na foise-losgaidh "
+
+#: gui/options/options.js:16
+msgid "Always show the remaining ceasefire time."
+msgstr "Seall an ùine a tha air fhàgail air an fhois-losgaidh an-còmhnaidh."
+
+#: gui/options/options.js:17
+msgid "Persist match settings"
+msgstr "Sàbhail roghainnean a’ mhaids"
+
+#: gui/options/options.js:17
+msgid ""
+"Save and restore match settings for quick reuse when hosting another game"
+msgstr "Sàbhail roghainnean a’ mhaids ach an gabh iad aiseag gu luath nuair a nì mi òstadh air geama eile"
+
+#: gui/options/options.js:21
+msgid "Prefer GLSL"
+msgstr "Feuch GLSL"
+
+#: gui/options/options.js:21
+msgid "Use OpenGL 2.0 shaders (recommended)"
+msgstr "Cleachd sgàileadairean OpenGL 2.0 (mholamaid seo)"
+
+#: gui/options/options.js:22
+msgid "Post Processing"
+msgstr "Giullachd an dèidh làimh"
+
+#: gui/options/options.js:22
+msgid "Use screen-space postprocessing filters (HDR, Bloom, DOF, etc)"
+msgstr "Cleachd criathragan giullachd-sgrìn an dèidh làimh (HDR, Bloom, DOF, agus msaa)"
+
+#: gui/options/options.js:23
+msgid "Shadows"
+msgstr "Sgàilean"
+
+#: gui/options/options.js:23
+msgid "Enable shadows"
+msgstr "Cuir na sgàilean an comas"
+
+#: gui/options/options.js:24
+msgid "Particles"
+msgstr "Mìrean"
+
+#: gui/options/options.js:24
+msgid "Enable particles"
+msgstr "Cuir na mìrean an comas"
+
+#: gui/options/options.js:25
+msgid "Show Sky"
+msgstr "Seall na speuran"
+
+#: gui/options/options.js:25
+msgid "Render Sky"
+msgstr "Reandaraich na speuran"
+
+#: gui/options/options.js:26
+msgid "Smooth LOS"
+msgstr "LOS rèidh"
+
+#: gui/options/options.js:26
+msgid "Lift darkness and fog-of-war smoothly"
+msgstr "Tog dubhar agus ceò a’ chogaidh gu rèidh"
+
+#: gui/options/options.js:27
+msgid "Unit Silhouettes"
+msgstr "Sgàil-riochdan nan aonadan"
+
+#: gui/options/options.js:27
+msgid "Show outlines of units behind buildings"
+msgstr "Seall aonadan air cùlaibh thogalaichean 'nan sgàil-riochdan"
+
+#: gui/options/options.js:28
+msgid "Shadow Filtering"
+msgstr "Criathradh sgàile"
+
+#: gui/options/options.js:28
+msgid "Smooth shadows"
+msgstr "Sgàilean rèidhe"
+
+#: gui/options/options.js:29
+msgid "Fast & Ugly Water"
+msgstr "Uisge luath ⁊ grannda"
+
+#: gui/options/options.js:29
+msgid ""
+"Use the lowest settings possible to render water. This makes other settings "
+"irrelevant."
+msgstr "Cleachd an roghainn as ìsle gus uisge a reandaradh. Cha bhi ciall sna roghainnean eile an uairsin."
+
+#: gui/options/options.js:30
+msgid "HQ Water Effects"
+msgstr "Èifeachdan uisge le càileachd àrd"
+
+#: gui/options/options.js:30
+msgid ""
+"Use higher-quality effects for water, rendering coastal waves, shore foam, "
+"and ships trails."
+msgstr "Cleachd an càileachd as fhearr airson èifeachdan uisge, a' reandaradh stuadhan cladaich, cop na mara 's lorgan nan long."
+
+#: gui/options/options.js:31
+msgid "Real Water Depth"
+msgstr "Fìor-dhoimhne uisge"
+
+#: gui/options/options.js:31
+msgid "Use actual water depth in rendering calculations"
+msgstr "Cleachd fìor-dhoimhne uisge ann an àireamhachadh an reandaraidh"
+
+#: gui/options/options.js:32
+msgid "Water Reflections"
+msgstr "Faileas uisge"
+
+#: gui/options/options.js:32
+msgid "Allow water to reflect a mirror image"
+msgstr "Leig le uisge dealbh faileis a thilgeil air ais"
+
+#: gui/options/options.js:33
+msgid "Water Refraction"
+msgstr "Solas-briseadh uisge"
+
+#: gui/options/options.js:33
+msgid "Use a real water refraction map and not transparency"
+msgstr "Cleachd mapa fìor sholas-bhriseadh uisge seach trìd-shoilleireachd"
+
+#: gui/options/options.js:34
+msgid "Shadows on Water"
+msgstr "Sgàilean air an uisge"
+
+#: gui/options/options.js:34
+msgid "Cast shadows on water"
+msgstr "Tilg sgàil air uisge"
+
+#: gui/options/options.js:35
+msgid "VSync"
+msgstr "Sioncronachadh-V"
+
+#: gui/options/options.js:35
+msgid "Run vertical sync to fix screen tearing. REQUIRES GAME RESTART"
+msgstr "Ruith sioncronachadh inghearach gus sracadh na sgrìn a chàradh. FEUMAIDH TU AN GEAMA A THÒISEACHADH ÀS ÙR"
+
+#: gui/options/options.js:39
+msgid "Master Gain"
+msgstr "Prìomh àirde"
+
+#: gui/options/options.js:39
+msgid "Master audio gain"
+msgstr "Prìomh àirde na fuaime"
+
+#: gui/options/options.js:40
+msgid "Music Gain"
+msgstr "Àirde a' chiùil"
+
+#: gui/options/options.js:40
+msgid "In game music gain"
+msgstr "Àirde a' chiùil sa gheama"
+
+#: gui/options/options.js:41
+msgid "Ambient Gain"
+msgstr "Àirde na h-àrainneachd"
+
+#: gui/options/options.js:41
+msgid "In game ambient sound gain"
+msgstr "Àirde aig fuaimean na h-àrainneachd sa gheama"
+
+#: gui/options/options.js:42
+msgid "Action Gain"
+msgstr "Àirde na gnìomhachd"
+
+#: gui/options/options.js:42
+msgid "In game unit action sound gain"
+msgstr "Àirde aig fuaimean gnìomhachd nan aonadan sa gheama"
+
+#: gui/options/options.js:43
+msgid "UI Gain"
+msgstr "Àirde na h-eadar-aghaidh"
+
+#: gui/options/options.js:43
+msgid "UI sound gain"
+msgstr "Àirde aig fuaimean na h-eadar-aghaidh"
+
+#: gui/options/options.js:47
+msgid "Chat Backlog"
+msgstr "Ro-loga na cabadaich"
+
+#: gui/options/options.js:47
+msgid "Number of backlogged messages to load when joining the lobby"
+msgstr "An àireamh de theachdaireachdan roimhe a thèid a luchdadh on loga nuair thig thu a-seach dhan lobaidh"
+
+#: gui/options/options.js:48
+msgid "Chat Timestamp"
+msgstr "Stampaichean-tìde na cabadaich"
+
+#: gui/options/options.js:48
+msgid "Show time that messages are posted in the lobby chat"
+msgstr "Seall an t-àm a thèid teachdaireachd a phostadh gu cabadaich na lobaidh"
+
+#: gui/pregame/mainmenu.js:85
+msgid "disabled"
+msgstr "à comas"
+
+#: gui/pregame/mainmenu.js:88
+msgid "connecting to server"
+msgstr "a' ceangal ris an fhrithealaiche"
+
+#: gui/pregame/mainmenu.js:93
+#, javascript-format
+msgid "uploading (%f%%)"
+msgstr "'ga luchdadh suas (%f%%)"
+
+#: gui/pregame/mainmenu.js:100
+msgid "upload succeeded"
+msgstr "shoirbhich leis an luchdadh suas"
+
+#: gui/pregame/mainmenu.js:102
+#, javascript-format
+msgid "upload failed (%(errorCode)s)"
+msgstr "dh'fhàillig leis an luchdadh suas (%(errorCode)s)"
+
+#: gui/pregame/mainmenu.js:109
+#, javascript-format
+msgid "upload failed (%(errorMessage)s)"
+msgstr "dh'fhàillig leis an luchdadh suas (%(errorMessage)s)"
+
+#: gui/pregame/mainmenu.js:112
+msgid "unknown"
+msgstr "chan eil fhios"
+
+#: gui/pregame/mainmenu.js:156
+#, javascript-format
+msgid ""
+"%(startWarning)sWarning:%(endWarning)s You appear to be using non-shader "
+"(fixed function) graphics. This option will be removed in a future 0 A.D. "
+"release, to allow for more advanced graphics features. We advise upgrading "
+"your graphics card to a more recent, shader-compatible model."
+msgstr "%(startWarning)sWarning:%(endWarning)s Tha thu a' cleachdadh grafaigeachd gun sgàileadairean (le foinscean socraichte) a-rèir coltais. Thèid an roghainn seo a chur air falbh ann an sgaoileadh ri thighinn de 0 A.D. ach an urrainn dhuinn feartan grafaigeachd nas adhartaiche a chleachdadh. Mholamaid gun ùraich thu a' chairt grafaigeachd agad no gum faigh thu modail as ùire a bhios co-chòrdail ri sgàileadairean."
+
+#. Translation: This is the second paragraph of a warning. The
+#. warning explains that the user is using “non-shader“ graphics,
+#. and that in the future this will not be supported by the game, so
+#. the user will need a better graphics card.
+#: gui/pregame/mainmenu.js:162
+msgid "Please press \"Read More\" for more information or \"OK\" to continue."
+msgstr "Brùth air \"Barrachd fiosrachaidh\" airson barrachd fiosrachaidh no air \"Ceart ma-thà\" airson leantainn air adhart."
+
+#: gui/pregame/mainmenu.js:163
+msgid "WARNING!"
+msgstr "RABHADH!"
+
+#: gui/pregame/mainmenu.js:165
+msgid "Read More"
+msgstr "Barrachd fiosrachaidh"
+
+#: gui/pregame/mainmenu.js:258
+#, javascript-format
+msgid "Build: %(buildDate)s (%(revision)s)"
+msgstr "Togail: %(buildDate)s (%(revision)s)"
+
+#: gui/pregame/mainmenu.js:289
+msgid "Are you sure you want to quit 0 A.D.?"
+msgstr "A bheil thu cinnteach gu bheil thu airson 0 A.D. fhàgail?"
+
+#: gui/pregame/mainmenu.js:289
+msgid "Confirmation"
+msgstr "Dearbhadh"
+
+#: gui/pregame/mainmenu.js:299
+msgid ""
+"The scenario editor is not available or failed to load. See the game logs "
+"for additional information."
+msgstr "Chan eil deasaiche nan cnàmh-sgeul ri làimh no dh'fhàillig leis an luchdadh. Thoir sùil air logaichean a' gheama airson barrachd fiosrachaidh."
+
+#: gui/pregame/mainmenu.js:299
+msgid "Error"
+msgstr "Mearachd"
+
+#: gui/pregame/mainmenu.js:304
+msgid "Launch the multiplayer lobby. \\[DISABLED BY BUILD]"
+msgstr "Tòisich an lobaidh ioma-chluicheadair. \\[À COMAS LEIS AN TOGAIL]"
+
+#: gui/pregame/mainmenu.js:309 gui/pregame/mainmenu.xml:(caption):72
+#: gui/pregame/mainmenu.xml:(caption):103
+msgid "Technical Details"
+msgstr "Fiosrachadh teicnigeach"
+
+#: gui/pregame/mainmenu.js:314 gui/pregame/mainmenu.xml:(caption):149
+msgid "Manual"
+msgstr "Leabhar-mìneachaidh"
+
+#: gui/savedgames/load.js:10 gui/savedgames/save.js:30
+msgid "No saved games found"
+msgstr "Cha deach geama air a shàbhaladh a lorg"
+
+#: gui/savedgames/load.js:48
+msgid "This saved game may not be compatible:"
+msgstr "Dh'fhaoidte nach eil an geama air a shàbhaladh seo co-chòrdail:"
+
+#: gui/savedgames/load.js:50
+#, javascript-format
+msgid ""
+"It needs 0 A.D. version %(requiredVersion)s, while you are running version "
+"%(currentVersion)s."
+msgstr "Feumaidh e 0 A.D. tionndadh %(requiredVersion)s fhad 's a tha thu a' ruith an tionndadh %(currentVersion)s."
+
+#: gui/savedgames/load.js:60
+#, javascript-format
+msgid "It does not need any mod while you are running with \"%(currentMod)s\"."
+msgstr "Chan eil e feumach air gin dhe na tuilleadain ach a tha thu 'ga ruith le \"%(currentMod)s\"."
+
+#: gui/savedgames/load.js:64
+#, javascript-format
+msgid "It needs the mod \"%(requiredMod)s\" while you are running without a mod."
+msgstr "Tha e feumach air an tuilleadan \"%(requiredMod)s\" ach chan eil thu a' ruith gin."
+
+#: gui/savedgames/load.js:68
+#, javascript-format
+msgid ""
+"It needs the mod \"%(requiredMod)s\" while you are running with "
+"\"%(currentMod)s\"."
+msgstr "Tha e feumach air an tuilleadan \"%(requiredMod)s\" ach a tha thu 'ga ruith le \"%(currentMod)s\"."
+
+#: gui/savedgames/load.js:73
+msgid "Do you still want to proceed?"
+msgstr "A bheil thu airson leantainn air adhart co-dhiù?"
+
+#: gui/savedgames/load.js:74
+msgid "Warning"
+msgstr "Rabhadh"
+
+#: gui/savedgames/load.js:110 gui/savedgames/save.js:61
+#: gui/savedgames/save.js:91
+#, javascript-format
+msgid "\"%(label)s\""
+msgstr "\"%(label)s\""
+
+#: gui/savedgames/load.js:110 gui/savedgames/save.js:91
+msgid "Saved game will be permanently deleted, are you sure?"
+msgstr "Thèid an geama air a shàbhaladh a sguabadh às gu buan, a bheil thu cinnteach?"
+
+#: gui/savedgames/load.js:110 gui/savedgames/save.js:91
+msgid "DELETE"
+msgstr "SGUAB ÀS"
+
+#: gui/savedgames/save.js:61
+msgid "Saved game will be permanently overwritten, are you sure?"
+msgstr "Thèid sgrìobhadh thairis air geama air a shàbhaladh gu buan, a bheil thu cinnteach?"
+
+#: gui/savedgames/save.js:61
+msgid "OVERWRITE SAVE"
+msgstr "SGRÌOBH THAIRIS AIR AN T‑SÀBHALADH"
+
+#: gui/structree/draw.js:261
+msgid "Health:"
+msgstr "Slàinte:"
+
+#: gui/structree/draw.js:280
+#, javascript-format
+msgid "%(resourceIcon)s %(rate)s"
+msgstr "%(resourceIcon)s %(rate)s"
+
+#: gui/structree/draw.js:286
+msgid "Gather Rates:"
+msgstr "Reat a’ chruinneachaidh:"
+
+#: gui/structree/load.js:146
+#, javascript-format
+msgid "%(val1)s to %(val2)s"
+msgstr "%(val1)s gu %(val2)s"
+
+#: gui/summary/layout.js:4 gui/summary/layout.js:21 gui/summary/layout.js:48
+#: gui/summary/layout.js:73 gui/summary/layout.js:98 gui/summary/layout.js:119
+#: gui/summary/summary.xml:(caption):104
+msgid "Player name"
+msgstr "Ainm a' chluicheadair"
+
+#: gui/summary/layout.js:5
+msgid "Economy score"
+msgstr "Sgòr an eaconamaidh"
+
+#: gui/summary/layout.js:6
+msgid "Military score"
+msgstr "Sgòr an airm"
+
+#: gui/summary/layout.js:7
+msgid "Exploration score"
+msgstr "Sgòr an rùrachaidh"
+
+#: gui/summary/layout.js:8
+msgid "Total score"
+msgstr "An sgòr iomlan"
+
+#: gui/summary/layout.js:22 gui/summary/layout.js:49 gui/summary/layout.js:78
+msgid "Total"
+msgstr "Gu h-iomlan"
+
+#: gui/summary/layout.js:23
+msgid "Houses"
+msgstr "Taighean"
+
+#: gui/summary/layout.js:24
+msgid "Economic"
+msgstr "An eaconamaidh"
+
+#: gui/summary/layout.js:25
+msgid "Outposts"
+msgstr "Gearastain"
+
+#: gui/summary/layout.js:26
+msgid "Military"
+msgstr "An t-arm"
+
+#: gui/summary/layout.js:27
+msgid "Fortresses"
+msgstr "Dùin"
+
+#: gui/summary/layout.js:28
+msgid "Civ centers"
+msgstr "Ionadan sìobhalta"
+
+#: gui/summary/layout.js:29
+msgid "Wonders"
+msgstr "Mìobhailean"
+
+#: gui/summary/layout.js:32
+msgid "Buildings Statistics (Constructed / Lost / Destroyed)"
+msgstr "Stats nan togalaichean (air an togail / call / sgrios)"
+
+#: gui/summary/layout.js:50
+msgid "Infantry"
+msgstr "Coisridh"
+
+#: gui/summary/layout.js:51
+msgid "Worker"
+msgstr "Obraiche"
+
+#: gui/summary/layout.js:52
+msgid "Cavalry"
+msgstr "Eachraidh"
+
+#: gui/summary/layout.js:53
+msgid "Champion"
+msgstr "Làn-ghaisgeach"
+
+#: gui/summary/layout.js:55
+msgid "Navy"
+msgstr "An cabhlach"
+
+#: gui/summary/layout.js:58
+msgid "Units Statistics (Trained / Lost / Killed)"
+msgstr "Stats nan aonad (air an trèanadh / call / marbhadh)"
+
+#: gui/summary/layout.js:74
+msgid "Food"
+msgstr "Biadh"
+
+#: gui/summary/layout.js:75
+msgid "Wood"
+msgstr "Fiodh"
+
+#: gui/summary/layout.js:76
+msgid "Stone"
+msgstr "Clach"
+
+#: gui/summary/layout.js:77
+msgid "Metal"
+msgstr "Meatailt"
+
+#: gui/summary/layout.js:79
+msgid "Treasures collected"
+msgstr "Ulaidhean air an togail"
+
+#: gui/summary/layout.js:80
+msgid "Tributes (Sent / Received)"
+msgstr "Cìsean (cur / fhaighinn)"
+
+#: gui/summary/layout.js:83
+msgid "Resource Statistics (Gathered / Used)"
+msgstr "Stats nan stòrasan (air an cruinneachadh / cleachdadh)"
+
+#: gui/summary/layout.js:99
+msgid "Food exchanged"
+msgstr "Biadh"
+
+#: gui/summary/layout.js:100
+msgid "Wood exchanged"
+msgstr "Fiodh"
+
+#: gui/summary/layout.js:101
+msgid "Stone exchanged"
+msgstr "Clachan"
+
+#: gui/summary/layout.js:102
+msgid "Metal exchanged"
+msgstr "Meatailt"
+
+#: gui/summary/layout.js:103
+msgid "Barter efficiency"
+msgstr "Èifeachdachd"
+
+#: gui/summary/layout.js:104
+msgid "Trade income"
+msgstr "Teachd a-steach"
+
+#: gui/summary/layout.js:120
+msgid ""
+"Vegetarian\n"
+"ratio"
+msgstr "Co-mheas nan\nglasraichear"
+
+#: gui/summary/layout.js:121
+msgid "Feminisation"
+msgstr "Boireannaich"
+
+#: gui/summary/layout.js:122
+msgid ""
+"Kill / Death\n"
+"ratio"
+msgstr "Co-mheas\nmarbhaidh / bàsachaidh"
+
+#: gui/summary/layout.js:123
+msgid ""
+"Map\n"
+"exploration"
+msgstr "Rùrachadh\na' mhapa"
+
+#: gui/summary/layout.js:258
+msgid "Team total"
+msgstr "Iomlan an sgioba"
+
+#: gui/summary/summary.js:139
+msgid "Scenario"
+msgstr "Cnàmh-sgeul"
+
+#: gui/summary/summary.js:141
+#, javascript-format
+msgid "Game time elapsed: %(time)s"
+msgstr "An ùine a dh'fhalbh sa gheama: %(time)s"
+
+#: gui/summary/summary.js:162
+#, javascript-format
+msgid "%(mapName)s - %(mapType)s"
+msgstr "%(mapName)s - %(mapType)s"
+
+#: gui/civinfo/civinfo.xml:(caption):16
+msgid "Civilizations"
+msgstr "Sìobhaltasan"
+
+#: gui/civinfo/civinfo.xml:(caption):28
+msgid "Civilization Selection"
+msgstr "Tagh sìobhaltasan"
+
+#: gui/civinfo/civinfo.xml:(caption):119
+#: gui/structree/structree.xml:(caption):90
+msgid "Close"
+msgstr "Dùin"
+
+#: gui/locale/locale.xml:(caption):14
+#: gui/locale/locale_advanced.xml:(caption):14
+#: gui/pregame/mainmenu.xml:(caption):339
+msgid "Language"
+msgstr "Cànan"
+
+#: gui/locale/locale.xml:(caption):17
+#: gui/locale/locale_advanced.xml:(caption):17
+msgid "Language:"
+msgstr "Cànan:"
+
+#. A locale is a set of parameters that defines the user’s language, country
+#. and any special variant preferences that the user wants to see in their
+#. user interface. Here, “Locale” refers to the code that identifies those
+#. settings, such as ‘en_US’.
+#: gui/locale/locale.xml:(caption):31
+msgid "Locale:"
+msgstr "Sgeama ionadail:"
+
+#: gui/locale/locale.xml:(caption):36
+#: gui/locale/locale_advanced.xml:(caption):65
+#: gui/options/options.xml:(caption):69 gui/savedgames/load.xml:(caption):25
+#: gui/savedgames/save.xml:(caption):37
+msgid "Cancel"
+msgstr "Sguir dheth"
+
+#: gui/locale/locale.xml:(caption):41
+msgid "Advanced"
+msgstr "Adhartach"
+
+#: gui/locale/locale.xml:(caption):46
+#: gui/locale/locale_advanced.xml:(caption):75
+msgid "Accept"
+msgstr "Gabh ris"
+
+#: gui/locale/locale_advanced.xml:(caption):25
+msgid "Country:"
+msgstr "Dùthaich:"
+
+#: gui/locale/locale_advanced.xml:(caption):34
+msgid "Script:"
+msgstr "Sgriobt:"
+
+#: gui/locale/locale_advanced.xml:(caption):41
+msgid "Variant (unused):"
+msgstr "Eug-samhail (cha dèan seo dad):"
+
+#: gui/locale/locale_advanced.xml:(caption):48
+msgid "Keywords (unused):"
+msgstr "Faclan-luirg (cha dèan seo dad):"
+
+#: gui/locale/locale_advanced.xml:(caption):55
+msgid "Resulting locale:"
+msgstr "An sgeama ionadail:"
+
+#: gui/locale/locale_advanced.xml:(caption):60
+msgid "Dictionary files used:"
+msgstr "Na faidhlichean cànain aige:"
+
+#: gui/locale/locale_advanced.xml:(caption):70
+msgid "Auto detect"
+msgstr "Fèin-mhothaich"
+
+#: gui/locale/locale_advanced.xml:(tooltip):37
+msgid ""
+"Optional four-letter script code part following the language code (as listed"
+" in ISO 15924)"
+msgstr "Còd roghainneil de 4 litrichean airson an sgriobt a leanas air còd a' chànain (a-rèir ISO 15924)"
+
+#: gui/locale/locale_advanced.xml:(tooltip):44
+#: gui/locale/locale_advanced.xml:(tooltip):51
+msgid "Not implemented yet."
+msgstr "Gun a chur an sàs fhathast."
+
+#: gui/options/options.xml:(caption):18
+msgid "Game Options"
+msgstr "Roghainnean a' gheama"
+
+#: gui/options/options.xml:(caption):22
+msgid "General"
+msgstr "Coitcheann"
+
+#: gui/options/options.xml:(caption):34
+msgid "Graphics Settings"
+msgstr "Roghainnean grafaigeachd"
+
+#: gui/options/options.xml:(caption):46
+msgid "Sound Settings"
+msgstr "Roghainnean fuaime"
+
+#: gui/options/options.xml:(caption):58
+msgid "Lobby Settings"
+msgstr "Roghainnean na lobaidh"
+
+#: gui/options/options.xml:(caption):73 gui/savedgames/save.xml:(caption):47
+msgid "Save"
+msgstr "Sàbhail"
+
+#: gui/pregame/mainmenu.xml:62
+msgid "Help improve 0 A.D.!"
+msgstr "Cuidich sinn le piseach a thoirt air 0 A.D!"
+
+#: gui/pregame/mainmenu.xml:64
+msgid ""
+"You can automatically send us anonymous feedback that will help us fix bugs,"
+" and improve performance and compatibility."
+msgstr "'S urrainn dhut fiosrachadh gun ainm a chur thugainn gu fèin-obrachail a chuidicheas ach an càraich sinn bugaichean is an toir sinn piseach air an dèanadas is co-chòrdalachd."
+
+#: gui/pregame/mainmenu.xml:90
+msgid "Thank you for helping improve 0 A.D.!"
+msgstr "Mòran taing gun cuidich thu le piseach a thoirt air 0 A.D.!"
+
+#: gui/pregame/mainmenu.xml:92
+msgid "Anonymous feedback is currently enabled."
+msgstr "Tha cur fiosrachaidh gun ainm an comas an-dràsta."
+
+#: gui/pregame/mainmenu.xml:94
+msgid "Status: $status."
+msgstr "Staid: $status."
+
+#: gui/pregame/mainmenu.xml:521
+msgid "Alpha XVIII: Rhododactylos"
+msgstr "Alpha XVIII: Rhododactylos"
+
+#: gui/pregame/mainmenu.xml:523
+msgid ""
+"WARNING: This is an early development version of the game. Many features "
+"have not been added yet."
+msgstr "RABHADH: Seo tionndadh leasachaidh tràth dhen gheama. Tha iomadh feart ri thighinn nach deach a chur ris fhathast."
+
+#: gui/pregame/mainmenu.xml:525
+msgid "Get involved at: play0ad.com"
+msgstr "Rach an sàs ann air: play0ad.com"
+
+#: gui/pregame/mainmenu.xml:(caption):68
+msgid "Enable Feedback"
+msgstr "Cuir fiosrachadh a-null"
+
+#: gui/pregame/mainmenu.xml:(caption):99
+msgid "Disable Feedback"
+msgstr "Na cuir fiosrachadh a-null"
+
+#: gui/pregame/mainmenu.xml:(caption):166
+#: gui/structree/structree.xml:(caption):17
+msgid "Structure Tree"
+msgstr "Craobh nan sìobhaltas"
+
+#: gui/pregame/mainmenu.xml:(caption):183
+msgid "History"
+msgstr "Eachdraidh"
+
+#: gui/pregame/mainmenu.xml:(caption):208
+msgid "Matches"
+msgstr "Maidsichean"
+
+#: gui/pregame/mainmenu.xml:(caption):222
+msgid "Campaigns"
+msgstr "Iomairtean"
+
+#: gui/pregame/mainmenu.xml:(caption):239 gui/savedgames/load.xml:(caption):15
+msgid "Load Game"
+msgstr "Luchdaich geama"
+
+#. Join a game by specifying the host's IP address.
+#: gui/pregame/mainmenu.xml:(caption):262
+msgid "Join Game"
+msgstr "Gabh pàirt ann an geama"
+
+#: gui/pregame/mainmenu.xml:(caption):277
+msgid "Host Game"
+msgstr "Òstaich geama"
+
+#: gui/pregame/mainmenu.xml:(caption):292
+msgid "Game Lobby"
+msgstr "Lobaidh nan geama"
+
+#: gui/pregame/mainmenu.xml:(caption):322
+msgid "Options"
+msgstr "Roghainnean"
+
+#: gui/pregame/mainmenu.xml:(caption):355
+msgid "Scenario Editor"
+msgstr "Deasaiche chnàmh-sgeulan"
+
+#: gui/pregame/mainmenu.xml:(caption):368
+msgid "Welcome Screen"
+msgstr "Sgrìn fàilteachaidh"
+
+#: gui/pregame/mainmenu.xml:(caption):383
+msgid "Mod Selection"
+msgstr "Taghadh nan tuilleadan"
+
+#: gui/pregame/mainmenu.xml:(caption):438
+msgid "Learn To Play"
+msgstr "Leabhar-mìneachaidh"
+
+#: gui/pregame/mainmenu.xml:(caption):453
+msgid "Single Player"
+msgstr "Aon chluicheadair"
+
+#: gui/pregame/mainmenu.xml:(caption):468
+msgid "Multiplayer"
+msgstr "Ioma-chluicheadair"
+
+#: gui/pregame/mainmenu.xml:(caption):483
+msgid "Tools & Options"
+msgstr "Innealan ⁊ Roghainnean"
+
+#: gui/pregame/mainmenu.xml:(caption):498
+msgid "Exit"
+msgstr "Fàg an-seo"
+
+#: gui/pregame/mainmenu.xml:(caption):535
+msgid "Help with the Translation!"
+msgstr "Cuidich leinn leis an eadar-theangachadh!"
+
+#: gui/pregame/mainmenu.xml:(caption):547
+msgid "Website"
+msgstr "Làrach-lìn"
+
+#: gui/pregame/mainmenu.xml:(caption):559
+msgid "Chat"
+msgstr "Cabadaich"
+
+#: gui/pregame/mainmenu.xml:(caption):571
+msgid "Report a Bug"
+msgstr "Dèan aithris air buga"
+
+#: gui/pregame/mainmenu.xml:(caption):600
+msgid "WILDFIRE GAMES"
+msgstr "WILDFIRE GAMES"
+
+#: gui/pregame/mainmenu.xml:(tooltip):150
+msgid "Open the 0 A.D. Game Manual."
+msgstr "Fosgail an leabhar-mìneachaidh aig 0 A.D."
+
+#: gui/pregame/mainmenu.xml:(tooltip):167
+msgid "View the structure tree of civilizations featured in 0 A.D."
+msgstr "Seall craobh dhe na sìobhaltasan aig 0 A.D."
+
+#: gui/pregame/mainmenu.xml:(tooltip):184
+msgid "Learn about the many civilizations featured in 0 A.D."
+msgstr "Fiosrachadh mu na sìobhaltasan ann an 0 A.D."
+
+#: gui/pregame/mainmenu.xml:(tooltip):209
+msgid "Click here to start a new single player game."
+msgstr "Briog an-seo gus geama aon chluicheadair ùr a thòiseachadh"
+
+#: gui/pregame/mainmenu.xml:(tooltip):223
+msgid ""
+"Relive history through historical military campaigns. \\[NOT YET "
+"IMPLEMENTED]"
+msgstr "Atharrais an eachdraidh le iomairtean an airm eachdraidheil. \\[CHAN EIL SEO RI FHAIGHINN FHATHAST]"
+
+#: gui/pregame/mainmenu.xml:(tooltip):240
+msgid "Click here to load a saved game."
+msgstr "Briog an-seo gus geama air a shàbhaladh a luchdadh."
+
+#: gui/pregame/mainmenu.xml:(tooltip):263
+msgid "Joining an existing multiplayer game."
+msgstr "Gabh pàirt ann an geama ioma-chluicheadair a tha ann mar-thà."
+
+#: gui/pregame/mainmenu.xml:(tooltip):278
+msgid "Host a multiplayer game.\\n\\nRequires UDP port 20595 to be open."
+msgstr "Òstaich geama ioma-chluicheadair.\\n\\nFeumaidh am port UDP 20595 a bhith fosgailte."
+
+#: gui/pregame/mainmenu.xml:(tooltip):293
+msgid "Launch the multiplayer lobby."
+msgstr "Tòisich an lobaidh ioma-chluicheadair."
+
+#: gui/pregame/mainmenu.xml:(tooltip):323
+msgid "Adjust game settings."
+msgstr "Cuir gleus air roghainnean a' gheama."
+
+#: gui/pregame/mainmenu.xml:(tooltip):340
+msgid "Choose the language of the game."
+msgstr "Tagh cànan a' gheama."
+
+#: gui/pregame/mainmenu.xml:(tooltip):356
+msgid ""
+"Open the Atlas Scenario Editor in a new window. You can run this more "
+"reliably by starting the game with the command-line argument \"-editor\"."
+msgstr "Fosgail an deasaiche chnàmh-sgeulan Atlas ann an uinneag ùr. 'S urrainn dhut a ruith ann an dòigh nas earbsaiche 's tu a' tòiseachadh a' gheama leis an argamaid \"-editor\" ait an loidhne-àithne."
+
+#: gui/pregame/mainmenu.xml:(tooltip):369
+msgid "Show the Welcome Screen. Useful if you hid it by mistake."
+msgstr "Seall an sgrìn fàilteachaidh. Tha seo feumail ma dh'fhalaich thu le mearachd i."
+
+#: gui/pregame/mainmenu.xml:(tooltip):384
+msgid "Select mods to use."
+msgstr "Tagh na tuilleadain a bu toil leat cleachdadh."
+
+#: gui/pregame/mainmenu.xml:(tooltip):439
+msgid ""
+"Learn how to play, discover the technology trees, and the history behind the"
+" civilizations"
+msgstr "Ionnsaich mar a chluicheas tu, siubhail craobhan nan teicneolasan agus ionnsaich mun eachdraidh air cùlaibh nan sìobhaltasan."
+
+#: gui/pregame/mainmenu.xml:(tooltip):454
+msgid "Challenge the computer player to a single player match."
+msgstr "Thoir dùbhlan dhan choimpiutair airson maids aon chluicheadair."
+
+#: gui/pregame/mainmenu.xml:(tooltip):469
+msgid "Fight against one or more human players in a multiplayer game."
+msgstr "Dèan sabaid an aghaidh cluicheadair daonna no dhà ann an geama ioma-chluicheadair"
+
+#: gui/pregame/mainmenu.xml:(tooltip):484
+msgid "Game options and scenario design tools."
+msgstr "Roghainnean a' gheama is innealan gus cnàmh-sgeulan a dhealbhachadh."
+
+#: gui/pregame/mainmenu.xml:(tooltip):499
+msgid "Exits the game."
+msgstr "Fàgaidh tu an geama."
+
+#: gui/pregame/mainmenu.xml:(tooltip):536
+msgid "Click to open the 0 A.D. translate page in your browser."
+msgstr "Briog gus duilleag an eadar-theangachaidh aig 0 A.D. fhosgladh sa bhrabhsair agad."
+
+#: gui/pregame/mainmenu.xml:(tooltip):548
+msgid "Click to open play0ad.com in your web browser."
+msgstr "Briog gus play0ad.com fhosgladh sa bhrabhsair-lìn agad."
+
+#: gui/pregame/mainmenu.xml:(tooltip):560
+msgid ""
+"Click to open the 0 A.D. IRC chat in your browser. (#0ad on "
+"webchat.quakenet.org)"
+msgstr "Briog gus a' chabadaich IRC aig 0 A.D. fhosgladh sa bhrabhsair-lìn agad. (#0ad air webchat.quakenet.org)"
+
+#: gui/pregame/mainmenu.xml:(tooltip):572
+msgid "Click to visit 0 A.D. Trac to report a bug, crash, or error."
+msgstr "Briog gus tadhal air 0 A.D. Trac ach an dèan thu aithris air buga, tuisleadh no mearachd."
+
+#: gui/savedgames/load.xml:(caption):30 gui/savedgames/save.xml:(caption):42
+msgid "Delete"
+msgstr "Sguab às"
+
+#: gui/savedgames/load.xml:(caption):42
+msgid "Load"
+msgstr "Luchdaich"
+
+#: gui/savedgames/save.xml:(caption):15
+msgid "Save Game"
+msgstr "Sàbhail an geama"
+
+#: gui/savedgames/save.xml:(caption):29
+msgid "Description:"
+msgstr "Tuairisgeul:"
+
+#: gui/splashscreen/splashscreen.xml:(caption):12
+msgid "Welcome!"
+msgstr "Fàilte ort!"
+
+#: gui/splashscreen/splashscreen.xml:(caption):17
+msgid "Show this message in the future"
+msgstr "Seall an teachdaireachd seo a-rithist"
+
+#: gui/splashscreen/splashscreen.xml:(caption):22
+msgid "Known Issues (web)"
+msgstr "Duilgheadasan as aithne dhuinn (lìon)"
+
+#: gui/structree/structree.xml:(caption):29
+msgid "Civilization:"
+msgstr "Sìobhaltas:"
+
+#: gui/summary/summary.xml:(caption):22
+msgid "Summary"
+msgstr "Gearr-chunntas"
+
+#: gui/summary/summary.xml:(caption):62
+msgid "Score"
+msgstr "Sgòr"
+
+#: gui/summary/summary.xml:(caption):69
+msgid "Buildings"
+msgstr "Togalaichean"
+
+#: gui/summary/summary.xml:(caption):76
+msgid "Units"
+msgstr "Aonadan"
+
+#: gui/summary/summary.xml:(caption):83
+msgid "Resources"
+msgstr "Stòrasan"
+
+#: gui/summary/summary.xml:(caption):90
+msgid "Market"
+msgstr "Margaid"
+
+#: gui/summary/summary.xml:(caption):97
+msgid "Miscellaneous"
+msgstr "Eile"
+
+#: gui/summary/summary.xml:(caption):158
+msgid "Continue"
+msgstr "Lean air adhart"
+
+#: gui/splashscreen/splashscreen.txt:2
+msgid ""
+"[font=\"sans-bold-20\"]  Thank you for installing 0 A.D. Empires Ascendant!"
+msgstr "[font=\"sans-bold-20\"]Tapadh leat airson 0 A.D. Empires Ascendant a stàladh!"
+
+#: gui/splashscreen/splashscreen.txt:3
+msgid "[font=\"sans-16\"]"
+msgstr "[font=\"sans-16\"]"
+
+#: gui/splashscreen/splashscreen.txt:4
+msgid ""
+"[imgleft=\"constructionIcon\"]This game is still in development. Features "
+"are missing and it contains bugs."
+msgstr "[icon=\"constructionIcon\"]Tha an geama seo ’ga phrògramachadh fhathast. Tha feartan a dhìth 's bugaichean ann."
+
+#: gui/splashscreen/splashscreen.txt:6
+msgid "[imgleft=\"iconLag\"]The game runs slowly when many units are moving."
+msgstr "[imgleft=\"iconLag\"] Thig dàil air a' gheama nuair a bhios mòran aonadan a' gluasad."
+
+#: gui/splashscreen/splashscreen.txt:9
+msgid "[imgleft=\"iconMap\"]Large maps can cause problems."
+msgstr "[imgleft=\"iconMap\"]Faodaidh mapaichean mòra duilgheadasan adhbharachadh."
+
+#: gui/splashscreen/splashscreen.txt:12
+msgid ""
+"[imgleft=\"iconFormation\"]Formations are a work in progress, but you can "
+"toggle forming and disbanding formations as desired."
+msgstr "[imgleft=\"iconFormation\"]Tha sinn ag obair air na cumaidhean fhathast, ach ’s urrainn dhut an cur ri chèile no sgaradh mar a thogras tu."
+
+#: gui/text/tips/army_camp.txt:1
+msgid "ROMAN ARMY CAMP"
+msgstr "CAMPA AIRM RÒMANACH"
+
+#: gui/text/tips/army_camp.txt:2
+msgid ""
+"- Build anywhere on the map, even in enemy territory. Good for building a "
+"secret base behind enemy lines or to consolidate gains within enemy "
+"territory."
+msgstr "- Tog fear àite sam bith air a' mhapa, fiù 's air ranntair an nàmhad. Tha iad math gus bunait dhìomhair a thogail air cùlaibh an nàmhad no buannachdan air ranntair an nàmhad a dhaingneachadh."
+
+#: gui/text/tips/army_camp.txt:4
+msgid "- Decays to the territory owner when built in non-allied territory"
+msgstr "- Crìonaidh e 's thèid a thoirt dhan chluicheadair aig a bheil an ranntair nuair a thogas tu e air ranntair nach eil aig caidreabhach."
+
+#: gui/text/tips/army_camp.txt:6
+msgid "- Construct siege weapons and train citizen-soldiers."
+msgstr "- Tog innealan-sèiste is trèanaich saighdearan-dùthcha."
+
+#: gui/text/tips/army_camp.txt:8
+msgid ""
+"- Garrison up to 40 units to slowly heal the units and protect the army camp"
+" from attacks and decay."
+msgstr "- Cuir gearastan de gu ruige 40 aonad ann gus an slànachadh gu mall is campa an airm a dhìon o ionnsaighean is on a' chrìonadh."
+
+#: gui/text/tips/barracks.txt:1
+msgid "BARRACKS"
+msgstr "TAIGHEAN-FEACHD"
+
+#: gui/text/tips/barracks.txt:2
+msgid ""
+"- Train all citizen-soldiers. Some factions can unlock the training of "
+"champions as well."
+msgstr "- Trèanaich a h‑uile seòrsa de shaighdearan-dùthcha. 'S urrainn dha cuid a bhuidhnean a' ghlas a thoirt far trèanadh nan laoch cuideachd."
+
+#: gui/text/tips/barracks.txt:4
+msgid "- Research military technologies unique to each faction."
+msgstr "- Rannsaich teicneolasan an airm a bhios diofraichte do gach sìobhaltas."
+
+#: gui/text/tips/barracks.txt:6
+msgid ""
+"- Build one early to train citizen-soldiers while you phase up your "
+"settlement."
+msgstr "- Tog fear tràth gus saighdearan-dùthcha a thrèanadh fhad 's a bhios tu ag àrdachadh do thuineachadh gu linn ùr."
+
+#: gui/text/tips/barracks.txt:8
+msgid "- Build in a forward base to resupply your assault with fresh troops."
+msgstr "- Tog iad ann am bunait adhartach ach am faigh an ionnsaigh agad foirlionadh."
+
+#: gui/text/tips/blacksmith.txt:1
+msgid "BLACKSMITH"
+msgstr "GOBHA"
+
+#: gui/text/tips/blacksmith.txt:2
+msgid "- Research structure for all factions."
+msgstr "- Faodaidh na h‑uile sìobhaltas an structar seo a rannsachadh."
+
+#: gui/text/tips/blacksmith.txt:4
+msgid "- Research weapon and armor upgrades for your units."
+msgstr "- Rannsaich leasachaidhean air airm 's armachd airson nan aonadan agad."
+
+#: gui/text/tips/blacksmith.txt:6
+msgid ""
+"- Garrison a citizen-soldier inside to research faster (NOT IMPLEMENTED "
+"YET)."
+msgstr "- Cuir saighdear-dùthcha 'na ghearastan ann gus rannsachadh nas luaithe (CHA DEACH SEO A PHRÒGRAMACHADH FHATHAST)."
+
+#: gui/text/tips/carth_sacred_band.txt:1
+msgid "CARTHAGINIAN SACRED BAND"
+msgstr "CÒMHLAN NAOMH CHARTAGACH"
+
+#: gui/text/tips/carth_sacred_band.txt:2
+msgid "- Champion Spearmen and Champion Cavalry Spearmen for Carthage."
+msgstr "- Laoich sleaghair 's laoich sleaghair eachraidh airson nan Cartagach."
+
+#: gui/text/tips/carth_sacred_band.txt:4
+msgid ""
+"- Both are trainable from the Temple, instead of the Fortress like most "
+"other champions."
+msgstr "- Gabhaidh an dà chuid trèanadh san teampall seach san dùn mar a théid a' mhòrchuid de laoich."
+
+#: gui/text/tips/carth_sacred_band.txt:6
+msgid ""
+"- Use the Spearmen as heavy infantry against cavalry. Use the Cavalry as "
+"heavy shock against siege weapons and skirmishers."
+msgstr "- Cleachd na sleaghairean mar choisridh throm an aghaidh eachraidh. Cleachd an eachraidh mar chlisgeadh trom an aghaidh innealan-sèiste agus streupairean."
+
+#: gui/text/tips/catapults.txt:1
+msgid "CATAPULTS"
+msgstr "CRAINN-TABHAILL"
+
+#: gui/text/tips/catapults.txt:2
+msgid "- Ranged siege engines that are good against buildings."
+msgstr "- Innealan-sèiste astair a tha math an aghaidh thogalachan."
+
+#: gui/text/tips/catapults.txt:4
+msgid ""
+"- May upgrade to flaming projectiles for extra effectiveness against "
+"buildings and units."
+msgstr "- Gabhaidh an àrdachadh ach an cleachd iad clachan air teine a chuireas ris an èifeachdachd an aghaidh thogalaichean 's aonadan."
+
+#: gui/text/tips/catapults.txt:6
+msgid "- Expensive and slow."
+msgstr "- Cosgail is slaodach."
+
+#: gui/text/tips/catapults.txt:8
+msgid ""
+"- Pack up into carts for movement, and unpack into stationary engines for "
+"attack!"
+msgstr "- Paisg 'nan cairtean iad airson an gluasad agus neo-phaisg iad 'nan uidheaman suidhichte gus ionnsaigh a thoirt!"
+
+#: gui/text/tips/celtic_war_barge.txt:1
+msgid "CELTIC WAR BARGE"
+msgstr "BÀTA-COGAIDH CEILTEACH"
+
+#: gui/text/tips/celtic_war_barge.txt:2
+msgid "- A medium \"trireme\"-class warship."
+msgstr "- Long-chogaidh \"trì-ràmhach\" meadhanach."
+
+#: gui/text/tips/celtic_war_barge.txt:4
+msgid "- The only ship of its kind."
+msgstr "- An t‑aon long dhen leithid."
+
+#: gui/text/tips/celtic_war_barge.txt:6
+msgid "- Cannot ram, like other triremes, but has greater health and armour."
+msgstr "- Chan urrainn dhi starradh mar as urrainn do luing trì-ràmhach eile, ach tha barrachd slàinte is armachd aice."
+
+#: gui/text/tips/celtic_war_barge.txt:8
+msgid "- Can transport up to 40 units across the waters."
+msgstr "- 'S urrainn dhi gu ruige 400 aonad a ghiùlan thar a' chuain."
+
+#: gui/text/tips/civic_centres.txt:1
+msgid "CIVIC CENTERS"
+msgstr "IONADAN SÌOBHALTA"
+
+#: gui/text/tips/civic_centres.txt:2
+msgid "- The \"foundation\" of your new colony."
+msgstr "- Seo \"bunait\" an tuineachaidh ùir agad."
+
+#: gui/text/tips/civic_centres.txt:4
+msgid "- Claim large tracts of territory."
+msgstr "- Gabh cnap mòr de ranntair."
+
+#: gui/text/tips/civic_centres.txt:6
+msgid "- Can be built in friendly and neutral territory."
+msgstr "- 'S urrainn dhut fear a thogail air ranntair càirdeil no neo-phàirteach."
+
+#: gui/text/tips/civic_centres.txt:8
+msgid "- Train Female Citizens and basic Citizen-Soldiers."
+msgstr "- Trèanaich saoranaich bhoireann is saighdearan-dùthcha bunasach."
+
+#: gui/text/tips/embassies.txt:1
+msgid "EMBASSIES"
+msgstr "AMBASAIDEAN"
+
+#: gui/text/tips/embassies.txt:2
+msgid "- Special \"Barracks\" available to the Carthage faction."
+msgstr "- Seo \"Taighean-feachd\" sònraichte aig na Cartagaich."
+
+#: gui/text/tips/embassies.txt:4
+msgid "- Train mercenaries from each of the ethnically-themed embassies."
+msgstr "- Trèanaich saighdearan-duaise a bhuineas ri sluagh na h‑ambasaid."
+
+#: gui/text/tips/embassies.txt:6
+msgid ""
+"- Mercenary \"citizen-soldiers\" have their normal Food cost converted to "
+"Metal cost."
+msgstr "- Cosgaidh \"saighdearan-dùthcha\"-duaise meatailt an àite bìdh."
+
+#: gui/text/tips/fishing.txt:1
+msgid "FISHING"
+msgstr "IASGACH"
+
+#: gui/text/tips/fishing.txt:2
+msgid "- Fish the seas for a bountiful harvest."
+msgstr "- Iasgaich na cuantan airson buana mòire."
+
+#: gui/text/tips/fishing.txt:4
+msgid "- Fishing boats carry a large amount of Food per trip."
+msgstr "- Giùlainidh bàtaichean-iasgach uiread dhe biadh gach turas."
+
+#: gui/text/tips/fishing.txt:6
+msgid ""
+"- Garrison a Support Unit aboard to double the Fishing Boat's gathering "
+"rate."
+msgstr "- Cuir aonad taice 'na ghearastan ann ach am bi an dà uiread de chruinneachadh aig a' bhàta-iasgaich."
+
+#: gui/text/tips/fishing.txt:8
+msgid "- Careful! Fish are not an infinite resource!"
+msgstr "- Thoir an aire! Chan e stòras gun chrìch a tha sna h‑èisg!"
+
+#: gui/text/tips/fortress.txt:1
+msgid "FORTRESS"
+msgstr "DÙN"
+
+#: gui/text/tips/fortress.txt:2
+msgid "- The Fortress is usually each faction's strongest building."
+msgstr "- 'S e an togalach as treasa aig cha mhòr gach sìobhaltas a tha san dùn."
+
+#: gui/text/tips/fortress.txt:4
+msgid "- Trains strong units like Champions, Heroes, and Siege Weapons."
+msgstr "- Trèanaichidh seo aonadan treuna mar laoich, curaidhean is innealan sèiste."
+
+#: gui/text/tips/fortress.txt:6
+msgid "- Gives a population boost."
+msgstr "- Bheir seo barrachd sluaigh dhut."
+
+#: gui/text/tips/fortress.txt:8
+msgid "- Garrison soldiers inside to add more firepower to its defense."
+msgstr "- Cuir saighdearan 'nan gearastan a-steach ach am bi dìon nas treasa aige."
+
+#: gui/text/tips/gathering.txt:1
+msgid "RESOURCE GATHERING"
+msgstr "CRUINNEACHADH STÒRASAN"
+
+#: gui/text/tips/gathering.txt:2
+msgid "- Use Citizen-Soldiers and Female Citizens to gather resources."
+msgstr "- Cleachd saighdearan-dùthcha is saoranaich bhoireann gus stòrasan a chruinneachadh."
+
+#: gui/text/tips/gathering.txt:4
+msgid "- Female Citizens are bonused with Farming and Foraging."
+msgstr "- Gheibh saoranaich boireann buannachd le àiteach is cruinneachadh."
+
+#: gui/text/tips/gathering.txt:6
+msgid "- Citizen-Soldiers are bonused with Mining."
+msgstr "- Gheibh saighdearan-dùthcha buannachd le tochladh."
+
+#: gui/text/tips/gathering.txt:8
+msgid "- Cavalry Citizen-Soldiers are bonused with Hunting."
+msgstr "- Gheibh eachraidh-dùthcha buannachd le sealg."
+
+#: gui/text/tips/gathering.txt:10
+msgid ""
+"- The higher the level of Citizen-Soldier (Advanced, Elite), the better he "
+"fights, but the less efficient he is at gathering."
+msgstr "- Mar as àirde an rang aig saighdear-dùthcha (adhartach, seann-ghaisgeach) 's ann nas fhearr an t‑sabaid a nì e ach cha bhi e cho math air stòrasan a chruinneachadh."
+
+#: gui/text/tips/iphicrates.txt:1
+msgid "IPHICRATES"
+msgstr "IPHICRATES"
+
+#: gui/text/tips/iphicrates.txt:2
+msgid ""
+"- The Athenian general who reformed the Athenian army to be faster and more "
+"maneuverable."
+msgstr "- Ceann-armailt na h-Àithne a rinn ath-leasachadh air feachd na h-Àithne ach am biodh e na bu luaithe sùbailte."
+
+#: gui/text/tips/iphicrates.txt:4
+msgid "- Units in his formation are faster and stronger."
+msgstr "- Bidh aonadan sa chumadh aige nas luaithe 's nas treasa."
+
+#: gui/text/tips/iphicrates.txt:6
+msgid "- Skirmishers move faster while he lives."
+msgstr "- Gluaisidh streupairean nas luaidhe fhad 's a bhios e beò."
+
+#: gui/text/tips/outposts.txt:1
+msgid "OUTPOSTS"
+msgstr "GEARASTANAN"
+
+#: gui/text/tips/outposts.txt:2
+msgid "- Build in neutral territory for a large scouting range."
+msgstr "- Tog fear air ranntair neo-phàirteach airson astair bheachdachaidh mhòir."
+
+#: gui/text/tips/outposts.txt:4
+msgid "- Cheap, at 80 Wood."
+msgstr "- Saor 's cha chosg thu ach 80 fiodh."
+
+#: gui/text/tips/outposts.txt:6
+msgid "- They construct quickly, but are weak."
+msgstr "- Togaidh tu gu luath iad, ach tha iad lag."
+
+#: gui/text/tips/outposts.txt:8
+msgid ""
+"- Garrison a unit in it to stop them from decaying in neutral territory."
+msgstr "- Cuir aonad 'na ghearastan annta ach nach tig crìonadh ranntair orra."
+
+#: gui/text/tips/palisades.txt:1
+msgid "PALISADE WALLS"
+msgstr "BALLACHAN SONNAICH"
+
+#: gui/text/tips/palisades.txt:2
+msgid "- A quick, cheap wooden wall available to all factions."
+msgstr "- Balla fiodha saor luath a tha dh'fhaodas na h‑uile sìobhaltas a thogail."
+
+#: gui/text/tips/palisades.txt:4
+msgid "- Most factions have access to them in Village Phase."
+msgstr "- Tha iad aig a' mhòrchuid de shìobhaltasan ri linn nan clachan."
+
+#: gui/text/tips/palisades.txt:6
+msgid ""
+"- Attackable by enemy soldiers, unlike City Walls, which are only attackable"
+" by siege weapons."
+msgstr "- 'S urrainn do shaighdearan nàmhad ionnsaigh a thoirt air seach mar as urrainn air ballachan a' bhaile nach toir ach innealan-sèiste ionnsaigh air."
+
+#: gui/text/tips/pericles.txt:1
+msgid "PERICLES"
+msgstr "PERICLES"
+
+#: gui/text/tips/pericles.txt:2
+msgid "- The foremost Athenian politician of the 5th century BCE."
+msgstr "- Am prìomh neach-polataigs aig Baile na h-Àithne ron 5mh linn RC."
+
+#: gui/text/tips/pericles.txt:4
+msgid "- Buildings construct faster within his range."
+msgstr "- Togar togalaichean nas luaithe taobh a-staigh astair."
+
+#: gui/text/tips/pericles.txt:6
+msgid "- Temples are cheaper while he lives."
+msgstr "- Bidh teampaill nas saoire fhad 's a bhios e beò."
+
+#: gui/text/tips/persian_architecture.txt:1
+msgid "PERSIAN ARCHITECTURE"
+msgstr "- AILTIREACHD PHEARSACH"
+
+#: gui/text/tips/persian_architecture.txt:2
+msgid "- Special Technology for the Persians."
+msgstr "- Teicneolas sònraichte airson nam Pearsach."
+
+#: gui/text/tips/persian_architecture.txt:4
+msgid "- All Persian buildings +25% stronger."
+msgstr "- Bidh gach togalach nam Pearsach +25% nas treasa."
+
+#: gui/text/tips/persian_architecture.txt:6
+msgid "- Build time lengthened by +20% as a consequence."
+msgstr "- Mairidh an togail +20% nas fhaide mar thoradh air seo."
+
+#: gui/text/tips/persian_architecture.txt:8
+msgid ""
+"- Persians also have access to a great number of structural & defensive "
+"technologies."
+msgstr "- Bidh uiread de theicneolasan togail is dìona ri fhaighinn dha na Pearsaich."
+
+#: gui/text/tips/pikemen.txt:1
+msgid "PIKEMEN"
+msgstr "PÌCEARAN"
+
+#: gui/text/tips/pikemen.txt:2
+msgid "- Heavily armored and slow. Low attack."
+msgstr "- Armachd throm orra 's slaodach. Ionnsaigh lag."
+
+#: gui/text/tips/pikemen.txt:4
+msgid ""
+"- Used against cavalry for a 4x attack bonus or against other melee infantry"
+" to pin them them in place."
+msgstr "- Cleachd iad an aghaidh eachraidh le buannachd de 4x air an ionnsaigh no an aghaidh coisridh dhlùithe gus am cumail far a bheil iad."
+
+#: gui/text/tips/pikemen.txt:6
+msgid "- Available to: Macedonians, Seleucids, and Ptolemies."
+msgstr "- Ri làimh dha na Masadonaich, Seleucaich 's Ptolamaich."
+
+#: gui/text/tips/quinquereme.txt:1
+msgid "HEAVY WARSHIP"
+msgstr "LONG-CHOGAIDH THROM"
+
+#: gui/text/tips/quinquereme.txt:2
+msgid ""
+"- The heaviest standard warship. Available to: Rome, Carthage, Ptolemies, "
+"and Seleucids."
+msgstr "- An long-chogaidh àbhaisteach as truime. Ri làimh do na: Ròmanaich, Cartagaich, Ptolamaich 's Seleucaich."
+
+#: gui/text/tips/quinquereme.txt:4
+msgid "- Garrison ballistas to increase fire power."
+msgstr "- Cuir crainn-thabhaill 'nan gearastan ann airson buannachd ionnsaighe."
+
+#: gui/text/tips/quinquereme.txt:6
+msgid "- Has a ramming attack that sinks enemy ships (NOT IMPLEMENTED YET)."
+msgstr "- Tha ionnsaigh starraidh aige a chuireas longan an nàmhad fodha (CHA DEACH SEO A PHRÒGRAMACHADH FHATHAST)."
+
+#: gui/text/tips/savanna_biome.txt:1
+msgid "SAVANNA BIOME"
+msgstr "SABHANNA"
+
+#: gui/text/tips/savanna_biome.txt:2
+msgid "- Generally flat, with a few watering holes and rocky outcrops."
+msgstr "- Tha sabhannathan rèidh le beagan lochanan is creagan ann mar as trice."
+
+#: gui/text/tips/savanna_biome.txt:4
+msgid "- Chock full of herd animals for plentiful hunting."
+msgstr "- Làn de dh'ainmhidhean trèid airson seilge pailte."
+
+#: gui/text/tips/savanna_biome.txt:6
+msgid "- Rich in all types of mining."
+msgstr "- Beartach a thabh mèinnearachd dhe na h‑uile seòrsa."
+
+#: gui/text/tips/savanna_biome.txt:8
+msgid "- Wood tends to be sparse, but consists of high-yield Baobab trees."
+msgstr "- Cha bhi cus chraobhan ann ach 's e bathobaban torrach a th' annta."
+
+#: gui/text/tips/scout_towers.txt:1
+msgid "DEFENSE TOWERS"
+msgstr "TÙIR DHÌONA"
+
+#: gui/text/tips/scout_towers.txt:2
+msgid "- Free-standing towers good for defending large areas of countryside."
+msgstr "- Tùir a sheasas 'nan aonar gus cnapan mòra de thìr a dhìon."
+
+#: gui/text/tips/scout_towers.txt:4
+msgid ""
+"- They usually cost 100 Wood and 100 Stone. Iberian Defense Towers cost 300 "
+"Stone (because they're stronger)."
+msgstr "- Cosgaidh iad 100 fiodh agus 100 clach mar as àbhaist. Cosgaidh tùir dìona Ibèireach 300 clach (on a tha iad nas treasa)."
+
+#: gui/text/tips/scout_towers.txt:6
+msgid "- Has a ranged attack that increases for each garrisoned unit."
+msgstr "- Tha ionnsaigh astair aca a mheudaicheas le gach aonad a bhios 'na ghearastan ann."
+
+#: gui/text/tips/spartan_hoplites.txt:1
+msgid "SPARTIATES"
+msgstr "SPÀRTAICH"
+
+#: gui/text/tips/spartan_hoplites.txt:2
+msgid "- Strongest infantry unit in the game."
+msgstr "- An t‑aonad coisridh as treasa sa gheama."
+
+#: gui/text/tips/spartan_hoplites.txt:4
+msgid "- Champion Infantry available to the Spartans faction."
+msgstr "- Laoch coisridh a tha ri fhaighinn airson nam Spartach."
+
+#: gui/text/tips/spartan_hoplites.txt:6
+msgid ""
+"- Use them to slaughter enemy cavalry or as a shock force to support your "
+"regular infantry."
+msgstr "- Cleachd iad gus eachraidh an nàmhad a chur gu bàs no mar fheachd làidir gus taic a chur ris a' choisridh àbhaisteach agad."
+
+#: gui/text/tips/spartan_hoplites.txt:8
+msgid "- Use the 'Phalanx' formation for extra armor bonuses."
+msgstr "- Chleachd an cumadh \"falangas\" airson barrachd bhuannachdan air an armachd."
+
+#: gui/text/tips/spearmen.txt:1
+msgid "SPEARMEN"
+msgstr "SLEAGHAIREAN"
+
+#: gui/text/tips/spearmen.txt:2
+msgid "- The basic melee infantry for every faction in the game."
+msgstr "- Seo a' choisridh dhlùth bhunasach aig gach sluagh sa gheama."
+
+#: gui/text/tips/spearmen.txt:4
+msgid "- Used against cavalry for a 2x attack bonus."
+msgstr "- Cleachd iad an aghaidh eachraidh airson buannachd de 2x fhaighinn air an ionnsaigh."
+
+#: gui/text/tips/spearmen.txt:6
+msgid ""
+"- Decent hack attack and a good charge bonus make them good front line "
+"troops."
+msgstr "- Tha ionnsaigh spealgaidh nach eil dona aca agus buannachd mhath air cruinn-leum 's tha iad math air toiseach an fheachd."
+
+#: gui/text/tips/spearmen.txt:8
+msgid ""
+"- They are countered by ranged units and swordsmen, so support your spearmen"
+" with slingers or cavalry."
+msgstr "- Thèid aonadan astair 's claidheamhairean 'nan aghaidh, mar sin cuir taic ris na sleaghairean agad le longadairean no eachraidh."
+
+#: gui/text/tips/stoa.txt:1
+msgid "STOA"
+msgstr "STOA"
+
+#: gui/text/tips/stoa.txt:2
+msgid "- A special starting structure for the Hellenes."
+msgstr "- Togalach tòiseachaidh sònraichte aig na Greugaich."
+
+#: gui/text/tips/stoa.txt:4
+msgid "- Grants +10 Population."
+msgstr "- Bheir seo +10 de shluagh dhut."
+
+#: gui/text/tips/stoa.txt:6
+msgid "- Only enabled in some game modes."
+msgstr "- Chan eil seo an comas ach le cuid a mhodhan geama."
+
+#: gui/text/tips/stoa.txt:8
+msgid "- Can be found in the Atlas editor for custom scenarios."
+msgstr "- Chì thu seo ann an deasaiche Atlas airson chnàmh-sgeulan gnàthaichte."
+
+#: gui/text/tips/storehouses.txt:1
+msgid "STOREHOUSES"
+msgstr "TAIGHEAN-STÒRAIS"
+
+#: gui/text/tips/storehouses.txt:2
+msgid "- A cheap dropsite for non-food resources (wood, stone, metal)."
+msgstr "- Ionad-stòrais saor airson a h‑uile stòras ach biadh (fiodh, clach, meatailt)."
+
+#: gui/text/tips/storehouses.txt:4
+msgid ""
+"- Research technologies to improve the gathering capabilities of your "
+"citizens."
+msgstr "- Rannsaich teicneolasan gus na comasan cruinneachaidh aig na saoranaich agad a leasachadh."
+
+#: gui/text/tips/syntagma.txt:1
+msgid "SYNTAGMA FORMATION"
+msgstr "CUMADH SIONTAGMA"
+
+#: gui/text/tips/syntagma.txt:2
+msgid "- A formation for 'pikeman' style infantry."
+msgstr "- Cumadh airson coisridh dhen t‑seòrsa \"pìcear\"."
+
+#: gui/text/tips/syntagma.txt:4
+msgid "- Formation is slow and cumbersome."
+msgstr "- Tha an cumadh slaodach agus trom."
+
+#: gui/text/tips/syntagma.txt:6
+msgid "- Nearly invulnerable from the front."
+msgstr "- Tha e cha mhòr do-leònta on toiseach."
+
+#: gui/text/tips/syntagma.txt:8
+msgid "- Vulnerable to attacks from the rear."
+msgstr "- Tha e so-leònta an aghaidh ionnsaighean on chùlaibh."
+
+#: gui/text/tips/temples.txt:1
+msgid "TEMPLES"
+msgstr "TEAMPAILL"
+
+#: gui/text/tips/temples.txt:2
+msgid "- Town Phase structure."
+msgstr "Togalach aig linn nam bailtean."
+
+#: gui/text/tips/temples.txt:4
+msgid "- Recruit Healers to heal your troops on the battlefield."
+msgstr "- Trus lighichean ach an slànaich iad na saighdearan agad air a' bhlàs."
+
+#: gui/text/tips/temples.txt:6
+msgid "- Research healing, religious devotion, and cultural technologies."
+msgstr "- Rannsaich slànachadh, cràbhadh agus teicneolasan cultarail."
+
+#: gui/text/tips/temples.txt:8
+msgid "- Its \"aura\" heals nearby units."
+msgstr "- Slànaichidh \"aura\" teampaill na h‑aonadan 'na fhagas."
+
+#: gui/text/tips/temples.txt:10
+msgid "- Garrison damaged units inside for quicker healing."
+msgstr "- Cuir aonadan 'nan gearastan a-steach ach an slànaich iad nas luaithe."
+
+#: gui/text/tips/territory_decay.txt:1
+msgid "TERRITORY DECAY"
+msgstr "CRÌONADH RANNTAIR"
+
+#: gui/text/tips/territory_decay.txt:3
+msgid ""
+"- Decay happens when buildings are not connected to an allied Civil Center."
+msgstr "- Thig an crìonadh air togalach nuair nach eil e ceangailte ri ionad sìobhalta caidreabhaich."
+
+#: gui/text/tips/territory_decay.txt:5
+msgid ""
+"- The decay process can be slowed down or reversed by garrisoning some units"
+" in the structure."
+msgstr "- 'S urrainn dhut maille a chur air a' chrìonadh no an togalach a chàradh nuair a chuireas tu aonadan 'nan gearastan ann."
+
+#: gui/text/tips/territory_decay.txt:7
+msgid ""
+"- When the decay is completed, the building will be given to the most "
+"influential neighbor."
+msgstr "- Nuair a bhios an crìonadh coileanta, thèid an togalach a thoirt dhan nàbaidh as cumhachdaiche."
+
+#: gui/text/tips/themistocles.txt:1
+msgid "THEMISTOCLES"
+msgstr "THEMISTOCLES"
+
+#: gui/text/tips/themistocles.txt:2
+msgid ""
+"- Athenian hero who commanded the Greeks at the great naval battles of "
+"Artemisium and Salamis."
+msgstr "- Curaidh na h-Àithne a stiùirich na Greugaich aig na batail-mara mòra aig Artemisium agus Salamis."
+
+#: gui/text/tips/themistocles.txt:4
+msgid "- All ships are built faster while he lives."
+msgstr "- Thèid na h-uile long a thogail nas luaithe fhad 's a bhios e beò."
+
+#: gui/text/tips/themistocles.txt:6
+msgid "- The ship he is garrisoned inside moves much faster."
+msgstr "- Gluaisidh an long sa bhios e 'na gearastan mòran nas luaithe."
+
+#: gui/text/tips/triremes.txt:1
+msgid "TRIREME"
+msgstr "TRÌ-RÀMHACH"
+
+#: gui/text/tips/triremes.txt:2
+msgid "- The Medium Warship."
+msgstr "- An long-chogaidh mheadhanach."
+
+#: gui/text/tips/triremes.txt:4
+msgid ""
+"- Available to the Romans, Carthaginians, Hellenic factions, and Persians."
+msgstr "- Tha seo ri fhaighinn dha na Ròmanaich, na Cartagaich, na Greugaich is na Pearsaich."
+
+#: gui/text/tips/triremes.txt:6
+msgid "- Good for transporting or fighting."
+msgstr "- Tha i math airson giùlain no sabaid."
+
+#: gui/text/tips/triremes.txt:8
+msgid "- Garrison troops aboard to increase fire power."
+msgstr "- Cuir aonadan 'nan gearastan ann airson buannachd ionnsaighe."
+
+#: gui/text/tips/triremes.txt:10
+msgid ""
+"- Garrison a catapult aboard for a long-range siege attack (NOT IMPLEMENTED "
+"YET)."
+msgstr "- Cuir crann-tabhaill 'na ghearastan air bòrd airson ionnsaigh sèiste aig astar mòr (CHA DEACH SEO A PHRÒGRAMACHADH FHATHAST)."
+
+#: gui/text/tips/triremes.txt:12
+msgid ""
+"- Capable of a devastating ship-to-ship ramming attack that must recharge "
+"between each use (NOT IMPLEMENTED YET)."
+msgstr "- Tha ionnsaigh starraidh cronail dha longan eile aige nach urrainn dhut cleachdadh da thuras sa bhad (CHA DEACH SEO A PHRÒGRAMACHADH FHATHAST)."
+
+#: gui/text/tips/viriato.txt:1
+msgid "VIRIATO"
+msgstr "VIRIATO"
+
+#: gui/text/tips/viriato.txt:2
+msgid "- Iberian hero of the Lusitani tribe."
+msgstr "- Curaidh Ibèirach o threubh nan Lusatanach."
+
+#: gui/text/tips/viriato.txt:4
+msgid ""
+"- At least 7 campaigns against the Romans during the 'Lusitani Wars' from "
+"147 to 139 B.C."
+msgstr "- 7 iomairtean an aghaidh nan Ròmanach air a char as lugha rè 'Cogaidhean nan Lusitani' o 147 gu 139 RC"
+
+#: gui/text/tips/viriato.txt:6
+msgid "- Fast moving and can switch between sword and flaming javelin."
+msgstr "- Gluaisidh e gu luath is 's urrainn dha suids a dhèanamh eadar claidheamh agus gath 'na theine."
+
+#: gui/text/tips/viriato.txt:8
+msgid ""
+"- His \"aura\" is the \"Tactica Guerilla\" that allows nearby Iberian units "
+"to ambush their opponents."
+msgstr "- Is \"Tactica Guerilla\" an aura aige a leigeas le aonadan Ibèireach faisg air fàth a dhèanamh air an nàmhaid."
+
+#: gui/text/tips/war_elephants.txt:1
+msgid "WAR ELEPHANTS"
+msgstr "AILBHEANAN COGAIDH"
+
+#: gui/text/tips/war_elephants.txt:2
+msgid "- Huge beasts from Africa and India, trained for war."
+msgstr "- Beathaichean mòra à Afraga 's às na h-Innseachan a chaidh a thrèanadh airson a' chogaidh."
+
+#: gui/text/tips/war_elephants.txt:4
+msgid ""
+"- High Food and Metal cost, but very powerful. Strongest against Structures "
+"and Cavalry."
+msgstr "- Cosgaisean bìdh is meatailt mòra, ach glè chumhachdach. As treasa an aghaidh thogalaichean 's eachraidh."
+
+#: gui/text/tips/war_elephants.txt:6
+msgid "- Vulnerable to infantry skirmishers."
+msgstr "- So-leònta an aghaidh streupairean."
+
+#: gui/text/tips/war_elephants.txt:8
+msgid "- Available to: Mauryans, Ptolemies, Seleucids, and Carthaginians."
+msgstr "- Ri làimh dha na: Mauraidhich, Ptolamaich, Seleucaich 's Cartagaich."
+
+#: gui/text/tips/whales.txt:1
+msgid "WHALES"
+msgstr "MUCAN-MARA"
+
+#: gui/text/tips/whales.txt:2
+msgid "- An oceanic resource."
+msgstr "- Stòras-mara."
+
+#: gui/text/tips/whales.txt:4
+msgid "- 2000 Food."
+msgstr "- 2000 biadh."
+
+#: gui/text/tips/whales.txt:6
+msgid "- Gatherable by Fishing Boats after the whale is killed."
+msgstr "- Gabhaidh a chruinneachadh le bàta-iasgaich nuair a bhios a' mhuc-mhara air a mharbhadh."
+
+#: gui/text/tips/whales.txt:8
+msgid "- Roam around the oceans of the game and flee when attacked."
+msgstr "- Rachaidh iad air fàrsan air cuantan a' gheama is teichich iad nuair a thèid ionnsaigh a thoirt orra."

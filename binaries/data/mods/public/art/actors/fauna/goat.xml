@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Mesh">
+      <mesh>skeletal/goat.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Hair-dark">
+      <textures><texture file="skeletal/animal_goat.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="Hair-light">
+      <textures><texture file="skeletal/animal_goat2.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="death">
+      <props>
+        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+</actor>

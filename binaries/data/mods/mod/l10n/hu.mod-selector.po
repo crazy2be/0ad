@@ -1,0 +1,141 @@
+# Translation template for Pyrogenesis - Mod Selector.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the Pyrogenesis - Mod Selector project.
+# 
+# Translators:
+# Gellért Gyuris <gellert.gyuris@gmail.com>, 2014
+# Stew Den <stewden55@hotmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2014-11-09 02:36+0100\n"
+"PO-Revision-Date: 2014-12-30 17:00+0000\n"
+"Last-Translator: Gellért Gyuris <gellert.gyuris@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/0ad/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: gui/modmod/modmod.js:30 gui/modmod/modmod.xml:(heading):94
+#: gui/modmod/modmod.xml:(heading):135
+msgid "Name"
+msgstr "Név"
+
+#: gui/modmod/modmod.js:30
+msgid "Folder"
+msgstr "Mappa"
+
+#: gui/modmod/modmod.js:30
+msgid "Label"
+msgstr "Címke"
+
+#: gui/modmod/modmod.js:30 gui/modmod/modmod.xml:(heading):97
+#: gui/modmod/modmod.xml:(heading):138
+msgid "Version"
+msgstr "Verzió"
+
+#: gui/modmod/modmod.js:36
+msgid "Type: Any"
+msgstr "Típus: Bármi"
+
+#: gui/modmod/modmod.js:62 gui/modmod/modmod.js:308
+msgid "Filter"
+msgstr "Szűrő"
+
+#: gui/modmod/modmod.js:74
+msgid "Message: Mods Loaded."
+msgstr "Üzenet: modok betöltve."
+
+#: gui/modmod/modmod.js:372
+msgid "All dependencies met"
+msgstr "Minden függőség megfelel"
+
+#: gui/modmod/modmod.js:498
+msgid "No mod has been selected."
+msgstr "Nincs kijelölt mod."
+
+#: gui/modmod/modmod.xml:116
+msgid "Description"
+msgstr "Leírás"
+
+#: gui/modmod/modmod.xml:(caption):10
+msgid "Modifications"
+msgstr "Módosítások"
+
+#: gui/modmod/modmod.xml:(caption):18
+msgid "Reset Filters"
+msgstr "Szűrők visszaállítása"
+
+#: gui/modmod/modmod.xml:(caption):52
+msgid "Negate"
+msgstr "Tagadás"
+
+#: gui/modmod/modmod.xml:(caption):59
+msgid "Sorting:"
+msgstr "Rendezés:"
+
+#: gui/modmod/modmod.xml:(caption):71
+msgid "Descending."
+msgstr "Csökkenő."
+
+#: gui/modmod/modmod.xml:(caption):87
+msgid "Available Mods"
+msgstr "Elérhető Módok"
+
+#: gui/modmod/modmod.xml:(caption):119
+msgid "Enable"
+msgstr "Engedélyezés"
+
+#: gui/modmod/modmod.xml:(caption):128
+msgid "Enabled Mods"
+msgstr "Engedélyezett Módok"
+
+#: gui/modmod/modmod.xml:(caption):158
+msgid "Up"
+msgstr "Fel"
+
+#: gui/modmod/modmod.xml:(caption):162
+msgid "X"
+msgstr "X"
+
+#: gui/modmod/modmod.xml:(caption):166
+msgid "Down"
+msgstr "Le"
+
+#: gui/modmod/modmod.xml:(caption):174
+msgid "Quit"
+msgstr "Kilépés"
+
+#: gui/modmod/modmod.xml:(caption):179
+msgid "Cancel"
+msgstr "Mégse"
+
+#: gui/modmod/modmod.xml:(caption):184
+msgid "Save Configuration"
+msgstr "Beállítások mentése"
+
+#: gui/modmod/modmod.xml:(caption):189
+msgid "Start Mods"
+msgstr "Mod indítása"
+
+#: gui/modmod/modmod.xml:(heading):100 gui/modmod/modmod.xml:(heading):141
+msgid "(Folder)"
+msgstr "(Mappa)"
+
+#: gui/modmod/modmod.xml:(heading):103 gui/modmod/modmod.xml:(heading):144
+msgid "Mod Label"
+msgstr "Mod címke"
+
+#: gui/modmod/modmod.xml:(heading):106 gui/modmod/modmod.xml:(heading):147
+msgid "Mod Type"
+msgstr "Mod típusa"
+
+#: gui/modmod/modmod.xml:(heading):109 gui/modmod/modmod.xml:(heading):150
+msgid "Dependencies"
+msgstr "Függőségek"
+
+#: gui/modmod/modmod.xml:(heading):112 gui/modmod/modmod.xml:(heading):153
+msgid "Website"
+msgstr "Weboldal"

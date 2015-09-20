@@ -1,0 +1,12 @@
+{
+	"settings" : {
+		"Name" : "Fortress",
+		"Script" : "fortress.js",
+		"Description" : "Players start in a ready-made fortress with piles of resources.",
+		"BaseTerrain" : ["temp_grass_aut", "temp_grass_aut", "temp_grass_d_aut"],
+		"BaseHeight" : 3,
+		"CircularMap" : true,
+		"Preview" : "fortress.png",
+		"XXXXXX" : "Optionally define other things here, like we would for a scenario"
+	}
+}

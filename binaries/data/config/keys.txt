@@ -1,0 +1,250 @@
+## This file documents keynames that can be used in .cfg files for specifying hotkeys
+## Note: the keynames are not actually configured or implemented here
+
+Backspace, BkSp
+Tab
+Clear
+Return, Ret
+Pause
+Escape, Esc
+Space, Spc
+!, Exclaim
+", DoubleQuote
+#, Hash
+$, Dollar
+&, Ampersand
+', SingleQuote
+(, LeftParen
+), RightParen
+*, Asterisk
++, Plus
+,, Comma
+-, Minus
+., Period
+/, ForwardSlash
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+:, Colon
+;, Semicolon
+<, LessThan
+=, Equals
+>, GreaterThan
+?, Question
+@, At
+[, LeftBracket
+\, BackSlash
+], RightBracket
+^, Caret
+_, Underscore
+`, BackQuote
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+Delete, Del
+Numpad 0, Num0
+Numpad 1, Num1
+Numpad 2, Num2
+Numpad 3, Num3
+Numpad 4, Num4
+Numpad 5, Num5
+Numpad 6, Num6
+Numpad 7, Num7
+Numpad 8, Num8
+Numpad 9, Num9
+Numpad ., NumPoint
+Numpad /, NumDivide
+Numpad *, NumMultiply
+Numpad -, NumMinus
+Numpad +, NumPlus
+Numpad Enter, NumEnter
+Numpad =, NumEquals
+
+Arrow Up, UpArrow
+Arrow Down, DownArrow
+Arrow Right, RightArrow
+Arrow Left, LeftArrow
+Insert, Ins
+Home
+End
+Page Up, PgUp
+Page Down, PgDn
+
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+F13
+F14
+F15
+
+Num Lock, NumLock
+Caps Lock, CapsLock
+Scroll Lock, ScrlLock
+Right Shift, RightShift
+Left Shift, LeftShift
+Shift, AnyShift
+Right Ctrl, RightCtrl
+Left Ctrl, LeftCtrl
+Ctrl, AnyCtrl
+Right Alt, RightAlt
+Left Alt, LeftAlt
+Alt, AnyAlt
+Left Super, LeftWin
+Right Super, RightWin
+Super, AnyWindows		## Windows key, also Command/meta key on Macs
+Alt Gr, AltGr
+Compose
+
+Help
+Print Screen, PrtSc
+SysRq
+Break
+Menu
+Power
+Euro
+Undo
+Left Mouse Button, MouseLeft
+Right Mouse Button, MouseRight
+Middle Mouse Button, MouseMiddle
+Mouse Wheel Up, WheelUp
+Mouse Wheel Down, WheelDown
+MouseButtonX, MouseNX # where X is a number 1-255, for extra mouse buttons
+## (note that some mice start numbering their buttons at higher numbers
+##  so the first extra button on your mouse might be #8 here)
+
+## Special keys for international and non-QWERTY keyboards:
+World0, W0
+World1, W1
+World2, W2
+World3, W3
+World4, W4
+World5, W5
+World6, W6
+World7, W7
+World8, W8
+World9, W9
+World10, W10
+World11, W11
+World12, W12
+World13, W13
+World14, W14
+World15, W15
+World16, W16
+World17, W17
+World18, W18
+World19, W19
+World20, W20
+World21, W21
+World22, W22
+World23, W23
+World24, W24
+World25, W25
+World26, W26
+World27, W27
+World28, W28
+World29, W29
+World30, W30
+World31, W31
+World32, W32
+World33, W33
+World34, W34
+World35, W35
+World36, W36
+World37, W37
+World38, W38
+World39, W39
+World40, W40
+World41, W41
+World42, W42
+World43, W43
+World44, W44
+World45, W45
+World46, W46
+World47, W47
+World48, W48
+World49, W49
+World50, W50
+World51, W51
+World52, W52
+World53, W53
+World54, W54
+World55, W55
+World56, W56
+World57, W57
+World58, W58
+World59, W59
+World60, W60
+World61, W61
+World62, W62
+World63, W63
+World64, W64
+World65, W65
+World66, W66
+World67, W67
+World68, W68
+World69, W69
+World70, W70
+World71, W71
+World72, W72
+World73, W73
+World74, W74
+World75, W75
+World76, W76
+World77, W77
+World78, W78
+World79, W79
+World80, W80
+World81, W81
+World82, W82
+World83, W83
+World84, W84
+World85, W85
+World86, W86
+World87, W87
+World88, W88
+World89, W89
+World90, W90
+World91, W91
+World92, W92
+World93, W93
+World94, W94
+World95, W95

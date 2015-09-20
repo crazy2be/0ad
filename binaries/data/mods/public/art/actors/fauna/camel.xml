@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+	<castshadow/>
+	<group>
+		<variant frequency="100" name="camel">
+			<animations>
+				<animation file="quadraped/camel_walk.dae" name="Walk" speed="65"/>
+				<animation file="quadraped/camel_run.dae" name="Run" speed="25"/>
+				<animation file="quadraped/camel_death.dae" name="Death" speed="90"/>
+				<animation file="quadraped/camel_idle_01.dae" name="Idle" speed="50"/>
+				<animation file="quadraped/camel_idle_02.dae" name="Idle" speed="50"/>
+			</animations>
+			<mesh>skeletal/camel_1.dae</mesh>
+		</variant>
+	</group>
+	<group>
+		<variant frequency="100" name="texture">
+			<textures><texture file="skeletal/animal_camel.png" name="baseTex"/></textures>
+		</variant>
+	</group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+	<variant name="death">
+	  <props>
+		<prop actor="props/units/blood_01.xml" attachpoint="root"/>
+	  </props>
+      <textures>
+        <texture file="skeletal/animal_camel_dead.png" name="baseTex"/>
+      </textures>
+	</variant>
+    <variant name="Run">
+      <props>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+</actor>

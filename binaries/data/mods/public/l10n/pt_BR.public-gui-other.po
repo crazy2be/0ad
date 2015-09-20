@@ -1,0 +1,2320 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# Arthur Paim Arnold <arthurpaimarnold@gmail.com>, 2015
+# Cleiton Nunes <umarekhawari@gmail.com>, 2014
+# Ernan, 2015
+# Sturm <gravador202@yahoo.com.br>, 2014
+# Matheus Clemente <matheus.xb@gmail.com>, 2014-2015
+# Mihailov Vasilievic Filho <mihailov.vf@gmail.com>, 2015
+# no and no <nicolasmaia@tutanota.com>, 2015
+# PedroDognani <pedro_dognani_@hotmail.com>, 2015
+# Raphael Mendonça, 2014
+# Thiago Perrotta <thiagoperrotta95@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2015-07-21 23:21+0200\n"
+"PO-Revision-Date: 2015-07-23 17:47+0000\n"
+"Last-Translator: Matheus Clemente <matheus.xb@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/wildfire-games/0ad/language/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: gui/civinfo/civinfo.js:89
+#, javascript-format
+msgid "%(civilization)s Gameplay"
+msgstr "Jogo %(civilization)s"
+
+#: gui/civinfo/civinfo.js:92
+msgid "Civilization Bonus"
+msgid_plural "Civilization Bonuses"
+msgstr[0] "Bônus de Civilização"
+msgstr[1] "Bônus de Civilização"
+
+#: gui/civinfo/civinfo.js:97
+msgid "Team Bonus"
+msgid_plural "Team Bonuses"
+msgstr[0] "Bônus de Time"
+msgstr[1] "Bônus de Time"
+
+#: gui/civinfo/civinfo.js:106
+msgid "Special Technologies"
+msgstr "Tecnologias Especiais"
+
+#: gui/civinfo/civinfo.js:115
+msgid "Special Building"
+msgid_plural "Special Buildings"
+msgstr[0] "Construção Especial"
+msgstr[1] "Construções Especiais"
+
+#: gui/civinfo/civinfo.js:124 gui/summary/layout.js:54
+msgid "Heroes"
+msgstr "Heróis"
+
+#: gui/civinfo/civinfo.js:138
+#, javascript-format
+msgid "History of the %(civilization)s"
+msgstr "História dos %(civilization)s"
+
+#: gui/common/functions_global_object.js:74
+#, javascript-format
+msgid ""
+"Opening %(url)s\n"
+" in default web browser. Please wait...."
+msgstr "Abrindo %(url)s\nno navegador padrão da web. Aguarde..."
+
+#: gui/common/functions_global_object.js:74
+msgid "Opening page"
+msgstr "Abrindo página"
+
+#: gui/common/functions_global_object.js:85
+#, javascript-format
+msgid "FPS: %(fps)4s"
+msgstr "FPS: %(fps)4s"
+
+#: gui/common/functions_global_object.js:102
+#, javascript-format
+msgid "%(time)s (%(speed)sx)"
+msgstr "%(time)s (%(speed)sx)"
+
+#: gui/common/functions_global_object.js:119
+#, javascript-format
+msgctxt "ceasefire"
+msgid "Time remaining until ceasefire is over: %(time)s."
+msgstr "Tempo restante até o cessar-fogo acabar: %(time)s."
+
+#: gui/common/functions_utility.js:191
+msgid "mm:ss"
+msgstr "mm:ss"
+
+#: gui/common/functions_utility.js:193
+msgid "HH:mm:ss"
+msgstr "HH:mm:ss"
+
+#: gui/common/functions_utility_error.js:22
+msgid "Loading Aborted"
+msgstr "Carregamento Abortado"
+
+#: gui/common/functions_utility_loadsave.js:8
+msgid "yyyy-MM-dd HH:mm:ss"
+msgstr "aaaa-MM-dd HH:mm:ss"
+
+#: gui/common/functions_utility_loadsave.js:9
+#, javascript-format
+msgid "\\[%(date)s]"
+msgstr "\\[%(date)s]"
+
+#: gui/common/functions_utility_loadsave.js:18
+#, javascript-format
+msgid "%(dateString)s %(map)s - %(description)s"
+msgstr "%(dateString)s %(map)s - %(description)s"
+
+#: gui/common/functions_utility_loadsave.js:20
+#, javascript-format
+msgid "%(dateString)s %(map)s"
+msgstr "%(dateString)s %(map)s"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:4
+msgctxt "firstWord"
+msgid "Food"
+msgstr "Comida"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:6
+msgctxt "firstWord"
+msgid "Meat"
+msgstr "Carne"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:8
+msgctxt "firstWord"
+msgid "Metal"
+msgstr "Metal"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:10
+msgctxt "firstWord"
+msgid "Ore"
+msgstr "Minério"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:12
+msgctxt "firstWord"
+msgid "Rock"
+msgstr "Pedra"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:14
+msgctxt "firstWord"
+msgid "Ruins"
+msgstr "Ruínas"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:16
+msgctxt "firstWord"
+msgid "Stone"
+msgstr "Pedra"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:18
+msgctxt "firstWord"
+msgid "Treasure"
+msgstr "Tesouro"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:20
+msgctxt "firstWord"
+msgid "Tree"
+msgstr "Árvore"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:22
+msgctxt "firstWord"
+msgid "Wood"
+msgstr "Madeira"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:24
+msgctxt "firstWord"
+msgid "Fruit"
+msgstr "Fruta"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:26
+msgctxt "firstWord"
+msgid "Grain"
+msgstr "Grão"
+
+#. Translation: Word as used at the beginning of a sentence or as a single-
+#. word sentence.
+#: gui/common/l10n.js:28
+msgctxt "firstWord"
+msgid "Fish"
+msgstr "Peixe"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:32
+msgctxt "withinSentence"
+msgid "Food"
+msgstr "Comida"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:34
+msgctxt "withinSentence"
+msgid "Meat"
+msgstr "Carne"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:36
+msgctxt "withinSentence"
+msgid "Metal"
+msgstr "Metal"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:38
+msgctxt "withinSentence"
+msgid "Ore"
+msgstr "Minério"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:40
+msgctxt "withinSentence"
+msgid "Rock"
+msgstr "Pedra"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:42
+msgctxt "withinSentence"
+msgid "Ruins"
+msgstr "Ruínas"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:44
+msgctxt "withinSentence"
+msgid "Stone"
+msgstr "Pedra"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:46
+msgctxt "withinSentence"
+msgid "Treasure"
+msgstr "Tesouro"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:48
+msgctxt "withinSentence"
+msgid "Tree"
+msgstr "Árvore"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:50
+msgctxt "withinSentence"
+msgid "Wood"
+msgstr "Madeira"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:52
+msgctxt "withinSentence"
+msgid "Fruit"
+msgstr "Fruta"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:54
+msgctxt "withinSentence"
+msgid "Grain"
+msgstr "Grão"
+
+#. Translation: Word as used in the middle of a sentence (which may require
+#. using lowercase for your language).
+#: gui/common/l10n.js:56
+msgctxt "withinSentence"
+msgid "Fish"
+msgstr "Peixe"
+
+#: gui/common/network.js:6
+msgid "Unknown reason"
+msgstr "Motivo desconhecido"
+
+#: gui/common/network.js:7
+msgid "Unexpected shutdown"
+msgstr "Desligamento inesperado"
+
+#: gui/common/network.js:8
+msgid "Incorrect network protocol version"
+msgstr "Versão incorreta do protocolo de rede"
+
+#: gui/common/network.js:9
+msgid "Game has already started"
+msgstr "O jogo já começou"
+
+#: gui/common/network.js:10
+#, javascript-format
+msgid "\\[Invalid value %(id)s]"
+msgstr "[Valor inválido %(id)s]"
+
+#: gui/common/network.js:19
+msgid "Lost connection to the server."
+msgstr "Conexão com servidor perdida."
+
+#: gui/common/network.js:19
+#, javascript-format
+msgid "Reason: %(reason)s."
+msgstr "Razão: %(reason)s."
+
+#: gui/common/network.js:20
+msgid "Disconnected"
+msgstr "Desconectado"
+
+#: gui/common/tooltips.js:27 gui/common/tooltips.js:84
+#: gui/common/tooltips.js:116
+msgid "(None)"
+msgstr "(Nenhum)"
+
+#: gui/common/tooltips.js:31 gui/common/tooltips.js:36
+#: gui/common/tooltips.js:41 gui/common/tooltips.js:120
+#: gui/common/tooltips.js:125 gui/common/tooltips.js:130
+#, javascript-format
+msgid "%(damage)s %(damageType)s"
+msgstr "%(damage)s %(damageType)s"
+
+#: gui/common/tooltips.js:33 gui/common/tooltips.js:91
+#: gui/common/tooltips.js:122
+msgid "Hack"
+msgstr "Cortar"
+
+#: gui/common/tooltips.js:38 gui/common/tooltips.js:97
+#: gui/common/tooltips.js:127
+msgid "Pierce"
+msgstr "Penetrar"
+
+#: gui/common/tooltips.js:43 gui/common/tooltips.js:103
+#: gui/common/tooltips.js:132
+msgid "Crush"
+msgstr "Esmagar"
+
+#: gui/common/tooltips.js:46 gui/common/tooltips.js:109
+#: gui/common/tooltips.js:135 gui/common/tooltips.js:400
+#: gui/common/tooltips.js:426 gui/common/tooltips.js:494
+msgid ", "
+msgstr ","
+
+#: gui/common/tooltips.js:52
+#, javascript-format
+msgid "%(time)s %(second)s"
+msgstr "%(time)s %(second)s"
+
+#: gui/common/tooltips.js:54 gui/common/tooltips.js:423
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "segundo"
+msgstr[1] "segundos"
+
+#: gui/common/tooltips.js:61
+#, javascript-format
+msgid "%(arrowcount)s %(arrow)s"
+msgstr "%(arrowcount)s %(arrow)s"
+
+#: gui/common/tooltips.js:63
+msgid "arrow"
+msgid_plural "arrows"
+msgstr[0] "flecha"
+msgstr[1] "flechas"
+
+#: gui/common/tooltips.js:65
+#, javascript-format
+msgid "%(arrowString)s / %(timeString)s"
+msgstr "%(arrowString)s / %(timeString)s"
+
+#: gui/common/tooltips.js:80
+msgid "Armor:"
+msgstr "Armadura:"
+
+#: gui/common/tooltips.js:82 gui/common/tooltips.js:107
+#: gui/common/tooltips.js:167 gui/structree/draw.js:260
+#: gui/structree/draw.js:285
+#, javascript-format
+msgid "%(label)s %(details)s"
+msgstr "%(label)s %(details)s"
+
+#: gui/common/tooltips.js:89 gui/common/tooltips.js:95
+#: gui/common/tooltips.js:101
+#, javascript-format
+msgid "%(damage)s %(damageType)s %(armorPercentage)s"
+msgstr "%(damage)s %(damageType)s %(armorPercentage)s"
+
+#: gui/common/tooltips.js:92 gui/common/tooltips.js:98
+#: gui/common/tooltips.js:104
+#, javascript-format
+msgid "(%(armorPercentage)s)"
+msgstr "(%(armorPercentage)s)"
+
+#: gui/common/tooltips.js:140
+msgid "Charge Attack:"
+msgstr "Ataque em Disparada:"
+
+#: gui/common/tooltips.js:141
+msgid "Melee Attack:"
+msgstr "Ataque Corpo-a-Corpo:"
+
+#: gui/common/tooltips.js:142
+msgid "Ranged Attack:"
+msgstr "Ataque a Longo Alcance:"
+
+#: gui/common/tooltips.js:143
+msgid "Capture Attack:"
+msgstr "Ataque de captura:"
+
+#: gui/common/tooltips.js:146
+msgid "Attack:"
+msgstr "Ataque:"
+
+#: gui/common/tooltips.js:156
+msgid "Interval:"
+msgstr "Intervalo:"
+
+#: gui/common/tooltips.js:158 gui/common/tooltips.js:421
+msgid "Rate:"
+msgstr "Taxa:"
+
+#: gui/common/tooltips.js:175 gui/common/tooltips.js:184
+#, javascript-format
+msgid "%(attackLabel)s %(details)s, %(rate)s"
+msgstr "%(attackLabel)s %(details)s, %(rate)s"
+
+#: gui/common/tooltips.js:194 gui/common/tooltips.js:416
+msgid "Range:"
+msgstr "Alcance:"
+
+#: gui/common/tooltips.js:196 gui/common/tooltips.js:418
+msgid "meters"
+msgstr "metros:"
+
+#: gui/common/tooltips.js:199
+#, javascript-format
+msgid ""
+"%(attackLabel)s %(details)s, %(rangeLabel)s %(range)s %(meters)s "
+"(%(relative)s), %(rate)s"
+msgstr "%(attackLabel)s %(details)s, %(rangeLabel)s %(range)s %(meters)s (%(relative)s), %(rate)s"
+
+#: gui/common/tooltips.js:209
+#, javascript-format
+msgid ""
+"%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(range)s %(meters)s, "
+"%(rate)s"
+msgstr "%(attackLabel)s %(damageTypes)s, %(rangeLabel)s %(range)s %(meters)s, %(rate)s"
+
+#: gui/common/tooltips.js:259 gui/common/tooltips.js:260
+#: gui/common/tooltips.js:261 gui/common/tooltips.js:262
+#: gui/common/tooltips.js:263 gui/common/tooltips.js:264
+#: gui/common/tooltips.js:380
+#, javascript-format
+msgid "%(component)s %(cost)s"
+msgstr "%(component)s %(cost)s"
+
+#. Translation: This string is part of the resources cost string on
+#. the tooltip for wall structures.
+#: gui/common/tooltips.js:318
+#, javascript-format
+msgid "%(resourceIcon)s %(minimum)s to %(resourceIcon)s %(maximum)s"
+msgstr "%(resourceIcon)s %(minimum)s a %(resourceIcon)s %(maximum)s"
+
+#: gui/common/tooltips.js:349
+#, javascript-format
+msgid "Walls:  %(costs)s"
+msgstr "Muralhas:  %(costs)s"
+
+#: gui/common/tooltips.js:350
+#, javascript-format
+msgid "Towers:  %(costs)s"
+msgstr "Torres:  %(costs)s"
+
+#: gui/common/tooltips.js:366
+#, javascript-format
+msgid "%(label)s %(populationBonus)s"
+msgstr "%(label)s %(populationBonus)s"
+
+#: gui/common/tooltips.js:367
+msgid "Population Bonus:"
+msgstr "Bônus de População:"
+
+#: gui/common/tooltips.js:385
+msgid "Insufficient resources:"
+msgstr "Recursos Insuficientes"
+
+#: gui/common/tooltips.js:393
+msgid "Speed:"
+msgstr "Velocidade:"
+
+#: gui/common/tooltips.js:396 gui/common/tooltips.js:398
+#, javascript-format
+msgid "%(speed)s %(movementType)s"
+msgstr "%(speed)s %(movementType)s"
+
+#: gui/common/tooltips.js:396
+msgid "Walk"
+msgstr "Andar"
+
+#: gui/common/tooltips.js:398
+msgid "Run"
+msgstr "Correr"
+
+#: gui/common/tooltips.js:400
+#, javascript-format
+msgid "%(label)s %(speeds)s"
+msgstr "%(label)s %(speeds)s"
+
+#: gui/common/tooltips.js:409 gui/common/tooltips.js:415
+#: gui/common/tooltips.js:420
+#, javascript-format
+msgid "%(label)s %(val)s %(unit)s"
+msgstr "%(label)s %(val)s %(unit)s"
+
+#: gui/common/tooltips.js:410
+msgid "Heal:"
+msgstr "Curar:"
+
+#. Translation: Short for Health Points (that are healed in one healing
+#. action)
+#: gui/common/tooltips.js:413
+msgid "HP"
+msgstr "PV"
+
+#: gui/common/tooltips.js:436
+#, javascript-format
+msgid "%(auralabel)s %(aurainfo)s"
+msgstr "%(auralabel)s %(aurainfo)s"
+
+#: gui/common/tooltips.js:437
+#, javascript-format
+msgid "%(auraname)s:"
+msgstr "%(auraname)s:"
+
+#: gui/common/tooltips.js:450
+#, javascript-format
+msgid "%(specificName)s (%(genericName)s)"
+msgstr "%(specificName)s (%(genericName)s)"
+
+#: gui/common/tooltips.js:460
+msgid "???"
+msgstr "???"
+
+#: gui/common/tooltips.js:490
+msgid "Classes:"
+msgstr "Classes:"
+
+#: gui/locale/locale_advanced.js:22 gui/locale/locale_advanced.js:76
+msgctxt "localeCountry"
+msgid "None"
+msgstr "Nenhum"
+
+#: gui/locale/locale_advanced.js:91
+msgid "<invalid>"
+msgstr "<inválido>"
+
+#: gui/msgbox/msgbox.js:40 gui/pregame/mainmenu.js:287
+#: gui/savedgames/load.js:46 gui/savedgames/load.js:108
+#: gui/savedgames/save.js:59 gui/savedgames/save.js:89
+msgid "Yes"
+msgstr "Sim"
+
+#: gui/msgbox/msgbox.js:40 gui/pregame/mainmenu.js:287
+#: gui/savedgames/load.js:46 gui/savedgames/load.js:108
+#: gui/savedgames/save.js:59 gui/savedgames/save.js:89
+msgid "No"
+msgstr "Não"
+
+#: gui/msgbox/msgbox.js:44 gui/pregame/mainmenu.js:165
+#: gui/splashscreen/splashscreen.xml:(caption):28
+msgid "OK"
+msgstr "OK"
+
+#: gui/msgbox/msgbox.js:48
+msgid "Retry"
+msgstr "Novamente"
+
+#: gui/msgbox/msgbox.js:48
+msgid "Ignore"
+msgstr "Ignorar"
+
+#: gui/msgbox/msgbox.js:48
+msgid "Abort"
+msgstr "Desistir"
+
+#: gui/options/options.js:9
+msgid "Windowed Mode"
+msgstr "Modo Janela"
+
+#: gui/options/options.js:9
+msgid "Start 0 A.D. in a window"
+msgstr "Iniciar o 0 A.D. numa janela"
+
+#: gui/options/options.js:10
+msgid "Background Pause"
+msgstr "Pausar quando em plano de fundo"
+
+#: gui/options/options.js:10
+msgid "Pause single player games when window loses focus"
+msgstr "Pausa jogos single player quando janela perde o foco"
+
+#: gui/options/options.js:11
+msgid "Disable Welcome Screen"
+msgstr "Desativar Tela de Boas Vindas"
+
+#: gui/options/options.js:11
+msgid ""
+"If you disable this screen completely, you may miss important announcements.\n"
+"You can still launch it using the main menu."
+msgstr "Se você desabilitar completamente a tela, você poderá perder anúncios importantes.\nVocê ainda poderá executá-lo usando o menu principal."
+
+#: gui/options/options.js:12
+msgid "Detailed Tooltips"
+msgstr "Dicas detalhadas."
+
+#: gui/options/options.js:12
+msgid ""
+"Show detailed tooltips for trainable units in unit-producing buildings."
+msgstr "Mostrar dicas de ferramentas detalhadas para unidades treináveis ​​em edifícios de produção de unidades."
+
+#: gui/options/options.js:13
+msgid "FPS Overlay"
+msgstr "Overlay de FPS"
+
+#: gui/options/options.js:13
+msgid "Show frames per second in top right corner."
+msgstr "Mostrar quadros por segundo no canto superior direito."
+
+#: gui/options/options.js:14
+msgid "Realtime Overlay"
+msgstr "Overlay em tempo real"
+
+#: gui/options/options.js:14
+msgid "Show current system time in top right corner."
+msgstr "Mostrar a hora atual do sistema no canto superior direito."
+
+#: gui/options/options.js:15
+msgid "Gametime Overlay"
+msgstr "Overlay de tempo de jogo"
+
+#: gui/options/options.js:15
+msgid "Show current simulation time in top right corner."
+msgstr "Mostrar o tempo de simulação atual no canto superior direito."
+
+#: gui/options/options.js:16
+msgid "Ceasefire Time Overlay"
+msgstr "Sobreposição do tempo de cessar-fogo"
+
+#: gui/options/options.js:16
+msgid "Always show the remaining ceasefire time."
+msgstr "Sempre exibir o tempo restante de cessar-fogo."
+
+#: gui/options/options.js:17
+msgid "Persist match settings"
+msgstr "Manter as configurações do jogo"
+
+#: gui/options/options.js:17
+msgid ""
+"Save and restore match settings for quick reuse when hosting another game"
+msgstr "Salva e restaura configurações da partida para rápida reutilização quando hospedar outro jogo"
+
+#: gui/options/options.js:21
+msgid "Prefer GLSL"
+msgstr "Prefere GLSL"
+
+#: gui/options/options.js:21
+msgid "Use OpenGL 2.0 shaders (recommended)"
+msgstr "Use shader OpenGL 2.0 (recomendado)"
+
+#: gui/options/options.js:22
+msgid "Post Processing"
+msgstr "Processando Post"
+
+#: gui/options/options.js:22
+msgid "Use screen-space postprocessing filters (HDR, Bloom, DOF, etc)"
+msgstr "Use filtros de pós-processamento (HDR, Bloom, DOF, etc)"
+
+#: gui/options/options.js:23
+msgid "Shadows"
+msgstr "Sombras"
+
+#: gui/options/options.js:23
+msgid "Enable shadows"
+msgstr "Habilitar sombras"
+
+#: gui/options/options.js:24
+msgid "Particles"
+msgstr "Partículas"
+
+#: gui/options/options.js:24
+msgid "Enable particles"
+msgstr "Ative partículas"
+
+#: gui/options/options.js:25
+msgid "Show Sky"
+msgstr "Exibir céu"
+
+#: gui/options/options.js:25
+msgid "Render Sky"
+msgstr "Renderizar céu"
+
+#: gui/options/options.js:26
+msgid "Smooth LOS"
+msgstr "Suave Linha de Visão"
+
+#: gui/options/options.js:26
+msgid "Lift darkness and fog-of-war smoothly"
+msgstr "Erguer escuridão e nevoeiro suavemente"
+
+#: gui/options/options.js:27
+msgid "Unit Silhouettes"
+msgstr "Silhuetas de unidade"
+
+#: gui/options/options.js:27
+msgid "Show outlines of units behind buildings"
+msgstr "Mostrar contornos das unidades atrás de edifícios"
+
+#: gui/options/options.js:28
+msgid "Shadow Filtering"
+msgstr "Filtragem de sombra"
+
+#: gui/options/options.js:28
+msgid "Smooth shadows"
+msgstr "Sombras suaves"
+
+#: gui/options/options.js:29
+msgid "Fast & Ugly Water"
+msgstr "Água simples (rápida)"
+
+#: gui/options/options.js:29
+msgid ""
+"Use the lowest settings possible to render water. This makes other settings "
+"irrelevant."
+msgstr "Usar as piores configurações possíveis para renderizar a água. Isso deixa as outras configurações irrelevantes."
+
+#: gui/options/options.js:30
+msgid "HQ Water Effects"
+msgstr "Efeitos da Água em HD"
+
+#: gui/options/options.js:30
+msgid ""
+"Use higher-quality effects for water, rendering coastal waves, shore foam, "
+"and ships trails."
+msgstr "Use aprimoramento do efeito de água, renderizando ondas nas costas, espuma na orla e rastros de navios."
+
+#: gui/options/options.js:31
+msgid "Real Water Depth"
+msgstr "Profundidade de água real"
+
+#: gui/options/options.js:31
+msgid "Use actual water depth in rendering calculations"
+msgstr "Usar real profundidade da água nos cálculos de renderização"
+
+#: gui/options/options.js:32
+msgid "Water Reflections"
+msgstr "Reflexos de água"
+
+#: gui/options/options.js:32
+msgid "Allow water to reflect a mirror image"
+msgstr "Permitir que a água reflita uma imagem de espelho"
+
+#: gui/options/options.js:33
+msgid "Water Refraction"
+msgstr "Refração de água"
+
+#: gui/options/options.js:33
+msgid "Use a real water refraction map and not transparency"
+msgstr "Usar um mapa de refração de água de verdade e não de transparência"
+
+#: gui/options/options.js:34
+msgid "Shadows on Water"
+msgstr "Sombras na água"
+
+#: gui/options/options.js:34
+msgid "Cast shadows on water"
+msgstr "Mostrar sombras na água"
+
+#: gui/options/options.js:35
+msgid "VSync"
+msgstr "VSync"
+
+#: gui/options/options.js:35
+msgid "Run vertical sync to fix screen tearing. REQUIRES GAME RESTART"
+msgstr "Execute a sincronização vertical para corrigir a tela rasgando. REQUER REINICIALIZAÇÃO DO JOGO"
+
+#: gui/options/options.js:39
+msgid "Master Gain"
+msgstr "Ganho Master"
+
+#: gui/options/options.js:39
+msgid "Master audio gain"
+msgstr "Ganho de áudio master"
+
+#: gui/options/options.js:40
+msgid "Music Gain"
+msgstr "Ganho de Música"
+
+#: gui/options/options.js:40
+msgid "In game music gain"
+msgstr "Ganho na música do jogo"
+
+#: gui/options/options.js:41
+msgid "Ambient Gain"
+msgstr "Ganho no ambiante"
+
+#: gui/options/options.js:41
+msgid "In game ambient sound gain"
+msgstr "Ganho no som do ambiente"
+
+#: gui/options/options.js:42
+msgid "Action Gain"
+msgstr "Ganho de ação"
+
+#: gui/options/options.js:42
+msgid "In game unit action sound gain"
+msgstr "Ganho no som das ações das unidades durante a partida"
+
+#: gui/options/options.js:43
+msgid "UI Gain"
+msgstr "Ganho de UI"
+
+#: gui/options/options.js:43
+msgid "UI sound gain"
+msgstr "Ganho no som UI"
+
+#: gui/options/options.js:47
+msgid "Chat Backlog"
+msgstr "Chat próprio"
+
+#: gui/options/options.js:47
+msgid "Number of backlogged messages to load when joining the lobby"
+msgstr "Número de mensagens pendentes para carregar quando entrar no lobby"
+
+#: gui/options/options.js:48
+msgid "Chat Timestamp"
+msgstr "Timestamp de bate-papo"
+
+#: gui/options/options.js:48
+msgid "Show time that messages are posted in the lobby chat"
+msgstr "Mostrar que horas as mensagens são postadas no lobby chat"
+
+#: gui/pregame/mainmenu.js:85
+msgid "disabled"
+msgstr "desabilitado"
+
+#: gui/pregame/mainmenu.js:88
+msgid "connecting to server"
+msgstr "conectando ao servidor"
+
+#: gui/pregame/mainmenu.js:93
+#, javascript-format
+msgid "uploading (%f%%)"
+msgstr "Enviando (%f%%)"
+
+#: gui/pregame/mainmenu.js:100
+msgid "upload succeeded"
+msgstr "Enviado com sucesso!"
+
+#: gui/pregame/mainmenu.js:102
+#, javascript-format
+msgid "upload failed (%(errorCode)s)"
+msgstr "falha de envio (%(errorCode)s)"
+
+#: gui/pregame/mainmenu.js:109
+#, javascript-format
+msgid "upload failed (%(errorMessage)s)"
+msgstr "falha de envio (%(errorMessage)s)"
+
+#: gui/pregame/mainmenu.js:112
+msgid "unknown"
+msgstr "desconhecido"
+
+#: gui/pregame/mainmenu.js:156
+#, javascript-format
+msgid ""
+"%(startWarning)sWarning:%(endWarning)s You appear to be using non-shader "
+"(fixed function) graphics. This option will be removed in a future 0 A.D. "
+"release, to allow for more advanced graphics features. We advise upgrading "
+"your graphics card to a more recent, shader-compatible model."
+msgstr "%(startWarning)sAviso:%(endWarning)s Você parece estar usando gráficos não-shader (função fixa). Esta opção será removida em uma versão futura do 0 A.D., para permitir recursos gráficos mais avançados. Aconselhamos atualizar sua placa gráfica para um modelo mais recente, compatível com shader."
+
+#. Translation: This is the second paragraph of a warning. The
+#. warning explains that the user is using “non-shader“ graphics,
+#. and that in the future this will not be supported by the game, so
+#. the user will need a better graphics card.
+#: gui/pregame/mainmenu.js:162
+msgid "Please press \"Read More\" for more information or \"OK\" to continue."
+msgstr "Por favor, clique em \"Ler Mais\" para mais informações ou \"OK\" para continuar."
+
+#: gui/pregame/mainmenu.js:163
+msgid "WARNING!"
+msgstr "ATENÇÃO!"
+
+#: gui/pregame/mainmenu.js:165
+msgid "Read More"
+msgstr "Ler Mais"
+
+#: gui/pregame/mainmenu.js:258
+#, javascript-format
+msgid "Build: %(buildDate)s (%(revision)s)"
+msgstr "Build: %(buildDate)s (%(revision)s)"
+
+#: gui/pregame/mainmenu.js:289
+msgid "Are you sure you want to quit 0 A.D.?"
+msgstr "Você tem certeza que quer sair de 0 A.D.?"
+
+#: gui/pregame/mainmenu.js:289
+msgid "Confirmation"
+msgstr "Confirmação"
+
+#: gui/pregame/mainmenu.js:299
+msgid ""
+"The scenario editor is not available or failed to load. See the game logs "
+"for additional information."
+msgstr "O editor de cenário não esta disponível ou falhou ao carregar. Veja o log do jogo para obter mais informações."
+
+#: gui/pregame/mainmenu.js:299
+msgid "Error"
+msgstr "Erro"
+
+#: gui/pregame/mainmenu.js:304
+msgid "Launch the multiplayer lobby. \\[DISABLED BY BUILD]"
+msgstr "Iniciar o lobby multijogador. \\[DESATIVADO POR COMPILAÇÃO]"
+
+#: gui/pregame/mainmenu.js:309 gui/pregame/mainmenu.xml:(caption):72
+#: gui/pregame/mainmenu.xml:(caption):103
+msgid "Technical Details"
+msgstr "Detalhes Técnicos"
+
+#: gui/pregame/mainmenu.js:314 gui/pregame/mainmenu.xml:(caption):149
+msgid "Manual"
+msgstr "Manual"
+
+#: gui/savedgames/load.js:10 gui/savedgames/save.js:30
+msgid "No saved games found"
+msgstr "Nenhum jogo salvo encontrado"
+
+#: gui/savedgames/load.js:48
+msgid "This saved game may not be compatible:"
+msgstr "Este jogo salvo pode não ser compatível:"
+
+#: gui/savedgames/load.js:50
+#, javascript-format
+msgid ""
+"It needs 0 A.D. version %(requiredVersion)s, while you are running version "
+"%(currentVersion)s."
+msgstr "Precisa da versão %(requiredVersion)s do 0 A.D., enquanto você está executando a versão %(currentVersion)s."
+
+#: gui/savedgames/load.js:60
+#, javascript-format
+msgid "It does not need any mod while you are running with \"%(currentMod)s\"."
+msgstr "Não necessita de qualquer mod enquanto você estiver executando com \"%(currentMod)s\"."
+
+#: gui/savedgames/load.js:64
+#, javascript-format
+msgid "It needs the mod \"%(requiredMod)s\" while you are running without a mod."
+msgstr "Ele precisa do mod \"%(requiredMod)s\" enquanto você estiver executando sem um mod."
+
+#: gui/savedgames/load.js:68
+#, javascript-format
+msgid ""
+"It needs the mod \"%(requiredMod)s\" while you are running with "
+"\"%(currentMod)s\"."
+msgstr "Precisa do mod \"%(requiredMod)s\" enquanto você estiver executando com \"%(currentMod)s\"."
+
+#: gui/savedgames/load.js:73
+msgid "Do you still want to proceed?"
+msgstr "Ainda quer continuar?"
+
+#: gui/savedgames/load.js:74
+msgid "Warning"
+msgstr "Aviso"
+
+#: gui/savedgames/load.js:110 gui/savedgames/save.js:61
+#: gui/savedgames/save.js:91
+#, javascript-format
+msgid "\"%(label)s\""
+msgstr "\"%(label)s\""
+
+#: gui/savedgames/load.js:110 gui/savedgames/save.js:91
+msgid "Saved game will be permanently deleted, are you sure?"
+msgstr "Jogo salvo será permanentemente deletado, tem certeza?"
+
+#: gui/savedgames/load.js:110 gui/savedgames/save.js:91
+msgid "DELETE"
+msgstr "DELETAR"
+
+#: gui/savedgames/save.js:61
+msgid "Saved game will be permanently overwritten, are you sure?"
+msgstr "O jogo salvo será sobrescrito permanentemente, você está certo disto?"
+
+#: gui/savedgames/save.js:61
+msgid "OVERWRITE SAVE"
+msgstr "SOBRESCREVER JOGO SALVO"
+
+#: gui/structree/draw.js:261
+msgid "Health:"
+msgstr "Saúde:"
+
+#: gui/structree/draw.js:280
+#, javascript-format
+msgid "%(resourceIcon)s %(rate)s"
+msgstr "%(resourceIcon)s %(rate)s"
+
+#: gui/structree/draw.js:286
+msgid "Gather Rates:"
+msgstr "Taxa de Colheita:"
+
+#: gui/structree/load.js:146
+#, javascript-format
+msgid "%(val1)s to %(val2)s"
+msgstr "%(val1)s a %(val2)s"
+
+#: gui/summary/layout.js:4 gui/summary/layout.js:21 gui/summary/layout.js:48
+#: gui/summary/layout.js:73 gui/summary/layout.js:98 gui/summary/layout.js:119
+#: gui/summary/summary.xml:(caption):104
+msgid "Player name"
+msgstr "Nome do Jogador"
+
+#: gui/summary/layout.js:5
+msgid "Economy score"
+msgstr "Pontuação economica"
+
+#: gui/summary/layout.js:6
+msgid "Military score"
+msgstr "Pontuação militar"
+
+#: gui/summary/layout.js:7
+msgid "Exploration score"
+msgstr "Pontuação de exploração"
+
+#: gui/summary/layout.js:8
+msgid "Total score"
+msgstr "Pontuação Total"
+
+#: gui/summary/layout.js:22 gui/summary/layout.js:49 gui/summary/layout.js:78
+msgid "Total"
+msgstr "Total"
+
+#: gui/summary/layout.js:23
+msgid "Houses"
+msgstr "Casas"
+
+#: gui/summary/layout.js:24
+msgid "Economic"
+msgstr "Economia"
+
+#: gui/summary/layout.js:25
+msgid "Outposts"
+msgstr "Postos avançados"
+
+#: gui/summary/layout.js:26
+msgid "Military"
+msgstr "Militar"
+
+#: gui/summary/layout.js:27
+msgid "Fortresses"
+msgstr "Fortalezas"
+
+#: gui/summary/layout.js:28
+msgid "Civ centers"
+msgstr "Centros de Civ"
+
+#: gui/summary/layout.js:29
+msgid "Wonders"
+msgstr "Maravilhas"
+
+#: gui/summary/layout.js:32
+msgid "Buildings Statistics (Constructed / Lost / Destroyed)"
+msgstr "Estatística de Edifícios (Construída / Perdido / Destruído)"
+
+#: gui/summary/layout.js:50
+msgid "Infantry"
+msgstr "Infantaria"
+
+#: gui/summary/layout.js:51
+msgid "Worker"
+msgstr "Trabalhador"
+
+#: gui/summary/layout.js:52
+msgid "Cavalry"
+msgstr "Cavaleiro"
+
+#: gui/summary/layout.js:53
+msgid "Champion"
+msgstr "Campeão"
+
+#: gui/summary/layout.js:55
+msgid "Navy"
+msgstr "Marinha"
+
+#: gui/summary/layout.js:58
+msgid "Units Statistics (Trained / Lost / Killed)"
+msgstr "Unidades Estatísticas (Treinado / Perdido / Morto)"
+
+#: gui/summary/layout.js:74
+msgid "Food"
+msgstr "Comida"
+
+#: gui/summary/layout.js:75
+msgid "Wood"
+msgstr "Madeira"
+
+#: gui/summary/layout.js:76
+msgid "Stone"
+msgstr "Pedra"
+
+#: gui/summary/layout.js:77
+msgid "Metal"
+msgstr "Metal"
+
+#: gui/summary/layout.js:79
+msgid "Treasures collected"
+msgstr "Tesouros coletados"
+
+#: gui/summary/layout.js:80
+msgid "Tributes (Sent / Received)"
+msgstr "Tributos (Enviados / Recebidos)"
+
+#: gui/summary/layout.js:83
+msgid "Resource Statistics (Gathered / Used)"
+msgstr "Estatísticas de Recursos (Coletados / Usados)"
+
+#: gui/summary/layout.js:99
+msgid "Food exchanged"
+msgstr "Alimentos negociados"
+
+#: gui/summary/layout.js:100
+msgid "Wood exchanged"
+msgstr "Madeira negociada"
+
+#: gui/summary/layout.js:101
+msgid "Stone exchanged"
+msgstr "Pedras negociadas"
+
+#: gui/summary/layout.js:102
+msgid "Metal exchanged"
+msgstr "Metais negociados"
+
+#: gui/summary/layout.js:103
+msgid "Barter efficiency"
+msgstr "Eficiência de troca"
+
+#: gui/summary/layout.js:104
+msgid "Trade income"
+msgstr "Lucro comercial"
+
+#: gui/summary/layout.js:120
+msgid ""
+"Vegetarian\n"
+"ratio"
+msgstr "Vegetariano\nrazão"
+
+#: gui/summary/layout.js:121
+msgid "Feminisation"
+msgstr "Feminisação"
+
+#: gui/summary/layout.js:122
+msgid ""
+"Kill / Death\n"
+"ratio"
+msgstr "Mortes / Assassinatos\nrazão"
+
+#: gui/summary/layout.js:123
+msgid ""
+"Map\n"
+"exploration"
+msgstr "Mapa\nexploração"
+
+#: gui/summary/layout.js:258
+msgid "Team total"
+msgstr "Equipe total"
+
+#: gui/summary/summary.js:139
+msgid "Scenario"
+msgstr "Cenário"
+
+#: gui/summary/summary.js:141
+#, javascript-format
+msgid "Game time elapsed: %(time)s"
+msgstr "Tempo de jogo decorrido: %(time)s"
+
+#: gui/summary/summary.js:162
+#, javascript-format
+msgid "%(mapName)s - %(mapType)s"
+msgstr "%(mapName)s - %(mapType)s"
+
+#: gui/civinfo/civinfo.xml:(caption):16
+msgid "Civilizations"
+msgstr "Civilizações"
+
+#: gui/civinfo/civinfo.xml:(caption):28
+msgid "Civilization Selection"
+msgstr "Selecionar Civilização"
+
+#: gui/civinfo/civinfo.xml:(caption):119
+#: gui/structree/structree.xml:(caption):90
+msgid "Close"
+msgstr "Fechar"
+
+#: gui/locale/locale.xml:(caption):14
+#: gui/locale/locale_advanced.xml:(caption):14
+#: gui/pregame/mainmenu.xml:(caption):339
+msgid "Language"
+msgstr "Idioma"
+
+#: gui/locale/locale.xml:(caption):17
+#: gui/locale/locale_advanced.xml:(caption):17
+msgid "Language:"
+msgstr "Idioma:"
+
+#. A locale is a set of parameters that defines the user’s language, country
+#. and any special variant preferences that the user wants to see in their
+#. user interface. Here, “Locale” refers to the code that identifies those
+#. settings, such as ‘en_US’.
+#: gui/locale/locale.xml:(caption):31
+msgid "Locale:"
+msgstr "Localidade:"
+
+#: gui/locale/locale.xml:(caption):36
+#: gui/locale/locale_advanced.xml:(caption):65
+#: gui/options/options.xml:(caption):69 gui/savedgames/load.xml:(caption):25
+#: gui/savedgames/save.xml:(caption):37
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: gui/locale/locale.xml:(caption):41
+msgid "Advanced"
+msgstr "Avançado"
+
+#: gui/locale/locale.xml:(caption):46
+#: gui/locale/locale_advanced.xml:(caption):75
+msgid "Accept"
+msgstr "Aceitar"
+
+#: gui/locale/locale_advanced.xml:(caption):25
+msgid "Country:"
+msgstr "País:"
+
+#: gui/locale/locale_advanced.xml:(caption):34
+msgid "Script:"
+msgstr "Script:"
+
+#: gui/locale/locale_advanced.xml:(caption):41
+msgid "Variant (unused):"
+msgstr "Variante (não utilizado):"
+
+#: gui/locale/locale_advanced.xml:(caption):48
+msgid "Keywords (unused):"
+msgstr "Palavra-chave (não usadas):"
+
+#: gui/locale/locale_advanced.xml:(caption):55
+msgid "Resulting locale:"
+msgstr "Localidade resultante:"
+
+#: gui/locale/locale_advanced.xml:(caption):60
+msgid "Dictionary files used:"
+msgstr "Dicionários de arquivos usados:"
+
+#: gui/locale/locale_advanced.xml:(caption):70
+msgid "Auto detect"
+msgstr "Auto detecção"
+
+#: gui/locale/locale_advanced.xml:(tooltip):37
+msgid ""
+"Optional four-letter script code part following the language code (as listed"
+" in ISO 15924)"
+msgstr "Parte do código de script opcional de quatro-letras seguindo o código de idioma (conforme listado na ISO 15924)"
+
+#: gui/locale/locale_advanced.xml:(tooltip):44
+#: gui/locale/locale_advanced.xml:(tooltip):51
+msgid "Not implemented yet."
+msgstr "Ainda não está implementado."
+
+#: gui/options/options.xml:(caption):18
+msgid "Game Options"
+msgstr "Opções de Jogo"
+
+#: gui/options/options.xml:(caption):22
+msgid "General"
+msgstr "Geral"
+
+#: gui/options/options.xml:(caption):34
+msgid "Graphics Settings"
+msgstr "Configurações Gráficas"
+
+#: gui/options/options.xml:(caption):46
+msgid "Sound Settings"
+msgstr "Configurações de Áudio"
+
+#: gui/options/options.xml:(caption):58
+msgid "Lobby Settings"
+msgstr "Sala de configurações."
+
+#: gui/options/options.xml:(caption):73 gui/savedgames/save.xml:(caption):47
+msgid "Save"
+msgstr "Salvar"
+
+#: gui/pregame/mainmenu.xml:62
+msgid "Help improve 0 A.D.!"
+msgstr "Ajude a melhorar 0 A.D.!"
+
+#: gui/pregame/mainmenu.xml:64
+msgid ""
+"You can automatically send us anonymous feedback that will help us fix bugs,"
+" and improve performance and compatibility."
+msgstr "Você pode automaticamente nos enviar um feedback anônimo que nos permitirá fixar bugs e melhorar a performance e a compatibilidade."
+
+#: gui/pregame/mainmenu.xml:90
+msgid "Thank you for helping improve 0 A.D.!"
+msgstr "Obrigado por ajudar a melhorar o 0 A.D.!"
+
+#: gui/pregame/mainmenu.xml:92
+msgid "Anonymous feedback is currently enabled."
+msgstr "O feedback anônimo está atualmente habilitado."
+
+#: gui/pregame/mainmenu.xml:94
+msgid "Status: $status."
+msgstr "Status: $status."
+
+#: gui/pregame/mainmenu.xml:521
+msgid "Alpha XVIII: Rhododactylos"
+msgstr "Alpha XVIII: Rhododactylos"
+
+#: gui/pregame/mainmenu.xml:523
+msgid ""
+"WARNING: This is an early development version of the game. Many features "
+"have not been added yet."
+msgstr "AVISO: Esta é uma versão em desenvolvimento do jogo. Muitos recursos ainda não foram adicionados."
+
+#: gui/pregame/mainmenu.xml:525
+msgid "Get involved at: play0ad.com"
+msgstr "Participe: play0ad.com"
+
+#: gui/pregame/mainmenu.xml:(caption):68
+msgid "Enable Feedback"
+msgstr "Ativar relatórios"
+
+#: gui/pregame/mainmenu.xml:(caption):99
+msgid "Disable Feedback"
+msgstr "Desativar relatórios"
+
+#: gui/pregame/mainmenu.xml:(caption):166
+#: gui/structree/structree.xml:(caption):17
+msgid "Structure Tree"
+msgstr "Árvore de Estrutura"
+
+#: gui/pregame/mainmenu.xml:(caption):183
+msgid "History"
+msgstr "História"
+
+#: gui/pregame/mainmenu.xml:(caption):208
+msgid "Matches"
+msgstr "Partidas"
+
+#: gui/pregame/mainmenu.xml:(caption):222
+msgid "Campaigns"
+msgstr "Campanhas"
+
+#: gui/pregame/mainmenu.xml:(caption):239 gui/savedgames/load.xml:(caption):15
+msgid "Load Game"
+msgstr "Carregar Jogo"
+
+#. Join a game by specifying the host's IP address.
+#: gui/pregame/mainmenu.xml:(caption):262
+msgid "Join Game"
+msgstr "Juntar-se a uma Partida"
+
+#: gui/pregame/mainmenu.xml:(caption):277
+msgid "Host Game"
+msgstr "Hospedar uma Partida"
+
+#: gui/pregame/mainmenu.xml:(caption):292
+msgid "Game Lobby"
+msgstr "Lobby do Jogo"
+
+#: gui/pregame/mainmenu.xml:(caption):322
+msgid "Options"
+msgstr "Opções"
+
+#: gui/pregame/mainmenu.xml:(caption):355
+msgid "Scenario Editor"
+msgstr "Editor de Cenário"
+
+#: gui/pregame/mainmenu.xml:(caption):368
+msgid "Welcome Screen"
+msgstr "Tela de Boas-vindas"
+
+#: gui/pregame/mainmenu.xml:(caption):383
+msgid "Mod Selection"
+msgstr "Seleção de Mod"
+
+#: gui/pregame/mainmenu.xml:(caption):438
+msgid "Learn To Play"
+msgstr "Aprenda a Jogar"
+
+#: gui/pregame/mainmenu.xml:(caption):453
+msgid "Single Player"
+msgstr "Um Jogador"
+
+#: gui/pregame/mainmenu.xml:(caption):468
+msgid "Multiplayer"
+msgstr "Multijogador"
+
+#: gui/pregame/mainmenu.xml:(caption):483
+msgid "Tools & Options"
+msgstr "Ferramentas & Opções"
+
+#: gui/pregame/mainmenu.xml:(caption):498
+msgid "Exit"
+msgstr "Sair"
+
+#: gui/pregame/mainmenu.xml:(caption):535
+msgid "Help with the Translation!"
+msgstr "Colabore com a tradução!"
+
+#: gui/pregame/mainmenu.xml:(caption):547
+msgid "Website"
+msgstr "Website"
+
+#: gui/pregame/mainmenu.xml:(caption):559
+msgid "Chat"
+msgstr "Chat"
+
+#: gui/pregame/mainmenu.xml:(caption):571
+msgid "Report a Bug"
+msgstr "Reportar um Bug"
+
+#: gui/pregame/mainmenu.xml:(caption):600
+msgid "WILDFIRE GAMES"
+msgstr "WILDFIRE GAMES"
+
+#: gui/pregame/mainmenu.xml:(tooltip):150
+msgid "Open the 0 A.D. Game Manual."
+msgstr "Abrir o manual do jogo."
+
+#: gui/pregame/mainmenu.xml:(tooltip):167
+msgid "View the structure tree of civilizations featured in 0 A.D."
+msgstr "Ver a árvore de estrutura das civilizações destacadas no 0 A.D."
+
+#: gui/pregame/mainmenu.xml:(tooltip):184
+msgid "Learn about the many civilizations featured in 0 A.D."
+msgstr "Aprenda sobre as muitas civilizações presentes em 0 A.D."
+
+#: gui/pregame/mainmenu.xml:(tooltip):209
+msgid "Click here to start a new single player game."
+msgstr "Clique aqui para começar um nova partida de um jogador."
+
+#: gui/pregame/mainmenu.xml:(tooltip):223
+msgid ""
+"Relive history through historical military campaigns. \\[NOT YET "
+"IMPLEMENTED]"
+msgstr "Reviva a história através de campanhas militares históricas. \\[NÃO IMPLEMENTADO AINDA]"
+
+#: gui/pregame/mainmenu.xml:(tooltip):240
+msgid "Click here to load a saved game."
+msgstr "Clique aqui para carregar um jogo salvo."
+
+#: gui/pregame/mainmenu.xml:(tooltip):263
+msgid "Joining an existing multiplayer game."
+msgstr "Juntando-se a uma partida multijogador já existente."
+
+#: gui/pregame/mainmenu.xml:(tooltip):278
+msgid "Host a multiplayer game.\\n\\nRequires UDP port 20595 to be open."
+msgstr "Hospede uma partida multijogador.\\n\\nRequer que a porta UDP 20595 esteja aberta."
+
+#: gui/pregame/mainmenu.xml:(tooltip):293
+msgid "Launch the multiplayer lobby."
+msgstr "Inicie o Lobby multiplayer."
+
+#: gui/pregame/mainmenu.xml:(tooltip):323
+msgid "Adjust game settings."
+msgstr "Ajuste as configurações do jogo."
+
+#: gui/pregame/mainmenu.xml:(tooltip):340
+msgid "Choose the language of the game."
+msgstr "Escolha a linguagem do jogo."
+
+#: gui/pregame/mainmenu.xml:(tooltip):356
+msgid ""
+"Open the Atlas Scenario Editor in a new window. You can run this more "
+"reliably by starting the game with the command-line argument \"-editor\"."
+msgstr "Abre o Editor de Cenário Atlas em uma nova janela. Você pode executá-lo de forma mais segura se abrir o jogo com o argumento de linha de comando \"-editor\"."
+
+#: gui/pregame/mainmenu.xml:(tooltip):369
+msgid "Show the Welcome Screen. Useful if you hid it by mistake."
+msgstr "Mostrar Tela de Boas-Vindas. Útil se você ocultou por engano."
+
+#: gui/pregame/mainmenu.xml:(tooltip):384
+msgid "Select mods to use."
+msgstr "Selecione mods para usar."
+
+#: gui/pregame/mainmenu.xml:(tooltip):439
+msgid ""
+"Learn how to play, discover the technology trees, and the history behind the"
+" civilizations"
+msgstr "Aprenda a jogar, descubre as árvores de tecnologia, e a história por trás das civilizações"
+
+#: gui/pregame/mainmenu.xml:(tooltip):454
+msgid "Challenge the computer player to a single player match."
+msgstr "Desafie o computador para uma partida de um jogador."
+
+#: gui/pregame/mainmenu.xml:(tooltip):469
+msgid "Fight against one or more human players in a multiplayer game."
+msgstr "Lute contra um ou mais jogadores humanos em uma partida multijogador."
+
+#: gui/pregame/mainmenu.xml:(tooltip):484
+msgid "Game options and scenario design tools."
+msgstr "Opções de jogo e ferramentas de edição de cenário."
+
+#: gui/pregame/mainmenu.xml:(tooltip):499
+msgid "Exits the game."
+msgstr "Sair do jogo."
+
+#: gui/pregame/mainmenu.xml:(tooltip):536
+msgid "Click to open the 0 A.D. translate page in your browser."
+msgstr "Clique para abrir a página de tradução do 0 A.D. no seu navegador"
+
+#: gui/pregame/mainmenu.xml:(tooltip):548
+msgid "Click to open play0ad.com in your web browser."
+msgstr "Clique para abrir play0ad.com em seu navegador de internet."
+
+#: gui/pregame/mainmenu.xml:(tooltip):560
+msgid ""
+"Click to open the 0 A.D. IRC chat in your browser. (#0ad on "
+"webchat.quakenet.org)"
+msgstr "Clique para abrir o chat IRC do 0 A.D. em seu navegador. (#0ad em webchat.quakenet.org)"
+
+#: gui/pregame/mainmenu.xml:(tooltip):572
+msgid "Click to visit 0 A.D. Trac to report a bug, crash, or error."
+msgstr "Clique para visitar o 0 A.D. Trac para reportar um problema, uma quebra, ou um erro."
+
+#: gui/savedgames/load.xml:(caption):30 gui/savedgames/save.xml:(caption):42
+msgid "Delete"
+msgstr "Deletar"
+
+#: gui/savedgames/load.xml:(caption):42
+msgid "Load"
+msgstr "Carregar"
+
+#: gui/savedgames/save.xml:(caption):15
+msgid "Save Game"
+msgstr "Salvar Jogo"
+
+#: gui/savedgames/save.xml:(caption):29
+msgid "Description:"
+msgstr "Descrição:"
+
+#: gui/splashscreen/splashscreen.xml:(caption):12
+msgid "Welcome!"
+msgstr "Bem-vindo!"
+
+#: gui/splashscreen/splashscreen.xml:(caption):17
+msgid "Show this message in the future"
+msgstr "Mostrar essa mensagem no futuro"
+
+#: gui/splashscreen/splashscreen.xml:(caption):22
+msgid "Known Issues (web)"
+msgstr "Questões conhecidas (web)"
+
+#: gui/structree/structree.xml:(caption):29
+msgid "Civilization:"
+msgstr "Civilização"
+
+#: gui/summary/summary.xml:(caption):22
+msgid "Summary"
+msgstr "Sumário"
+
+#: gui/summary/summary.xml:(caption):62
+msgid "Score"
+msgstr "Pontuação"
+
+#: gui/summary/summary.xml:(caption):69
+msgid "Buildings"
+msgstr "Construções"
+
+#: gui/summary/summary.xml:(caption):76
+msgid "Units"
+msgstr "Unidades"
+
+#: gui/summary/summary.xml:(caption):83
+msgid "Resources"
+msgstr "Recursos"
+
+#: gui/summary/summary.xml:(caption):90
+msgid "Market"
+msgstr "Mercado"
+
+#: gui/summary/summary.xml:(caption):97
+msgid "Miscellaneous"
+msgstr "Miscelânia"
+
+#: gui/summary/summary.xml:(caption):158
+msgid "Continue"
+msgstr "Continuar"
+
+#: gui/splashscreen/splashscreen.txt:2
+msgid ""
+"[font=\"sans-bold-20\"]  Thank you for installing 0 A.D. Empires Ascendant!"
+msgstr "[font=\"sans-bold-20\"]  Obrigado por instalar 0 A.D. Ascendência dos Impérios!"
+
+#: gui/splashscreen/splashscreen.txt:3
+msgid "[font=\"sans-16\"]"
+msgstr "[font=\"sans-16\"]"
+
+#: gui/splashscreen/splashscreen.txt:4
+msgid ""
+"[imgleft=\"constructionIcon\"]This game is still in development. Features "
+"are missing and it contains bugs."
+msgstr "[imgleft=\"constructionIcon\"]Esse jogo ainda está em desenvolvimento. Algumas coisas ainda estão faltando e ele pode conter bugs."
+
+#: gui/splashscreen/splashscreen.txt:6
+msgid "[imgleft=\"iconLag\"]The game runs slowly when many units are moving."
+msgstr "[imgleft=\"iconLag\"]O jogo roda devagar quando muitas unidades se movem."
+
+#: gui/splashscreen/splashscreen.txt:9
+msgid "[imgleft=\"iconMap\"]Large maps can cause problems."
+msgstr "[imgleft=\"iconMap\"]Mapas grandes podem causar problemas."
+
+#: gui/splashscreen/splashscreen.txt:12
+msgid ""
+"[imgleft=\"iconFormation\"]Formations are a work in progress, but you can "
+"toggle forming and disbanding formations as desired."
+msgstr "[imgleft=\"iconFormation\"]Formações são um trabalho em progresso, mas você pode alternar as formações de formação e separação como quiser."
+
+#: gui/text/tips/army_camp.txt:1
+msgid "ROMAN ARMY CAMP"
+msgstr "ACAMPAMENTO DO EXÉRCITO ROMANO"
+
+#: gui/text/tips/army_camp.txt:2
+msgid ""
+"- Build anywhere on the map, even in enemy territory. Good for building a "
+"secret base behind enemy lines or to consolidate gains within enemy "
+"territory."
+msgstr "- Construa em qualquer lugar do mapa, até mesmo em território inimigo. Bom para infiltrar as linhas inimigas ou consolidar ganhos dentro do território inimigo."
+
+#: gui/text/tips/army_camp.txt:4
+msgid "- Decays to the territory owner when built in non-allied territory"
+msgstr "- Decai para o dono do território quando construído em território não-aliado"
+
+#: gui/text/tips/army_camp.txt:6
+msgid "- Construct siege weapons and train citizen-soldiers."
+msgstr "- Construa armas de cerco e treine Cidadãos-Soldados."
+
+#: gui/text/tips/army_camp.txt:8
+msgid ""
+"- Garrison up to 40 units to slowly heal the units and protect the army camp"
+" from attacks and decay."
+msgstr "- Abrigue até 40 unidades para curá-las lentamente e proteger o campo do exército de ataques e decadência."
+
+#: gui/text/tips/barracks.txt:1
+msgid "BARRACKS"
+msgstr "QUARTEL"
+
+#: gui/text/tips/barracks.txt:2
+msgid ""
+"- Train all citizen-soldiers. Some factions can unlock the training of "
+"champions as well."
+msgstr "- Treina todos os soldados-cidadãos. Algumas facções podem desbloquear o treinamento dos Campeões também."
+
+#: gui/text/tips/barracks.txt:4
+msgid "- Research military technologies unique to each faction."
+msgstr "- Pesquise tecnologias militares exclusivas de sua facção."
+
+#: gui/text/tips/barracks.txt:6
+msgid ""
+"- Build one early to train citizen-soldiers while you phase up your "
+"settlement."
+msgstr "- Construa um, cedo, para treinar Cidadãos-Soldados enquanto você progride sua base."
+
+#: gui/text/tips/barracks.txt:8
+msgid "- Build in a forward base to resupply your assault with fresh troops."
+msgstr "- Construa uma base avançada para reabastecer sua investida."
+
+#: gui/text/tips/blacksmith.txt:1
+msgid "BLACKSMITH"
+msgstr "FERREIRO"
+
+#: gui/text/tips/blacksmith.txt:2
+msgid "- Research structure for all factions."
+msgstr "- Pesquisar estrutura para todas as facções."
+
+#: gui/text/tips/blacksmith.txt:4
+msgid "- Research weapon and armor upgrades for your units."
+msgstr "- Pesquisar melhorias em armas e armaduras para suas unidades."
+
+#: gui/text/tips/blacksmith.txt:6
+msgid ""
+"- Garrison a citizen-soldier inside to research faster (NOT IMPLEMENTED "
+"YET)."
+msgstr "- Abrigue um cidadão-soldado para pesquisar mais rapidamente (AINDA NÃO IMPLEMENTADO)."
+
+#: gui/text/tips/carth_sacred_band.txt:1
+msgid "CARTHAGINIAN SACRED BAND"
+msgstr "BANDA SAGRADA CARTAGINESA"
+
+#: gui/text/tips/carth_sacred_band.txt:2
+msgid "- Champion Spearmen and Champion Cavalry Spearmen for Carthage."
+msgstr "- Campeão Lanceiros e Campeão Cavalaria Lanceiros de Cartago."
+
+#: gui/text/tips/carth_sacred_band.txt:4
+msgid ""
+"- Both are trainable from the Temple, instead of the Fortress like most "
+"other champions."
+msgstr "- Ambos são treinados no Templo, ao invés da Fortaleza, como a maioria dos outros campeões."
+
+#: gui/text/tips/carth_sacred_band.txt:6
+msgid ""
+"- Use the Spearmen as heavy infantry against cavalry. Use the Cavalry as "
+"heavy shock against siege weapons and skirmishers."
+msgstr "- Use o Lanceiros contra cavalaria. Use a cavalaria como choque pesado contra armas de cerco e escaramuças."
+
+#: gui/text/tips/catapults.txt:1
+msgid "CATAPULTS"
+msgstr "CATAPULTAS"
+
+#: gui/text/tips/catapults.txt:2
+msgid "- Ranged siege engines that are good against buildings."
+msgstr "- Máquina de cerco excelente para atacar edifícios inimigos."
+
+#: gui/text/tips/catapults.txt:4
+msgid ""
+"- May upgrade to flaming projectiles for extra effectiveness against "
+"buildings and units."
+msgstr "- Pode melhorar para projéteis flamejantes para efetividade extra contra construções e unidades."
+
+#: gui/text/tips/catapults.txt:6
+msgid "- Expensive and slow."
+msgstr "- Caro e lento."
+
+#: gui/text/tips/catapults.txt:8
+msgid ""
+"- Pack up into carts for movement, and unpack into stationary engines for "
+"attack!"
+msgstr "- Desmonta-se em carros para movimento, e monta-se em armas fixas para ataques!"
+
+#: gui/text/tips/celtic_war_barge.txt:1
+msgid "CELTIC WAR BARGE"
+msgstr "BARCAÇA CELTA DE GUERRA"
+
+#: gui/text/tips/celtic_war_barge.txt:2
+msgid "- A medium \"trireme\"-class warship."
+msgstr "- Um navio de guerra médio da classe \"Trirreme\"."
+
+#: gui/text/tips/celtic_war_barge.txt:4
+msgid "- The only ship of its kind."
+msgstr "- O único barco de sua categoria"
+
+#: gui/text/tips/celtic_war_barge.txt:6
+msgid "- Cannot ram, like other triremes, but has greater health and armour."
+msgstr "- Não pode se chocar contra outros navios, mas tem mais pontos de vida e armadura."
+
+#: gui/text/tips/celtic_war_barge.txt:8
+msgid "- Can transport up to 40 units across the waters."
+msgstr "- Transporta até 40 unidades pelas águas."
+
+#: gui/text/tips/civic_centres.txt:1
+msgid "CIVIC CENTERS"
+msgstr "CENTROS CÍVICOS"
+
+#: gui/text/tips/civic_centres.txt:2
+msgid "- The \"foundation\" of your new colony."
+msgstr "- A \"fundação\" de sua nova colônia."
+
+#: gui/text/tips/civic_centres.txt:4
+msgid "- Claim large tracts of territory."
+msgstr "- Reivindique grandes porções de terras."
+
+#: gui/text/tips/civic_centres.txt:6
+msgid "- Can be built in friendly and neutral territory."
+msgstr "- Pode ser construído em território aliado ou neutro."
+
+#: gui/text/tips/civic_centres.txt:8
+msgid "- Train Female Citizens and basic Citizen-Soldiers."
+msgstr "Comboio de cidadãs Fêmeas e Soldados simples."
+
+#: gui/text/tips/embassies.txt:1
+msgid "EMBASSIES"
+msgstr "EMBAIXADAS"
+
+#: gui/text/tips/embassies.txt:2
+msgid "- Special \"Barracks\" available to the Carthage faction."
+msgstr "- \"Quartel\" especial disponível para a facção de Cartago."
+
+#: gui/text/tips/embassies.txt:4
+msgid "- Train mercenaries from each of the ethnically-themed embassies."
+msgstr "- Treine mercenários de cada uma das embaixadas de diferentes etnias."
+
+#: gui/text/tips/embassies.txt:6
+msgid ""
+"- Mercenary \"citizen-soldiers\" have their normal Food cost converted to "
+"Metal cost."
+msgstr " - \"Cidadão-soldado"
+
+#: gui/text/tips/fishing.txt:1
+msgid "FISHING"
+msgstr "PESCA"
+
+#: gui/text/tips/fishing.txt:2
+msgid "- Fish the seas for a bountiful harvest."
+msgstr "- Pesque nos mares para uma coleta abundante."
+
+#: gui/text/tips/fishing.txt:4
+msgid "- Fishing boats carry a large amount of Food per trip."
+msgstr "- Os barcos de pesca transportam uma grande quantidade de comida por viagem."
+
+#: gui/text/tips/fishing.txt:6
+msgid ""
+"- Garrison a Support Unit aboard to double the Fishing Boat's gathering "
+"rate."
+msgstr "- Abrique uma Unidade de Suporte para dobrar a taxa de coleta do Barco de Pesca."
+
+#: gui/text/tips/fishing.txt:8
+msgid "- Careful! Fish are not an infinite resource!"
+msgstr "- Cuidado! Peixes não são um recurso infinito!"
+
+#: gui/text/tips/fortress.txt:1
+msgid "FORTRESS"
+msgstr "FORTALEZA"
+
+#: gui/text/tips/fortress.txt:2
+msgid "- The Fortress is usually each faction's strongest building."
+msgstr "- A Fortaleza é geralmente a construção mais forte de uma facção."
+
+#: gui/text/tips/fortress.txt:4
+msgid "- Trains strong units like Champions, Heroes, and Siege Weapons."
+msgstr "- Treina unidades fortes, como Campeões, Heróis e Armas de Cerco."
+
+#: gui/text/tips/fortress.txt:6
+msgid "- Gives a population boost."
+msgstr "- Aumenta a população."
+
+#: gui/text/tips/fortress.txt:8
+msgid "- Garrison soldiers inside to add more firepower to its defense."
+msgstr "- Armazene soldados no interior para adicionar mais poder de fogo à sua defesa."
+
+#: gui/text/tips/gathering.txt:1
+msgid "RESOURCE GATHERING"
+msgstr "COLETA DE RECURSOS"
+
+#: gui/text/tips/gathering.txt:2
+msgid "- Use Citizen-Soldiers and Female Citizens to gather resources."
+msgstr "- Use Cidadãos-Soldados e Cidadãs para coletar recursos."
+
+#: gui/text/tips/gathering.txt:4
+msgid "- Female Citizens are bonused with Farming and Foraging."
+msgstr "- Cidadãs têm bônus em Agricultura e Coleta de Frutas."
+
+#: gui/text/tips/gathering.txt:6
+msgid "- Citizen-Soldiers are bonused with Mining."
+msgstr "- Cidadãos-Soldados têm bônus de mineração."
+
+#: gui/text/tips/gathering.txt:8
+msgid "- Cavalry Citizen-Soldiers are bonused with Hunting."
+msgstr "- Cavalaria de cidadãos-soldados têm bônus de Caça."
+
+#: gui/text/tips/gathering.txt:10
+msgid ""
+"- The higher the level of Citizen-Soldier (Advanced, Elite), the better he "
+"fights, but the less efficient he is at gathering."
+msgstr "- Quanto maior o nível do Cidadão-Soldado (Avançado, Elite), melhor ele luta, mas menos eficiente ele é em coleta."
+
+#: gui/text/tips/iphicrates.txt:1
+msgid "IPHICRATES"
+msgstr "IFÍCRATES"
+
+#: gui/text/tips/iphicrates.txt:2
+msgid ""
+"- The Athenian general who reformed the Athenian army to be faster and more "
+"maneuverable."
+msgstr "- O general ateniense que reformou o exército ateniense para ser mais rápido e mais manobrável."
+
+#: gui/text/tips/iphicrates.txt:4
+msgid "- Units in his formation are faster and stronger."
+msgstr "- Unidades em sua formação são mais rápidos e mais fortes."
+
+#: gui/text/tips/iphicrates.txt:6
+msgid "- Skirmishers move faster while he lives."
+msgstr "- Infantaria se move mais rápido, enquanto ele vive."
+
+#: gui/text/tips/outposts.txt:1
+msgid "OUTPOSTS"
+msgstr "POSTOS AVANÇADOS"
+
+#: gui/text/tips/outposts.txt:2
+msgid "- Build in neutral territory for a large scouting range."
+msgstr "- Construa em território neutro para reconhecimento a distância."
+
+#: gui/text/tips/outposts.txt:4
+msgid "- Cheap, at 80 Wood."
+msgstr "- Barato, apenas 80 de madeira."
+
+#: gui/text/tips/outposts.txt:6
+msgid "- They construct quickly, but are weak."
+msgstr "- Constroi-se rapidamente, mas é frágil."
+
+#: gui/text/tips/outposts.txt:8
+msgid ""
+"- Garrison a unit in it to stop them from decaying in neutral territory."
+msgstr "- Abrigue uma unidade para evitar que elas decaiam em território neutro."
+
+#: gui/text/tips/palisades.txt:1
+msgid "PALISADE WALLS"
+msgstr "MUROS DE PALIÇADAS"
+
+#: gui/text/tips/palisades.txt:2
+msgid "- A quick, cheap wooden wall available to all factions."
+msgstr "- Um muro rápido e barato de madeira disponível para todas as facções."
+
+#: gui/text/tips/palisades.txt:4
+msgid "- Most factions have access to them in Village Phase."
+msgstr "- As Facções geralmente ganham acesso durante a Fase de Vilarejo."
+
+#: gui/text/tips/palisades.txt:6
+msgid ""
+"- Attackable by enemy soldiers, unlike City Walls, which are only attackable"
+" by siege weapons."
+msgstr "- Atacável por soldados inimigos, do contrário de Muralhas, que só são atacáveis por armas de cerco."
+
+#: gui/text/tips/pericles.txt:1
+msgid "PERICLES"
+msgstr "PÉRICLES"
+
+#: gui/text/tips/pericles.txt:2
+msgid "- The foremost Athenian politician of the 5th century BCE."
+msgstr "- O político ateniense mais importante do século 5 aC."
+
+#: gui/text/tips/pericles.txt:4
+msgid "- Buildings construct faster within his range."
+msgstr "- Edificações constroem mais rápido dentro de seu alcance."
+
+#: gui/text/tips/pericles.txt:6
+msgid "- Temples are cheaper while he lives."
+msgstr "- Templos são mais baratos enquanto ele vive."
+
+#: gui/text/tips/persian_architecture.txt:1
+msgid "PERSIAN ARCHITECTURE"
+msgstr "ARQUITETURA PERSA"
+
+#: gui/text/tips/persian_architecture.txt:2
+msgid "- Special Technology for the Persians."
+msgstr "- Tecnologia Especial dos Persas"
+
+#: gui/text/tips/persian_architecture.txt:4
+msgid "- All Persian buildings +25% stronger."
+msgstr "- Todos os edifícios persas são +25% mais fortes. "
+
+#: gui/text/tips/persian_architecture.txt:6
+msgid "- Build time lengthened by +20% as a consequence."
+msgstr "- Tempo de Construção alongado por +20% como consequência."
+
+#: gui/text/tips/persian_architecture.txt:8
+msgid ""
+"- Persians also have access to a great number of structural & defensive "
+"technologies."
+msgstr "- Persas também têm acesso a grandes números de tecnologias defensivas e estruturais."
+
+#: gui/text/tips/pikemen.txt:1
+msgid "PIKEMEN"
+msgstr "PIQUEIRO"
+
+#: gui/text/tips/pikemen.txt:2
+msgid "- Heavily armored and slow. Low attack."
+msgstr "- Pesadamente blindado e lento. Ataque lento."
+
+#: gui/text/tips/pikemen.txt:4
+msgid ""
+"- Used against cavalry for a 4x attack bonus or against other melee infantry"
+" to pin them them in place."
+msgstr "- Usado contra cavalaria para um bônus de ataque de 4x ou contra outras infantarias corpo-a-corpo para pregá-los em seu lugar."
+
+#: gui/text/tips/pikemen.txt:6
+msgid "- Available to: Macedonians, Seleucids, and Ptolemies."
+msgstr "- Disponível para: Macedônios, selêucidas e ptolomeus."
+
+#: gui/text/tips/quinquereme.txt:1
+msgid "HEAVY WARSHIP"
+msgstr "NAVIO DE GUERRA PESADO"
+
+#: gui/text/tips/quinquereme.txt:2
+msgid ""
+"- The heaviest standard warship. Available to: Rome, Carthage, Ptolemies, "
+"and Seleucids."
+msgstr "- O navio de guerra padrão mais pesado. Disponível para: Roma, Cartago, Ptolomeus e selêucidas."
+
+#: gui/text/tips/quinquereme.txt:4
+msgid "- Garrison ballistas to increase fire power."
+msgstr "- Abrigue uma balista para aumentar o poder de fogo."
+
+#: gui/text/tips/quinquereme.txt:6
+msgid "- Has a ramming attack that sinks enemy ships (NOT IMPLEMENTED YET)."
+msgstr "- Tem um ataque compactador que afunda navios inimigos (AINDA NÃO IMPLEMENTADO)."
+
+#: gui/text/tips/savanna_biome.txt:1
+msgid "SAVANNA BIOME"
+msgstr "BIOMA DE SAVANA"
+
+#: gui/text/tips/savanna_biome.txt:2
+msgid "- Generally flat, with a few watering holes and rocky outcrops."
+msgstr "- Geralmente plano, com alguns poços de água e rochedos."
+
+#: gui/text/tips/savanna_biome.txt:4
+msgid "- Chock full of herd animals for plentiful hunting."
+msgstr "- Repleto de animais de rebanho para caçadas proveitosas"
+
+#: gui/text/tips/savanna_biome.txt:6
+msgid "- Rich in all types of mining."
+msgstr "- Rico em todos os tipos de mineração."
+
+#: gui/text/tips/savanna_biome.txt:8
+msgid "- Wood tends to be sparse, but consists of high-yield Baobab trees."
+msgstr "- Madeira é escarça, mas consiste de Baobás de alto rendimento."
+
+#: gui/text/tips/scout_towers.txt:1
+msgid "DEFENSE TOWERS"
+msgstr "TORRES DEFENSIVAS"
+
+#: gui/text/tips/scout_towers.txt:2
+msgid "- Free-standing towers good for defending large areas of countryside."
+msgstr "- Monobloco de torres, boas para defender grandes áreas."
+
+#: gui/text/tips/scout_towers.txt:4
+msgid ""
+"- They usually cost 100 Wood and 100 Stone. Iberian Defense Towers cost 300 "
+"Stone (because they're stronger)."
+msgstr "- Custam usualmente 100 de madeira e 100 de pedra. Torres de defesa Ibéricas custam 300 de pedra (por serem mais fortes)."
+
+#: gui/text/tips/scout_towers.txt:6
+msgid "- Has a ranged attack that increases for each garrisoned unit."
+msgstr "- Ataque de longo alcance que aumenta para cada unidade abrigada."
+
+#: gui/text/tips/spartan_hoplites.txt:1
+msgid "SPARTIATES"
+msgstr "ESPARCIATAS"
+
+#: gui/text/tips/spartan_hoplites.txt:2
+msgid "- Strongest infantry unit in the game."
+msgstr "- Infantaria mais poderosa do jogo."
+
+#: gui/text/tips/spartan_hoplites.txt:4
+msgid "- Champion Infantry available to the Spartans faction."
+msgstr "- Infantaria de Elite disponível para os Espartanos."
+
+#: gui/text/tips/spartan_hoplites.txt:6
+msgid ""
+"- Use them to slaughter enemy cavalry or as a shock force to support your "
+"regular infantry."
+msgstr "- Use para massacrar cavalaria inimiga ou como força de choque para apoiar sua infantaria regular."
+
+#: gui/text/tips/spartan_hoplites.txt:8
+msgid "- Use the 'Phalanx' formation for extra armor bonuses."
+msgstr "- Use a formação em Falange para maiores bônus de armadura."
+
+#: gui/text/tips/spearmen.txt:1
+msgid "SPEARMEN"
+msgstr "LANCEIRO"
+
+#: gui/text/tips/spearmen.txt:2
+msgid "- The basic melee infantry for every faction in the game."
+msgstr "- A infantiria corpo-a-corpo básica para cada facção no jogo."
+
+#: gui/text/tips/spearmen.txt:4
+msgid "- Used against cavalry for a 2x attack bonus."
+msgstr "- Usado contra cavalaria para bônus de ataque 2x."
+
+#: gui/text/tips/spearmen.txt:6
+msgid ""
+"- Decent hack attack and a good charge bonus make them good front line "
+"troops."
+msgstr "- Ataque de corte decente e um bom bônus de arranca faz deles uma boa tropa de linha de frente."
+
+#: gui/text/tips/spearmen.txt:8
+msgid ""
+"- They are countered by ranged units and swordsmen, so support your spearmen"
+" with slingers or cavalry."
+msgstr "- Eles são contrapostos por unidades de longo-alcance e espadachins, então apoie seus lanceiros com lançadores ou cavalaria."
+
+#: gui/text/tips/stoa.txt:1
+msgid "STOA"
+msgstr "STOÁ"
+
+#: gui/text/tips/stoa.txt:2
+msgid "- A special starting structure for the Hellenes."
+msgstr "- Uma estrutura inicial especial dos Helenos."
+
+#: gui/text/tips/stoa.txt:4
+msgid "- Grants +10 Population."
+msgstr "- Concede +10 de População."
+
+#: gui/text/tips/stoa.txt:6
+msgid "- Only enabled in some game modes."
+msgstr "- Somente disponível em alguns modos de jogo."
+
+#: gui/text/tips/stoa.txt:8
+msgid "- Can be found in the Atlas editor for custom scenarios."
+msgstr "- Pode ser enconrado no Atlas Editor para cenários customizados."
+
+#: gui/text/tips/storehouses.txt:1
+msgid "STOREHOUSES"
+msgstr "ARMAZÉNS"
+
+#: gui/text/tips/storehouses.txt:2
+msgid "- A cheap dropsite for non-food resources (wood, stone, metal)."
+msgstr "- Um barato armazém para os não-alimentos (madeira, pedra, metal)."
+
+#: gui/text/tips/storehouses.txt:4
+msgid ""
+"- Research technologies to improve the gathering capabilities of your "
+"citizens."
+msgstr "- Pesquise tecnologias para melhorar as capacidades de coleta dos seus cidadãos."
+
+#: gui/text/tips/syntagma.txt:1
+msgid "SYNTAGMA FORMATION"
+msgstr "FORMAÇÃO SINTAGMA"
+
+#: gui/text/tips/syntagma.txt:2
+msgid "- A formation for 'pikeman' style infantry."
+msgstr "- Uma formação de infantaria dos \"piqueiros\"."
+
+#: gui/text/tips/syntagma.txt:4
+msgid "- Formation is slow and cumbersome."
+msgstr "- A formação é lenta e pesada."
+
+#: gui/text/tips/syntagma.txt:6
+msgid "- Nearly invulnerable from the front."
+msgstr "- Quase invulnerável pela frente."
+
+#: gui/text/tips/syntagma.txt:8
+msgid "- Vulnerable to attacks from the rear."
+msgstr "- Vulnerável a ataques pela retaguarda."
+
+#: gui/text/tips/temples.txt:1
+msgid "TEMPLES"
+msgstr "TEMPLOS"
+
+#: gui/text/tips/temples.txt:2
+msgid "- Town Phase structure."
+msgstr "- Estrutura da Fase de Cidade."
+
+#: gui/text/tips/temples.txt:4
+msgid "- Recruit Healers to heal your troops on the battlefield."
+msgstr "- Recrute curandeiros para curar suas tropas no campo de batalha."
+
+#: gui/text/tips/temples.txt:6
+msgid "- Research healing, religious devotion, and cultural technologies."
+msgstr "- Pesquise tecnologias de cura, devoção religiosa e culturais."
+
+#: gui/text/tips/temples.txt:8
+msgid "- Its \"aura\" heals nearby units."
+msgstr "- Sua \"aura\" cura unidades próximas."
+
+#: gui/text/tips/temples.txt:10
+msgid "- Garrison damaged units inside for quicker healing."
+msgstr "- Abriga unidades feridas para curarem-se mais rápido."
+
+#: gui/text/tips/territory_decay.txt:1
+msgid "TERRITORY DECAY"
+msgstr "DECADÊNCIA TERRITORIAL"
+
+#: gui/text/tips/territory_decay.txt:3
+msgid ""
+"- Decay happens when buildings are not connected to an allied Civil Center."
+msgstr "- Decadência acontece quando construções não estão conectadas a um Centro Civil aliado."
+
+#: gui/text/tips/territory_decay.txt:5
+msgid ""
+"- The decay process can be slowed down or reversed by garrisoning some units"
+" in the structure."
+msgstr "- O processo de decadência pode ser desacelerado ou revertido ao abrigar algumas unidades na estrutura."
+
+#: gui/text/tips/territory_decay.txt:7
+msgid ""
+"- When the decay is completed, the building will be given to the most "
+"influential neighbor."
+msgstr "- Quando a decadência é completada, a construção será dado ao vizinho mais influente."
+
+#: gui/text/tips/themistocles.txt:1
+msgid "THEMISTOCLES"
+msgstr "TEMÍSTOCLES"
+
+#: gui/text/tips/themistocles.txt:2
+msgid ""
+"- Athenian hero who commanded the Greeks at the great naval battles of "
+"Artemisium and Salamis."
+msgstr "- Herói ateniense que comandou os gregos para as grandes batalhas navais da Artemisium Salamina."
+
+#: gui/text/tips/themistocles.txt:4
+msgid "- All ships are built faster while he lives."
+msgstr "- Todos os navios são construídos mais rápido, enquanto ele vive."
+
+#: gui/text/tips/themistocles.txt:6
+msgid "- The ship he is garrisoned inside moves much faster."
+msgstr "- O navio que o abrigar se move muito mais rápido."
+
+#: gui/text/tips/triremes.txt:1
+msgid "TRIREME"
+msgstr "TRIRREME"
+
+#: gui/text/tips/triremes.txt:2
+msgid "- The Medium Warship."
+msgstr "- Navio de guerra médio."
+
+#: gui/text/tips/triremes.txt:4
+msgid ""
+"- Available to the Romans, Carthaginians, Hellenic factions, and Persians."
+msgstr "- Disponível aos Romanos, Cartagineses, Helênicos e Persas."
+
+#: gui/text/tips/triremes.txt:6
+msgid "- Good for transporting or fighting."
+msgstr "- Bons para transporte ou batalhas."
+
+#: gui/text/tips/triremes.txt:8
+msgid "- Garrison troops aboard to increase fire power."
+msgstr "- Abrigue tropas à bordo para aumentar o poder de fogo."
+
+#: gui/text/tips/triremes.txt:10
+msgid ""
+"- Garrison a catapult aboard for a long-range siege attack (NOT IMPLEMENTED "
+"YET)."
+msgstr "- Abrigue uma catapulta para um ataque de cerco a longa distância (AINDA NÃO IMPLEMENTADO)."
+
+#: gui/text/tips/triremes.txt:12
+msgid ""
+"- Capable of a devastating ship-to-ship ramming attack that must recharge "
+"between each use (NOT IMPLEMENTED YET)."
+msgstr "- Capaz de um poderoso abalroamento em outro barco que necessita recarregar após cada uso (AINDA NÃO IMPLEMENTADO)."
+
+#: gui/text/tips/viriato.txt:1
+msgid "VIRIATO"
+msgstr "VIRIATO"
+
+#: gui/text/tips/viriato.txt:2
+msgid "- Iberian hero of the Lusitani tribe."
+msgstr "- Herói Ibérico da tribo dos Lusitanos."
+
+#: gui/text/tips/viriato.txt:4
+msgid ""
+"- At least 7 campaigns against the Romans during the 'Lusitani Wars' from "
+"147 to 139 B.C."
+msgstr "- Pelo menos 7 campanhas contra os Romanos durante as \"Guerras Lusitanas\" de 147 a 139 A.C."
+
+#: gui/text/tips/viriato.txt:6
+msgid "- Fast moving and can switch between sword and flaming javelin."
+msgstr "- São rápidos e podem trocar entre espadas e dardos flamejantes."
+
+#: gui/text/tips/viriato.txt:8
+msgid ""
+"- His \"aura\" is the \"Tactica Guerilla\" that allows nearby Iberian units "
+"to ambush their opponents."
+msgstr "- Sua \"aura\" é a \"Tactica Guerilla\" que permite muitas unidades Ibéricas emboscarem seus oponentes."
+
+#: gui/text/tips/war_elephants.txt:1
+msgid "WAR ELEPHANTS"
+msgstr "ELEFANTES DE GUERRA"
+
+#: gui/text/tips/war_elephants.txt:2
+msgid "- Huge beasts from Africa and India, trained for war."
+msgstr "- Enormes bestas da África e da Índia, treinados para a guerra."
+
+#: gui/text/tips/war_elephants.txt:4
+msgid ""
+"- High Food and Metal cost, but very powerful. Strongest against Structures "
+"and Cavalry."
+msgstr "- Alta custo de Comida e Metal, mas muito poderosa. Forte contra estruturas e Cavalaria."
+
+#: gui/text/tips/war_elephants.txt:6
+msgid "- Vulnerable to infantry skirmishers."
+msgstr "- Vulnerável à infantaria ligeira."
+
+#: gui/text/tips/war_elephants.txt:8
+msgid "- Available to: Mauryans, Ptolemies, Seleucids, and Carthaginians."
+msgstr "- Disponível para: Mauryans, Ptolomeus, selêucidas e cartagineses."
+
+#: gui/text/tips/whales.txt:1
+msgid "WHALES"
+msgstr "BALEIAS"
+
+#: gui/text/tips/whales.txt:2
+msgid "- An oceanic resource."
+msgstr "- Um recurso oceânico."
+
+#: gui/text/tips/whales.txt:4
+msgid "- 2000 Food."
+msgstr "-2000 de comida"
+
+#: gui/text/tips/whales.txt:6
+msgid "- Gatherable by Fishing Boats after the whale is killed."
+msgstr "- Coletável por barcos de pesca após a baleia ser morta."
+
+#: gui/text/tips/whales.txt:8
+msgid "- Roam around the oceans of the game and flee when attacked."
+msgstr "- Vague pelos oceanos do jogo e fuja quando atacado!"

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Identity>
+    <Civ>rome</Civ>
+    <SpecificName>Castellum</SpecificName>
+    <History>Fortified auxillary camp.</History>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_hero_marcellus
+      units/{civ}_hero_maximus
+      units/{civ}_hero_scipio
+      units/{civ}_champion_infantry
+      units/{civ}_champion_cavalry
+    </Entities>
+    <Technologies datatype="tokens">
+      siege_attack
+      siege_armor
+      siege_cost_metal
+      siege_cost_wood
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/romans/fortress.xml</Actor>
+  </VisualActor>
+</Entity>

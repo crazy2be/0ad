@@ -1,0 +1,1000 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# Jeff Huang <s8321414@gmail.com>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2015-07-21 23:22+0200\n"
+"PO-Revision-Date: 2015-07-22 13:33+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/wildfire-games/0ad/language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: simulation/templates/template_gaia.xml:6
+msgid "Gaia"
+msgstr "大地之母"
+
+#: simulation/templates/template_gaia_flora.xml:8
+msgid "Generic Flora"
+msgstr "一般植物"
+
+#: simulation/templates/template_gaia_flora_bush.xml:8
+#: simulation/templates/template_gaia_flora_bush_berry.xml:8
+msgid "Bush"
+msgstr "灌木"
+
+#: simulation/templates/template_gaia_flora_bush_berry.xml:9
+msgid "Berries"
+msgstr "漿果"
+
+#: simulation/templates/template_gaia_flora_bush_berry.xml:10
+msgid "Gather the fruit from these bushes to accumulate Food."
+msgstr "從灌木叢採集漿果以獲得食物。"
+
+#: simulation/templates/template_gaia_flora_tree.xml:5
+msgid "Tree"
+msgstr "樹木"
+
+#: simulation/templates/template_gaia_flora_tree.xml:7
+msgid "Chop down to accumulate Wood."
+msgstr "伐木以累積木材。"
+
+#: simulation/templates/template_gaia_geo.xml:8
+msgid "Generic Geology"
+msgstr "一般地質"
+
+#: simulation/templates/template_gaia_geo_mineral.xml:4
+msgid "Mineral"
+msgstr "礦產"
+
+#: simulation/templates/template_gaia_geo_mineral.xml:5
+msgid "Metal Mine"
+msgstr "金礦"
+
+#: simulation/templates/template_gaia_geo_mineral.xml:6
+msgid "A mineral deposit, providing access to rare forms of precious Metal."
+msgstr "礦藏，提供罕見種類的貴重金屬。"
+
+#: simulation/templates/template_gaia_geo_rock.xml:4
+msgid "Rock"
+msgstr "岩石"
+
+#: simulation/templates/template_gaia_geo_rock.xml:5
+msgid "Stone Mine"
+msgstr "石礦"
+
+#: simulation/templates/template_gaia_geo_rock.xml:6
+msgid "Mine these to provide Stone building material."
+msgstr "開採以提供建築石材。"
+
+#: simulation/templates/template_gaia_ruins.xml:8
+msgid "Generic Ruins"
+msgstr "一般廢墟"
+
+#: simulation/templates/template_gaia_ruins.xml:9
+#: simulation/templates/gaia/special_ruins.xml:9
+#: simulation/templates/gaia/special_ruins_column_doric.xml:9
+#: simulation/templates/other/unfinished_greek_temple.xml:9
+msgid "Ruins"
+msgstr "廢墟"
+
+#: simulation/templates/template_gaia_ruins.xml:10
+msgid "These ruins that can be mined for resources."
+msgstr "這些廢墟可提供開採資源。"
+
+#: simulation/templates/template_gaia_treasure.xml:8
+msgid "Generic Treasure"
+msgstr "一般寶藏"
+
+#: simulation/templates/template_gaia_treasure.xml:9
+#: simulation/templates/gaia/special_treasure_food_barrel.xml:9
+#: simulation/templates/gaia/special_treasure_food_barrels_buried.xml:9
+#: simulation/templates/gaia/special_treasure_food_bin.xml:9
+#: simulation/templates/gaia/special_treasure_food_crate.xml:9
+#: simulation/templates/gaia/special_treasure_food_jars.xml:9
+#: simulation/templates/gaia/special_treasure_golden_fleece.xml:9
+#: simulation/templates/gaia/special_treasure_pegasus.xml:9
+#: simulation/templates/gaia/special_treasure_stone.xml:9
+#: simulation/templates/gaia/special_treasure_wood.xml:9
+#: simulation/templates/other/special_treasure_shipwreck.xml:9
+#: simulation/templates/other/special_treasure_shipwreck_debris.xml:9
+#: simulation/templates/other/special_treasure_shipwreck_ram_bow.xml:9
+#: simulation/templates/other/special_treasure_shipwreck_sail_boat.xml:9
+#: simulation/templates/other/special_treasure_shipwreck_sail_boat_cut.xml:9
+msgid "Treasure"
+msgstr "寶藏"
+
+#: simulation/templates/template_gaia_treasure.xml:10
+msgid "A treasure that can be quickly gathered."
+msgstr "可以快速收集的資源。"
+
+#: simulation/templates/template_structure.xml:54
+msgid "Structure"
+msgstr "建築物"
+
+#: simulation/templates/template_unit.xml:38
+msgid "Unit"
+msgstr "單位"
+
+#: simulation/templates/campaigns/army_mace_hero_alexander.xml:27
+msgid "Army of Alexander the Great."
+msgstr "亞歷山大大帝的軍隊。"
+
+#: simulation/templates/campaigns/army_mace_hero_alexander.xml:28
+msgid "Army of Alexander the Great"
+msgstr "亞歷山大大帝的軍隊"
+
+#: simulation/templates/campaigns/army_mace_hero_alexander.xml:29
+#: simulation/templates/campaigns/army_mace_standard.xml:21
+#: simulation/templates/campaigns/army_spart_hero_leonidas.xml:29
+msgid "This is what an army would look like on the Strat Map."
+msgstr "這是一隻軍隊在戰略地圖上看起來的樣子。"
+
+#: simulation/templates/campaigns/army_mace_standard.xml:19
+msgid "Army of Macedonia"
+msgstr "馬其頓軍隊"
+
+#: simulation/templates/campaigns/army_mace_standard.xml:20
+msgid "Army of Macedon"
+msgstr "馬其頓王國的軍隊"
+
+#: simulation/templates/campaigns/army_spart_hero_leonidas.xml:27
+msgid "Army of Leonidas I."
+msgstr "列奧尼達一世的軍隊。"
+
+#: simulation/templates/campaigns/army_spart_hero_leonidas.xml:28
+msgid "Army of Leonidas I"
+msgstr "列奧尼達一世的軍隊"
+
+#: simulation/templates/campaigns/campaign_city_minor_test.xml:26
+#: simulation/templates/campaigns/campaign_city_test.xml:26
+msgid "Settlement"
+msgstr "殖民地"
+
+#: simulation/templates/campaigns/campaign_city_minor_test.xml:27
+msgid "Minor Greek Polis"
+msgstr "小型希臘城邦"
+
+#: simulation/templates/campaigns/campaign_city_minor_test.xml:28
+msgid "This is a minor Greek city."
+msgstr "這是一個希臘的小城市。"
+
+#: simulation/templates/campaigns/campaign_city_test.xml:27
+msgid "Greek Polis"
+msgstr "希臘城邦"
+
+#: simulation/templates/campaigns/campaign_city_test.xml:28
+msgid "This is a major Greek city."
+msgstr "這是一個希臘的主要城市。"
+
+#: simulation/templates/campaigns/campaign_religious_test.xml:12
+msgid "Religious Sanctuary"
+msgstr "宗教聖殿"
+
+#: simulation/templates/campaigns/campaign_religious_test.xml:13
+msgid "Greek Religious Sanctuary"
+msgstr "希臘宗教聖殿"
+
+#: simulation/templates/formations/battle_line.xml:5
+msgid "Battle Line"
+msgstr "戰線"
+
+#: simulation/templates/formations/box.xml:6
+msgid "4 units required"
+msgstr "需要4個單位"
+
+#: simulation/templates/formations/box.xml:7
+msgid "Box"
+msgstr "方陣"
+
+#: simulation/templates/formations/column_closed.xml:5
+msgid "Column Closed"
+msgstr "密集縱隊"
+
+#: simulation/templates/formations/column_open.xml:5
+msgid "Column Open"
+msgstr "分散縱隊"
+
+#: simulation/templates/formations/flank.xml:6
+msgid "8 units required"
+msgstr "需要8個單位"
+
+#: simulation/templates/formations/flank.xml:7
+msgid "Flank"
+msgstr "翼形"
+
+#: simulation/templates/formations/line_closed.xml:5
+msgid "Line Closed"
+msgstr "密集橫隊"
+
+#: simulation/templates/formations/line_open.xml:5
+msgid "Line Open"
+msgstr "分散橫隊"
+
+#: simulation/templates/formations/null.xml:5
+msgid "None"
+msgstr "無"
+
+#: simulation/templates/formations/phalanx.xml:6
+msgid "10 melee infantry units required"
+msgstr "需要10個近戰步兵單位"
+
+#: simulation/templates/formations/phalanx.xml:7
+msgid "Phalanx"
+msgstr "方陣"
+
+#: simulation/templates/formations/scatter.xml:5
+msgid "Scatter"
+msgstr "分散"
+
+#: simulation/templates/formations/skirmish.xml:5
+msgid "Only ranged units allowed"
+msgstr "只允許遠程單位"
+
+#: simulation/templates/formations/skirmish.xml:6
+msgid "Skirmish"
+msgstr "小規模戰鬥"
+
+#: simulation/templates/formations/syntagma.xml:6
+msgid "9 pike infantry units required"
+msgstr "需要9個長槍步兵單位"
+
+#: simulation/templates/formations/syntagma.xml:7
+msgid "Syntagma"
+msgstr "馬其頓方陣"
+
+#: simulation/templates/formations/testudo.xml:6
+msgid "9 melee infantry units required"
+msgstr "需要9個近戰步兵單位"
+
+#: simulation/templates/formations/testudo.xml:7
+msgid "Testudo"
+msgstr "龜甲陣"
+
+#: simulation/templates/formations/wedge.xml:6
+msgid "3 cavalry units required"
+msgstr "需要3個騎兵單位"
+
+#: simulation/templates/formations/wedge.xml:7
+msgid "Wedge"
+msgstr "楔形隊形"
+
+#: simulation/templates/gaia/fauna_bear.xml:18
+msgid "Bear"
+msgstr "熊"
+
+#: simulation/templates/gaia/fauna_boar.xml:18
+msgid "Boar"
+msgstr "野豬"
+
+#: simulation/templates/gaia/fauna_camel.xml:9
+msgid "Camel"
+msgstr "駱駝"
+
+#: simulation/templates/gaia/fauna_chicken.xml:12
+msgid "Chicken"
+msgstr "雞"
+
+#: simulation/templates/gaia/fauna_crocodile.xml:18
+msgid "Crocodylus niloticus"
+msgstr "尼羅鱷"
+
+#: simulation/templates/gaia/fauna_crocodile.xml:19
+msgid "Nile Crocodile"
+msgstr "尼羅鱷"
+
+#: simulation/templates/gaia/fauna_deer.xml:5
+msgid "Deer"
+msgstr "鹿"
+
+#: simulation/templates/gaia/fauna_elephant.xml:13
+msgid "Elephant"
+msgstr "象"
+
+#: simulation/templates/gaia/fauna_elephant_african_bush.xml:46
+msgid "African Bush Elephant"
+msgstr "普通非洲象"
+
+#: simulation/templates/gaia/fauna_elephant_african_infant.xml:15
+msgid "African Elephant (Infant)"
+msgstr "非洲象(幼兒)"
+
+#: simulation/templates/gaia/fauna_elephant_asian.xml:46
+msgid "Asian Elephant"
+msgstr "亞洲象"
+
+#: simulation/templates/gaia/fauna_elephant_north_african.xml:33
+msgid "North African Elephant"
+msgstr "北部非洲象"
+
+#: simulation/templates/gaia/fauna_fish.xml:5
+#: simulation/templates/gaia/fauna_fish_tuna.xml:5
+msgid "Tuna Fish"
+msgstr "鮪魚"
+
+#: simulation/templates/gaia/fauna_fish.xml:6
+#: simulation/templates/gaia/fauna_fish_tuna.xml:6
+msgid "Collect food from this bountiful oceanic resource."
+msgstr "從豐富的海洋資源中收集食物。"
+
+#: simulation/templates/gaia/fauna_fish_tilapia.xml:5
+msgid "Tilapia Fish"
+msgstr "吳郭魚"
+
+#: simulation/templates/gaia/fauna_fish_tilapia.xml:6
+msgid "Collect food from this bountiful riparian resource."
+msgstr "從豐富的沿岸資源中收集食物。"
+
+#: simulation/templates/gaia/fauna_gazelle.xml:5
+msgid "Gazelle"
+msgstr "瞪羚"
+
+#: simulation/templates/gaia/fauna_giraffe.xml:12
+msgid "Giraffe (Adult)"
+msgstr "長頸鹿 (成年)"
+
+#: simulation/templates/gaia/fauna_giraffe_infant.xml:9
+msgid "Giraffe (Juvenile)"
+msgstr "長頸鹿 (幼年)"
+
+#: simulation/templates/gaia/fauna_goat.xml:11
+msgid "Goat"
+msgstr "山羊"
+
+#: simulation/templates/gaia/fauna_horse.xml:9
+msgid "Horse"
+msgstr "馬"
+
+#: simulation/templates/gaia/fauna_lion.xml:18
+msgid "Lion"
+msgstr "獅子"
+
+#: simulation/templates/gaia/fauna_lioness.xml:18
+msgid "Lioness"
+msgstr "母獅"
+
+#: simulation/templates/gaia/fauna_muskox.xml:9
+msgid "Muskox"
+msgstr "麝牛"
+
+#: simulation/templates/gaia/fauna_peacock.xml:8
+msgid "Peacock"
+msgstr "孔雀"
+
+#: simulation/templates/gaia/fauna_pig.xml:5
+msgid "Pig"
+msgstr "豬"
+
+#: simulation/templates/gaia/fauna_rabbit.xml:9
+msgid "Rabbit"
+msgstr "兔子"
+
+#: simulation/templates/gaia/fauna_shark.xml:14
+msgid "Great White"
+msgstr "大白鯊"
+
+#: simulation/templates/gaia/fauna_shark.xml:15
+msgid "Shark"
+msgstr "鯊魚"
+
+#: simulation/templates/gaia/fauna_sheep.xml:11
+msgid "Sheep"
+msgstr "綿羊"
+
+#: simulation/templates/gaia/fauna_tiger.xml:18
+msgid "Tiger"
+msgstr "虎"
+
+#: simulation/templates/gaia/fauna_walrus.xml:23
+msgid "Walrus"
+msgstr "海象"
+
+#: simulation/templates/gaia/fauna_whale_fin.xml:4
+msgid "Fin Whale"
+msgstr "長鬚鯨"
+
+#: simulation/templates/gaia/fauna_whale_humpback.xml:8
+msgid "Humpback Whale"
+msgstr "座頭鯨"
+
+#: simulation/templates/gaia/fauna_wildebeest.xml:9
+msgid "Wildebeest"
+msgstr "牛羚"
+
+#: simulation/templates/gaia/fauna_wolf.xml:18
+msgid "Wolf"
+msgstr "狼"
+
+#: simulation/templates/gaia/fauna_wolf_snow.xml:18
+msgid "Snow Wolf"
+msgstr "雪狼"
+
+#: simulation/templates/gaia/fauna_zebra.xml:9
+msgid "Zebra"
+msgstr "斑馬"
+
+#: simulation/templates/gaia/flora_bush_badlands.xml:8
+msgid "Hardy Bush"
+msgstr "耐寒灌木"
+
+#: simulation/templates/gaia/flora_bush_grapes.xml:4
+msgid "Forage"
+msgstr "果樹"
+
+#: simulation/templates/gaia/flora_bush_grapes.xml:5
+msgid "Grapes"
+msgstr "葡萄"
+
+#: simulation/templates/gaia/flora_bush_grapes.xml:6
+msgid "Gather grapes from these vines for Food."
+msgstr "從葡萄藤上採集葡萄以獲取食物。"
+
+#: simulation/templates/gaia/flora_bush_temperate.xml:8
+msgid "Deciduous Bush"
+msgstr "落葉灌木"
+
+#: simulation/templates/gaia/flora_tree_aleppo_pine.xml:4
+msgid "Aleppo Pine Tree"
+msgstr "地中海松樹"
+
+#: simulation/templates/gaia/flora_tree_apple.xml:8
+msgid "Apple Tree"
+msgstr "蘋果樹"
+
+#: simulation/templates/gaia/flora_tree_baobab.xml:8
+msgid "Baobab"
+msgstr "猴麵包樹"
+
+#: simulation/templates/gaia/flora_tree_carob.xml:4
+msgid "Carob Tree"
+msgstr "角豆樹"
+
+#: simulation/templates/gaia/flora_tree_cretan_date_palm_patch.xml:8
+#: simulation/templates/gaia/flora_tree_cretan_date_palm_short.xml:4
+#: simulation/templates/gaia/flora_tree_cretan_date_palm_tall.xml:4
+msgid "Cretan Date Palm"
+msgstr "克里特島海棗"
+
+#: simulation/templates/gaia/flora_tree_cypress.xml:4
+msgid "Cypress Tree"
+msgstr "柏樹"
+
+#: simulation/templates/gaia/flora_tree_date_palm.xml:4
+msgid "Date Palm"
+msgstr "海棗"
+
+#: simulation/templates/gaia/flora_tree_dead.xml:4
+msgid "Dead Tree"
+msgstr "枯木"
+
+#: simulation/templates/gaia/flora_tree_euro_beech.xml:4
+#: simulation/templates/gaia/flora_tree_euro_beech_aut.xml:4
+msgid "European Beech Tree"
+msgstr "歐洲山毛櫸樹"
+
+#: simulation/templates/gaia/flora_tree_fig.xml:8
+msgid "Fig"
+msgstr "無花果"
+
+#: simulation/templates/gaia/flora_tree_fig.xml:10
+msgid "Gather figs for Food."
+msgstr "採集無花果做為食物。"
+
+#: simulation/templates/gaia/flora_tree_medit_fan_palm.xml:4
+msgid "Mediterranean Fan Palm"
+msgstr "叢櫚"
+
+#: simulation/templates/gaia/flora_tree_oak.xml:4
+#: simulation/templates/gaia/flora_tree_oak_aut.xml:4
+msgid "Oak Tree"
+msgstr "橡樹"
+
+#: simulation/templates/gaia/flora_tree_oak_large.xml:4
+msgid "Large Oak Tree"
+msgstr "巨大的橡樹"
+
+#: simulation/templates/gaia/flora_tree_olive.xml:8
+msgid "Olive Tree"
+msgstr "橄欖樹"
+
+#: simulation/templates/gaia/flora_tree_palm_tropic.xml:4
+msgid "Palm"
+msgstr "棕櫚樹"
+
+#: simulation/templates/gaia/flora_tree_palm_tropical.xml:4
+msgid "Tropical Palm"
+msgstr "熱帶棕櫚"
+
+#: simulation/templates/gaia/flora_tree_pine.xml:4
+#: simulation/templates/gaia/flora_tree_pine_w.xml:4
+msgid "Pine Tree"
+msgstr "松樹"
+
+#: simulation/templates/gaia/flora_tree_poplar.xml:4
+msgid "Poplar Tree"
+msgstr "白楊木"
+
+#: simulation/templates/gaia/flora_tree_poplar_lombardy.xml:4
+msgid "Lombardy Poplar Tree"
+msgstr "黑楊樹"
+
+#: simulation/templates/gaia/flora_tree_senegal_date_palm.xml:4
+msgid "Senegal Date Palm"
+msgstr "塞內加爾椰棗"
+
+#: simulation/templates/gaia/flora_tree_tamarix.xml:4
+msgid "Tamarix Tree"
+msgstr "紅荊樹"
+
+#: simulation/templates/gaia/flora_tree_toona.xml:4
+msgid "Toona Tree"
+msgstr "香椿樹"
+
+#: simulation/templates/gaia/special_ruins.xml:10
+#: simulation/templates/gaia/special_ruins_column_doric.xml:10
+msgid "Ancient Ruins"
+msgstr "古代遺蹟"
+
+#: simulation/templates/gaia/special_ruins_standing_stone.xml:9
+#: simulation/templates/gaia/special_ruins_stone_statues_egyptian.xml:9
+#: simulation/templates/gaia/special_ruins_stone_statues_roman.xml:9
+msgid "Stone Ruins"
+msgstr "石頭廢墟"
+
+#: simulation/templates/gaia/special_ruins_standing_stone.xml:10
+#: simulation/templates/gaia/special_treasure_standing_stone.xml:10
+msgid "Celtic Standing Stone"
+msgstr "塞爾特地位石"
+
+#: simulation/templates/gaia/special_ruins_stone_statues_egyptian.xml:10
+msgid "Ptolemaic Egyptian Statues"
+msgstr "埃及托勒密雕像"
+
+#: simulation/templates/gaia/special_ruins_stone_statues_roman.xml:10
+msgid "Roman Statues"
+msgstr "羅馬雕像"
+
+#: simulation/templates/gaia/special_treasure_food_barrel.xml:10
+#: simulation/templates/gaia/special_treasure_food_bin.xml:10
+#: simulation/templates/gaia/special_treasure_food_crate.xml:10
+#: simulation/templates/gaia/special_treasure_food_jars.xml:10
+#: simulation/templates/gaia/special_treasure_food_persian_big.xml:9
+#: simulation/templates/gaia/special_treasure_food_persian_small.xml:9
+msgid "Food Treasure"
+msgstr "食物寶藏"
+
+#: simulation/templates/gaia/special_treasure_food_barrels_buried.xml:10
+msgid "Half-buried Barrels"
+msgstr "半埋砲管"
+
+#: simulation/templates/gaia/special_treasure_food_persian_big.xml:10
+msgid "Persian Food Stores"
+msgstr "波斯食物儲藏"
+
+#: simulation/templates/gaia/special_treasure_food_persian_small.xml:10
+msgid "Persian Food Treasure"
+msgstr "波斯食物寶藏"
+
+#: simulation/templates/gaia/special_treasure_golden_fleece.xml:10
+msgid "Golden Fleece"
+msgstr "金羊毛"
+
+#: simulation/templates/gaia/special_treasure_metal.xml:9
+#: simulation/templates/gaia/special_treasure_metal_persian_bigl.xml:9
+#: simulation/templates/gaia/special_treasure_metal_persian_small.xml:9
+msgid "Metal Treasure"
+msgstr "金屬寶藏"
+
+#: simulation/templates/gaia/special_treasure_metal.xml:10
+msgid "Secret Box"
+msgstr "祕密寶箱"
+
+#: simulation/templates/gaia/special_treasure_metal_persian_bigl.xml:10
+msgid "Persian Wares"
+msgstr "波斯器具"
+
+#: simulation/templates/gaia/special_treasure_metal_persian_small.xml:10
+msgid "Persian Rugs"
+msgstr "波斯地毯"
+
+#: simulation/templates/gaia/special_treasure_pegasus.xml:10
+msgid "Pegasus"
+msgstr "珀伽索斯"
+
+#: simulation/templates/gaia/special_treasure_standing_stone.xml:9
+#: simulation/templates/gaia/special_treasure_stone.xml:10
+msgid "Stone Treasure"
+msgstr "石頭寶藏"
+
+#: simulation/templates/gaia/special_treasure_wood.xml:10
+msgid "Wood Treasure"
+msgstr "木頭寶藏"
+
+#: simulation/templates/other/bench.xml:20
+msgid "Bench"
+msgstr "長凳"
+
+#: simulation/templates/other/bench.xml:21
+msgid "Wooden Bench"
+msgstr "板凳"
+
+#: simulation/templates/other/bridge_hele.xml:15
+#: simulation/templates/other/bridge_hele.xml:16
+msgid "Bridge"
+msgstr "橋"
+
+#: simulation/templates/other/bridge_wooden.xml:15
+#: simulation/templates/other/bridge_wooden.xml:16
+msgid "Wooden Bridge"
+msgstr "木橋"
+
+#: simulation/templates/other/cart_tophet.xml:22
+msgid "Sacrificial Temple"
+msgstr "祭祀神廟"
+
+#: simulation/templates/other/cart_tophet.xml:23
+msgid "Tophet"
+msgstr "托菲特"
+
+#: simulation/templates/other/cart_tophet.xml:25
+msgid "Train physicians and Sacred Band Cavalrymen."
+msgstr "訓練醫生與聖隊騎兵。"
+
+#: simulation/templates/other/celt_hut.xml:21
+msgid "Hut"
+msgstr "棚屋"
+
+#: simulation/templates/other/celt_hut.xml:23
+msgid "Add +2 to Population Cap."
+msgstr "將 +2 到人口限制中"
+
+#: simulation/templates/other/celt_longhouse.xml:22
+msgid "Longhouse"
+msgstr "長屋"
+
+#: simulation/templates/other/celt_longhouse.xml:24
+#: simulation/templates/other/hellenic_propylaea.xml:28
+#: simulation/templates/other/hellenic_stoa.xml:28
+msgid "Add +10 to Population Cap."
+msgstr "將 +10 到人口限制中。"
+
+#: simulation/templates/other/column_doric.xml:20
+#: simulation/templates/other/column_doric_fallen.xml:20
+#: simulation/templates/other/column_doric_fallen_b.xml:20
+msgid "Column"
+msgstr "柱"
+
+#: simulation/templates/other/column_doric.xml:21
+msgid "Doric Column"
+msgstr "多立克柱"
+
+#: simulation/templates/other/column_doric_fallen.xml:21
+#: simulation/templates/other/column_doric_fallen_b.xml:21
+msgid "Fallen Doric Column"
+msgstr "倒下的多立克柱"
+
+#: simulation/templates/other/fence_long.xml:20
+#: simulation/templates/other/fence_short.xml:20
+msgid "Fence"
+msgstr "籬笆"
+
+#: simulation/templates/other/fence_long.xml:21
+msgid "Long Wooden Fence"
+msgstr "長木籬笆"
+
+#: simulation/templates/other/fence_short.xml:21
+msgid "Short Wooden Fence"
+msgstr "短木籬笆"
+
+#: simulation/templates/other/fence_stone.xml:20
+#: simulation/templates/other/fence_stone.xml:21
+msgid "Stone Fence"
+msgstr "石頭圍籬"
+
+#: simulation/templates/other/generic_field.xml:9
+msgid "Wheat Field"
+msgstr "麥田"
+
+#: simulation/templates/other/hellenic_epic_temple.xml:29
+msgid "Epic Temple"
+msgstr "史詩神廟"
+
+#: simulation/templates/other/hellenic_epic_temple.xml:30
+msgid "Naos Parthenos"
+msgstr "帕德嫩神廟"
+
+#: simulation/templates/other/hellenic_epic_temple.xml:32
+msgid "Garrison up to 30 units to heal them at a quick rate."
+msgstr "可駐守 30 個單位以較快的速度治療他們。"
+
+#: simulation/templates/other/hellenic_propylaea.xml:25
+msgid "Portico"
+msgstr "門廊"
+
+#: simulation/templates/other/hellenic_propylaea.xml:26
+msgid "Propylaea"
+msgstr "山門"
+
+#: simulation/templates/other/hellenic_royal_stoa.xml:30
+#: simulation/templates/other/hellenic_stoa.xml:25
+msgid "Stoa"
+msgstr "拱廊"
+
+#: simulation/templates/other/hellenic_royal_stoa.xml:31
+msgid "Hellenic Royal Stoa"
+msgstr "希臘皇家柱廊"
+
+#: simulation/templates/other/hellenic_royal_stoa.xml:33
+msgid "Add +10 to Population Cap. Recruit special units."
+msgstr "將 +10 到人口限制中。招募特殊單位。"
+
+#: simulation/templates/other/hellenic_stoa.xml:26
+msgid "Hellenic Stoa"
+msgstr "希臘柱廊"
+
+#: simulation/templates/other/maur_palace.xml:12
+msgid "Harmya"
+msgstr "Harmya"
+
+#: simulation/templates/other/maur_palace.xml:14
+msgid "Add +15 to Population Cap. Recruit extra units and heroes."
+msgstr "將 +15 到人口限制中。招募額外單位及英雄。"
+
+#: simulation/templates/other/obelisk.xml:20
+msgid "Obelisk"
+msgstr "方尖塔"
+
+#: simulation/templates/other/obelisk.xml:21
+msgid "Egyptian Obelisk"
+msgstr "埃及方尖塔"
+
+#: simulation/templates/other/palisades_angle_spike.xml:16
+msgid "Palisade Angle Spike"
+msgstr "柵欄角釘"
+
+#: simulation/templates/other/palisades_angle_spike.xml:17
+msgid "Big Spike"
+msgstr "大長釘"
+
+#: simulation/templates/other/palisades_rocks_curve.xml:15
+msgid "Palisade Curve"
+msgstr "柵欄曲線"
+
+#: simulation/templates/other/palisades_rocks_curve.xml:16
+msgid "Wooden Wall Corner"
+msgstr "木牆角"
+
+#: simulation/templates/other/palisades_rocks_end.xml:15
+msgid "Palisade End"
+msgstr "柵欄末端"
+
+#: simulation/templates/other/palisades_rocks_end.xml:16
+msgid "Wooden Wall End"
+msgstr "木牆末端"
+
+#: simulation/templates/other/palisades_rocks_fort.xml:33
+msgid "Palisade Fort"
+msgstr "柵欄要塞"
+
+#: simulation/templates/other/palisades_rocks_fort.xml:34
+msgid "Wooden Tower"
+msgstr "木製塔樓"
+
+#: simulation/templates/other/palisades_rocks_fort.xml:38
+msgid "Village"
+msgstr "村莊"
+
+#: simulation/templates/other/palisades_rocks_fort.xml:38
+msgid "DefenseTower"
+msgstr "防禦塔"
+
+#: simulation/templates/other/palisades_rocks_gate.xml:20
+msgid "Palisade Gate"
+msgstr "柵欄門"
+
+#: simulation/templates/other/palisades_rocks_gate.xml:21
+msgid "Wooden Gate"
+msgstr "木門"
+
+#: simulation/templates/other/palisades_rocks_long.xml:22
+#: simulation/templates/other/palisades_rocks_medium.xml:22
+#: simulation/templates/other/palisades_rocks_short.xml:21
+#: simulation/templates/other/palisades_rocks_straight.xml:15
+#: simulation/templates/other/palisades_rocks_tower.xml:21
+#: simulation/templates/other/wallset_palisade.xml:6
+msgid "Palisade"
+msgstr "柵欄"
+
+#: simulation/templates/other/palisades_rocks_long.xml:23
+#: simulation/templates/other/palisades_rocks_medium.xml:23
+#: simulation/templates/other/palisades_rocks_short.xml:22
+#: simulation/templates/other/palisades_rocks_straight.xml:16
+#: simulation/templates/other/palisades_rocks_tower.xml:22
+#: simulation/templates/other/wallset_palisade.xml:5
+msgid "Wooden Wall"
+msgstr "木牆"
+
+#: simulation/templates/other/palisades_rocks_long.xml:24
+msgid "Convert Wooden Wall into Wooden Gate"
+msgstr "將木牆轉換為木門"
+
+#: simulation/templates/other/palisades_rocks_outpost.xml:15
+msgid "Outpost"
+msgstr "前哨"
+
+#: simulation/templates/other/palisades_rocks_outpost.xml:16
+#: simulation/templates/other/palisades_rocks_watchtower.xml:16
+msgid "Wooden Watch Tower"
+msgstr "木製瞭望塔"
+
+#: simulation/templates/other/palisades_rocks_watchtower.xml:15
+msgid "Watchtower"
+msgstr "瞭望塔"
+
+#: simulation/templates/other/palisades_small_spikes.xml:16
+msgid "Spikes Small"
+msgstr "小型尖刺"
+
+#: simulation/templates/other/palisades_small_spikes.xml:17
+msgid "Small Spikes"
+msgstr "小型尖刺"
+
+#: simulation/templates/other/palisades_tall_spikes.xml:16
+msgid "Spikes Tall"
+msgstr "高尖刺"
+
+#: simulation/templates/other/palisades_tall_spikes.xml:17
+msgid "Tall Spikes"
+msgstr "高尖刺"
+
+#: simulation/templates/other/pers_apartment_block.xml:15
+msgid "Apartment Block"
+msgstr "樓房"
+
+#: simulation/templates/other/pers_house_a.xml:12
+msgid "House"
+msgstr "房舍"
+
+#: simulation/templates/other/pers_house_b.xml:15
+#: simulation/templates/other/pers_inn.xml:15
+msgid "Inn"
+msgstr "客棧"
+
+#: simulation/templates/other/pers_warehouse.xml:12
+msgid "Warehouse"
+msgstr "倉庫"
+
+#: simulation/templates/other/plane.xml:37
+msgid "P-51 Mustang"
+msgstr "P-51野馬戰鬥機"
+
+#: simulation/templates/other/plane.xml:39
+msgid "A World War 2 American fighter plane."
+msgstr "一個第2次世界大戰美國戰鬥機。"
+
+#: simulation/templates/other/pyramid_great.xml:9
+#: simulation/templates/other/pyramid_minor.xml:9
+msgid "Pyramid"
+msgstr "金字塔"
+
+#: simulation/templates/other/pyramid_great.xml:10
+msgid "Great Pyramid"
+msgstr "大金字塔"
+
+#: simulation/templates/other/pyramid_minor.xml:10
+msgid "Minor Pyramid"
+msgstr "小金字塔"
+
+#: simulation/templates/other/special_treasure_shipwreck.xml:10
+#: simulation/templates/other/special_treasure_shipwreck_ram_bow.xml:10
+#: simulation/templates/other/special_treasure_shipwreck_sail_boat.xml:10
+#: simulation/templates/other/special_treasure_shipwreck_sail_boat_cut.xml:10
+msgid "Shipwreck"
+msgstr "沉船"
+
+#: simulation/templates/other/special_treasure_shipwreck.xml:11
+msgid "A decaying military shipwreck. A good opportunity for any businessman."
+msgstr "一個腐朽的軍隊沉船。任何商人的好機會。"
+
+#: simulation/templates/other/special_treasure_shipwreck_debris.xml:10
+msgid "Shipwreck Cargo"
+msgstr "沉船貨物"
+
+#: simulation/templates/other/special_treasure_shipwreck_ram_bow.xml:11
+msgid ""
+"A shipwreck with much loss of life. A good opportunity for any businessman."
+msgstr "損失許多生命的船難。任何商人的好機會。"
+
+#: simulation/templates/other/special_treasure_shipwreck_sail_boat.xml:11
+msgid ""
+"The wreck of a small cargo ship. A good opportunity for any businessman."
+msgstr "一個小貨船的沉船。任何商人的好機會。"
+
+#: simulation/templates/other/special_treasure_shipwreck_sail_boat_cut.xml:11
+msgid "A cargo ship rammed in half. A good opportunity for any businessman."
+msgstr "一個斷成兩截的貨船。任何商人的好機會。"
+
+#: simulation/templates/other/stall_big.xml:12
+msgid "Big stall"
+msgstr "大貨攤"
+
+#: simulation/templates/other/stall_med.xml:12
+msgid "Medium stall"
+msgstr "中貨攤"
+
+#: simulation/templates/other/stall_small_a.xml:12
+#: simulation/templates/other/stall_small_b.xml:12
+msgid "Small stall"
+msgstr "小貨攤"
+
+#: simulation/templates/other/table_rectangle.xml:20
+#: simulation/templates/other/table_square.xml:20
+msgid "Table"
+msgstr "桌子"
+
+#: simulation/templates/other/table_rectangle.xml:21
+msgid "Rectangle Table"
+msgstr "長桌"
+
+#: simulation/templates/other/table_square.xml:21
+msgid "Square Table"
+msgstr "方桌"
+
+#: simulation/templates/other/unfinished_greek_temple.xml:10
+msgid "Unfinished Greek Temple"
+msgstr "未完成的希臘神殿"
+
+#: simulation/templates/other/unfinished_greek_temple.xml:12
+msgid "This temple is unfinished and has fallen to ruin."
+msgstr "此神廟未建成就變為廢墟了。"
+
+#: simulation/templates/skirmish/structures/default_house_10.xml:5
+msgid ""
+"Changes in a 10-pop house for civilisations with those houses, is deleted "
+"for other civs"
+msgstr "將有那些房舍的文明變為10單位容量的房舍，其他文明的則刪除"
+
+#: simulation/templates/skirmish/structures/default_house_5.xml:5
+msgid ""
+"Changes in a 5-pop house for civilisations with those houses, is deleted for"
+" other civs"
+msgstr "將有那些房舍的文明變為5單位容量的房舍，其他文明的則刪除"
+
+#: simulation/templates/special/marker_object_sound.xml:15
+#: simulation/templates/special/marker_object_sound.xml:16
+msgid "Marker"
+msgstr "里程碑"
+
+#: simulation/templates/special_units/athen_mechanical_siege_lithobolos_common.xml:5
+#: simulation/templates/special_units/mace_mechanical_siege_lithobolos_common.xml:5
+#: simulation/templates/special_units/ptol_mechanical_siege_lithobolos_common.xml:5
+#: simulation/templates/special_units/sele_mechanical_siege_lithobolos_common.xml:5
+msgid "Lithobólos"
+msgstr "Lithobólos"
+
+#: simulation/templates/special_units/athen_mechanical_siege_oxybeles_common.xml:5
+#: simulation/templates/special_units/cart_mechanical_siege_oxybeles_common.xml:5
+#: simulation/templates/special_units/mace_mechanical_siege_oxybeles_common.xml:5
+#: simulation/templates/special_units/spart_mechanical_siege_oxybeles_common.xml:5
+msgid "Oxybelḗs"
+msgstr "Oxybelḗs"
+
+#: simulation/templates/special_units/cart_mechanical_siege_ballista_common.xml:5
+#: simulation/templates/special_units/rome_mechanical_siege_ballista_common.xml:29
+msgid "Ballista"
+msgstr "弩炮"
+
+#: simulation/templates/special_units/ptol_mechanical_siege_polybolos_common.xml:5
+msgid "Polybolos"
+msgstr "Polybolos"
+
+#: simulation/templates/special_units/rome_mechanical_siege_scorpio_common.xml:23
+msgid "Scorpio"
+msgstr "蠍弩"

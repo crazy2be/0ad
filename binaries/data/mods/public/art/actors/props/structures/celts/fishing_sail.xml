@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="sail mesh">
+      <mesh>structural/celt_fishing_boat_sail.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="sail design - boar">
+      <textures><texture file="props/celt_sail_boar.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="sail design - face">
+      <textures><texture file="props/celt_sail_face.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="sail design - swirl">
+      <textures><texture file="props/celt_sail_swirl.dds" name="baseTex"/></textures>
+    </variant>
+    <variant frequency="1" name="sail design - circle">
+      <textures><texture file="props/celt_sail_circle.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

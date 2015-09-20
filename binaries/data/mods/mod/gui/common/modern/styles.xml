@@ -1,0 +1,158 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<styles>
+	<!--
+	==========================================
+	- DEFAULT STYLE: The style with the name 'default' is special, it will
+	- be called by every object before any other style is loaded.
+	==========================================
+	-->
+	<style name="default"
+		absolute="false"
+		enabled="true"
+		ghost="false"
+		hidden="false"
+		size="0 0 100% 100%"
+		z="0"
+		font="sans-14"
+		buffer_zone="5"
+		multiline="false"
+	/>
+	<style name = "ModernWindow"
+		sprite = "ModernWindow"
+		buffer_zone = "12"
+		text_align = "left"
+		text_valign = "top"
+	/>
+	<style name = "ModernDialog"
+		sprite = "ModernDialog"
+		buffer_zone = "12"
+		text_align = "left"
+		text_valign = "top"
+	/>
+	<style name = "ModernPanel"
+		sprite = "ModernPanel"
+		buffer_zone = "12"
+		text_align = "left"
+		text_valign = "top"
+	/>
+	<style name = "ModernList"
+		buffer_zone = "5"
+		font = "sans-bold-stroke-14"
+		scrollbar = "true"
+		scrollbar_style = "ModernScrollBar"
+		sprite = "ModernDarkBoxGoldNoTop"
+		sprite_selectarea = "ModernDarkBoxWhite"
+		sprite_heading = "ModernDarkBoxGoldNoBottom"
+		textcolor = "white"
+		textcolor_selected = "white"
+		text_align = "left"
+		text_valign = "center"
+		sound_selected = "audio/interface/ui/ui_button_click.ogg"
+	/>
+	<style name="ModernDropDown"
+		dropdown_buffer="1"
+		font="sans-bold-14"
+		textcolor="white"
+		text_align="left"
+		text_valign="center"
+
+		sprite="ModernDarkBoxGold"
+		button_width="16"
+		sprite2="ModernDropDownArrow"
+		sprite2_pressed="ModernDropDownArrowHighlight"
+
+		buffer_zone="8"
+		dropdown_size="224"
+		sprite_list="BlackBorderOnGray"
+		sprite_selectarea="ModernDarkBoxWhite"
+		textcolor_selected="white"
+
+		scrollbar="true"
+		scrollbar_style="ModernScrollBar"
+
+		sound_opened="audio/interface/ui/ui_button_click.ogg"
+		sound_closed="audio/interface/ui/ui_button_click.ogg"
+		sound_selected="audio/interface/ui/ui_button_click.ogg"
+	/>
+	<style name="ModernLabelText"
+		font="sans-bold-stroke-14"
+		textcolor="white"
+		text_align="center"
+		text_valign="center"
+	/>
+	<style name="ModernRightLabelText"
+		font="sans-bold-stroke-14"
+		textcolor="white"
+		text_align="right"
+		text_valign="center"
+	/>
+	<style name="ModernLeftLabelText"
+		font="sans-bold-stroke-14"
+		textcolor="white"
+		text_align="left"
+		text_valign="center"
+	/>
+	<style name="ModernTabLabelText"
+		font="sans-bold-stroke-14"
+		textcolor="white"
+		text_align="center"
+		text_valign="top"
+	/>
+	<style name="ModernRightTabLabelText"
+		font="sans-bold-stroke-14"
+		textcolor="white"
+		text_align="right"
+		text_valign="top"
+	/>
+	<style name="ModernLeftTabLabelText"
+		font="sans-bold-stroke-14"
+		textcolor="white"
+		text_align="left"
+		text_valign="top"
+	/>
+	<style name="ModernText"
+		font="sans-14"
+		textcolor="white"
+		text_align="left"
+		text_valign="top"
+		scrollbar="true"
+		scrollbar_style="ModernScrollBar"
+	/>
+	<style name="ModernInput"
+		sprite="ModernDarkBoxWhite"
+		sprite_selectarea="color:150 0 0"
+		textcolor="white"
+		textcolor_selected="white"
+	/>
+	<style name="ModernTickBox"
+		sprite="ModernTickOff"
+		sprite2="ModernTickOn"
+		sprite_disabled="ModernTickDisabled"
+		sprite2_disabled="ModernTickDisabled"
+		square_side="22"
+		sound_pressed="audio/interface/ui/ui_button_click.ogg"
+	/>
+	<style name="ModernButtonRed"
+		sprite="ModernButtonRed"
+		sprite_disabled="ModernButtonRedDisabled"
+		sprite_over="ModernButtonRedOver"
+		sprite_pressed="ModernButtonRed"
+		font="sans-bold-stroke-14"
+		textcolor="white"
+		text_align="center"
+		text_valign="center"
+		sound_pressed="audio/interface/ui/ui_button_click.ogg"
+	/>
+	<style name="ModernButtonYellow"
+		sprite="ModernButtonYellow"
+		sprite_disabled="ModernButtonYellowDisabled"
+		sprite_over="ModernButtonYellowOver"
+		sprite_pressed="ModernButtonRed"
+		font="sans-bold-14"
+		textcolor="black"
+		text_align="center"
+		text_valign="center"
+		sound_pressed="audio/interface/ui/ui_button_click.ogg"
+	/>
+</styles>

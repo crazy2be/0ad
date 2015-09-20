@@ -1,0 +1,1601 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# attilla1996 <attilla1996@gmail.com>, 2014
+# David Exner <essdyk@gmail.com>, 2014
+# Devinate <m.brezek@gmail.com>, 2014
+# Filip Procházka <jacktech24@gmail.com>, 2015
+# fri, 2014
+# ike20 <mvaldman@seznam.cz>, 2014
+# Martin Kříž <slovanworks.czech@gmail.com>, 2015
+# OndraK <kajinond@fjfi.cvut.cz>, 2014
+# fri, 2014-2015
+# Petr Hála <halapetr@selfnet.cz>, 2014
+# Rodeo65 <Rodeo65@centrum.cz>, 2014
+# Vit Pelcak, 2014
+# Vít Pelčák, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2015-07-21 23:21+0200\n"
+"PO-Revision-Date: 2015-08-10 14:59+0000\n"
+"Last-Translator: Martin Kříž <slovanworks.czech@gmail.com>\n"
+"Language-Team: Czech (http://www.transifex.com/wildfire-games/0ad/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: gui/aiconfig/aiconfig.js:10
+msgctxt "ai"
+msgid "None"
+msgstr "Žádná"
+
+#: gui/aiconfig/aiconfig.js:10
+msgid "AI will be disabled for this player."
+msgstr "Umělá inteligence bude pro tohoto hráče zakázána."
+
+#. Translation: AI difficulty level.
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Sandbox"
+msgstr "Pískoviště"
+
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Very Easy"
+msgstr "Velmi lehká"
+
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Easy"
+msgstr "Lehká"
+
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Medium"
+msgstr "Střední"
+
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Hard"
+msgstr "Těžká"
+
+#: gui/aiconfig/aiconfig.js:29
+msgctxt "aiDiff"
+msgid "Very Hard"
+msgstr "Velmi těžká"
+
+#. Translation: Type of victory condition.
+#: gui/gamesetup/gamesetup.js:10
+msgid "Unlimited"
+msgstr "Bez omezení"
+
+#. Translation: Amount of starting resources.
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "Very Low"
+msgstr "Velmi malé"
+
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "Low"
+msgstr "Malé"
+
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "Medium"
+msgstr "Střední"
+
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "High"
+msgstr "Velké"
+
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "Very High"
+msgstr "Velmi velké"
+
+#: gui/gamesetup/gamesetup.js:14
+msgctxt "startingResources"
+msgid "Deathmatch"
+msgstr "Smrtící zápas"
+
+#. Translation: Ceasefire.
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "No ceasefire"
+msgstr "Žádný klid zbraní"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "5 minutes"
+msgstr "5 minut"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "10 minutes"
+msgstr "10 minut"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "15 minutes"
+msgstr "15 minut"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "20 minutes"
+msgstr "20 minut"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "30 minutes"
+msgstr "30 minut"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "45 minutes"
+msgstr "45 minut"
+
+#: gui/gamesetup/gamesetup.js:18
+msgctxt "ceasefire"
+msgid "60 minutes"
+msgstr "60 minut"
+
+#: gui/gamesetup/gamesetup.js:112
+msgid "Return to the main menu."
+msgstr "Vrátit se do hlavní nabídky."
+
+#: gui/gamesetup/gamesetup.js:114
+msgid "Return to the lobby."
+msgstr "Návrat k zájmové skupině."
+
+#: gui/gamesetup/gamesetup.js:142
+msgctxt "map"
+msgid "Skirmish"
+msgstr "Potyčka"
+
+#: gui/gamesetup/gamesetup.js:142 gui/gamesetup/gamesetup.js:638
+#: gui/gamesetup/gamesetup.js:1370
+msgctxt "map"
+msgid "Random"
+msgstr "Náhodná"
+
+#: gui/gamesetup/gamesetup.js:142
+msgid "Scenario"
+msgstr "Scénář"
+
+#: gui/gamesetup/gamesetup.js:146 gui/gamesetup/gamesetup.js:1286
+#: gui/gamesetup/gamesetup.js:1350
+msgid "Default"
+msgstr "Výchozí"
+
+#: gui/gamesetup/gamesetup.js:147
+msgid "Naval Maps"
+msgstr "Námořní mapy"
+
+#: gui/gamesetup/gamesetup.js:148
+msgid "Demo Maps"
+msgstr "Ukázkové mapy"
+
+#: gui/gamesetup/gamesetup.js:149
+msgid "All Maps"
+msgstr "Všechny mapy"
+
+#: gui/gamesetup/gamesetup.js:356
+msgctxt "team"
+msgid "None"
+msgstr "Žádný"
+
+#: gui/gamesetup/gamesetup.js:572 gui/gamesetup/gamesetup.js:1435
+msgctxt "civilization"
+msgid "Random"
+msgstr "Náhodná"
+
+#: gui/gamesetup/gamesetup.js:875 gui/gamesetup/gamesetup.js:1003
+msgid "You"
+msgstr "Vy"
+
+#: gui/gamesetup/gamesetup.js:1092
+#, javascript-format
+msgid "%(playerName)s %(romanNumber)s"
+msgstr "%(playerName)s %(romanNumber)s"
+
+#: gui/gamesetup/gamesetup.js:1214 gui/gamesetup/gamesetup.js:1219
+#: gui/gamesetup/gamesetup.js:1276 gui/gamesetup/gamesetup.js:1277
+#: gui/gamesetup/gamesetup.js:1278 gui/gamesetup/gamesetup.js:1280
+#: gui/gamesetup/gamesetup.js:1315 gui/gamesetup/gamesetup.js:1316
+#: gui/gamesetup/gamesetup.js:1317 gui/gamesetup/gamesetup.js:1319
+#: gui/gamesetup/gamesetup.js:1351 gui/gamesetup/gamesetup.js:1352
+#: gui/gamesetup/gamesetup.js:1355
+msgid "Yes"
+msgstr "Ano"
+
+#: gui/gamesetup/gamesetup.js:1214 gui/gamesetup/gamesetup.js:1219
+#: gui/gamesetup/gamesetup.js:1276 gui/gamesetup/gamesetup.js:1277
+#: gui/gamesetup/gamesetup.js:1278 gui/gamesetup/gamesetup.js:1280
+#: gui/gamesetup/gamesetup.js:1315 gui/gamesetup/gamesetup.js:1316
+#: gui/gamesetup/gamesetup.js:1317 gui/gamesetup/gamesetup.js:1319
+#: gui/gamesetup/gamesetup.js:1351 gui/gamesetup/gamesetup.js:1352
+#: gui/gamesetup/gamesetup.js:1353 gui/gamesetup/gamesetup.js:1355
+msgid "No"
+msgstr "Ne"
+
+#: gui/gamesetup/gamesetup.js:1357 gui/gamesetup/gamesetup.js:1358
+#: gui/gamesetup/gamesetup.js:1359
+msgid "Determined by scenario"
+msgstr "Určeno scénářem"
+
+#: gui/gamesetup/gamesetup.js:1371
+msgid "Randomly selects a map from the list"
+msgstr "Náhodně vybere mapu ze seznamu"
+
+#: gui/gamesetup/gamesetup.js:1378
+msgid "Sorry, no description available."
+msgstr "Bohužel, popis není dostupný."
+
+#: gui/gamesetup/gamesetup.js:1381
+#, javascript-format
+msgid "%(number)s player. "
+msgid_plural "%(number)s players. "
+msgstr[0] "%(number)s hráč."
+msgstr[1] "%(number)s hráči."
+msgstr[2] "%(number)s hráčů."
+
+#: gui/gamesetup/gamesetup.js:1385 gui/gamesetup/gamesetup.xml:(caption):290
+msgid "Victory Condition:"
+msgstr "Podmínka vítězství:"
+
+#: gui/gamesetup/gamesetup.js:1421
+msgid "Loading..."
+msgstr "Nahrává se..."
+
+#: gui/gamesetup/gamesetup.js:1537
+#, javascript-format
+msgid "AI: %(ai)s"
+msgstr "UI: %(ai)s"
+
+#: gui/gamesetup/gamesetup.js:1542
+msgid "Unassigned"
+msgstr "Nepřiřazeno"
+
+#: gui/gamesetup/gamesetup.js:1726 gui/gamesetup/gamesetup.js:1731
+#: gui/gamesetup/gamesetup.js:1749
+#, javascript-format
+msgid "== %(message)s"
+msgstr "== %(message)s"
+
+#: gui/gamesetup/gamesetup.js:1726
+#, javascript-format
+msgid "%(username)s has joined"
+msgstr "%(username)s se přidal"
+
+#: gui/gamesetup/gamesetup.js:1731
+#, javascript-format
+msgid "%(username)s has left"
+msgstr "%(username)s odešel"
+
+#: gui/gamesetup/gamesetup.js:1736
+#, javascript-format
+msgid "<%(username)s>"
+msgstr "<%(username)s>"
+
+#: gui/gamesetup/gamesetup.js:1737
+#, javascript-format
+msgid "%(username)s %(message)s"
+msgstr "%(username)s %(message)s"
+
+#: gui/gamesetup/gamesetup.js:1743
+#, javascript-format
+msgid "* %(username)s is ready!"
+msgstr "* %(username)s je připraven!"
+
+#: gui/gamesetup/gamesetup.js:1745
+#, javascript-format
+msgid "* %(username)s is not ready."
+msgstr "* %(username)s není připraven."
+
+#: gui/gamesetup/gamesetup.js:1749
+msgid "Game settings have been changed"
+msgstr "Nastavení hry byla změněna"
+
+#: gui/gamesetup/gamesetup.js:1774
+msgid "I'm not ready"
+msgstr "Nejsem připraven"
+
+#: gui/gamesetup/gamesetup.js:1775
+msgid "State that you are not ready to play."
+msgstr "Oznamte, že nejste připraveni hrát."
+
+#: gui/gamesetup/gamesetup.js:1780 gui/gamesetup/gamesetup.js:1858
+msgid "I'm ready!"
+msgstr "Jsem připraven!"
+
+#: gui/gamesetup/gamesetup.js:1781
+msgid "State that you are ready to play!"
+msgstr "Oznamte, že jste připraveni hrát!"
+
+#: gui/gamesetup/gamesetup.js:1859
+msgid "State that you accept the current settings and are ready to play!"
+msgstr "Oznamte, že přijímáte nynější nastavení a že jste připraveni hrát!"
+
+#: gui/gamesetup/gamesetup.js:1977
+msgid "None"
+msgstr "Žádná"
+
+#: gui/gamesetup/gamesetup_mp.js:34
+#, javascript-format
+msgid "%(name)s's game"
+msgstr "%(name)s-ho hra"
+
+#: gui/gamesetup/gamesetup_mp.js:60
+msgid "Connecting to server..."
+msgstr "Připojuji se k serveru..."
+
+#: gui/gamesetup/gamesetup_mp.js:79
+#, javascript-format
+msgid "Net message: %(message)s"
+msgstr "Síťová zpráva: %(message)s"
+
+#: gui/gamesetup/gamesetup_mp.js:146
+msgid "Registering with server..."
+msgstr "Přihlašuje se k serveru..."
+
+#: gui/gamesetup/gamesetup_mp.js:152
+msgid "Game has already started, rejoining..."
+msgstr "Hra již byla spuštěna. Znovu se připojuje…"
+
+#: gui/gamesetup/gamesetup_mp.js:198
+msgid "Game name already in use."
+msgstr "Jméno hry je již používáno."
+
+#: gui/gamesetup/gamesetup_mp.js:259
+#, javascript-format
+msgid "%(playername)s's game"
+msgstr "%(playername)s-ho hra"
+
+#: gui/gamesetup/victory_conditions/conquest.js:2
+msgid "Conquest"
+msgstr "Dobývání"
+
+#: gui/gamesetup/victory_conditions/conquest.js:3
+msgid "Defeat all opponents"
+msgstr "Poražte všechny soupeře"
+
+#: gui/gamesetup/victory_conditions/conquestStructures.js:2
+msgid "Conquest Structures"
+msgstr "Struktura dobytí"
+
+#: gui/gamesetup/victory_conditions/conquestStructures.js:3
+msgid "Destroy all structures of enemies"
+msgstr "Zničit všechny nepřátelské stavby"
+
+#: gui/gamesetup/victory_conditions/conquestUnits.js:2
+msgid "Conquest Units"
+msgstr "Dobývací jednotky"
+
+#: gui/gamesetup/victory_conditions/conquestUnits.js:3
+msgid "Destroy all units of enemies"
+msgstr "Zničit všechny nepřátelské jednotky"
+
+#: gui/gamesetup/victory_conditions/wonder.js:2
+msgid "Wonder"
+msgstr "Div světa"
+
+#: gui/gamesetup/victory_conditions/wonder.js:3
+msgid "Build a wonder to win"
+msgstr "Postavte div a vyhrajte"
+
+#: gui/loading/loading.js:49
+#, javascript-format
+msgid "Loading “%(map)s”"
+msgstr "Nahrává se \"%(map)s\""
+
+#: gui/loading/loading.js:53
+#, javascript-format
+msgid "Generating “%(map)s”"
+msgstr "Vytváří se \"%(map)s\""
+
+#: gui/aiconfig/aiconfig.xml:(caption):13
+msgid "AI Configuration"
+msgstr "Nastavení umělé inteligence"
+
+#: gui/aiconfig/aiconfig.xml:(caption):18
+msgid "AI Player:"
+msgstr "Hráč s umělou inteligencí:"
+
+#: gui/aiconfig/aiconfig.xml:(caption):26
+msgid "AI Difficulty:"
+msgstr "Obtížnost umělé inteligence:"
+
+#: gui/aiconfig/aiconfig.xml:(caption):36
+#: gui/gamesetup/gamesetup_mp.xml:(caption):104
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: gui/aiconfig/aiconfig.xml:(caption):41
+#: gui/gamesetup/gamesetup.xml:(caption):397
+msgid "OK"
+msgstr "OK"
+
+#: gui/gamesetup/gamesetup.xml:(caption):17
+msgid "Match Setup"
+msgstr "Nastavení zápasu"
+
+#: gui/gamesetup/gamesetup.xml:(caption):23
+msgid "Loading"
+msgstr "Načítá se"
+
+#: gui/gamesetup/gamesetup.xml:(caption):27
+msgid "Loading map data. Please wait..."
+msgstr "Načítají se data mapy. Počkejte, prosím..."
+
+#: gui/gamesetup/gamesetup.xml:(caption):42
+msgid "Player Name"
+msgstr "Jméno hráče"
+
+#: gui/gamesetup/gamesetup.xml:(caption):45
+msgid "Player Placement"
+msgstr "Umístění hráče"
+
+#: gui/gamesetup/gamesetup.xml:(caption):48
+msgid "Civilization"
+msgstr "Civilizace"
+
+#: gui/gamesetup/gamesetup.xml:(caption):63
+msgid "Team"
+msgstr "Tým"
+
+#: gui/gamesetup/gamesetup.xml:(caption):101
+msgid "Map Type:"
+msgstr "Typ mapy:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):104
+msgid "Map Filter:"
+msgstr "Filtr map:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):107
+msgid "Select Map:"
+msgstr "Vybrat mapu:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):110
+msgid "Number of Players:"
+msgstr "Počet hráčů:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):113
+msgid "Map Size:"
+msgstr "Velikost mapy:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):199
+msgid "Send"
+msgstr "Poslat"
+
+#: gui/gamesetup/gamesetup.xml:(caption):223
+msgid "Start game!"
+msgstr "Spustit hru!"
+
+#: gui/gamesetup/gamesetup.xml:(caption):241
+msgid "Back"
+msgstr "Zpět"
+
+#: gui/gamesetup/gamesetup.xml:(caption):263
+#: gui/gamesetup/gamesetup.xml:(caption):275
+msgid "More Options"
+msgstr "Další možnosti"
+
+#: gui/gamesetup/gamesetup.xml:(caption):280
+msgid "Game Speed:"
+msgstr "Rychlost hry:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):300
+msgid "Population Cap:"
+msgstr "Populační limit:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):310
+msgid "Starting Resources:"
+msgstr "Počáteční zdroje:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):320
+msgid "Ceasefire:"
+msgstr "Klid zbraní:"
+
+#. Make sure to differentiate between the revealed map and explored map
+#. options!
+#: gui/gamesetup/gamesetup.xml:(caption):330
+msgid "Revealed Map:"
+msgstr "Odhalená mapa:"
+
+#. Make sure to differentiate between the revealed map and explored map
+#. options!
+#: gui/gamesetup/gamesetup.xml:(caption):340
+msgid "Explored Map:"
+msgstr "Prozkoumaná mapa:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):350
+msgid "Disable Treasures:"
+msgstr "Zakázat poklady:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):360
+msgid "Teams Locked:"
+msgstr "Týmy uzamknuty:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):370
+msgid "Cheats:"
+msgstr "Kódy:"
+
+#: gui/gamesetup/gamesetup.xml:(caption):380
+msgid "Rated Game:"
+msgstr "Hodnocená hra:"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):57
+msgid "View civilization info"
+msgstr "Zobrazit údaje o civilizaci"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):72
+msgid "Select player."
+msgstr "Vyberte hráče."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):82
+msgid "Configure AI settings."
+msgstr "Nastavte umělou inteligenci."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):85
+msgid "Select player's civilization."
+msgstr "Vyberte hráčovu civilizaci."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):89
+msgid "Select player's team."
+msgstr "Vyberte hráčův tým."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):130
+msgid "Select a map type."
+msgstr "Vyberte typ mapy."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):139
+msgid "Select a map filter."
+msgstr "Vyberte filtr map."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):149
+msgid "Select a map to play on."
+msgstr "Vyberte mapu, na které budete hrát."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):163
+msgid "Select number of players."
+msgstr "Vyberte počet hráčů."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):168
+msgid "Select map size. (Larger sizes may reduce performance.)"
+msgstr "Vyberte velikost mapy. (Větší velikosti mohou vést k nižšímu výkonu.)"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):224
+msgid "Start a new game with the current settings."
+msgstr "Začít novou hru s nynějším nastavením."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):264
+msgid "See more game options"
+msgstr "Podívat se na další herní možnosti"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):284
+msgid "Select game speed."
+msgstr "Vyberte rychlost hry."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):294
+msgid "Select victory condition."
+msgstr "Vyberte podmínku vítězství."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):304
+msgid "Select population cap."
+msgstr "Vyberte populační limit."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):314
+msgid "Select the game's starting resources."
+msgstr "Vyberte zdroje ze začátku hry."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):324
+msgid "Set time where no attacks are possible."
+msgstr "Nastavit dobu, po kterou nejsou možné žádné útoky."
+
+#. Make sure to differentiate between the revealed map and explored map
+#. options!
+#: gui/gamesetup/gamesetup.xml:(tooltip):334
+msgid "Toggle revealed map (see everything)."
+msgstr "Přepnout odkrytou mapu (ukáže vše)."
+
+#. Make sure to differentiate between the revealed map and explored map
+#. options!
+#: gui/gamesetup/gamesetup.xml:(tooltip):344
+msgid "Toggle explored map (see initial map)."
+msgstr "Přepnout prozkoumanou mapu (ukáže mapu, jak byla na začátku)."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):354
+msgid "Disable all treasures on the map."
+msgstr "Zakázat všechny poklady na mapě."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):364
+msgid "Toggle locked teams."
+msgstr "Přepnout uzamknutí týmů."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):374
+msgid "Toggle the usability of cheats."
+msgstr "Zapnout použitelnost kódů."
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):384
+msgid "Toggle if this game will be rated for the leaderboard."
+msgstr "Přepnout, pokud bude tato hra hodnocena pro seznam hodností"
+
+#: gui/gamesetup/gamesetup.xml:(tooltip):398
+msgid "Close more game options window"
+msgstr "Zavřít okno s dalšími herními možnostmi"
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):19
+msgid "Multiplayer"
+msgstr "Hra více hráčů"
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):25
+msgid "Joining an existing game."
+msgstr "Připojuji se ke hře."
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):29
+#: gui/gamesetup/gamesetup_mp.xml:(caption):67
+msgid "Player name:"
+msgstr "Jméno hráče:"
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):39
+msgid "Server Hostname or IP:"
+msgstr "Název hostitelského serveru nebo IP:"
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):49
+#: gui/gamesetup/gamesetup_mp.xml:(caption):91
+msgid "Continue"
+msgstr "Pokračovat"
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):62
+msgid "Set up your server to host."
+msgstr "Nastavte váš hostitelský server."
+
+#: gui/gamesetup/gamesetup_mp.xml:(caption):80
+msgid "Server name:"
+msgstr "Název serveru:"
+
+#: gui/loading/loading.xml:(caption):48
+msgid "Quote of the Day:"
+msgstr "Citát dne:"
+
+#: gui/text/quotes.txt:1
+msgid "\"A prosperous fool is a grievous burden.\" - Aeschylus"
+msgstr "\"Úspěšný hlupák je těžké břemeno.\" - Aeschylus"
+
+#: gui/text/quotes.txt:2
+msgid ""
+"\"From him \\[Death] alone of all the powers of heaven Persuasion holds "
+"aloof.\" - Aeschylus"
+msgstr "\"Od něj \\[Smrt] zbaveného veškeré moci nebe se drží umění přesvědčit druhé pryč.\" - Aischylos"
+
+#: gui/text/quotes.txt:3
+msgid "\"To be rather than to seem.\" - Aeschylus, \"Seven Against Thebes\""
+msgstr "„Raději být, spíše než se zdát.“ – Aischylos, „Sedm proti Thébám“"
+
+#: gui/text/quotes.txt:4
+msgid ""
+"\"It is not the oath that makes us believe the man, but the man the oath.\" "
+"- Aeschylus"
+msgstr "„Není to přísaha, jež nás vede k tomu, že věříme člověku, ale člověk přísaze.“ – Aischylos"
+
+#: gui/text/quotes.txt:5
+msgid ""
+"\"In every tyrant's heart there springs in the end this poison, that he "
+"cannot trust a friend.\" - Aeschylus, \"Prometheus Bound\""
+msgstr "\"V srdci každého tyrana nakonec vyvstane ten jed, že nemůže důvěřovat příteli\" – Aischylos \"Připoutaný Prometheus\""
+
+#: gui/text/quotes.txt:6
+msgid "\"Time as he grows old teaches all things.\" - Aeschylus, \"Prometheus Bound\""
+msgstr "„Čas, jak stárne, učí a vyučuje všem věcem!“ – Aischylos, „Připoutaný Prometheus“"
+
+#: gui/text/quotes.txt:7
+msgid ""
+"\"Wisdom comes through suffering... Favours come to us from gods.\" - "
+"Aeschylus, \"Agamemnon\""
+msgstr "„Neboť moudrost je vůdce Zeus prazákona pán, protože v neštěstí je skryto ponaučení.“ – Aischylos, „Agamemnon“"
+
+#: gui/text/quotes.txt:8
+msgid ""
+"\"She \\[Helen] brought to Ilium her dowry, destruction.\" - Aeschylus, "
+"\"Agamemnon\""
+msgstr "„A \\[Helena] přinesla jako věno Íionu zánik;“ – Aischylos, „Agamemnon“"
+
+#: gui/text/quotes.txt:9
+msgid ""
+"\"It is in the character of very few men to honor without envy a friend who "
+"has prospered.\" - Aeschylus, \"Agamemnon\""
+msgstr "„Jen do několika málo lidských srdcí je zasazeno,\nhledět bez závisti na přítele, který měl úspěch.“ – Aischylos, „Agamemnon“"
+
+#: gui/text/quotes.txt:10
+msgid ""
+"\"For a deadly blow let him pay with a deadly blow; it is for him who has "
+"done a deed to suffer.\" - Aeschylus"
+msgstr "\"Za krvavou vraždu se platí krvavou vraždou! Kdo učinil skutek, musí trpět! Tak přikazuje zákon v rozsudcích otců, které jsou svaté!\" - Aischylos"
+
+#: gui/text/quotes.txt:11
+msgid "\"Any excuse will serve a tyrant.\" - Aesop"
+msgstr "„Tyranovi postačuje každá výmluva.“ – Ezop"
+
+#: gui/text/quotes.txt:12
+msgid "\"Better be wise by the misfortunes of others than by your own.\" - Aesop"
+msgstr "\"Lépe tobě se učit z neštěstí jiných než ze tvého vlastního.\" - Ezop"
+
+#: gui/text/quotes.txt:13
+msgid "\"Familiarity breeds contempt; acquaintance softens prejudices.\" - Aesop"
+msgstr "\"Důvěrnost plodí pohrdání; známost mírní předsudky.\" - Ezop"
+
+#: gui/text/quotes.txt:14
+msgid "\"It is easy to be brave from a safe distance.\" - Aesop"
+msgstr "„Vždy je lehké být odvážný z bezpečné vzdálenosti.“ – Ezop"
+
+#: gui/text/quotes.txt:15
+msgid "\"It is thrifty to prepare today for the wants of tomorrow.\" - Aesop"
+msgstr "\"Je hospodárné se vyzbrojit pro požadavky zítřka dnes.\" - Ezop"
+
+#: gui/text/quotes.txt:16
+msgid "\"It is not only fine feathers that make fine birds.\" - Aesop"
+msgstr "\"Není to jen pěkné peří, které dělá skvělé ptáky.\" - Ezop"
+
+#: gui/text/quotes.txt:17
+msgid ""
+"\"Never trust advice from a man in the throes of his own difficulty.\" - "
+"Aesop"
+msgstr "\"Nikdy nedůvěřuj radě muže, který se nalézá ve zmatku svých vlastních obtíží.\" - Ezop"
+
+#: gui/text/quotes.txt:18
+msgid "\"Persuasion is often more effectual than force.\" - Aesop"
+msgstr "\"Přesvědčování je často účinnější než moc.\" - Ezop"
+
+#: gui/text/quotes.txt:19
+msgid "\"Self-conceit may lead to self-destruction.\" - Aesop"
+msgstr "\"Vlastní domýšlivost může vést k vlastnímu zničení.\" - Ezop"
+
+#: gui/text/quotes.txt:20
+msgid "\"Slow and steady wins the race.\" - Aesop"
+msgstr "„Želva vyhrává závod, zatímco zajíc spí.“ – Ezop"
+
+#: gui/text/quotes.txt:21
+msgid "\"The gods help them that help themselves.\" - Aesop"
+msgstr "\"Bohové pomohou těm, kteří si pomohou sami.\" - Ezop"
+
+#: gui/text/quotes.txt:22
+msgid ""
+"\"The shaft of the arrow had been feathered with one of the eagle's own "
+"plumes. We often give our enemies the means of our own destruction.\" - "
+"Aesop"
+msgstr "\"Šíp byl ale ozdoben jedním z orlových per. Často našim nepřátelům sami dáváme prostředky k našemu zničení.\" - Ezop"
+
+#: gui/text/quotes.txt:23
+msgid "\"Union gives strength.\" - Aesop, \"The Bundle of Sticks\""
+msgstr "\"Jednota dává sílu.\" - Ezop, \"Synové sedláka v hádce\""
+
+#: gui/text/quotes.txt:24
+msgid "\"Enemies' promises were made to be broken.\" - Aesop"
+msgstr "\"Sliby nepřátel byly dány, aby byly porušeny.\" - Ezop"
+
+#: gui/text/quotes.txt:25
+msgid ""
+"\"Spartans do not ask how many, only where the enemy are.\" - Agis II of "
+"Sparta"
+msgstr "\"Sparťané se neptají na to, kolik jich je, jen na to, kde je nepřítel.\" Ágis II. Spartský"
+
+#: gui/text/quotes.txt:26
+msgid ""
+"\"Weep not for me, suffering as I do unjustly, I am in a happier case than "
+"my murderers.\" - Agis IV, 24th Spartan king of the Eurypontid dynasty"
+msgstr "\"Neplač pro mne, nespravedlivě trpě tak jako já, jsem na tom lépe než moji vrazi.\" - Ágis IV. 24. sprartský král z dynastie Eurypontidů"
+
+#: gui/text/quotes.txt:27
+msgid ""
+"\"He who doeth good shall meet with good; and he who doeth evil shall meet "
+"with evil, for the Lord judgeth a man according to the measure of his "
+"work.\" - Ahiqar, Assyrian sage"
+msgstr "\"Ten, kdo dělá dobro, tomu se má dít dobro; a ten, kdo páchá zlo, tomu se má dít zlé, neboť pán soudí o člověkupodle míry jeho práce.\" Achiqar, asyrský mudřec"
+
+#: gui/text/quotes.txt:28
+msgid ""
+"\"If I were not Alexander, I should wish to be Diogenes.\" - Alexander the "
+"Great"
+msgstr "\"Kdybych nebyl Alexandrem, chtěl bych být Diogenem.\" - Alexandr Veliký"
+
+#: gui/text/quotes.txt:29
+msgid "\"I do not steal victory.\" - Alexander the Great"
+msgstr "„Nekradu žádné vítězství.“ – Alexandr Veliký"
+
+#: gui/text/quotes.txt:30
+msgid ""
+"\"Are you still to learn that the end and perfection of our victories is to "
+"avoid the vices and infirmities of those whom we subdue?\" - Alexander the "
+"Great"
+msgstr "\"Musíš se ještě naučit, že konec a dokonalost našich vítězství je ve vyhnutí se neřestem a nedostatkům těch, jež jsme si podmanili?\" - Alexandr Veliký"
+
+#: gui/text/quotes.txt:31
+msgid ""
+"\"To the strongest!\" - Alexander, on his death bed, when asked who should "
+"succeed him as king"
+msgstr "„Těm nejsilnějším.“ - Alexandr Veliký na smrtelné posteli, když se jej ptali, komu odkazuje říši"
+
+#: gui/text/quotes.txt:32
+msgid "\"There is nothing impossible to him who will try\" - Alexander the Great"
+msgstr "„Pro toho, kdo se pokusí, není nic nemožné“ - Alexandr Veliký"
+
+#: gui/text/quotes.txt:33
+msgid ""
+"\"Sex and sleep alone make me conscious that I am mortal.\" - Alexander the "
+"Great"
+msgstr "\"Sex a spánek mi připomínají, že jsem smrtelný.\" - Alexandr Veliký"
+
+#: gui/text/quotes.txt:34
+msgid ""
+"\"The agora is an established place for men to cheat one another, and behave"
+" covetously.\" - Anacharsis"
+msgstr "\"Agora je osvědčené místo pro muže, aby obelhávali jeden druhého a aby si záviděli.\" - Anacharsis"
+
+#: gui/text/quotes.txt:35
+msgid ""
+"\"Written laws are like spiders’ webs; they will catch, it is true, the weak"
+" and poor, but would be torn in pieces by the rich and powerful.\" - "
+"Anacharsis"
+msgstr "„Psaný zákon je jako pavoučí síť; chudí a slabí v něm budou zachyceni, to je pravda, ale bohatí a mocní jej roztrhají.“ – Anacharsis"
+
+#: gui/text/quotes.txt:36
+msgid "\"The fox knows many tricks; the hedgehog one good one.\" - Archilochus"
+msgstr "„Liška umí mnoho různých věcí, ježek ale jen jednu velikou.“ – Archilochos"
+
+#: gui/text/quotes.txt:37
+msgid ""
+"\"States are doomed when they are unable to distinguish good men from bad.\""
+" - Antisthenes"
+msgstr "„Státy jsou vydány napospas zániku, když nedokážou rozlišit dobré lidi od špatných.“ – Antisthénés"
+
+#: gui/text/quotes.txt:38
+msgid ""
+"\"Give me a place to stand, and I shall move the world.\" - Archimedes, on "
+"his usage of the lever."
+msgstr "„Dejte mi místo k stání, a já pohnu světem.“ – Archimédés, o používání páky."
+
+#: gui/text/quotes.txt:39
+msgid ""
+"\"It is from their foes, not their friends, that cities learn the lesson of "
+"building high walls and ships of war.\" - Aristophanes"
+msgstr "„Od svých nepřátel, nikoli od svých přátel se města učí stavět vysoké zdi a válečné lodi.“  - Aristofanes"
+
+#: gui/text/quotes.txt:40
+msgid ""
+"\"Words give wings to the mind and make a man soar to heaven.\" - "
+"Aristophanes"
+msgstr "„Slovy se génius vyšvihne, člověk se pozvedne!“ – Aristofanes"
+
+#: gui/text/quotes.txt:41
+msgid ""
+"\"It is the compelling power of great thoughts and ideas to engender "
+"language of equal greatness.\" - Aristophanes"
+msgstr "\"Je strhující mocí velkých myšlenek a představ vytvoření jazyka stejné velikosti.\" - Aristofanes"
+
+#: gui/text/quotes.txt:42
+msgid "\"Hunger knows no friend but its feeder.\" - Aristophanes"
+msgstr "„Že pána, který tě nakrmí, poznáš, a potom, když tě tento naštve a proti nepříteli tě hvízdnutím popouzí, pln vzteku jej napadneš.“ – Aristofanes, „Vosy“"
+
+#: gui/text/quotes.txt:43
+msgid ""
+"\"I count him braver who overcomes his desires than him who overcomes his "
+"enemies.\" - Aristotle"
+msgstr "\"Toho, kdo přemohl své neřesti, pokládám za statečnějšího než toho, kdo zvítězil nad svými nepřáteli.\" - Aristoteles"
+
+#: gui/text/quotes.txt:44
+msgid "\"Our characters are the result of our conduct.\" - Aristotle"
+msgstr "\"Jsme tím, co opakovaně děláme. Dokonalost tedy není čin, ale zvyk\" - Aristotelés"
+
+#: gui/text/quotes.txt:45
+msgid "\"Man is by nature a political animal.\" - Aristotle"
+msgstr "\"Člověk je svojí přirozeností politickým zvířetem.\" - Aristotelés"
+
+#: gui/text/quotes.txt:46
+msgid ""
+"\"If liberty and equality, as is thought by some, are chiefly to be found in"
+" democracy, they will be best attained when all persons alike share in the "
+"government to the utmost.\" - Aristotle"
+msgstr "\"Jestliže svoboda a rovnost, jak se někteří domnívají, se dají najít především v demokracii, dosáhne se jich nejlépe, když všichni lidé budou mít podíl na vládě stejnou měrou.\" - Aristoteles"
+
+#: gui/text/quotes.txt:47
+msgid ""
+"\"Both oligarch and tyrant mistrust the people, and therefore deprive them "
+"of their arms.\" - Aristotle"
+msgstr "„Oba, jak oligarch tak i tyran, nedůvěřují svému lidu a z toho důvodu jej odzbrojují.“ – Aristoteles"
+
+#: gui/text/quotes.txt:48
+msgid "\"Wit is well-bred insolence.\" - Aristotle"
+msgstr "\"Humor je slušná nestydatost.\" - Aristoteles"
+
+#: gui/text/quotes.txt:49
+msgid ""
+"\"It is simplicity that makes the uneducated more effective than the "
+"educated when addressing popular audiences.\" - Aristotle"
+msgstr "\"Je to jednoduchost, jež dělá nevzdělaného výkonnějším než vzdělance, když mluví před obecenstvem.\" - Aristoteles"
+
+#: gui/text/quotes.txt:50
+msgid ""
+"\"Poetry demands a man with a special gift for it, or else one with a touch "
+"of madness in him.\" - Aristotle"
+msgstr "\"Básnictví vyžaduje muže se zvláštním nadáním pro ně, nebo někoho s přídechem ztřeštěnosti.\" - Aristotelés"
+
+#: gui/text/quotes.txt:51
+msgid ""
+"\"I have gained this by philosophy: that I do without being commanded what "
+"others do only from fear of the law.\" - Aristotle"
+msgstr "\"Toho jsem dosáhl s pomocí filozofie: Co jiní dělají jen na základě svého strachu ze zákona, dělám, aniž by mi to bylo třeba přikazovat.\" - Aristoteles"
+
+#: gui/text/quotes.txt:52
+msgid ""
+"\"Choose the course which you adopt with deliberation; but when you have "
+"adopted it, then persevere in it with firmness.\" - Bias of Priene"
+msgstr "\"Zvol směr, pro nějž se rozhodneš s rozvahou; ale když jsi jej přijal, udržuj jej se stálostí.\" - Bias z Priene"
+
+#: gui/text/quotes.txt:53
+msgid ""
+"\"How stupid it was for the king to tear out his hair in grief, as if "
+"baldness were a cure for sorrow.\" - Bion of Borysthenes"
+msgstr "\"Jak hloupý byl král, když v zármutku vyškubnul svůj vlas, jakoby byla holá lebka lékem proti smutku.\" - Bion z Borysthenes"
+
+#: gui/text/quotes.txt:54
+msgid ""
+"\"He has not acquired a fortune; the fortune has acquired him.\" - Bion of "
+"Borysthenes"
+msgstr "\"Majetek nenabyl on, ale vlastnictví dostalo jej .\" - Bion z Borysthenes"
+
+#: gui/text/quotes.txt:55
+msgid "\"Woe to the Defeated\" - Brennus"
+msgstr "\"Běda poraženým\" - Brennus"
+
+#: gui/text/quotes.txt:56
+msgid ""
+"\"Thus always to tyrants.\" - Marcus Junius Brutus, after assassinating "
+"Gaius Julius Caesar"
+msgstr "„Tak všem tyranům.“ - Marcus Iunius Brutus, po zavraždění Gaia Iulia Caesara"
+
+#: gui/text/quotes.txt:57
+msgid ""
+"\"Escape, yes, but this time with my hands, not my feet.\" - Marcus Junius "
+"Brutus, before committing suicide"
+msgstr "\"Útěk, ano, ale tentokrát za pomoci mých rukou, ne mých nohou.\" - Marcus Iunius Brutus, předtím než spáchal sebevraždu"
+
+#: gui/text/quotes.txt:58
+msgid "\"I came, I saw, I conquered.\" - Gaius Julius Caesar"
+msgstr "„Přišel jsem, viděl jsem, zvítězil jsem.“ - Gaius Julius Cäsar"
+
+#: gui/text/quotes.txt:59
+msgid "\"Men willingly believe what they wish.\" - Gaius Julius Caesar"
+msgstr "„Lidé rádi věří tomu, co si přejí.“ - Gaius Julius Caesar"
+
+#: gui/text/quotes.txt:60
+msgid "\"The die is cast.\" - Gaius Julius Caesar"
+msgstr "„Kostky jsou vrženy.“ - Gaius Julius Cäsar"
+
+#: gui/text/quotes.txt:61
+msgid ""
+"\"It is not the well-fed long-haired man I fear, but the pale and the hungry"
+" looking.\" - Gaius Julius Caesar"
+msgstr "„Není to dobře živený, dlouhovlasý muž, jehož se bojím, ale bledý a hladový.“ - Gaius Iulius Caesar"
+
+#: gui/text/quotes.txt:62
+msgid "\"Set a thief to catch a thief.\" - Callimachus"
+msgstr "„Pošlete zloděje, abyste chytili zloděje.“ - Kálimachos"
+
+#: gui/text/quotes.txt:63
+msgid ""
+"\"Wise men learn more from fools than fools from the wise.\" - Cato the "
+"Elder"
+msgstr "\"Moudří se toho naučí více od hloupých, než hloupí od chytrých.\" - Cato starší"
+
+#: gui/text/quotes.txt:64
+msgid ""
+"\"Moreover, I consider that Carthage should be destroyed.\" - Cato the Elder"
+msgstr "\"Ostatně soudím, že Kartágo musí být zničeno.\" - Cato starší"
+
+#: gui/text/quotes.txt:65
+msgid ""
+"\"All mankind rules its women, and we rule all mankind, but our women rule "
+"us.\" - Cato the Elder"
+msgstr "\"Veškeré lidstvo ovládá své ženy a my panujeme celému lidstvu, ale naše ženy vládnou nám.\" - Cato starší"
+
+#: gui/text/quotes.txt:66
+msgid "\"Be firm or mild as the occasion may require.\" - Cato the Elder"
+msgstr "\"Bud tvrdý anebo jemný, to podle toho, co si žádají okolnosti.\" - Cato starší"
+
+#: gui/text/quotes.txt:67
+msgid "\"The worst ruler is one who cannot rule himself.\" - Cato the Elder"
+msgstr "\"Nejhorším vládcem je ten, jenž se sám nedokáže ovládat.\" - Cato starší"
+
+#: gui/text/quotes.txt:68
+msgid ""
+"\"Whoever imposes severe punishment becomes repulsive to the people; while "
+"he who awards mild punishment becomes contemptible. But whoever imposes "
+"punishment as deserved becomes respectable.\" - Chanakya"
+msgstr "\"Ten, kdo ukládá tvrdé tresty, se stává bližním odporný, zatímco ten, jenž soudí mírně, je jimi opovrhován. Jen ten, kdo ukládá spravedlivé tresty, je svými bližními ctěn a vážený.\" - Chanakya"
+
+#: gui/text/quotes.txt:69
+msgid ""
+"\"If a king is energetic, his subjects will be equally energetic.\" - "
+"Chanakya"
+msgstr "\"Když je král činorodý, jeho poddaní jsou stejnou měrou činorodí.\" - Chanakya"
+
+#: gui/text/quotes.txt:70
+msgid ""
+"\"For there is but one essential justice which cements society, and one law "
+"which establishes this justice. This law is right reason, which is the true "
+"rule of all commandments and prohibitions.\" - Marcus Tullius Cicero"
+msgstr "\"Neboť je jen jedna základní spravedlnost, která společnost upevňuje, a jeden zákon, který tuto spravedlnost zakládá. Tímto zákonem je správný rozum, což je opravdová moc všech příkazů a zákazů.\" - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:71
+msgid "\"O, the times, O, the customs!\" - Marcus Tullius Cicero"
+msgstr "\"Jaké časy, jaké mravy!!“ – Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:72
+msgid ""
+"\"No one is so old as to think that he cannot live one more year.\" - Marcus"
+" Tullius Cicero"
+msgstr "„Nikdo není tak stár, aby si nemyslel, že nemůže žít ještě aspoň rok.“ - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:73
+msgid ""
+"\"We are not born, we do not live for ourselves alone; our country, our "
+"friends, have a share in us.\" - Marcus Tullius Cicero"
+msgstr "„Nenarodili jsme se jen pro sebe samé.“ – Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:74
+msgid ""
+"\"Yield, ye arms, to the toga; to civic praise, ye laurels.\" - Marcus "
+"Tullius Cicero"
+msgstr "„Zbraně mají ustoupit tóze, vavřínový věnec politické vážnosti.“ – Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:75
+msgid "\"At my signal, unleash Hell.\" - Maximus Decimus Meridius"
+msgstr "„Na mé znamení se rozpoutá peklo“ - Maximus Decimus Meridius"
+
+#: gui/text/quotes.txt:76
+msgid "\"Time heals all wounds.\" - Marcus Tullius Cicero"
+msgstr "„Čas vyléčí všechna zranění“ - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:77
+msgid ""
+"\"That, Senators, is what a favour from gangs amounts to. They refrain from "
+"murdering someone; then they boast that they have spared him!\" - Marcus "
+"Tullius Cicero"
+msgstr "\"To, senátoři, je to, čemu se v podstatě rovná přízeň od band. Vyhnou se tomu, aby někoho zabili; potom se chvástají, že jej ušetřili!\" - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:78
+msgid "\"Genius is fostered by energy.\" - Marcus Tullius Cicero"
+msgstr "\"Genius je podporován energií.\" - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:79
+msgid "\"While there's life, there's hope.\" - Marcus Tullius Cicero"
+msgstr "\"Dokud dýchám, doufám\" - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:80
+msgid ""
+"\"We must not say that every mistake is a foolish one.\" - Marcus Tullius "
+"Cicero"
+msgstr "\"Nesmíme říkat, že každá chyba je hloupá.\" - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:81
+msgid "\"Let the punishment match the offense.\" - Marcus Tullius Cicero"
+msgstr "\"Trest má být přiměřený přestupku.\" - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:82
+msgid ""
+"\"Let the welfare of the people be the ultimate law.\" - Marcus Tullius "
+"Cicero"
+msgstr "„Nejvyšším zákonem nechť je blaho lidu.“ - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:83
+msgid "\"Endless money forms the sinews of war.\" - Marcus Tullius Cicero"
+msgstr "„Spousta peněz je hybnou silou války.“ - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:84
+msgid "\"Laws are silent in time of war.\" - Marcus Tullius Cicero"
+msgstr "„Za války neplatí zákony.“ - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:85
+msgid ""
+"\"A war is never undertaken by the ideal State, except in defense of its "
+"honor or its safety.\" - Marcus Tullius Cicero"
+msgstr "\"Válka není ideálním státem nikdy podnikána, vyjma případů obrany jeho cti a jeho bezpečnosti.\" - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:86
+msgid ""
+"\"The first duty of a man is the seeking after and the investigation of "
+"truth.\" - Marcus Tullius Cicero"
+msgstr "\"První povinností člověka je hledání pravdy a její přezkoušení.\" - Marcus Tullius Cicero"
+
+#: gui/text/quotes.txt:87
+msgid ""
+"\"In peace the sons bury their fathers, but in war the fathers bury their "
+"sons.\" - Croesus (Greek: Kroisos), king of Lydia"
+msgstr "„Neboť nikdo není tak nerozumný, aby dával přednost válce před mírem, protože v něm synové pochovávají své otce, v ní otcové své syny.“ – Kroisos, lydský král"
+
+#: gui/text/quotes.txt:88
+msgid "\"I am Cyrus, king of the world...\" - Cyrus the Great"
+msgstr "\"Ó, člověče, já jsem Kýros, jenž založil panství Peršanů, král Asie! Nezáviď mi tento pomník!\" - Kýros II. Veliký"
+
+#: gui/text/quotes.txt:89
+msgid "\"Diversity in counsel, unity in command.\" - Cyrus the Great"
+msgstr "\"Rozmanitost názorů, jednota velení\" - Kýros II. Veliký"
+
+#: gui/text/quotes.txt:90
+msgid ""
+"\"Do not therefore begrudge me this bit of earth that covers my bones.\" - "
+"Epitaph of Cyrus the Great"
+msgstr "„Ó, člověče, já jsem Kýros, jenž založil panství Peršanů, král Asie! Nezáviď mi tento pomník!“ – Náhrobní nápis Kýra II. Velikého"
+
+#: gui/text/quotes.txt:91
+msgid ""
+"\"Success always calls for greater generosity — though most people, lost in "
+"the darkness of their own egos, treat it as an occasion for greater greed.\""
+" - Cyrus the Great"
+msgstr "Úspěch vždy vyžaduje více velkorysosti — přesto většina lidí, ztracených v temnotě svých nižších já, s ním nakládá jako s příležitostí k větší chtivosti.” – Kýros II. Veliký"
+
+#: gui/text/quotes.txt:92
+msgid ""
+"\"Whether men lie, or say true, it is with one and the same object.\" - "
+"Darius I"
+msgstr "\"Kdykoli lidé lžou nebo říkají pravdu, je to s jedním a tím samým cílem.\" - Dareios I."
+
+#: gui/text/quotes.txt:93
+msgid ""
+"\"Good breeding in cattle depends on physical health, but in men on a well-"
+"formed character.\" - Democritus"
+msgstr "„Ušlechtilost dobytka se zakládá na tělesné síle, ušlechtilost lidí na řádné povaze.“ - Démokritos"
+
+#: gui/text/quotes.txt:94
+msgid ""
+"\"If your desires are not great, a little will seem much to you; for small "
+"appetite makes poverty equivalent to wealth.\" - Democritus"
+msgstr "„Pokud tvé tužby nejsou velké, připadá ti malé přání obrovským; neboť malá chuť dělá chudobu rovnu blahobytu.“ – Démokritos"
+
+#: gui/text/quotes.txt:95
+msgid ""
+"\"Delivery, delivery, delivery.\" - Demosthenes, when asked what were the "
+"three most important elements of rhetoric"
+msgstr "„Přednes, přednes, přednes.“ – Démosthenés, když byl tázán, co jsou tři nejdůležitější prvky řečnického umění"
+
+#: gui/text/quotes.txt:96
+msgid ""
+"\"It is not possible to found a lasting power upon injustice, perjury, and "
+"treachery.\" - Demosthenes"
+msgstr "\"Není možné založit trvalou moc na nespravedlnosti, křivé přísaze a zradě.\" - Démosthénes"
+
+#: gui/text/quotes.txt:97
+msgid "\"Small opportunities often presage great enterprises.\" - Demosthenes"
+msgstr "\"Malé příležitosti jsou často předzvěstí velkých podniků.\" - Démosthénes "
+
+#: gui/text/quotes.txt:98
+msgid ""
+"\"Every advantage in the past is judged in the light of the final issue.\" -"
+" Demosthenes"
+msgstr "\"Každá výhoda v minulosti je nakonec souzena ve světle potíží.\" - Démosthénes"
+
+#: gui/text/quotes.txt:99
+msgid ""
+"\"Yes, stand a little out of my sunshine.\" - Diogenes of Sinope, when "
+"Alexander the Great found him sunbathing and asked if he could help in in "
+"any way"
+msgstr "\"Ustup mi ze slunce.\" - Díogenés ze Sinópé, když jej Alexandr Veliký nalezl, jak se sluní a vyzval jej, ať si zvolí přání, které mu bude splněno"
+
+#: gui/text/quotes.txt:100
+msgid "\"I am a citizen of the world.\" - Diogenes of Sinope"
+msgstr "\"Jsem občanem světa.\" - Díogenés ze Sinópé"
+
+#: gui/text/quotes.txt:101
+msgid ""
+"\"It is not that I am mad, it is only that my head is different from "
+"yours.\" - Diogenes of Sinope"
+msgstr "\"Není to o tom, že bych byl bláznivý, jde jen o to, že moje hlava se liší od těch vašich.\" - Díogenés ze Sinópé"
+
+#: gui/text/quotes.txt:102
+msgid ""
+"\"Let thy speech be better than silence, or be silent.\" - Dionysius I of "
+"Syracuse"
+msgstr "\"Ať je tvoje řeč lepší než ticho, nebo zůstaň zticha.“ – Dionýsios I. ze Syrakus"
+
+#: gui/text/quotes.txt:103
+msgid "\"Nothing has more strength than dire necessity.\" - Euripides"
+msgstr "\"Nic nemá větší sílu než nutnost.\" - Eurípidés"
+
+#: gui/text/quotes.txt:104
+msgid "\"A coward turns away, but a brave man's choice is danger.\" - Euripides"
+msgstr "\"Zbabělec se odvrátí, ale odvážný muž si zvolí nebezpečí.\" - Euripidés"
+
+#: gui/text/quotes.txt:105
+msgid ""
+"\"Cowards do not count in battle; they are there, but not in it.\" - "
+"Euripides"
+msgstr "\"Zbabělci se v bitvě nepočítají; Jsou tam, ale neúčastní se.\" - Eurípidés"
+
+#: gui/text/quotes.txt:106
+msgid "\"Chance fights ever on the side of the prudent.\" - Euripides"
+msgstr "\"Štěstěna bojuje vždy na uvážlivých.\" - Eurípidés"
+
+#: gui/text/quotes.txt:107
+msgid ""
+"\"If a man put out the eye of another man, his eye shall be put out.\" - "
+"Hammurabi"
+msgstr "\"Oko za oko, zub za zub.\" - Chammurapi"
+
+#: gui/text/quotes.txt:108
+msgid ""
+"\"I have come not to make war on the Italians, but to aid the Italians "
+"against Rome.\" - Hannibal Barca"
+msgstr "\"Nepřišel jsem, abych vedl válku proti Italům, ale abych Itálii sjednotil proti Římu.\" - Hannibal Barkas"
+
+#: gui/text/quotes.txt:109
+msgid "\"I will either find a way, or make one.\" - Hannibal Barca"
+msgstr "\"Cestu si buď najdu, nebo udělám.\" - Hannibal Barkas"
+
+#: gui/text/quotes.txt:110
+msgid ""
+"\"My ancestors yielded to Roman valour. I am endeavouring that others, in "
+"their turn, will be obliged to yield to my good fortune, and my valour.\" - "
+"Hannibal Barca"
+msgstr "\"Moji předci ztroskotali na římské statečnosti. Já usiluji o to, aby se jiní z jejich strany vzdali mému štěstí v boji a mé statečnosti.“ – Hannibal Barkas"
+
+#: gui/text/quotes.txt:111
+msgid "\"Everything flows, nothing stands still.\" - Herakleitos"
+msgstr "\"Všechno se pohybuje a nic netrvá.\" - Hérakleitos z Efesu"
+
+#: gui/text/quotes.txt:112
+msgid "\"Nothing endures but change.\" - Herakleitos"
+msgstr "\"Všechno se pohybuje a nic netrvá.\" - Hérakleitos"
+
+#: gui/text/quotes.txt:113
+msgid "\"You could not step twice into the same river.\" - Herakleitos"
+msgstr "\"Nelze vstoupit dvakrát do téže řeky.\" - Hérakleitos"
+
+#: gui/text/quotes.txt:114
+msgid "\"Character is destiny.\" - Herakleitos"
+msgstr "„Charakter člověka je jeho osudem.“ - Hérakleitos"
+
+#: gui/text/quotes.txt:115
+msgid "\"Circumstances rule men; men do not rule circumstances.\" - Herodotus"
+msgstr "\"Okolnosti ovládají člověka; člověk neovládá okolnosti.\" - Hérodotos"
+
+#: gui/text/quotes.txt:116
+msgid ""
+"\"The Lacedaemonians fought a memorable battle; they made it quite clear "
+"that they were the experts, and that they were fighting against amateurs.\" "
+"- Herodotus"
+msgstr "\"Lakedaimoňané svedli nezapomenutelnou bitvu; Jasně ukázali, že jsou obratní válečníci, a že bojovali se začátečníky.“ – Hérodotos"
+
+#: gui/text/quotes.txt:117
+msgid ""
+"\"This is the bitterest pain among men, to have much knowledge but no "
+"power.\" - Herodotus"
+msgstr "\"To však je nejtrpčí bolestí mezi lidmi, když ten, kdo je chápavý, nemá v rukách žádnou moc.\" - Hérodotos"
+
+#: gui/text/quotes.txt:118
+msgid "\"In soft regions are born soft men.\" - Herodotus"
+msgstr "\"V příjemných zemích se rodí jemní lidé.\" - Hérodotos z Halikarnássu"
+
+#: gui/text/quotes.txt:119
+msgid "\"It is sweet and honorable to die for one's country.\" - Horace"
+msgstr "„Krásná a vznešená je smrt za vlast.“ - Quintus Flaccus Horatius"
+
+#: gui/text/quotes.txt:120
+msgid "\"We are but dust and shadow.\" - Horace"
+msgstr "„Jsme jen prach a stín.“- Quintus Flaccus Horatius"
+
+#: gui/text/quotes.txt:121
+msgid ""
+"\"I am not bound over to swear allegiance to any master; where the storm "
+"drives me I turn in for shelter.\" - Horace"
+msgstr "\"Nesvěřuji se žádnému pánu, abych jemu věrnost přísahal, nechávám se jako host zavát tam, kam mě zažene orkán."
+
+#: gui/text/quotes.txt:122
+msgid ""
+"\"Conquered Greece took captive her savage conqueror and brought her arts "
+"into rustic Latium.\" - Horace"
+msgstr "\"Dobyté Řecko si podrobilo necivilizovaného vítěze a přineslo umění a vědu do rolnického Latia.\" - Horatius"
+
+#: gui/text/quotes.txt:123
+msgid ""
+"\"Guard yourself against accusations, even if they are false; for the "
+"multitude are ignorant of the truth and look only to reputation.\" - "
+"Isocrates"
+msgstr "\"Chraň se před nařčeními, i když jsou nepravdivá; neboť dav pravdu nezná a hledí jen na dobré jméno.“ – Isokratés"
+
+#: gui/text/quotes.txt:124
+msgid ""
+"\"I never learned how to tune a harp, or play upon a lute; but I know how to"
+" raise a small and inconsiderable city to glory and greatness.\" - "
+"Themistocles"
+msgstr "\"Nikdy jsem se nenaučil naladit harfu, nebo hrát na flétnu; ale vím, jak se přivádí malé a  nevýznamné město ke slávě a velikosti.“ – Themistoklés"
+
+#: gui/text/quotes.txt:125
+msgid "\"I have with me two gods, Persuasion and Compulsion.\" - Themistocles"
+msgstr "\"Mám se sebou dva bohy, přesvědčování a nátlak.\" - Themistoklés"
+
+#: gui/text/quotes.txt:126
+msgid ""
+"\"For the Athenians command the rest of Greece, I command the Athenians; "
+"your mother commands me, and you command your mother.\" - Themistocles, in a"
+" statement to his son"
+msgstr "\"Co je jeho vůlí, to je také vůlí Athéňanů; neboť co on chce, to chce i jeho matka; co chce ona, to chce i Themistoklés, a co chce on, je opět vůlí všech Athéňanů.“ – Kleofantus, syn Themistoklův"
+
+#: gui/text/quotes.txt:127
+msgid "\"Strike, if you will, but listen.\" - Themistocles"
+msgstr "\"Uhoď, chceš-li, ale naslouchej.\" - Themistoklés"
+
+#: gui/text/quotes.txt:128
+msgid ""
+"\"Marry a good man, and bear good children.\" - Leonidas, to his wife before"
+" he left for Thermopylae"
+msgstr "\"Provdej se za dobrého muže a poroď dobré děti“ – Leónidás I. ke své ženě, než odešel k Thermopylám."
+
+#: gui/text/quotes.txt:129
+msgid ""
+"\"Come and get them!\" - Leonidas, to the Persian messenger who demanded "
+"that he and his men lay down their arms"
+msgstr "„Přijď a vezmi si je!“ - Leonidas, k perskému poslu, který žádal, aby on a jeho muži složili zbraně"
+
+#: gui/text/quotes.txt:130
+msgid "\"For a thinking man is where Wisdom is at home.\" - Zoroaster"
+msgstr "\"Pro přemýšlejícího člověka je doma tam, kde je moudrost.\" - Zarathuštra"
+
+#: gui/text/quotes.txt:131
+msgid "\"I call a fig a fig, a spade a spade.\" - Menander"
+msgstr "\"Fík nazývám fíkem, rýč rýčem.\" - Menandros"
+
+#: gui/text/quotes.txt:132
+msgid "\"The man who runs may fight again.\" - Menander"
+msgstr "\"Ten muž, jenž uteče, může bojovat znovu.\" - Menander"
+
+#: gui/text/quotes.txt:133
+msgid ""
+"\"At times discretion should be thrown aside, and with the foolish we should"
+" play the fool.\" - Menander"
+msgstr "\"Někdy se má rozum odložit stranou a u přihlouplých bychom ze sebe měli dělat blázny.“ – Menandros"
+
+#: gui/text/quotes.txt:134
+msgid ""
+"\"Freedom is the sure possession of those alone who have the courage to "
+"defend it.\" - Pericles"
+msgstr "\"Svoboda je jistým vlastnictvím těch, kdož mají odvahu ji bránit.\" - Periklés"
+
+#: gui/text/quotes.txt:135
+msgid ""
+"\"What you leave behind is not what is engraved in stone monuments, but what"
+" is woven into the lives of others.\" - Pericles"
+msgstr "\"Hrobem vynikajících mužů je každá země. O nich nesvědčí jen nápis na kamenné desce ve vlasti, také v cizině bydlí, duchovně, ne hmotně, v nenapsané vzpomínce každého.“ – Periklés"
+
+#: gui/text/quotes.txt:136
+msgid ""
+"\"We do not say that a man who takes no interest in politics is a man who "
+"minds his own business; we say that he has no business here at all.\" - "
+"Pericles"
+msgstr "\"Toho, kdo se vyhýbá politickým záležitostem, nepovažujeme za někoho, kdo miluje klid, nýbrž za muže, který je zde úplně zbytečný.“ – Periklés"
+
+#: gui/text/quotes.txt:137
+msgid ""
+"\"They gave her their lives, to Her and to all of us, and for their own "
+"selves they won praises that never grow old, the most splendid of "
+"sepulchers...\" - Pericles, Funeral Oration"
+msgstr "\"Dali svůj život, za ni a za nás všechny, a pro sebe získali chválu, která nikdy nezestárne, nejskvostnější ze všech náhrobků...“ – Periklés, pohřební řeč"
+
+#: gui/text/quotes.txt:138
+msgid ""
+"\"Make up your minds that happiness depends on being free, and freedom "
+"depends on being courageous.\" - Pericles"
+msgstr "\"Uvažte, že štěstí závisí na svobodě, a svoboda na odvaze.“ – Periklés"
+
+#: gui/text/quotes.txt:139
+msgid ""
+"\"Your empire is now like a tyranny: it may have been wrong to take it; it "
+"is certainly dangerous to let it go.\" - Pericles"
+msgstr "\"Vaše říše je nyní jako nějaká tyranie: Možná by bylo chybou ji dobýt; bezpochyby je nebezpečné ji pustit.“ – Periklés"
+
+#: gui/text/quotes.txt:140
+msgid ""
+"\"If Athens shall appear great to you, consider then that her glories were "
+"purchased by valiant men, and by men who learned their duty.\" - Pericles"
+msgstr "\"Když se vám budou zdát Athény významné, uvažte, že jejich nádhera byla získána smělými muži, a muži, kteří znali svou povinnost.“ – Periklés"
+
+#: gui/text/quotes.txt:141
+msgid ""
+"\"Just because you do not take an interest in politics doesn't mean politics"
+" won't take an interest in you.\" - Pericles"
+msgstr "\"Jen proto, že se o politiku nezajímáš, ještě nemusí znamenat, že politika se nezajímá o tebe.“ – Periklés"
+
+#: gui/text/quotes.txt:142
+msgid ""
+"\"War is sweet to those who have no experience of it, but the experienced "
+"man trembles exceedingly at heart on its approach.\" - Pindar"
+msgstr "\"Sladkou je válka jen nezkušeným. Zkušený má ale, když se blíží, nesmírný strach v srdci.“ – Pindaros"
+
+#: gui/text/quotes.txt:143
+msgid ""
+"\"The hour of departure has arrived, and we go our ways — I to die, and you "
+"to live. Which is better God only knows.\" - Plato"
+msgstr "\"Hodina odchodu přišla a my jdeme svými cestami — já zemřít, ty žít. Která je tou lepší, ví jen Bůh“ – Platón"
+
+#: gui/text/quotes.txt:144
+msgid "\"Life without examination is not worth living.\" - Plato"
+msgstr "\"Život bez zkoušky není hodný žití.\" - Plato"
+
+#: gui/text/quotes.txt:145
+msgid ""
+"\"Let every man remind their descendants that they also are soldiers who "
+"must not desert the ranks of their ancestors, or from cowardice fall "
+"behind.\" - Plato"
+msgstr "\"Každý muž, ať svým potomkům připomíná, že i oni jsou vojáky, a nesmí opustit řady předků, nebo ze zbabělosti zaostat.“ – Platón"
+
+#: gui/text/quotes.txt:146
+msgid ""
+"\"False words are not only evil in themselves, but they infect the soul with"
+" evil.\" - Plato"
+msgstr "\"Nepravdivá slova nejsou sama zlá, ale nakazí duši zlem.\" - Plato"
+
+#: gui/text/quotes.txt:147
+msgid ""
+"\"Democracy, which is a charming form of government, full of variety and "
+"disorder, and dispensing a sort of equality to equals and unequals alike.\" "
+"- Plato"
+msgstr "\"Demokracie, což je úchvatná forma vlády, je naplněna rozmanitostí a nepořádkem, a poskytuje určitý druh rovnosti zároveň lidem rovným i nerovným.“ – Platón"
+
+#: gui/text/quotes.txt:148
+msgid "\"Death is not the worst that can happen to men.\" - Plato"
+msgstr "\"Smrt není to nejhorší, co se může lidem stát.\" - Plato"
+
+#: gui/text/quotes.txt:149
+msgid "\"Only the dead have seen the end of war.\" - Unknown"
+msgstr "\"Jen mrtví uviděli konec války.\" - Neznámý"
+
+#: gui/text/quotes.txt:150
+msgid "\"Our need will be the real creator.\" - Plato"
+msgstr "\"Naše potřeba bude tím opravdovým tvůrcem.\" - Plato"
+
+#: gui/text/quotes.txt:151
+msgid "\"A man with courage has every blessing.\" - Plautus"
+msgstr "\"Muž s odvahou má každé požehnání.\" - Plautus"
+
+#: gui/text/quotes.txt:152
+msgid ""
+"\"No guest is so welcome in a friend's house that he will not become a "
+"nuisance after three days.\" - Plautus"
+msgstr "\"Žádný host není natolik vítán v domě svého přítele, aby se po třech dnech nestal zátěží.\" - Plautus"
+
+#: gui/text/quotes.txt:153
+msgid "\"He whom the gods love dies young.\" - Plautus"
+msgstr "\"Koho milují bozi, zemře mladý.\" - Plautus"
+
+#: gui/text/quotes.txt:154
+msgid "\"Practice yourself what you preach.\" - Plautus"
+msgstr "\"Nech činy následovat slova.\" - Plautus"
+
+#: gui/text/quotes.txt:155
+msgid "\"Drink, live like the Greeks, eat, gorge.\" - Plautus"
+msgstr "\"Pijte, žijte jako Řekové, zakousněte se do jídla, nacpěte se.\" - Plautu s"
+
+#: gui/text/quotes.txt:156
+msgid ""
+"\"Stop quoting laws, we carry weapons!\" - Gnaeus Pompeius Magnus (Pompey "
+"the Great)"
+msgstr "\"Přestaňte uvádět zákony, my nosíme zbraně!\" - Gnaeus Pompeius Magnus (Pompeius Veliký)"
+
+#: gui/text/quotes.txt:157
+msgid ""
+"\"Man is the measure of all things: of things which are, that they are, and "
+"of things which are not, that they are not.\" - Protagoras"
+msgstr "\"Mírou všech věcí je člověk - jsoucích, že jsou, a nejsoucích, že nejsou.“ – Prótagorás z Abdér"
+
+#: gui/text/quotes.txt:158
+msgid ""
+"\"We ought so to behave to one another as to avoid making enemies of our "
+"friends, and at the same time to make friends of our enemies.\" - Pythagoras"
+msgstr "\"Musíme se k sobě chovat tak, abychom se varovali toho, že bychom si ze svých přátel dělali nepřátele, a současně abychom ze svých nepřátel dělali sobě přátele.“ – Pythagoras"
+
+#: gui/text/quotes.txt:159
+msgid "\"In anger we should refrain both from speech and action.\" - Pythagoras"
+msgstr "\"Když jsme vzteklí, měli bychom se zdržet mluvení a jednání.“ – Pythagoras"
+
+#: gui/text/quotes.txt:160
+msgid "\"Power is the near neighbor of necessity.\" - Pythagoras"
+msgstr "„Moc je blízkým sousedem nutnosti.“ – Pythagoras"
+
+#: gui/text/quotes.txt:161
+msgid "\"Numbers rule the Universe.\" - Pythagoras"
+msgstr "\"Čísla vládnou Vesmíru.\" - Pythagoras"
+
+#: gui/text/quotes.txt:162
+msgid ""
+"\"Rest satisfied with doing well, and leave others to talk of you as they "
+"please.\" - Pythagoras"
+msgstr "\"Buď spokojen s tím, že děláš to, co je dobré, a nechej ostatní, aby o tobě mluvili, jak se jim to líbí.\" - Pythagoras"
+
+#: gui/text/quotes.txt:163
+msgid "\"Anger begins in folly, and ends in repentance.\" - Pythagoras"
+msgstr "\"Hněv začíná v nerozumnosti a končí v lítostí\" - Pythagoras"
+
+#: gui/text/quotes.txt:164
+msgid "\"There is no word or action but has its echo in Eternity.\" - Pythagoras"
+msgstr "\"Není ani slova ani činu, jež by měly odezvu ve věčnosti.\" - Pythagoras"
+
+#: gui/text/quotes.txt:165
+msgid ""
+"\"There is geometry in the humming of the strings, there is music in the "
+"spacing of the spheres.\" - Pythagoras"
+msgstr "\"Geometrie záleží ve sčítání stran, hudba závisí na odstupu sfér.\" - Pythagoras"
+
+#: gui/text/quotes.txt:166
+msgid ""
+"\"Practice justice in word and deed, and do not get in the habit of acting "
+"thoughtlessly about anything.\" - Pythagoras"
+msgstr "\"Cvič se ve spravedlnosti ve slově a skutku, a neupadej do návyku bezmyšlenkovitého jednání.“ – Pythagoras"
+
+#: gui/text/quotes.txt:167
+msgid "\"Do not even think of doing what ought not to be done.\" - Pythagoras"
+msgstr "„Ani nepomysli, že bys udělal něco, co se nemá udělat.“ – Pythagoras"
+
+#: gui/text/quotes.txt:168
+msgid ""
+"\"When the wise man opens his mouth, the beauties of his soul present "
+"themselves to the view, like the statues in a temple.\" - Pythagoras"
+msgstr "\"Když moudrý muž otevře svá ústa, představí se pozorovateli krása jeho duše, jako sochy v chrámu.“ – Pythagoras"
+
+#: gui/text/quotes.txt:169
+msgid ""
+"\"Remind yourself that all men assert that wisdom is the greatest good, but "
+"that there are few who strenuously seek out that greatest good.\" - "
+"Pythagoras"
+msgstr "„Pamatuj si, že všichni lidé tvrdí, že moudrost je nejvyšším dobrem, ale je jen málo těch, kteří po tomto nejvyšším dobru horlivě pátrají.“ – Pythagoras"
+
+#: gui/text/quotes.txt:170
+msgid "\"Without Justice, no realm may prosper.\" - Pythagoras"
+msgstr "\"Bez spravedlnosti se nedaří žádné říši.\" - Pythagoras"
+
+#: gui/text/quotes.txt:171
+msgid ""
+"\"For harmony makes small states great, while discord undermines the "
+"mightiest empires.\" - Sallust"
+msgstr "\"Neboť harmonie dělá malé státy velkými, zatímco roztržka sama podlamuje nejmocnější říše.\" - Sallustius"
+
+#: gui/text/quotes.txt:172
+msgid ""
+"\"I am mindful of human weakness, and I reflect upon the might of Fortune "
+"and know that everything that we do is exposed to a thousand chances.\" - "
+"Scipio Africanus"
+msgstr "\"Jsem pamětlivý lidské slabosti, přemítám nad mocí štěstěny a vím, že vše, co činíme, je vystaveno tisíci náhod.“ – Scipio Africanus starší"
+
+#: gui/text/quotes.txt:173
+msgid ""
+"\"Prepare for war, since you have been unable to endure a peace.\" - Scipio "
+"Africanus"
+msgstr "\"Připravuj se na válku, protože jsi nebyl schopen uchovat mír.\" - Scipio Africanus"
+
+#: gui/text/quotes.txt:174
+msgid ""
+"\"Go, tell the Spartans, stranger passing by that here, obedient to their "
+"laws, we lie.\" - Simonides of Ceos, epitaph on the Cenotaph of Thermopylae"
+msgstr "\"Jdi, poutníče, a zvěstuj Lakedaimonským, že my tu mrtvi ležíme, jak zákony kázaly nám.“ – Simónidés z Keu, nápis na pomníku v Thermopylách"
+
+#: gui/text/quotes.txt:175
+msgid "\"Not even the gods fight against necessity.\" - Simonides of Ceos"
+msgstr "„Ani bozi nebojují s nutností.“ – Simónidés z Keu"
+
+#: gui/text/quotes.txt:176
+msgid ""
+"\"We did not flinch but gave our lives to save Greece when her fate hung on "
+"a razor's edge.\" - Simonides of Ceos"
+msgstr "\"Neustoupili jsme zpět, nýbrž jsme dali svůj život, abychom zachránili Řecko, když jeho osud stál na ostří nože.“ – Simónidés z Keu"
+
+#: gui/text/quotes.txt:177
+msgid ""
+"\"The bravest are surely those who have the clearest vision of what is "
+"before them, glory and danger alike, and yet notwithstanding, go out to meet"
+" it.\" - Thucydides"
+msgstr "\"Nejstatečnějšími jsou jistě ti, kdož mají nejjasnější pohled na to, co před nimi leží, zároveň sláva a čest a nebezpečí, a i přesto jdou, aby se s tím potkali.\" - Thúkydidés"

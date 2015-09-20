@@ -1,0 +1,2759 @@
+# Translation template for 0 A.D. — Empires Ascendant.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the 0 A.D. — Empires Ascendant project.
+# 
+# Translators:
+# GunChleoc, 2014-2015
+# GunChleoc, 2014
+# GunChleoc, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2015-07-21 23:22+0200\n"
+"PO-Revision-Date: 2015-07-23 06:57+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Gaelic, Scottish (http://www.transifex.com/wildfire-games/0ad/language/gd/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: gd\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
+
+#: simulation/templates/template_unit_cavalry.xml:37
+#: simulation/templates/template_unit_cavalry.xml:38
+#: simulation/templates/template_unit_champion_cavalry.xml:27
+#: simulation/templates/template_unit_hero_cavalry.xml:26
+msgid "Cavalry"
+msgstr "Eachraidh"
+
+#: simulation/templates/template_unit_cavalry.xml:37
+#: simulation/templates/template_unit_infantry.xml:63
+msgid "Citizen"
+msgstr "Saoranach"
+
+#: simulation/templates/template_unit_cavalry.xml:37
+#: simulation/templates/template_unit_champion.xml:13
+#: simulation/templates/template_unit_hero.xml:22
+#: simulation/templates/template_unit_infantry.xml:63
+msgid "Soldier"
+msgstr "Saighdear"
+
+#: simulation/templates/template_unit_cavalry.xml:39
+#: simulation/templates/template_unit_dog.xml:53
+#: simulation/templates/template_unit_infantry.xml:64
+#: simulation/templates/template_unit_support_healer.xml:22
+#: simulation/templates/units/brit_support_healer_b.xml:9
+#: simulation/templates/units/cart_support_healer_b.xml:10
+#: simulation/templates/units/gaul_support_healer_b.xml:9
+#: simulation/templates/units/iber_support_healer_b.xml:11
+#: simulation/templates/units/maur_support_healer_b.xml:10
+#: simulation/templates/units/pers_support_healer_b.xml:10
+#: simulation/templates/units/rome_support_healer_b.xml:11
+msgctxt "Rank"
+msgid "Basic"
+msgstr "Bunasach"
+
+#: simulation/templates/template_unit_cavalry_melee.xml:26
+#: simulation/templates/template_unit_champion_cavalry_spearman.xml:33
+#: simulation/templates/template_unit_champion_cavalry_swordsman.xml:36
+#: simulation/templates/template_unit_champion_elephant_melee.xml:20
+#: simulation/templates/template_unit_champion_infantry_pikeman.xml:45
+#: simulation/templates/template_unit_champion_infantry_spearman.xml:45
+#: simulation/templates/template_unit_champion_infantry_swordsman.xml:33
+#: simulation/templates/template_unit_hero_cavalry_spearman.xml:18
+#: simulation/templates/template_unit_hero_cavalry_swordsman.xml:18
+#: simulation/templates/template_unit_hero_elephant_melee.xml:47
+#: simulation/templates/template_unit_hero_infantry_pikeman.xml:24
+#: simulation/templates/template_unit_hero_infantry_spearman.xml:23
+#: simulation/templates/template_unit_hero_infantry_swordsman.xml:17
+#: simulation/templates/template_unit_infantry_melee.xml:26
+#: simulation/templates/units/maur_ship_trireme.xml:20
+msgid "Melee"
+msgstr "Dlùth"
+
+#: simulation/templates/template_unit_cavalry_melee.xml:27
+msgid "Melee Cavalry"
+msgstr "Eachraidh dlùth"
+
+#: simulation/templates/template_unit_cavalry_melee_spearman.xml:20
+#: simulation/templates/template_unit_champion_cavalry_spearman.xml:33
+#: simulation/templates/template_unit_champion_infantry_pikeman.xml:45
+#: simulation/templates/template_unit_champion_infantry_spearman.xml:45
+#: simulation/templates/template_unit_hero_cavalry_spearman.xml:18
+#: simulation/templates/template_unit_hero_infantry_pikeman.xml:24
+#: simulation/templates/template_unit_hero_infantry_spearman.xml:23
+#: simulation/templates/template_unit_infantry_melee_pikeman.xml:38
+#: simulation/templates/template_unit_infantry_melee_spearman.xml:35
+msgid "Spear"
+msgstr "Sleagh"
+
+#: simulation/templates/template_unit_cavalry_melee_spearman.xml:21
+msgid "Cavalry Spearman"
+msgstr "Sleaghair eachraidh"
+
+#: simulation/templates/template_unit_cavalry_melee_swordsman.xml:29
+#: simulation/templates/template_unit_champion_cavalry_swordsman.xml:36
+#: simulation/templates/template_unit_champion_infantry_swordsman.xml:33
+#: simulation/templates/template_unit_hero_cavalry_swordsman.xml:18
+#: simulation/templates/template_unit_hero_infantry_swordsman.xml:17
+#: simulation/templates/template_unit_infantry_melee_swordsman.xml:25
+msgid "Sword"
+msgstr "Claidheamh"
+
+#: simulation/templates/template_unit_cavalry_melee_swordsman.xml:30
+msgid "Cavalry Swordsman"
+msgstr "Claidheamhair eachraidh"
+
+#: simulation/templates/template_unit_cavalry_ranged.xml:21
+msgid "Ranged Cavalry"
+msgstr "Eachraidh astair"
+
+#: simulation/templates/template_unit_cavalry_ranged.xml:22
+#: simulation/templates/template_unit_champion_cavalry_archer.xml:23
+#: simulation/templates/template_unit_champion_cavalry_javelinist.xml:22
+#: simulation/templates/template_unit_champion_infantry_archer.xml:26
+#: simulation/templates/template_unit_champion_infantry_javelinist.xml:26
+#: simulation/templates/template_unit_hero_cavalry_archer.xml:25
+#: simulation/templates/template_unit_hero_infantry_archer.xml:24
+#: simulation/templates/template_unit_hero_infantry_javelinist.xml:23
+#: simulation/templates/template_unit_infantry_ranged.xml:27
+#: simulation/templates/template_unit_infantry_ranged.xml:26
+#: simulation/templates/template_unit_mechanical_ship_trireme.xml:47
+msgid "Ranged"
+msgstr "Astair"
+
+#: simulation/templates/template_unit_cavalry_ranged_archer.xml:22
+#: simulation/templates/template_unit_champion_cavalry_archer.xml:23
+#: simulation/templates/template_unit_champion_infantry_archer.xml:26
+#: simulation/templates/template_unit_hero_cavalry_archer.xml:25
+#: simulation/templates/template_unit_hero_infantry_archer.xml:24
+#: simulation/templates/template_unit_infantry_ranged_archer.xml:27
+#: simulation/templates/template_unit_infantry_ranged_archer.xml:28
+msgid "Archer"
+msgstr "Boghadair"
+
+#: simulation/templates/template_unit_cavalry_ranged_archer.xml:23
+msgid "Cavalry Archer"
+msgstr "Boghadair eachraidh"
+
+#: simulation/templates/template_unit_cavalry_ranged_javelinist.xml:22
+#: simulation/templates/template_unit_champion_cavalry_javelinist.xml:22
+#: simulation/templates/template_unit_champion_infantry_javelinist.xml:26
+#: simulation/templates/template_unit_hero_infantry_javelinist.xml:23
+#: simulation/templates/template_unit_infantry_ranged_javelinist.xml:26
+msgid "Javelin"
+msgstr "Gath"
+
+#: simulation/templates/template_unit_cavalry_ranged_javelinist.xml:23
+msgid "Cavalry Skirmisher"
+msgstr "Streupaire eachraidh"
+
+#: simulation/templates/template_unit_champion.xml:11
+msgid "Champion Unit"
+msgstr "Laoch"
+
+#: simulation/templates/template_unit_champion.xml:13
+msgid "Champion"
+msgstr "Làn-ghaisgeach"
+
+#: simulation/templates/template_unit_champion_cavalry.xml:26
+msgid "Champion Cavalry"
+msgstr "Laoch eachraidh"
+
+#: simulation/templates/template_unit_champion_cavalry_archer.xml:24
+msgid "Champion Cavalry Archer."
+msgstr "Laoch boghadair eachraidh."
+
+#: simulation/templates/template_unit_champion_cavalry_javelinist.xml:23
+msgid "Champion Cavalry Skirmisher"
+msgstr "Laoch streupaire eachraidh"
+
+#: simulation/templates/template_unit_champion_cavalry_spearman.xml:34
+msgid "Champion Cavalry Spearman"
+msgstr "Laoch sleaghair eachraidh"
+
+#: simulation/templates/template_unit_champion_cavalry_swordsman.xml:37
+msgid "Champion Cavalry Swordsman"
+msgstr "Laoch claidheamhair eachraidh"
+
+#: simulation/templates/template_unit_champion_elephant.xml:26
+#: simulation/templates/template_unit_hero_elephant_melee.xml:47
+#: simulation/templates/units/maur_elephant_archer_b.xml:9
+msgid "Elephant"
+msgstr "Ailbhean"
+
+#: simulation/templates/template_unit_champion_elephant.xml:27
+msgid "War Elephant"
+msgstr "Ailbhean-cogaidh"
+
+#: simulation/templates/template_unit_champion_infantry.xml:21
+#: simulation/templates/template_unit_hero_infantry.xml:23
+#: simulation/templates/template_unit_infantry.xml:63
+#: simulation/templates/template_unit_infantry.xml:61
+msgid "Infantry"
+msgstr "Coisridh"
+
+#: simulation/templates/template_unit_champion_infantry.xml:22
+msgid "Champion Infantry"
+msgstr "Laoch coisridh"
+
+#: simulation/templates/template_unit_champion_infantry_archer.xml:27
+msgid "Champion Archer"
+msgstr "Laoch boghadair"
+
+#: simulation/templates/template_unit_champion_infantry_javelinist.xml:27
+msgid "Champion Skirmisher"
+msgstr "Laoch streupaire"
+
+#: simulation/templates/template_unit_champion_infantry_pikeman.xml:45
+#: simulation/templates/template_unit_hero_infantry_pikeman.xml:24
+#: simulation/templates/template_unit_infantry_melee_pikeman.xml:38
+msgid "Pike"
+msgstr "Pìc"
+
+#: simulation/templates/template_unit_champion_infantry_pikeman.xml:46
+msgid "Champion Pikeman"
+msgstr "Laoch pìceir"
+
+#: simulation/templates/template_unit_champion_infantry_pikeman.xml:48
+#: simulation/templates/template_unit_champion_infantry_spearman.xml:46
+#: simulation/templates/template_unit_hero_infantry_pikeman.xml:26
+#: simulation/templates/template_unit_hero_infantry_spearman.xml:25
+#: simulation/templates/template_unit_infantry_melee_pikeman.xml:41
+#: simulation/templates/template_unit_infantry_melee_spearman.xml:38
+msgid "Counters: 3x vs. Cavalry."
+msgstr "An aghaidh: eachraidh le 3x."
+
+#: simulation/templates/template_unit_champion_infantry_spearman.xml:44
+msgid "Champion Spearman"
+msgstr "Laoch sleaghair"
+
+#: simulation/templates/template_unit_champion_infantry_swordsman.xml:34
+msgid "Champion Swordsman"
+msgstr "Laoch claidheamhair"
+
+#: simulation/templates/template_unit_champion_ranged.xml:4
+msgid "Champion Ranged"
+msgstr "Laoch astair"
+
+#: simulation/templates/template_unit_champion_siege.xml:17
+msgid "Super Siege"
+msgstr "Sàr-shèist"
+
+#: simulation/templates/template_unit_champion_siege.xml:18
+#: simulation/templates/template_unit_mechanical.xml:14
+#: simulation/templates/template_unit_mechanical.xml:13
+msgid "Mechanical"
+msgstr "Innealach"
+
+#: simulation/templates/template_unit_champion_siege.xml:18
+#: simulation/templates/template_unit_mechanical_siege.xml:17
+#: simulation/templates/template_unit_mechanical_siege.xml:18
+msgid "Siege"
+msgstr "Inneal-sèiste"
+
+#: simulation/templates/template_unit_dog.xml:51
+msgid "Dog"
+msgstr "Cù"
+
+#: simulation/templates/template_unit_dog.xml:52
+msgid "War Dog"
+msgstr "Cù cogaidh"
+
+#: simulation/templates/template_unit_dog.xml:54
+msgid "Cannot attack structures."
+msgstr "Chan urrainn dha ionnsaigh a thoirt air togalach."
+
+#: simulation/templates/template_unit_fauna.xml:11
+msgid "Fauna"
+msgstr "Ainmhidh"
+
+#: simulation/templates/template_unit_fauna_fish.xml:9
+msgid "Fish"
+msgstr "Iasg"
+
+#: simulation/templates/template_unit_fauna_hunt_whale.xml:16
+msgid "Cetacean"
+msgstr "Muc-mara"
+
+#: simulation/templates/template_unit_fauna_hunt_whale.xml:17
+msgid "Kill, then collect food from this bountiful oceanic resource."
+msgstr "Marbh e is cruinnich biadh o stòras mòr na mara seo."
+
+#: simulation/templates/template_unit_hero.xml:22
+#: simulation/templates/template_unit_hero.xml:20
+#: simulation/templates/template_unit_hero_infantry.xml:24
+#: simulation/templates/units/maur_hero_chanakya.xml:29
+msgid "Hero"
+msgstr "Curaidh"
+
+#: simulation/templates/template_unit_hero_cavalry.xml:25
+msgid "Hero Cavalry"
+msgstr "Curaidh eachraidh"
+
+#: simulation/templates/template_unit_hero_cavalry_archer.xml:26
+msgid "Hero Cavalry Archer"
+msgstr "Curaidh boghadair eachraidh"
+
+#: simulation/templates/template_unit_hero_cavalry_javelinist.xml:33
+msgid "Hero Cavalry Skirmisher"
+msgstr "Curaidh streupaire eachraidh"
+
+#: simulation/templates/template_unit_hero_cavalry_spearman.xml:19
+msgid "Hero Cavalry Spearman"
+msgstr "Curaidh sleaghair eachraidh"
+
+#: simulation/templates/template_unit_hero_cavalry_swordsman.xml:19
+msgid "Hero Cavalry Swordsman"
+msgstr "Curaidh claidheamhair eachraidh"
+
+#: simulation/templates/template_unit_hero_infantry_archer.xml:23
+msgid "Hero Archer"
+msgstr "Curaidh boghadair"
+
+#: simulation/templates/template_unit_hero_infantry_javelinist.xml:24
+msgid "Hero Skirmisher"
+msgstr "Curaidh streupaire"
+
+#: simulation/templates/template_unit_hero_infantry_pikeman.xml:25
+msgid "Hero Pikeman"
+msgstr "Curaidh pìceir"
+
+#: simulation/templates/template_unit_hero_infantry_spearman.xml:24
+msgid "Hero Spearman"
+msgstr "Curaidh sleaghair"
+
+#: simulation/templates/template_unit_hero_infantry_swordsman.xml:18
+msgid "Hero Swordsman"
+msgstr "Curaidh claidheamhair"
+
+#: simulation/templates/template_unit_infantry_melee.xml:25
+msgid "Melee Infantry"
+msgstr "Coisridh dhlùth"
+
+#: simulation/templates/template_unit_infantry_melee_pikeman.xml:39
+msgid "Pikeman"
+msgstr "Pìcear"
+
+#: simulation/templates/template_unit_infantry_melee_spearman.xml:36
+msgid "Spearman"
+msgstr "Sleaghair"
+
+#: simulation/templates/template_unit_infantry_melee_swordsman.xml:26
+msgid "Swordsman"
+msgstr "Claidheamhair"
+
+#: simulation/templates/template_unit_infantry_ranged_javelinist.xml:27
+msgid "Skirmisher"
+msgstr "Streupaire"
+
+#: simulation/templates/template_unit_infantry_ranged_slinger.xml:27
+msgid "Sling"
+msgstr "Longag"
+
+#: simulation/templates/template_unit_infantry_ranged_slinger.xml:28
+msgid "Slinger"
+msgstr "Longadair"
+
+#: simulation/templates/template_unit_mechanical_ship.xml:33
+#: simulation/templates/template_unit_mechanical_ship.xml:32
+msgid "Ship"
+msgstr "Long"
+
+#: simulation/templates/template_unit_mechanical_ship_bireme.xml:46
+msgid "Light Warship"
+msgstr "Long-chogaidh aotrom"
+
+#: simulation/templates/template_unit_mechanical_ship_fire.xml:34
+msgid "Fire Ship"
+msgstr "Long teine"
+
+#: simulation/templates/template_unit_mechanical_ship_fire.xml:36
+msgid ""
+"Rapidly drain the health of enemy ships. Slowly loses health due to being on"
+" fire, so use the Fire Ship quickly."
+msgstr "Thoir crìonadh air slàinte longan an nàmhad. Caillidh i fhèin slàinte gu slaodach on a tha i 'na teine, mar sin cleachd an long teine gu luath."
+
+#: simulation/templates/template_unit_mechanical_ship_fishing.xml:32
+msgid "Fishing Boat"
+msgstr "Bàta-iasgaich"
+
+#: simulation/templates/template_unit_mechanical_ship_fishing.xml:33
+msgid ""
+"Fish the waters for Food. Garrison a support or infantry unit inside to "
+"boost fishing rate."
+msgstr "Iasgaich san uisge airson bìdh. Faodaidh tu aonad taice no coisridh a chur 'na ghearastan ann ach an iasgaich e nas luaithe."
+
+#: simulation/templates/template_unit_mechanical_ship_merchant.xml:27
+msgid "Merchantman"
+msgstr "Long marsanta"
+
+#: simulation/templates/template_unit_mechanical_ship_merchant.xml:28
+msgid ""
+"Trade between docks. Garrison a Trader aboard for additional profit (+20% "
+"for each garrisoned). Gather profitable aquatic treasures."
+msgstr "Dèan malairt eadar calachan. Cuir fear-malairt 'na ghearastan ann airson barrachd prothaide (+20% airson gach fear sa ghearastan). Tog ulaidhean-mara prothaideach."
+
+#: simulation/templates/template_unit_mechanical_ship_merchant.xml:29
+#: simulation/templates/template_unit_support_trader.xml:15
+#: simulation/templates/template_unit_support_trader.xml:16
+msgid "Trader"
+msgstr "Fear-malairt"
+
+#: simulation/templates/template_unit_mechanical_ship_quinquereme.xml:54
+msgid "Heavy Warship"
+msgstr "Long-chogaidh throm"
+
+#: simulation/templates/template_unit_mechanical_ship_quinquereme.xml:55
+msgid "Garrison with catapults to increase ranged fire power."
+msgstr "Cuir crainn-thabhaill 'nan gearastan ann airson buannachd ionnsaighe astair."
+
+#: simulation/templates/template_unit_mechanical_ship_trireme.xml:46
+msgid "Medium Warship"
+msgstr "Long-chogaidh mheadhanach"
+
+#: simulation/templates/template_unit_mechanical_ship_trireme.xml:47
+msgid "Warship"
+msgstr "Long-chogaidh"
+
+#: simulation/templates/template_unit_mechanical_ship_trireme.xml:47
+msgid "Medium"
+msgstr "Meadhanach"
+
+#: simulation/templates/template_unit_mechanical_siege_ballista.xml:37
+msgid "Bolt Shooter"
+msgstr "Losgaiche crainn"
+
+#: simulation/templates/template_unit_mechanical_siege_onager.xml:44
+msgid "Siege Catapult"
+msgstr "Crann-tabhaill sèiste"
+
+#: simulation/templates/template_unit_mechanical_siege_onager.xml:45
+msgid "Causes splash damage."
+msgstr "Nì e dochann steallaidh."
+
+#: simulation/templates/template_unit_mechanical_siege_ram.xml:46
+msgid "Battering Ram"
+msgstr "Reithe sèiste"
+
+#: simulation/templates/template_unit_mechanical_siege_tower.xml:52
+msgid "Siege Tower"
+msgstr "Tùr sèiste"
+
+#: simulation/templates/template_unit_mechanical_siege_tower.xml:54
+msgid ""
+"Garrison up to 20 infantry inside to increase arrow count from 0 to 10."
+msgstr "Cuir suas ri 20 aonadan coisridh 'nan gearastan ann ach am meudaich thu àireamh nan saighdean o 0 gu 10."
+
+#: simulation/templates/template_unit_support.xml:14
+#: simulation/templates/template_unit_support.xml:12
+msgid "Support"
+msgstr "Taic"
+
+#: simulation/templates/template_unit_support_female_citizen.xml:12
+msgid "Inspiration Aura"
+msgstr "Aura brosnachail"
+
+#: simulation/templates/template_unit_support_female_citizen.xml:13
+msgid "Nearby males work 10% faster"
+msgstr "Obraichidh na fireannaich am fagas nas luaithe le 10%"
+
+#: simulation/templates/template_unit_support_female_citizen.xml:55
+msgid "Female Citizen"
+msgstr "Saoranach boireann"
+
+#: simulation/templates/template_unit_support_healer.xml:20
+#: simulation/templates/units/maur_hero_chanakya.xml:29
+msgid "Healer"
+msgstr "Lighiche"
+
+#: simulation/templates/template_unit_support_healer.xml:21
+msgid "Heal units."
+msgstr "Slànaich aonadan."
+
+#: simulation/templates/template_unit_support_slave.xml:39
+#: simulation/templates/template_unit_support_slave.xml:40
+msgid "Slave"
+msgstr "Tràill"
+
+#: simulation/templates/template_unit_support_slave.xml:39
+msgid "Worker"
+msgstr "Obraiche"
+
+#: simulation/templates/template_unit_support_slave.xml:42
+msgid "Gatherer with a finite life span. Bonused at mining and lumbering."
+msgstr "Cruinnich e stòrasan ach cha mhair e fada. Buannachdan le tochladh is buain fiodha."
+
+#: simulation/templates/template_unit_support_trader.xml:18
+msgid "Trade resources between your own markets and those of your allies."
+msgstr "Malairt stòras eadar na margaidean agad fhèin agus an fheadhainn aig do chaidreabhaich."
+
+#: simulation/templates/units/athen_cavalry_javelinist_a.xml:4
+#: simulation/templates/units/athen_cavalry_swordsman_a.xml:4
+#: simulation/templates/units/athen_infantry_javelinist_a.xml:4
+#: simulation/templates/units/athen_infantry_marine_archer_a.xml:4
+#: simulation/templates/units/athen_infantry_slinger_a.xml:4
+#: simulation/templates/units/athen_infantry_spearman_a.xml:4
+#: simulation/templates/units/athen_support_healer_a.xml:4
+#: simulation/templates/units/brit_cavalry_javelinist_a.xml:4
+#: simulation/templates/units/brit_cavalry_swordsman_a.xml:4
+#: simulation/templates/units/brit_infantry_javelinist_a.xml:4
+#: simulation/templates/units/brit_infantry_slinger_a.xml:4
+#: simulation/templates/units/brit_infantry_spearman_a.xml:4
+#: simulation/templates/units/brit_support_healer_a.xml:4
+#: simulation/templates/units/brit_war_dog_a.xml:4
+#: simulation/templates/units/cart_cavalry_javelinist_a.xml:4
+#: simulation/templates/units/cart_cavalry_spearman_ital_a.xml:4
+#: simulation/templates/units/cart_cavalry_swordsman_gaul_a.xml:4
+#: simulation/templates/units/cart_cavalry_swordsman_iber_a.xml:4
+#: simulation/templates/units/cart_infantry_archer_a.xml:4
+#: simulation/templates/units/cart_infantry_javelinist_iber_a.xml:4
+#: simulation/templates/units/cart_infantry_slinger_iber_a.xml:4
+#: simulation/templates/units/cart_infantry_spearman_a.xml:4
+#: simulation/templates/units/cart_infantry_swordsman_gaul_a.xml:4
+#: simulation/templates/units/cart_infantry_swordsman_ital_a.xml:4
+#: simulation/templates/units/cart_support_healer_a.xml:4
+#: simulation/templates/units/gaul_cavalry_javelinist_a.xml:4
+#: simulation/templates/units/gaul_cavalry_swordsman_a.xml:4
+#: simulation/templates/units/gaul_infantry_javelinist_a.xml:4
+#: simulation/templates/units/gaul_infantry_slinger_a.xml:4
+#: simulation/templates/units/gaul_infantry_spearman_a.xml:4
+#: simulation/templates/units/gaul_support_healer_a.xml:4
+#: simulation/templates/units/iber_cavalry_javelinist_a.xml:4
+#: simulation/templates/units/iber_cavalry_spearman_a.xml:4
+#: simulation/templates/units/iber_infantry_javelinist_a.xml:4
+#: simulation/templates/units/iber_infantry_slinger_a.xml:4
+#: simulation/templates/units/iber_infantry_spearman_a.xml:4
+#: simulation/templates/units/iber_infantry_swordsman_a.xml:4
+#: simulation/templates/units/iber_support_healer_a.xml:4
+#: simulation/templates/units/mace_cavalry_javelinist_a.xml:4
+#: simulation/templates/units/mace_cavalry_spearman_a.xml:4
+#: simulation/templates/units/mace_infantry_archer_a.xml:4
+#: simulation/templates/units/mace_infantry_javelinist_a.xml:4
+#: simulation/templates/units/mace_infantry_pikeman_a.xml:4
+#: simulation/templates/units/mace_infantry_slinger_a.xml:4
+#: simulation/templates/units/mace_support_healer_a.xml:4
+#: simulation/templates/units/maur_cavalry_javelinist_a.xml:4
+#: simulation/templates/units/maur_cavalry_swordsman_a.xml:4
+#: simulation/templates/units/maur_elephant_archer_a.xml:4
+#: simulation/templates/units/maur_infantry_archer_a.xml:4
+#: simulation/templates/units/maur_infantry_spearman_a.xml:4
+#: simulation/templates/units/maur_infantry_swordsman_a.xml:4
+#: simulation/templates/units/maur_support_healer_a.xml:4
+#: simulation/templates/units/pers_cavalry_archer_a.xml:4
+#: simulation/templates/units/pers_cavalry_javelinist_a.xml:4
+#: simulation/templates/units/pers_cavalry_javelinist_a_trireme.xml:18
+#: simulation/templates/units/pers_cavalry_spearman_a.xml:4
+#: simulation/templates/units/pers_cavalry_swordsman_a.xml:4
+#: simulation/templates/units/pers_cavalry_swordsman_a_trireme.xml:20
+#: simulation/templates/units/pers_infantry_archer_a.xml:4
+#: simulation/templates/units/pers_infantry_javelinist_a.xml:4
+#: simulation/templates/units/pers_infantry_spearman_a.xml:4
+#: simulation/templates/units/pers_support_healer_a.xml:4
+#: simulation/templates/units/ptol_cavalry_archer_a.xml:4
+#: simulation/templates/units/ptol_cavalry_javelinist_merc_a.xml:4
+#: simulation/templates/units/ptol_cavalry_spearman_merc_a.xml:4
+#: simulation/templates/units/ptol_infantry_archer_a.xml:4
+#: simulation/templates/units/ptol_infantry_javelinist_a.xml:4
+#: simulation/templates/units/ptol_infantry_pikeman_a.xml:4
+#: simulation/templates/units/ptol_infantry_slinger_a.xml:4
+#: simulation/templates/units/ptol_infantry_spearman_merc_a.xml:4
+#: simulation/templates/units/ptol_infantry_swordsman_merc_a.xml:4
+#: simulation/templates/units/ptol_support_healer_a.xml:4
+#: simulation/templates/units/rome_cavalry_javelinist_a.xml:4
+#: simulation/templates/units/rome_cavalry_spearman_a.xml:4
+#: simulation/templates/units/rome_infantry_javelinist_a.xml:4
+#: simulation/templates/units/rome_infantry_spearman_a.xml:4
+#: simulation/templates/units/rome_infantry_swordsman_a.xml:4
+#: simulation/templates/units/rome_support_healer_a.xml:4
+#: simulation/templates/units/sele_cavalry_archer_a.xml:4
+#: simulation/templates/units/sele_cavalry_javelinist_a.xml:4
+#: simulation/templates/units/sele_cavalry_spearman_merc_a.xml:4
+#: simulation/templates/units/sele_infantry_archer_merc_a.xml:4
+#: simulation/templates/units/sele_infantry_javelinist_a.xml:4
+#: simulation/templates/units/sele_infantry_pikeman_a.xml:4
+#: simulation/templates/units/sele_infantry_spearman_a.xml:4
+#: simulation/templates/units/sele_infantry_swordsman_merc_a.xml:4
+#: simulation/templates/units/sele_support_healer_a.xml:4
+#: simulation/templates/units/spart_cavalry_javelinist_a.xml:4
+#: simulation/templates/units/spart_cavalry_spearman_a.xml:4
+#: simulation/templates/units/spart_infantry_javelinist_a.xml:4
+#: simulation/templates/units/spart_infantry_spearman_a.xml:4
+#: simulation/templates/units/spart_support_healer_a.xml:4
+msgctxt "Rank"
+msgid "Advanced"
+msgstr "Adhartach"
+
+#: simulation/templates/units/athen_cavalry_javelinist_b.xml:7
+msgid "Pródromos"
+msgstr "Pródromos"
+
+#: simulation/templates/units/athen_cavalry_javelinist_e.xml:4
+#: simulation/templates/units/athen_cavalry_swordsman_e.xml:4
+#: simulation/templates/units/athen_infantry_javelinist_e.xml:4
+#: simulation/templates/units/athen_infantry_marine_archer_e.xml:4
+#: simulation/templates/units/athen_infantry_slinger_e.xml:4
+#: simulation/templates/units/athen_infantry_spearman_e.xml:4
+#: simulation/templates/units/athen_support_healer_e.xml:4
+#: simulation/templates/units/brit_cavalry_javelinist_e.xml:4
+#: simulation/templates/units/brit_cavalry_swordsman_e.xml:4
+#: simulation/templates/units/brit_infantry_javelinist_e.xml:4
+#: simulation/templates/units/brit_infantry_slinger_e.xml:4
+#: simulation/templates/units/brit_infantry_spearman_e.xml:4
+#: simulation/templates/units/brit_support_healer_e.xml:4
+#: simulation/templates/units/brit_war_dog_e.xml:4
+#: simulation/templates/units/cart_cavalry_javelinist_e.xml:4
+#: simulation/templates/units/cart_cavalry_spearman_ital_e.xml:4
+#: simulation/templates/units/cart_cavalry_swordsman_gaul_e.xml:4
+#: simulation/templates/units/cart_cavalry_swordsman_iber_e.xml:4
+#: simulation/templates/units/cart_infantry_archer_e.xml:4
+#: simulation/templates/units/cart_infantry_javelinist_iber_e.xml:4
+#: simulation/templates/units/cart_infantry_slinger_iber_e.xml:4
+#: simulation/templates/units/cart_infantry_spearman_e.xml:4
+#: simulation/templates/units/cart_infantry_swordsman_gaul_e.xml:4
+#: simulation/templates/units/cart_infantry_swordsman_ital_e.xml:4
+#: simulation/templates/units/cart_support_healer_e.xml:4
+#: simulation/templates/units/gaul_cavalry_javelinist_e.xml:4
+#: simulation/templates/units/gaul_cavalry_swordsman_e.xml:4
+#: simulation/templates/units/gaul_infantry_javelinist_e.xml:4
+#: simulation/templates/units/gaul_infantry_slinger_e.xml:4
+#: simulation/templates/units/gaul_infantry_spearman_e.xml:4
+#: simulation/templates/units/gaul_support_healer_e.xml:4
+#: simulation/templates/units/iber_cavalry_javelinist_e.xml:4
+#: simulation/templates/units/iber_cavalry_spearman_e.xml:4
+#: simulation/templates/units/iber_infantry_javelinist_e.xml:4
+#: simulation/templates/units/iber_infantry_slinger_e.xml:4
+#: simulation/templates/units/iber_infantry_spearman_e.xml:4
+#: simulation/templates/units/iber_infantry_swordsman_e.xml:4
+#: simulation/templates/units/iber_support_healer_e.xml:4
+#: simulation/templates/units/mace_cavalry_javelinist_e.xml:4
+#: simulation/templates/units/mace_cavalry_spearman_e.xml:4
+#: simulation/templates/units/mace_infantry_archer_e.xml:4
+#: simulation/templates/units/mace_infantry_javelinist_e.xml:4
+#: simulation/templates/units/mace_infantry_pikeman_e.xml:4
+#: simulation/templates/units/mace_infantry_slinger_e.xml:4
+#: simulation/templates/units/mace_support_healer_e.xml:4
+#: simulation/templates/units/maur_cavalry_javelinist_e.xml:4
+#: simulation/templates/units/maur_cavalry_swordsman_e.xml:4
+#: simulation/templates/units/maur_elephant_archer_e.xml:4
+#: simulation/templates/units/maur_infantry_archer_e.xml:4
+#: simulation/templates/units/maur_infantry_spearman_e.xml:4
+#: simulation/templates/units/maur_infantry_swordsman_e.xml:4
+#: simulation/templates/units/maur_support_healer_e.xml:4
+#: simulation/templates/units/merc_thrace_swordsman.xml:23
+#: simulation/templates/units/pers_cavalry_archer_e.xml:4
+#: simulation/templates/units/pers_cavalry_javelinist_e.xml:4
+#: simulation/templates/units/pers_cavalry_javelinist_e_trireme.xml:18
+#: simulation/templates/units/pers_cavalry_spearman_e.xml:4
+#: simulation/templates/units/pers_cavalry_swordsman_e.xml:4
+#: simulation/templates/units/pers_cavalry_swordsman_e_trireme.xml:20
+#: simulation/templates/units/pers_infantry_archer_e.xml:4
+#: simulation/templates/units/pers_infantry_javelinist_e.xml:4
+#: simulation/templates/units/pers_infantry_spearman_e.xml:4
+#: simulation/templates/units/pers_support_healer_e.xml:4
+#: simulation/templates/units/ptol_cavalry_archer_e.xml:4
+#: simulation/templates/units/ptol_cavalry_javelinist_merc_e.xml:4
+#: simulation/templates/units/ptol_cavalry_spearman_merc_e.xml:4
+#: simulation/templates/units/ptol_infantry_archer_e.xml:4
+#: simulation/templates/units/ptol_infantry_javelinist_e.xml:4
+#: simulation/templates/units/ptol_infantry_pikeman_e.xml:4
+#: simulation/templates/units/ptol_infantry_slinger_e.xml:4
+#: simulation/templates/units/ptol_infantry_spearman_merc_e.xml:4
+#: simulation/templates/units/ptol_infantry_swordsman_merc_e.xml:4
+#: simulation/templates/units/ptol_support_healer_e.xml:4
+#: simulation/templates/units/rome_cavalry_javelinist_e.xml:4
+#: simulation/templates/units/rome_cavalry_spearman_e.xml:4
+#: simulation/templates/units/rome_infantry_javelinist_e.xml:4
+#: simulation/templates/units/rome_infantry_spearman_e.xml:4
+#: simulation/templates/units/rome_infantry_swordsman_e.xml:4
+#: simulation/templates/units/rome_support_healer_e.xml:4
+#: simulation/templates/units/sele_cavalry_archer_e.xml:4
+#: simulation/templates/units/sele_cavalry_javelinist_e.xml:4
+#: simulation/templates/units/sele_cavalry_spearman_merc_e.xml:4
+#: simulation/templates/units/sele_infantry_archer_merc_e.xml:4
+#: simulation/templates/units/sele_infantry_javelinist_e.xml:4
+#: simulation/templates/units/sele_infantry_pikeman_e.xml:4
+#: simulation/templates/units/sele_infantry_spearman_e.xml:4
+#: simulation/templates/units/sele_infantry_swordsman_merc_e.xml:4
+#: simulation/templates/units/sele_support_healer_e.xml:4
+#: simulation/templates/units/spart_cavalry_javelinist_e.xml:4
+#: simulation/templates/units/spart_cavalry_spearman_e.xml:4
+#: simulation/templates/units/spart_champion_infantry_sword.xml:18
+#: simulation/templates/units/spart_infantry_javelinist_e.xml:4
+#: simulation/templates/units/spart_infantry_spearman_e.xml:4
+#: simulation/templates/units/spart_support_healer_e.xml:4
+msgctxt "Rank"
+msgid "Elite"
+msgstr "Seann-ghaisgeach"
+
+#: simulation/templates/units/athen_cavalry_swordsman_b.xml:7
+msgid "Greek Cavalry"
+msgstr "Eachraidh Greugach"
+
+#: simulation/templates/units/athen_cavalry_swordsman_b.xml:8
+msgid "Hippeús"
+msgstr "Hippeús"
+
+#: simulation/templates/units/athen_champion_infantry.xml:6
+msgid "City Guard"
+msgstr "Freiceadan a' bhaile"
+
+#: simulation/templates/units/athen_champion_infantry.xml:7
+msgid "Epílektos"
+msgstr "Epílektos"
+
+#: simulation/templates/units/athen_champion_marine.xml:6
+msgid "Athenian Marine"
+msgstr "Saighdear-mara na h‑Àithne"
+
+#: simulation/templates/units/athen_champion_marine.xml:7
+msgid "Epibátēs Athēnaîos"
+msgstr "Epibátēs Athēnaîos"
+
+#: simulation/templates/units/athen_champion_ranged.xml:6
+msgid "Scythian Archer"
+msgstr "Boghadair Sgitiach"
+
+#: simulation/templates/units/athen_champion_ranged.xml:7
+msgid "Toxótēs Skythikós"
+msgstr "Toxótēs Skythikós"
+
+#: simulation/templates/units/athen_hero_iphicrates.xml:13
+msgid "Formation Reforms"
+msgstr "Ath-leasachaidhean air na cumaidhean"
+
+#: simulation/templates/units/athen_hero_iphicrates.xml:14
+msgid "All units in his formation +15% speed and +1 armor."
+msgstr "Gheibh gach aonad sa chumadh aige +15% de dh'astar 's +1 de dh'armachd."
+
+#: simulation/templates/units/athen_hero_iphicrates.xml:22
+msgid "Peltast Reforms"
+msgstr "Ath-leasachaidhean air a' phealtast"
+
+#: simulation/templates/units/athen_hero_iphicrates.xml:23
+msgid "All Peltasts +15% speed."
+msgstr "Gheibh gach pealtast +15% de luaths."
+
+#: simulation/templates/units/athen_hero_iphicrates.xml:29
+msgid "Iphicrates"
+msgstr "Iphicrates"
+
+#: simulation/templates/units/athen_hero_iphicrates.xml:30
+msgid "Iphikratēs"
+msgstr "Iphikratēs"
+
+#: simulation/templates/units/athen_hero_pericles.xml:11
+msgid "Builder Aura"
+msgstr "Aura togail"
+
+#: simulation/templates/units/athen_hero_pericles.xml:12
+msgid "Buildings construct 15% faster within his vision."
+msgstr "Thèid gach togalach am broinn astar lèirsinne a thogail 15% nas luaithe."
+
+#: simulation/templates/units/athen_hero_pericles.xml:21
+msgid "Acropolis Aura"
+msgstr "Aura acra-bhailteach"
+
+#: simulation/templates/units/athen_hero_pericles.xml:22
+msgid "Temples are 50 stone cheaper during his lifetime."
+msgstr "Bidh teampaill 50 clach nas saoire fhad 's a bhios e beò"
+
+#: simulation/templates/units/athen_hero_pericles.xml:28
+msgid "Pericles"
+msgstr "Pericles"
+
+#: simulation/templates/units/athen_hero_pericles.xml:29
+msgid "Periklēs"
+msgstr "Periklēs"
+
+#: simulation/templates/units/athen_hero_themistocles.xml:11
+msgid "Naval Commander Aura"
+msgstr "Aura ceannaird-mhara"
+
+#: simulation/templates/units/athen_hero_themistocles.xml:12
+msgid "When garrisoned in a ship, his ship is +50% faster."
+msgstr "Nuair a bhios e 'na ghearastan air long, bidh an long +50% nas luaithe."
+
+#: simulation/templates/units/athen_hero_themistocles.xml:20
+msgid "Naval Architect Aura"
+msgstr "Aura ailtire-mhara"
+
+#: simulation/templates/units/athen_hero_themistocles.xml:21
+msgid "Ships are built +20% faster during his lifespan."
+msgstr "Thèid longan a thogail +20% nas luaithe fhad 's a bhios e beò."
+
+#: simulation/templates/units/athen_hero_themistocles.xml:27
+msgid "Themistocles"
+msgstr "Themistocles"
+
+#: simulation/templates/units/athen_hero_themistocles.xml:28
+msgid "Themistoklês"
+msgstr "Themistoklês"
+
+#: simulation/templates/units/athen_infantry_javelinist_b.xml:22
+msgid "Thracian Peltast"
+msgstr "Pealtast Tràcach"
+
+#: simulation/templates/units/athen_infantry_javelinist_b.xml:23
+msgid "Peltastḗs Thrâx"
+msgstr "Peltastḗs Thrâx"
+
+#: simulation/templates/units/athen_infantry_marine_archer_b.xml:22
+#: simulation/templates/units/mace_infantry_archer_b.xml:20
+msgid "Cretan Mercenary Archer"
+msgstr "Boghadair-duaise Criteach"
+
+#: simulation/templates/units/athen_infantry_marine_archer_b.xml:23
+#: simulation/templates/units/mace_infantry_archer_b.xml:21
+msgid "Toxótēs Krētikós"
+msgstr "Toxótēs Krētikós"
+
+#: simulation/templates/units/athen_infantry_slinger_b.xml:15
+msgid "Athenian Slinger Militia"
+msgstr "Longadair-mailisidhe na h‑Àithne"
+
+#: simulation/templates/units/athen_infantry_slinger_b.xml:16
+msgid "Psilòs Athēnaîos"
+msgstr "Psilòs Athēnaîos"
+
+#: simulation/templates/units/athen_infantry_spearman_b.xml:23
+msgid "Athenian Hoplite"
+msgstr "Hoiplid na h‑Àithne"
+
+#: simulation/templates/units/athen_infantry_spearman_b.xml:24
+msgid "Hoplítēs Athēnaîos"
+msgstr "Hoplítēs Athēnaîos"
+
+#: simulation/templates/units/athen_ship_bireme.xml:5
+msgid "Penteconter"
+msgstr "Lethcheud-ràmhach"
+
+#: simulation/templates/units/athen_ship_bireme.xml:6
+#: simulation/templates/units/spart_ship_bireme.xml:5
+msgid "Pentēkóntoros"
+msgstr "Pentēkóntoros"
+
+#: simulation/templates/units/athen_ship_fishing.xml:8
+#: simulation/templates/units/mace_ship_fishing.xml:5
+#: simulation/templates/units/ptol_ship_fishing.xml:5
+#: simulation/templates/units/sele_ship_fishing.xml:5
+#: simulation/templates/units/spart_ship_fishing.xml:5
+msgid "Ploîon Halieutikón"
+msgstr "Ploîon Halieutikón"
+
+#: simulation/templates/units/athen_ship_merchant.xml:9
+#: simulation/templates/units/mace_ship_merchant.xml:9
+#: simulation/templates/units/ptol_ship_merchant.xml:9
+#: simulation/templates/units/sele_ship_merchant.xml:9
+#: simulation/templates/units/spart_ship_merchant.xml:9
+msgid "Ploîon Phortēgikón"
+msgstr "Ploîon Phortēgikón"
+
+#: simulation/templates/units/athen_ship_trireme.xml:5
+msgid "Triḗrēs Athēnaía"
+msgstr "Triḗrēs Athēnaía"
+
+#: simulation/templates/units/athen_ship_trireme.xml:6
+msgid "Athenian Trireme"
+msgstr "Trì-ràmhach na h‑Àithne"
+
+#: simulation/templates/units/athen_support_female_citizen.xml:5
+msgid "Gýnē Athēnaía"
+msgstr "Gýnē Athēnaía"
+
+#: simulation/templates/units/athen_support_female_citizen.xml:6
+msgid "Athenian Woman"
+msgstr "Boireannach na h-Àithne"
+
+#: simulation/templates/units/athen_support_healer_b.xml:7
+#: simulation/templates/units/spart_support_healer_b.xml:7
+msgid "Iatrós"
+msgstr "Iatrós"
+
+#: simulation/templates/units/athen_support_slave.xml:5
+msgid "Doûlos"
+msgstr "Doûlos"
+
+#: simulation/templates/units/athen_support_trader.xml:10
+#: simulation/templates/units/mace_support_trader.xml:10
+#: simulation/templates/units/ptol_support_trader.xml:9
+#: simulation/templates/units/sele_support_trader.xml:10
+msgid "Émporos"
+msgstr "Émporos"
+
+#: simulation/templates/units/brit_cavalry_javelinist_b.xml:6
+#: simulation/templates/units/gaul_cavalry_javelinist_b.xml:6
+msgid "Gaisaredos"
+msgstr "Gaisaredos"
+
+#: simulation/templates/units/brit_cavalry_javelinist_b.xml:7
+msgid "Raiding Cavalry"
+msgstr "Spùinneadair eachraidh"
+
+#: simulation/templates/units/brit_cavalry_swordsman_b.xml:6
+#: simulation/templates/units/gaul_cavalry_swordsman_b.xml:6
+msgid "Epos"
+msgstr "Epos"
+
+#: simulation/templates/units/brit_cavalry_swordsman_b.xml:7
+msgid "Celtic Cavalry"
+msgstr "Eachraidh Ceilteach"
+
+#: simulation/templates/units/brit_champion_cavalry.xml:10
+msgid "Celtic Chariot"
+msgstr "Feun-cogaidh Ceilteach"
+
+#: simulation/templates/units/brit_champion_cavalry.xml:11
+msgid "Carbanto"
+msgstr "Carbanto"
+
+#: simulation/templates/units/brit_champion_infantry.xml:5
+msgid "Brythonic Longswordsman"
+msgstr "Mòr-chlaidheamhair Breatannach"
+
+#: simulation/templates/units/brit_champion_infantry.xml:6
+msgid "Delamokludda"
+msgstr "Delamokludda"
+
+#: simulation/templates/units/brit_hero_boudicca.xml:12
+#: simulation/templates/units/brit_hero_boudicca_sword.xml:12
+msgid "Champion Army"
+msgstr "Feachd nan laoch"
+
+#: simulation/templates/units/brit_hero_boudicca.xml:13
+#: simulation/templates/units/brit_hero_boudicca_sword.xml:13
+msgid "+5 Attack and +25% Speed for Champion Units."
+msgstr "+5 de dh'ionnsaigh is luaths leasaichte le +25% airson laoich."
+
+#: simulation/templates/units/brit_hero_boudicca.xml:24
+#: simulation/templates/units/brit_hero_boudicca_sword.xml:19
+msgid "Boudicca"
+msgstr "Boudicca"
+
+#: simulation/templates/units/brit_hero_boudicca_sword.xml:20
+msgid "Heroine"
+msgstr "Bana-churaidh"
+
+#: simulation/templates/units/brit_hero_caratacos.xml:10
+#: simulation/templates/units/brit_hero_cunobelin.xml:11
+#: simulation/templates/units/gaul_hero_brennus.xml:10
+#: simulation/templates/units/gaul_hero_britomartus.xml:10
+#: simulation/templates/units/gaul_hero_vercingetorix.xml:12
+#: simulation/templates/units/mace_hero_demetrius.xml:12
+#: simulation/templates/units/mace_hero_philip.xml:11
+msgid "Hero Aura"
+msgstr "Aura gaisgich"
+
+#: simulation/templates/units/brit_hero_caratacos.xml:11
+#: simulation/templates/units/cart_hero_hamilcar.xml:11
+msgid "All Units +15% speed."
+msgstr "Gheibh gach aonad +15% de luaths."
+
+#: simulation/templates/units/brit_hero_caratacos.xml:16
+msgid "Caratacos"
+msgstr "Caratacos"
+
+#: simulation/templates/units/brit_hero_cunobelin.xml:12
+msgid "Let all units heal at 1 HP per second"
+msgstr "Gheibh gach aonad slànachadh le 1 PB gach diog"
+
+#: simulation/templates/units/brit_hero_cunobelin.xml:18
+msgid "Cunobelin"
+msgstr "Cynfelyn"
+
+#: simulation/templates/units/brit_infantry_javelinist_b.xml:13
+#: simulation/templates/units/gaul_infantry_javelinist_b.xml:15
+msgid "Baguada"
+msgstr "Baguada"
+
+#: simulation/templates/units/brit_infantry_slinger_b.xml:13
+#: simulation/templates/units/gaul_infantry_slinger_b.xml:15
+msgid "Celtic Slinger"
+msgstr "Longadair Ceilteach"
+
+#: simulation/templates/units/brit_infantry_slinger_b.xml:14
+#: simulation/templates/units/gaul_infantry_slinger_b.xml:16
+msgid "Iaosae"
+msgstr "Iaosae"
+
+#: simulation/templates/units/brit_infantry_spearman_b.xml:13
+#: simulation/templates/units/gaul_infantry_spearman_b.xml:15
+msgid "Gaeroa"
+msgstr "Gaeroa"
+
+#: simulation/templates/units/brit_infantry_spearman_b.xml:14
+msgid "Celtic Spearman"
+msgstr "Sleaghair Ceilteach"
+
+#: simulation/templates/units/brit_mechanical_siege_ram.xml:12
+#: simulation/templates/units/gaul_mechanical_siege_ram.xml:12
+msgid "Reithe"
+msgstr "Reithe"
+
+#: simulation/templates/units/brit_ship_fishing.xml:5
+#: simulation/templates/units/gaul_ship_fishing.xml:5
+msgid "/Fishing Boat/"
+msgstr "/Bàta-iasgaich/"
+
+#: simulation/templates/units/brit_ship_merchant.xml:9
+#: simulation/templates/units/gaul_ship_merchant.xml:9
+msgid "Curach"
+msgstr "Curach"
+
+#: simulation/templates/units/brit_ship_trireme.xml:18
+#: simulation/templates/units/gaul_ship_trireme.xml:18
+msgid "Venetic Ponti"
+msgstr "Venetic Ponti"
+
+#: simulation/templates/units/brit_ship_trireme.xml:19
+#: simulation/templates/units/gaul_ship_trireme.xml:19
+#: simulation/templates/units/iber_ship_trireme.xml:19
+msgid "Transport many soldiers across the sea."
+msgstr "Giùlain iomadh saighdear thar a' chuain."
+
+#: simulation/templates/units/brit_support_female_citizen.xml:18
+#: simulation/templates/units/gaul_support_female_citizen.xml:18
+msgid "Bodu"
+msgstr "Bodu"
+
+#: simulation/templates/units/brit_support_female_citizen.xml:19
+#: simulation/templates/units/gaul_support_female_citizen.xml:19
+msgid "Celtic Woman"
+msgstr "Boireannach Ceilteach"
+
+#: simulation/templates/units/brit_support_healer_b.xml:6
+#: simulation/templates/units/gaul_support_healer_b.xml:6
+msgid "Druides"
+msgstr "Draoidhean"
+
+#: simulation/templates/units/brit_support_trader.xml:9
+#: simulation/templates/units/gaul_support_trader.xml:9
+msgid "Cyfnewidiwr"
+msgstr "Cyfnewidiwr"
+
+#: simulation/templates/units/brit_war_dog_b.xml:6
+msgid "Coun"
+msgstr "Coun"
+
+#: simulation/templates/units/cart_cavalry_javelinist_b.xml:6
+msgid "Numidian Cavalry"
+msgstr "Eachdaidh Numadaidheach"
+
+#: simulation/templates/units/cart_cavalry_javelinist_b.xml:7
+msgid "Ḥayyāl Raḫūv Masili"
+msgstr "Ḥayyāl Raḫūv Masili"
+
+#: simulation/templates/units/cart_cavalry_spearman_ital_b.xml:13
+msgid "Italic Cavalry"
+msgstr "Eachraidh Eadailteach"
+
+#: simulation/templates/units/cart_cavalry_spearman_ital_b.xml:14
+msgid "Ḥayyāl Romaḥ Raḫūv"
+msgstr "Ḥayyāl Romaḥ Raḫūv"
+
+#: simulation/templates/units/cart_cavalry_swordsman_gaul_b.xml:12
+msgid "Gallic Mercenary Cavalry"
+msgstr "Eachraidh-duaise Gallach"
+
+#: simulation/templates/units/cart_cavalry_swordsman_gaul_b.xml:13
+#: simulation/templates/units/cart_cavalry_swordsman_iber_b.xml:13
+msgid "Ḥayyāl Ḥerev Raḫūv"
+msgstr "Ḥayyāl Ḥerev Raḫūv"
+
+#: simulation/templates/units/cart_cavalry_swordsman_iber_b.xml:12
+msgid "Iberian Heavy Cavalry"
+msgstr "Eachraidh trom Ibèireach"
+
+#: simulation/templates/units/cart_champion_cavalry.xml:5
+#: simulation/templates/units/cart_sacred_band_cavalry.xml:5
+msgid "Sacred Band Cavalry"
+msgstr "Eachraidh còmhlain naoimh"
+
+#: simulation/templates/units/cart_champion_cavalry.xml:6
+#: simulation/templates/units/cart_sacred_band_cavalry.xml:6
+msgid "Sacred Band of Astarte"
+msgstr "Còmhlan naomh Astarta"
+
+#: simulation/templates/units/cart_champion_elephant.xml:5
+msgid "North African War Elephant"
+msgstr "Ailbhean-cogaidh Afraga a Tuath"
+
+#: simulation/templates/units/cart_champion_elephant.xml:6
+msgid "Pil Malḥamit"
+msgstr "Pil Malḥamit"
+
+#: simulation/templates/units/cart_champion_infantry.xml:5
+msgid "Sacred Band Infantry"
+msgstr "Coisridh còmhlain naoimh"
+
+#: simulation/templates/units/cart_champion_infantry.xml:6
+msgid "Sacred Band of Ba'al"
+msgstr "Còmhlan naomh Bha'al"
+
+#: simulation/templates/units/cart_champion_pikeman.xml:5
+msgid "Sacred Band Pikeman"
+msgstr "Pìcear còmhlain naoimh"
+
+#: simulation/templates/units/cart_champion_pikeman.xml:6
+msgid "Mašal"
+msgstr "Mašal"
+
+#: simulation/templates/units/cart_hero_hamilcar.xml:10
+msgid "Lightning Aura"
+msgstr "Aura dealanaich"
+
+#: simulation/templates/units/cart_hero_hamilcar.xml:16
+msgid "Ḥimelqart Baraq"
+msgstr "Ḥimelqart Baraq"
+
+#: simulation/templates/units/cart_hero_hamilcar.xml:17
+msgid "Hamilcar Barca"
+msgstr "Hamilcar Barca"
+
+#: simulation/templates/units/cart_hero_hannibal.xml:13
+msgid "Tactician Aura"
+msgstr "Aura innleachd"
+
+#: simulation/templates/units/cart_hero_hannibal.xml:14
+msgid "All allied units +2 attack within vision range of him."
+msgstr "Bheir gach aonad caidreabhach ionnsaigh le +2 am broinn astar lèirsinne"
+
+#: simulation/templates/units/cart_hero_hannibal.xml:20
+msgid "Hannibal Barca"
+msgstr "Hannibal Barca"
+
+#: simulation/templates/units/cart_hero_hannibal.xml:21
+msgid "Ḥannibaʿal Baraq"
+msgstr "Ḥannibaʿal Baraq"
+
+#: simulation/templates/units/cart_hero_hannibal.xml:24
+msgid ""
+"\"Strategist\" Ability (TBD): The player can see changes within the fog of war while Hannibal lives. \n"
+"Can run amok."
+msgstr "Comas “ro-innleachd” (Chan eil fhios): Chì an cluicheadair na dh’atharraicheas taobh a-staigh ceò a' chogaidh fad ’s a tha Hannibal beò.\nDh'fhaoidte gun gabh e caothach."
+
+#: simulation/templates/units/cart_hero_maharbal.xml:11
+msgid "Commander Aura"
+msgstr "Aura ceannaird"
+
+#: simulation/templates/units/cart_hero_maharbal.xml:12
+msgid ""
+" +5 Cavalry charge attack within vision range of him (currently useless)."
+msgstr " Bheir gach aonad eachraidh ionnsaigh cruinn-leum le +5 am broinn astar lèirsinne (gun fheum fhathast)."
+
+#: simulation/templates/units/cart_hero_maharbal.xml:17
+msgid "Maharbal"
+msgstr "Maharbal"
+
+#: simulation/templates/units/cart_hero_maharbal.xml:18
+msgid "Maharbaʿal"
+msgstr "Maharbaʿal"
+
+#: simulation/templates/units/cart_infantry_archer_b.xml:15
+msgid "Mauritanian Archer"
+msgstr "Boghadair Moratàineach"
+
+#: simulation/templates/units/cart_infantry_archer_b.xml:16
+msgid "Qešet"
+msgstr "Qešet"
+
+#: simulation/templates/units/cart_infantry_javelinist_iber_b.xml:22
+msgid "Iberian Mercenary Skirmisher"
+msgstr "Streupaire-duaise Ibèireach"
+
+#: simulation/templates/units/cart_infantry_javelinist_iber_b.xml:23
+msgid "Sǝḫīr Kidōn"
+msgstr "Sǝḫīr Kidōn"
+
+#: simulation/templates/units/cart_infantry_slinger_iber_b.xml:22
+msgid "Balearic Slinger"
+msgstr "Longadair Bailearach"
+
+#: simulation/templates/units/cart_infantry_slinger_iber_b.xml:23
+msgid "Qallāʿ Ibušimi"
+msgstr "Qallāʿ Ibušimi"
+
+#: simulation/templates/units/cart_infantry_spearman_b.xml:15
+msgid "Libyan Spearman"
+msgstr "Sleaghair Libitheach"
+
+#: simulation/templates/units/cart_infantry_spearman_b.xml:16
+msgid "Sǝḫīr Ḥanīt"
+msgstr "Sǝḫīr Ḥanīt"
+
+#: simulation/templates/units/cart_infantry_swordsman_gaul_b.xml:21
+#: simulation/templates/units/ptol_infantry_swordsman_merc_b.xml:20
+msgid "Gallic Mercenary Swordsman"
+msgstr "Claidheamhair-duaise Gallach"
+
+#: simulation/templates/units/cart_infantry_swordsman_gaul_b.xml:22
+msgid "Seḫīr Ḥerev"
+msgstr "Seḫīr Ḥerev"
+
+#: simulation/templates/units/cart_infantry_swordsman_ital_b.xml:21
+#: simulation/templates/units/samnite_swordsman.xml:5
+msgid "Samnite Swordsman"
+msgstr "Claidheamhair Samnaidheach"
+
+#: simulation/templates/units/cart_infantry_swordsman_ital_b.xml:22
+msgid "Seḫīr Romaḥ"
+msgstr "Seḫīr Romaḥ"
+
+#: simulation/templates/units/cart_sacred_band_cavalry.xml:7
+msgid "Bonused vs. Ranged Units."
+msgstr "Buannachd ann aghaidh aonadan astair."
+
+#: simulation/templates/units/cart_ship_bireme.xml:9
+#: simulation/templates/units/ptol_ship_bireme.xml:5
+#: simulation/templates/units/sele_ship_bireme.xml:5
+msgid "Bireme"
+msgstr "Bireme"
+
+#: simulation/templates/units/cart_ship_bireme.xml:10
+msgid "Du-Mašōt"
+msgstr "Du-Mašōt"
+
+#: simulation/templates/units/cart_ship_fishing.xml:5
+msgid "Noon-Mašōt"
+msgstr "Noon-Mašōt"
+
+#: simulation/templates/units/cart_ship_merchant.xml:9
+msgid "Seḥer"
+msgstr "Seḥer"
+
+#: simulation/templates/units/cart_ship_merchant.xml:11
+msgid ""
+"Trade between docks. Garrison a Trader aboard for additional profit (+20% "
+"for each garrisoned). Gather profitable aquatic treasures. Carthaginians "
+"have +25% sea trading bonus."
+msgstr "Dèan malairt eadar calachan. Cuir fear-malairt 'na ghearastan ann airson barrachd prothaide (+20% airson gach fear sa ghearastan). Tog ulaidhean-mara prothaideach. Gheibh na Cartagaich +25% de bhuannachd air malairt-mara."
+
+#: simulation/templates/units/cart_ship_quinquereme.xml:5
+msgid "Quinquereme"
+msgstr "Quinquereme"
+
+#: simulation/templates/units/cart_ship_quinquereme.xml:6
+msgid "Ḥameš-Mašōt"
+msgstr "Ḥameš-Mašōt"
+
+#: simulation/templates/units/cart_ship_trireme.xml:5
+#: simulation/templates/units/mace_ship_trireme.xml:5
+#: simulation/templates/units/spart_ship_trireme.xml:5
+msgid "Trireme"
+msgstr "Trireme"
+
+#: simulation/templates/units/cart_ship_trireme.xml:6
+msgid "Tlat-Mašōt"
+msgstr "Tlat-Mašōt"
+
+#: simulation/templates/units/cart_support_female_citizen.xml:5
+msgid "Aštāh"
+msgstr "Aštāh"
+
+#: simulation/templates/units/cart_support_female_citizen.xml:6
+msgid "Carthaginian Woman"
+msgstr "Boireannach Cartagach"
+
+#: simulation/templates/units/cart_support_healer_b.xml:7
+msgid "Kehinit"
+msgstr "Kehinit"
+
+#: simulation/templates/units/cart_support_trader.xml:10
+msgid "Mekir"
+msgstr "Mekir"
+
+#: simulation/templates/units/gaul_champion_cavalry.xml:5
+msgid "Gallic Noble Cavalry"
+msgstr "Eachraidh uasal Gallach"
+
+#: simulation/templates/units/gaul_champion_cavalry.xml:6
+msgid "Gallic Brihent"
+msgstr "Brihent Gallach"
+
+#: simulation/templates/units/gaul_champion_fanatic.xml:15
+msgid "Naked Fanatic"
+msgstr "Fanatach lom"
+
+#: simulation/templates/units/gaul_champion_fanatic.xml:16
+msgid "Gaesata"
+msgstr "Gaesata"
+
+#: simulation/templates/units/gaul_champion_infantry.xml:5
+msgid "Heavy Swordsman"
+msgstr "Claidheamhair trom"
+
+#: simulation/templates/units/gaul_champion_infantry.xml:6
+msgid "Solduros"
+msgstr "Solduros"
+
+#: simulation/templates/units/gaul_hero_brennus.xml:11
+msgid "+10 Metal loot for every enemy unit killed."
+msgstr "+10 de chreachan meatailt airson gach aonad an nàmhad air a mharbhadh."
+
+#: simulation/templates/units/gaul_hero_brennus.xml:16
+msgid "Brennus"
+msgstr "Brennus"
+
+#: simulation/templates/units/gaul_hero_britomartus.xml:11
+msgid "Gathering rates increased with +15% during his lifetime."
+msgstr "Cruinneachadh leasaichte le +15% fhad 's a bhios e beò."
+
+#: simulation/templates/units/gaul_hero_britomartus.xml:16
+msgid "Britomartus"
+msgstr "Britomartus"
+
+#: simulation/templates/units/gaul_hero_vercingetorix.xml:13
+msgid "+2 attack for all units within his aura."
+msgstr "+2 de dh'ionnsaigh aig a h-uile aonad fon aura aige."
+
+#: simulation/templates/units/gaul_hero_vercingetorix.xml:19
+msgid "Vercingetorix"
+msgstr "Vercingetorix"
+
+#: simulation/templates/units/iber_cavalry_javelinist_b.xml:6
+msgid "Kantabriako Zaldun"
+msgstr "Kantabriako Zaldun"
+
+#: simulation/templates/units/iber_cavalry_spearman_b.xml:6
+msgid "Lantzari"
+msgstr "Lantzari"
+
+#: simulation/templates/units/iber_champion_cavalry.xml:17
+msgid "Leial Zalduneria"
+msgstr "Leial Zalduneria"
+
+#: simulation/templates/units/iber_champion_cavalry.xml:21
+msgid "Special: Flaming javelins. Good vs. Buildings."
+msgstr "Sònraichte: gathan 'nan teine. Math an aghaidh togalaichean."
+
+#: simulation/templates/units/iber_champion_infantry.xml:5
+msgid "Leial Ezpatari"
+msgstr "Leial Ezpatari"
+
+#: simulation/templates/units/iber_hero_caros.xml:5
+msgid "Caros"
+msgstr "Caros"
+
+#: simulation/templates/units/iber_hero_caros.xml:7
+#: simulation/templates/units/iber_hero_indibil.xml:7
+#: simulation/templates/units/iber_hero_viriato.xml:7
+msgid "Hero Aura: \"Tactica Guerilla.\" TBD."
+msgstr "Aura gaisgich: \"Tactica Guerilla.\" Chan eil fhios."
+
+#: simulation/templates/units/iber_hero_indibil.xml:5
+msgid "Indibil"
+msgstr "Indibil"
+
+#: simulation/templates/units/iber_hero_viriato.xml:5
+msgid "Viriato"
+msgstr "Viriato"
+
+#: simulation/templates/units/iber_infantry_javelinist_b.xml:11
+msgid "Lusitano Ezpatari"
+msgstr "Lusitano Ezpatari"
+
+#: simulation/templates/units/iber_infantry_slinger_b.xml:11
+msgid "Habailari"
+msgstr "Habailari"
+
+#: simulation/templates/units/iber_infantry_spearman_b.xml:11
+msgid "Ezkutari"
+msgstr "Ezkutari"
+
+#: simulation/templates/units/iber_infantry_swordsman_b.xml:11
+msgid "Ezpatari"
+msgstr "Ezpatari"
+
+#: simulation/templates/units/iber_mechanical_siege_ram.xml:9
+msgid "Ahariburu"
+msgstr "Ahariburu"
+
+#: simulation/templates/units/iber_ship_fire.xml:5
+msgid "Iberian Fire Ship"
+msgstr "Long-theine Ibèireach"
+
+#: simulation/templates/units/iber_ship_fishing.xml:5
+msgid "Arrantza Ontzi"
+msgstr "Arrantza Ontzi"
+
+#: simulation/templates/units/iber_ship_merchant.xml:9
+msgid "Merkataritza Itsasontzi"
+msgstr "Merkataritza Itsasontzi"
+
+#: simulation/templates/units/iber_ship_trireme.xml:18
+msgid "Ponti"
+msgstr "Ponti"
+
+#: simulation/templates/units/iber_support_female_citizen.xml:5
+msgid "Emazteki"
+msgstr "Emazteki"
+
+#: simulation/templates/units/iber_support_female_citizen.xml:6
+msgid "Iberian Woman"
+msgstr "Boireannach Ibèireach"
+
+#: simulation/templates/units/iber_support_healer_b.xml:7
+msgid "Priestess of Ataekina"
+msgstr "Ban-shagart Ataekina"
+
+#: simulation/templates/units/iber_support_healer_b.xml:8
+msgid "Emakumezko Apaiz de Ataekina"
+msgstr "Emakumezko Apaiz de Ataekina"
+
+#: simulation/templates/units/iber_support_trader.xml:5
+msgid "Merkatari"
+msgstr "Merkatari"
+
+#: simulation/templates/units/mace_cavalry_javelinist_b.xml:14
+msgid "Odrysian Skirmish Cavalry"
+msgstr "Streupaire eachraidh Odrysach"
+
+#: simulation/templates/units/mace_cavalry_javelinist_b.xml:15
+msgid "Hippakontistḕs Odrysós"
+msgstr "Hippakontistḕs Odrysós"
+
+#: simulation/templates/units/mace_cavalry_spearman_b.xml:7
+msgid "Thessalian Lancer"
+msgstr "Lannsair Teasalaidheach"
+
+#: simulation/templates/units/mace_cavalry_spearman_b.xml:8
+msgid "Xystophóros Thessalikós"
+msgstr "Xystophóros Thessalikós"
+
+#: simulation/templates/units/mace_champion_cavalry.xml:6
+#: simulation/templates/units/sele_cavalry_spearman_merc_b.xml:7
+msgid "Companion Cavalry"
+msgstr "Eachraidh companaich"
+
+#: simulation/templates/units/mace_champion_cavalry.xml:7
+msgid "Hetaîros"
+msgstr "Hetaîros"
+
+#: simulation/templates/units/mace_champion_infantry_a.xml:6
+msgid "Macedonian Shield Bearer"
+msgstr "Giùlanair sgèithe Masadonach"
+
+#: simulation/templates/units/mace_champion_infantry_a.xml:7
+msgid "Hypaspistḗs"
+msgstr "Hypaspistḗs"
+
+#: simulation/templates/units/mace_champion_infantry_e.xml:7
+msgid "Hypaspistḗs Argyraspídi"
+msgstr "Hypaspistḗs Argyraspídi"
+
+#: simulation/templates/units/mace_hero_alexander.xml:10
+msgid "Imperialism Aura"
+msgstr "Aura impireachd"
+
+#: simulation/templates/units/mace_hero_alexander.xml:11
+msgid "+10% territory effect for all buildings while he lives."
+msgstr "+10% de bhuaidh air an ranntair airson gach togalach fhad 's a bhios e beò."
+
+#: simulation/templates/units/mace_hero_alexander.xml:32
+msgid "Alexander The Great"
+msgstr "Alasdair Mòr"
+
+#: simulation/templates/units/mace_hero_alexander.xml:33
+msgid "Mégās Aléxandros"
+msgstr "Mégās Aléxandros"
+
+#: simulation/templates/units/mace_hero_alexander.xml:34
+msgid "\"Herocide\" Bonus: +20% attack bonus vs. enemy Heroes."
+msgstr "Buannachd curaidh-mhuirt: +20% air ionnsaighean an aghaidh curaidhean an nàmhad."
+
+#: simulation/templates/units/mace_hero_craterus.xml:6
+msgid "Crateros"
+msgstr "Crateros"
+
+#: simulation/templates/units/mace_hero_craterus.xml:7
+msgid "Kraterós"
+msgstr "Kraterós"
+
+#: simulation/templates/units/mace_hero_craterus.xml:8
+msgid "Trusted general under Alexander the Great."
+msgstr "Ceann-armailt earbsach fo Alasdair Mòr."
+
+#: simulation/templates/units/mace_hero_demetrius.xml:13
+msgid "+15% Range and +10 Crush Attack for Siege Engines."
+msgstr "+15% de dh'astar 's +10 air ionnsaigh brùillidh airson innealan-sèiste."
+
+#: simulation/templates/units/mace_hero_demetrius.xml:20
+msgid "Demetrius The Besieger"
+msgstr "Demetrios nan Sèist"
+
+#: simulation/templates/units/mace_hero_demetrius.xml:21
+msgid "Dēmḗtrios Poliorkḗtēs"
+msgstr "Dēmḗtrios Poliorkḗtēs"
+
+#: simulation/templates/units/mace_hero_philip.xml:12
+msgid "+5 Attack for Champion Units."
+msgstr "Ionnsaigh de +5 airson laoich."
+
+#: simulation/templates/units/mace_hero_philip.xml:18
+msgid "Philip II of Macedon"
+msgstr "Filip II Masadonach"
+
+#: simulation/templates/units/mace_hero_philip.xml:19
+msgid "Phílippos B' ho Makedṓn"
+msgstr "Phílippos B' ho Makedṓn"
+
+#: simulation/templates/units/mace_hero_pyrrhus.xml:6
+msgid "Pyrrhus of Epirus"
+msgstr "Pyrrhus Epirus"
+
+#: simulation/templates/units/mace_hero_pyrrhus.xml:7
+msgid "Pyrrhos ton Epeiros"
+msgstr "Pyrrhos ton Epeiros"
+
+#: simulation/templates/units/mace_hero_pyrrhus.xml:8
+msgid "\"Pyrrhic Victory\" Aura: TBD."
+msgstr "Aura \"Buaidh Phyrrhach\": chan eil fhios."
+
+#: simulation/templates/units/mace_infantry_javelinist_b.xml:14
+msgid "Agrianian Peltast"
+msgstr "Pealtast Agrianach"
+
+#: simulation/templates/units/mace_infantry_javelinist_b.xml:15
+msgid "Peltastḗs Agrías"
+msgstr "Peltastḗs Agrías"
+
+#: simulation/templates/units/mace_infantry_pikeman_b.xml:14
+msgid "Foot Companion"
+msgstr "Companach coise"
+
+#: simulation/templates/units/mace_infantry_pikeman_b.xml:15
+msgid "Pezétairos"
+msgstr "Pezétairos"
+
+#: simulation/templates/units/mace_infantry_slinger_b.xml:14
+msgid "Rhodian Slinger"
+msgstr "Sleaghair Rodach"
+
+#: simulation/templates/units/mace_infantry_slinger_b.xml:15
+msgid "Sphendonḗtēs Rhódios"
+msgstr "Sphendonḗtēs Rhódios"
+
+#: simulation/templates/units/mace_mechanical_siege_ram.xml:9
+#: simulation/templates/units/spart_mechanical_siege_ram.xml:9
+msgid "Poliorkitikós Kriós"
+msgstr "Poliorkitikós Kriós"
+
+#: simulation/templates/units/mace_mechanical_siege_tower.xml:5
+#: simulation/templates/units/ptol_mechanical_siege_tower.xml:5
+#: simulation/templates/units/sele_mechanical_siege_tower.xml:5
+msgid "Helépolis"
+msgstr "Helépolis"
+
+#: simulation/templates/units/mace_ship_bireme.xml:5
+msgid "Hemiolos"
+msgstr "Hemiolos"
+
+#: simulation/templates/units/mace_ship_trireme.xml:6
+#: simulation/templates/units/spart_ship_trireme.xml:6
+msgid "Triḗrēs"
+msgstr "Triḗrēs"
+
+#: simulation/templates/units/mace_support_female_citizen.xml:5
+msgid "Gýnē Makedonikḗ"
+msgstr "Gýnē Makedonikḗ"
+
+#: simulation/templates/units/mace_support_female_citizen.xml:6
+msgid "Macedonian Woman"
+msgstr "Boireannach Masadonach"
+
+#: simulation/templates/units/mace_support_healer_b.xml:7
+#: simulation/templates/units/sele_support_healer_b.xml:7
+msgid "Hiereús"
+msgstr "Hiereús"
+
+#: simulation/templates/units/mace_thorakites.xml:6
+msgid "Armored Swordsman"
+msgstr "Claidheamhair armaichte"
+
+#: simulation/templates/units/mace_thorakites.xml:7
+msgid "Thōrakitēs"
+msgstr "Thōrakitēs"
+
+#: simulation/templates/units/mace_thureophoros.xml:10
+msgid "Heavy Skirmisher"
+msgstr "Streupaire trom"
+
+#: simulation/templates/units/mace_thureophoros.xml:11
+msgid "Thyreophóros"
+msgstr "Thyreophóros"
+
+#: simulation/templates/units/maur_cavalry_javelinist_b.xml:6
+msgid "Indian Light Cavalry"
+msgstr "Eachraidh aotrom Innseanach"
+
+#: simulation/templates/units/maur_cavalry_javelinist_b.xml:7
+msgid "Ashwarohi"
+msgstr "Ashwarohi"
+
+#: simulation/templates/units/maur_cavalry_swordsman_b.xml:6
+msgid "Indian Raiding Cavalry"
+msgstr "Spùinneadair eachraidh Innseanach"
+
+#: simulation/templates/units/maur_cavalry_swordsman_b.xml:7
+msgid "Aśvārohagaṇaḥ"
+msgstr "Aśvārohagaṇaḥ"
+
+#: simulation/templates/units/maur_champion_chariot.xml:9
+#: simulation/templates/units/maur_hero_ashoka.xml:12
+#: simulation/templates/units/pers_cavalry_archer_b.xml:9
+#: simulation/templates/units/pers_hero_darius.xml:21
+#: simulation/templates/units/sele_champion_chariot.xml:10
+msgid "Chariot"
+msgstr "Feun"
+
+#: simulation/templates/units/maur_champion_chariot.xml:10
+msgid "War Chariot"
+msgstr "Feun-cogaidh"
+
+#: simulation/templates/units/maur_champion_chariot.xml:11
+msgid "Rath"
+msgstr "Rath"
+
+#: simulation/templates/units/maur_champion_chariot.xml:15
+msgid "Deals Trample Damage."
+msgstr "Nì e dochann saltairt."
+
+#: simulation/templates/units/maur_champion_elephant.xml:5
+#: simulation/templates/units/pers_champion_elephant.xml:5
+msgid "Indian War Elephant"
+msgstr "Ailbhean-cogaidh Innseanach"
+
+#: simulation/templates/units/maur_champion_elephant.xml:6
+msgid "Gajendra"
+msgstr "Gajendra"
+
+#: simulation/templates/units/maur_champion_infantry.xml:19
+msgid "Warrior"
+msgstr "Gaisgeach"
+
+#: simulation/templates/units/maur_champion_infantry.xml:20
+msgid "Yōddha"
+msgstr "Yōddha"
+
+#: simulation/templates/units/maur_champion_maiden.xml:6
+msgid "Maiden Guard"
+msgstr "Ban-geàrd"
+
+#: simulation/templates/units/maur_champion_maiden.xml:7
+#: simulation/templates/units/maur_champion_maiden_archer.xml:7
+msgid "Visha Kanya"
+msgstr "Visha Kanya"
+
+#: simulation/templates/units/maur_champion_maiden_archer.xml:6
+msgid "Maiden Guard Archer"
+msgstr "Ban-geàrd boghadair"
+
+#: simulation/templates/units/maur_elephant_archer_b.xml:11
+msgid "Elephant Archer"
+msgstr "Boghadair ailbhein"
+
+#: simulation/templates/units/maur_elephant_archer_b.xml:12
+msgid "Vachii Gaja"
+msgstr "Vachii Gaja"
+
+#: simulation/templates/units/maur_elephant_archer_b.xml:15
+msgid "Can run amok."
+msgstr "Dh'fhaoidte gun gabh e caothach."
+
+#: simulation/templates/units/maur_hero_ashoka.xml:9
+msgid "Ashoka the Great"
+msgstr "Aśoka Mòr"
+
+#: simulation/templates/units/maur_hero_ashoka.xml:10
+msgid "Aśoka Devānāmpriya"
+msgstr "Aśoka Devānāmpriya"
+
+#: simulation/templates/units/maur_hero_ashoka.xml:14
+msgid ""
+"Hero Aura: TBD.\n"
+"Hero Special: \"Edicts of Ashoka\" - Edict Pillars of Ashoka can be built during Ashoka's lifetime."
+msgstr "Aura gaisgich: chan eil fhios.\nSònraichte: Fuagraidhean Aśoka - gabhaidh carraighean fuagraidh Aśoka a thogail fhad 's a bhios Aśoka beò."
+
+#: simulation/templates/units/maur_hero_chanakya.xml:30
+msgid "Acharya Chanakya"
+msgstr "Acharya Chāṇakya"
+
+#: simulation/templates/units/maur_hero_chanakya.xml:31
+msgid "Acharya Chāṇakya"
+msgstr "Acharya Chāṇakya"
+
+#: simulation/templates/units/maur_hero_chanakya.xml:33
+msgid ""
+"Hero Special: \"Healer\" - Heal units at an accelerated rate.\n"
+"Hero Special: \"Teacher\" - Empower a building to research and train +50% faster.\n"
+"Hero Special: \"Philosopher\" - Research 4 special technologies only available to Chanakya."
+msgstr "Sònraichte: Lighiche - slànaich aonadan gu luath.\nSònraichte: tidsear - Thoir comas air togalach gun rannsaich 's trèanaich e +15% nas luaithe.\nSònraichte: feallsanaiche - rannsaich 4 teicneolasan sònraichte nach eil ri làimh ach do Chāṇakya."
+
+#: simulation/templates/units/maur_hero_maurya.xml:5
+#: simulation/templates/units/maur_hero_maurya.xml:6
+msgid "Chandragupta Maurya"
+msgstr "Chandragupta Mauraidhea"
+
+#: simulation/templates/units/maur_hero_maurya.xml:7
+msgid "Hero Aura: TBD."
+msgstr "Aura gaisgich: chan eil fhios."
+
+#: simulation/templates/units/maur_infantry_archer_b.xml:13
+msgid "Longbowman"
+msgstr "Mòr-bhoghadair"
+
+#: simulation/templates/units/maur_infantry_archer_b.xml:14
+msgid "Dhanurdhar"
+msgstr "Dhanurdhar"
+
+#: simulation/templates/units/maur_infantry_spearman_b.xml:17
+msgid "Bamboo Spearman"
+msgstr "Sleaghair bambù"
+
+#: simulation/templates/units/maur_infantry_spearman_b.xml:18
+msgid "Kauntika"
+msgstr "Kauntika"
+
+#: simulation/templates/units/maur_infantry_swordsman_b.xml:13
+msgid "Indian Swordsman"
+msgstr "Claidheamhair Innseanach"
+
+#: simulation/templates/units/maur_infantry_swordsman_b.xml:14
+msgid "Khadagdhari"
+msgstr "Khadagdhari"
+
+#: simulation/templates/units/maur_ship_bireme.xml:5
+#: simulation/templates/units/maur_ship_trireme.xml:18
+msgid "Yudhpot"
+msgstr "Yudhpot"
+
+#: simulation/templates/units/maur_ship_fishing.xml:9
+msgid "Fisherman"
+msgstr "Iasgair"
+
+#: simulation/templates/units/maur_ship_fishing.xml:10
+msgid "Matsyapalak"
+msgstr "Matsyapalak"
+
+#: simulation/templates/units/maur_ship_merchant.xml:9
+msgid "Trading Ship"
+msgstr "Bàta-malairt"
+
+#: simulation/templates/units/maur_ship_merchant.xml:10
+msgid "Vanijyik Nauka"
+msgstr "Vanijyik Nauka"
+
+#: simulation/templates/units/maur_support_elephant.xml:28
+msgid "Worker Elephant"
+msgstr "Ailbhean obrach"
+
+#: simulation/templates/units/maur_support_elephant.xml:29
+msgid "Karmākara Gaja"
+msgstr "Karmākara Gaja"
+
+#: simulation/templates/units/maur_support_elephant.xml:32
+msgid "Mobile dropsite. Can also assist in constructing buildings."
+msgstr "Ionad-stòrais a ghabhas gluasad. 'S urrainn dha taic a thoirt dhan togail cuideachd."
+
+#: simulation/templates/units/maur_support_female_citizen.xml:5
+msgid "Naari"
+msgstr "Naari"
+
+#: simulation/templates/units/maur_support_female_citizen.xml:6
+msgid "Indian Woman"
+msgstr "Boireannach Innseanach"
+
+#: simulation/templates/units/maur_support_healer_b.xml:6
+msgid "Brahmin Priest"
+msgstr "Sagart Bràmach"
+
+#: simulation/templates/units/maur_support_healer_b.xml:7
+msgid "Brāhmaṇa Pujari"
+msgstr "Brāhmaṇa Pujari"
+
+#: simulation/templates/units/maur_support_trader.xml:9
+msgid "Vaishya"
+msgstr "Vaishya"
+
+#: simulation/templates/units/merc_thrace_swordsman.xml:21
+#: simulation/templates/units/sele_infantry_swordsman_merc_b.xml:14
+msgid "Thracian Mercenary Swordsman"
+msgstr "Claidheamhair-duaise Tràcach"
+
+#: simulation/templates/units/merc_thrace_swordsman.xml:22
+#: simulation/templates/units/sele_infantry_swordsman_merc_b.xml:15
+msgid "Rhomphaiaphoros Thrakikós"
+msgstr "Rhomphaiaphoros Thrakikós"
+
+#: simulation/templates/units/merc_thrace_swordsman.xml:26
+#: simulation/templates/units/ptol_infantry_archer_b.xml:23
+#: simulation/templates/units/samnite_swordsman.xml:9
+#: simulation/templates/units/sele_infantry_swordsman_merc_b.xml:18
+#: simulation/templates/units/thrace_black_cloak.xml:23
+msgid "Mercenary"
+msgstr "Saighdear-duaise"
+
+#: simulation/templates/units/noldor_ship_bireme.xml:9
+msgid "Mankar Cirya"
+msgstr "Mankar Cirya"
+
+#: simulation/templates/units/pers_arstibara.xml:12
+msgid "Persian Apple Bearer"
+msgstr "Giùlanair ùbhlan Pearsach"
+
+#: simulation/templates/units/pers_arstibara.xml:13
+msgid "Arštibara"
+msgstr "Arštibara"
+
+#: simulation/templates/units/pers_cavalry_archer_b.xml:11
+msgid "Babylonian Scythed Chariot"
+msgstr "Feun-speala Bàbalonach"
+
+#: simulation/templates/units/pers_cavalry_archer_b.xml:12
+msgid "Babiruviya Ratha"
+msgstr "Babiruviya Ratha"
+
+#: simulation/templates/units/pers_cavalry_archer_b.xml:15
+msgid "Causes trample damage to enemy units."
+msgstr "Nì e dochann saltairt air aonadan an nàmhad."
+
+#: simulation/templates/units/pers_cavalry_javelinist_b.xml:6
+#: simulation/templates/units/pers_cavalry_javelinist_b_trireme.xml:9
+#: simulation/templates/units/sele_cavalry_javelinist_b.xml:7
+msgid "Median Light Cavalry"
+msgstr "Eachraidh aotrom Meadach"
+
+#: simulation/templates/units/pers_cavalry_javelinist_b.xml:7
+#: simulation/templates/units/pers_cavalry_javelinist_b_trireme.xml:10
+msgid "Mada Asabara"
+msgstr "Mada Asabara"
+
+#: simulation/templates/units/pers_cavalry_spearman_b.xml:6
+msgid "Cappadocian Cavalry"
+msgstr "Eachraidh Capadòcaidheach"
+
+#: simulation/templates/units/pers_cavalry_spearman_b.xml:7
+msgid "Katpaduka Asabara"
+msgstr "Katpaduka Asabara"
+
+#: simulation/templates/units/pers_cavalry_swordsman_b.xml:6
+#: simulation/templates/units/pers_cavalry_swordsman_b_trireme.xml:12
+msgid "Hyrcanian Cavalry"
+msgstr "Eachraidh Hiorcàinia"
+
+#: simulation/templates/units/pers_cavalry_swordsman_b.xml:7
+#: simulation/templates/units/pers_cavalry_swordsman_b_trireme.xml:13
+msgid "Varkaniya Asabara"
+msgstr "Varkaniya Asabara"
+
+#: simulation/templates/units/pers_champion_cavalry.xml:5
+msgid "Bactrian Heavy Lancer"
+msgstr "Lannsair trom Bactraidheach"
+
+#: simulation/templates/units/pers_champion_cavalry.xml:6
+#: simulation/templates/units/pers_champion_cavalry_archer.xml:6
+msgid "Bakhtrish Asabara"
+msgstr "Bakhtrish Asabara"
+
+#: simulation/templates/units/pers_champion_cavalry_archer.xml:5
+msgid "Bactrian Heavy Cavalry Archer"
+msgstr "Boghadair eachraidh trom Bactraidheach"
+
+#: simulation/templates/units/pers_champion_elephant.xml:6
+msgid "Hinduya Pila"
+msgstr "Hinduya Pila"
+
+#: simulation/templates/units/pers_champion_infantry.xml:5
+msgid "Persian Immortal"
+msgstr "Lèine-chrios neo-bhàsmhor Pearsach"
+
+#: simulation/templates/units/pers_champion_infantry.xml:6
+msgid "Anusiya"
+msgstr "Anusaidhea"
+
+#: simulation/templates/units/pers_hero_cyrus.xml:12
+msgid "Lead from the Front Aura"
+msgstr "Aura stiùiridh on toiseach"
+
+#: simulation/templates/units/pers_hero_cyrus.xml:13
+msgid "+2 attack for nearby cavalry units."
+msgstr "Ionnsaigh le +2 airson aonadan eachraidh am fagas"
+
+#: simulation/templates/units/pers_hero_cyrus.xml:19
+msgid "Cyrus II The Great"
+msgstr "Kùrois II Mòr"
+
+#: simulation/templates/units/pers_hero_cyrus.xml:20
+msgid "Kurush II"
+msgstr "Kurush II"
+
+#: simulation/templates/units/pers_hero_darius.xml:11
+msgid "Leadership Aura"
+msgstr "Aura ceannardais"
+
+#: simulation/templates/units/pers_hero_darius.xml:12
+msgid "+15% Movement Speed of all units."
+msgstr "Gluaisidh gach aonad +15% nas luaithe."
+
+#: simulation/templates/units/pers_hero_darius.xml:22
+msgid "Darius The Great"
+msgstr "Darius Mòr"
+
+#: simulation/templates/units/pers_hero_darius.xml:23
+msgid "Darayavahush I"
+msgstr "Darayavahush I"
+
+#: simulation/templates/units/pers_hero_darius.xml:25
+msgid ""
+"Hero Aura: \"Merchant of the Empire.\" Boosts profitablity of trade during his lifetime (TBD).\n"
+"Ranged attack 2x vs. spearmen. Ranged attack 1.5x vs. Swordsmen."
+msgstr "Aura gaisgich: marsanta na h-impireachd. Gheibh thu barrachd bhuannachd às a' mhalart fhad 's a bhios e beò (chan eil fhios).\nAn aghaidh: sleaghairean le 2x aig astar, claidheamhairean le 1.5x aig astar."
+
+#: simulation/templates/units/pers_hero_xerxes.xml:12
+#: simulation/templates/units/pers_hero_xerxes_chariot.xml:12
+msgid "Administrator Aura"
+msgstr "Aura rianaire"
+
+#: simulation/templates/units/pers_hero_xerxes.xml:13
+#: simulation/templates/units/pers_hero_xerxes_chariot.xml:13
+msgid " +15% Gather Rate and Build Rate of nearby units."
+msgstr "Cruinnichidh is togaidh aonadan am fagas +15% nas luaithe."
+
+#: simulation/templates/units/pers_hero_xerxes.xml:19
+#: simulation/templates/units/pers_hero_xerxes_chariot.xml:24
+msgid "Xerxes I"
+msgstr "Xerxes I"
+
+#: simulation/templates/units/pers_hero_xerxes.xml:20
+#: simulation/templates/units/pers_hero_xerxes_chariot.xml:25
+msgid "Xsayarsa I"
+msgstr "Xsayarsa I"
+
+#: simulation/templates/units/pers_infantry_archer_b.xml:13
+msgid "Sogdian Archer"
+msgstr "Boghadair Sogdhach"
+
+#: simulation/templates/units/pers_infantry_archer_b.xml:14
+msgid "Sugda Vaçabara"
+msgstr "Sugda Vaçabara"
+
+#: simulation/templates/units/pers_infantry_javelinist_b.xml:13
+msgid "Anatolian Auxiliary"
+msgstr "Anatolian Auxiliary"
+
+#: simulation/templates/units/pers_infantry_javelinist_b.xml:14
+msgid "Spardiya Takabara"
+msgstr "Spardiya Takabara"
+
+#: simulation/templates/units/pers_infantry_spearman_b.xml:13
+msgid "Shieldbearer"
+msgstr "Giùlanair-sgèithe"
+
+#: simulation/templates/units/pers_infantry_spearman_b.xml:14
+msgid "Sparabara"
+msgstr "Sparabara"
+
+#: simulation/templates/units/pers_kardakes_hoplite.xml:5
+msgid "Cardaces Hoplite"
+msgstr "Hoiplid Cardacais"
+
+#: simulation/templates/units/pers_kardakes_hoplite.xml:6
+msgid "Hoplites Kardakes"
+msgstr "Hoplites Kardakes"
+
+#: simulation/templates/units/pers_kardakes_skirmisher.xml:5
+msgid "Cardaces Skirmisher"
+msgstr "Streupaire Cardacais"
+
+#: simulation/templates/units/pers_kardakes_skirmisher.xml:6
+msgid "Peltastes Kardakes"
+msgstr "Peltastes Kardakes"
+
+#: simulation/templates/units/pers_mechanical_siege_ram.xml:15
+msgid "Assyrian Siege Ram"
+msgstr "Reithe sèiste Asiridheach"
+
+#: simulation/templates/units/pers_mechanical_siege_ram.xml:16
+msgid "Athuriya Hamaranakuba"
+msgstr "Athuriya Hamaranakuba"
+
+#: simulation/templates/units/pers_ship_bireme.xml:9
+msgid "Cypriot Galley"
+msgstr "Long-fhada Chìoprasach"
+
+#: simulation/templates/units/pers_ship_bireme.xml:10
+msgid "Hamaraniyanava"
+msgstr "Hamaraniyanava"
+
+#: simulation/templates/units/pers_ship_fishing.xml:5
+msgid "Masiyakara"
+msgstr "Masiyakara"
+
+#: simulation/templates/units/pers_ship_merchant.xml:9
+msgid "Ionian Trade Ship"
+msgstr "Bàta-malairt Iònach"
+
+#: simulation/templates/units/pers_ship_merchant.xml:10
+msgid "Yaunash Nav"
+msgstr "Yaunash Nav"
+
+#: simulation/templates/units/pers_ship_trireme.xml:9
+msgid "Phoenician Trireme"
+msgstr "Trì-ràmhach Pheniceach"
+
+#: simulation/templates/units/pers_ship_trireme.xml:10
+msgid "Vazarka Hamaraniyanava"
+msgstr "Vazarka Hamaraniyanava"
+
+#: simulation/templates/units/pers_support_female_citizen.xml:5
+msgid "Banu Miyanrudani"
+msgstr "Banu Miyanrudani"
+
+#: simulation/templates/units/pers_support_female_citizen.xml:6
+msgid "Mesopotamian Woman"
+msgstr "Boireannach Mesopotamiach"
+
+#: simulation/templates/units/pers_support_healer_b.xml:6
+msgid "Median Magus"
+msgstr "Draoidh Meadach"
+
+#: simulation/templates/units/pers_support_healer_b.xml:7
+msgid "Maguš Mada"
+msgstr "Maguš Mada"
+
+#: simulation/templates/units/pers_support_trader.xml:10
+msgid "Aramaean Merchant"
+msgstr "Neach-malairt Araimèach"
+
+#: simulation/templates/units/pers_support_trader.xml:11
+msgid "Tamkarum Arami"
+msgstr "Tamkarum Arami"
+
+#: simulation/templates/units/pers_support_trader.xml:14
+msgid ""
+"Trade resources between your own markets and those of your allies. Persians "
+"have a +25% land trading bonus."
+msgstr "Malairt stòras eadar na margaidean agad fhèin is margaidean do chaidreabhach. Gheibh na Pearsaich buannachd de +25% air malart tìre."
+
+#: simulation/templates/units/ptol_cavalry_archer_b.xml:5
+#: simulation/templates/units/sele_cavalry_archer_b.xml:6
+msgid "Camel"
+msgstr "Càmhal"
+
+#: simulation/templates/units/ptol_cavalry_archer_b.xml:7
+msgid "Nabataean Camel Archer"
+msgstr "Boghadair càmhail Nabataidheach"
+
+#: simulation/templates/units/ptol_cavalry_archer_b.xml:8
+msgid "Mutsābiq Gamal Nabatu"
+msgstr "Mutsābiq Gamal Nabatu"
+
+#: simulation/templates/units/ptol_cavalry_javelinist_merc_b.xml:13
+msgid "Tarantine Settler Cavalry"
+msgstr "Eachraidh tuineachaidh Tharanto"
+
+#: simulation/templates/units/ptol_cavalry_javelinist_merc_b.xml:14
+msgid "Hippeús Tarantînos"
+msgstr "Hippeús Tarantînos"
+
+#: simulation/templates/units/ptol_cavalry_spearman_merc_b.xml:6
+msgid "Macedonian Settler Cavalry"
+msgstr "Eachraidh tuineachaidh Masadonach"
+
+#: simulation/templates/units/ptol_cavalry_spearman_merc_b.xml:7
+msgid "Hippeús Makedonikós"
+msgstr "Hippeús Makedonikós"
+
+#: simulation/templates/units/ptol_champion_cavalry.xml:5
+msgid "Royal Guard Cavalry"
+msgstr "Eachraidh geàird rìoghail"
+
+#: simulation/templates/units/ptol_champion_cavalry.xml:6
+msgid "Ágēma Basiléōs"
+msgstr "Ágēma Basiléōs"
+
+#: simulation/templates/units/ptol_champion_elephant.xml:5
+msgid "Towered War Elephant"
+msgstr "Ailbhean cogaidh le tùr"
+
+#: simulation/templates/units/ptol_champion_elephant.xml:6
+msgid "Polémou Eléphantos"
+msgstr "Polémou Eléphantos"
+
+#: simulation/templates/units/ptol_champion_juggernaut.xml:19
+msgid "Juggernaut"
+msgstr "Diagannàd"
+
+#: simulation/templates/units/ptol_champion_juggernaut.xml:20
+msgid "Tessarakonterēs"
+msgstr "Tessarakonterēs"
+
+#: simulation/templates/units/ptol_hero_cleopatra.xml:12
+msgid "Patriot Aura"
+msgstr "Aura tìr-ghràdhaiche"
+
+#: simulation/templates/units/ptol_hero_cleopatra.xml:13
+msgid "Egyptian units fight 20% faster in her vision range."
+msgstr "Nì aonadan Èipheiteach sabaid nas luaithe le 20% nuair a bhios iad am broinn a h-astar lèirsinne."
+
+#: simulation/templates/units/ptol_hero_cleopatra.xml:20
+msgid "Cleopatra VII"
+msgstr "Cleopatra VII"
+
+#: simulation/templates/units/ptol_hero_cleopatra.xml:21
+msgid "Kleopatra H' Philopator"
+msgstr "Kleopatra H' Philopator"
+
+#: simulation/templates/units/ptol_hero_cleopatra.xml:22
+msgid ""
+"\"Consort\" Aura (TBD): Increased effectiveness of allied heroes in her "
+"vision. Decreased effectiveness for enemy heroes."
+msgstr "Aura cèile (chan eil fhios): Bidh curaidhean caidreabhach am broinn a h-astar lèirsinne nas èifeachdaiche. Caillidh curaidhean an nàmhad èifeachdachd."
+
+#: simulation/templates/units/ptol_hero_ptolemy_I.xml:11
+msgid "Construction Aura"
+msgstr "Aura togail"
+
+#: simulation/templates/units/ptol_hero_ptolemy_I.xml:12
+msgid "Buildings construct 10% faster within his vision."
+msgstr "Thèid gach togalach am broinn astar lèirsinne a thogail 10% nas luaithe."
+
+#: simulation/templates/units/ptol_hero_ptolemy_I.xml:24
+msgid "Mercenary Patron Aura"
+msgstr "Aura taic do shaighdearan-duaise"
+
+#: simulation/templates/units/ptol_hero_ptolemy_I.xml:25
+msgid "Mercenaries cost -50% resources during his lifetime."
+msgstr "Bidh saighdearan-duaise nas saoire le -50% fhad 's a bhios e beò."
+
+#: simulation/templates/units/ptol_hero_ptolemy_I.xml:30
+msgid "Ptolemy I \"Savior\""
+msgstr "Ptolamaidh I \"An t-slànaighear\""
+
+#: simulation/templates/units/ptol_hero_ptolemy_I.xml:31
+msgid "Ptolemaios A' Soter"
+msgstr "Ptolemaios A' Soter"
+
+#: simulation/templates/units/ptol_hero_ptolemy_IV.xml:10
+msgid "Raphia Aura"
+msgstr "Aura Rafa"
+
+#: simulation/templates/units/ptol_hero_ptolemy_IV.xml:11
+msgid "Egyptian Pikemen have 40% greater health during his lifetime."
+msgstr "Bidh 40% de shlàinte a bharrachd air pìcearan Èipheiteach fhad 's a bhios e beò."
+
+#: simulation/templates/units/ptol_hero_ptolemy_IV.xml:16
+msgid "Ptolemy IV \"Father Loving\""
+msgstr "Ptolamaidh IV \"An t-athair gràdhach\""
+
+#: simulation/templates/units/ptol_hero_ptolemy_IV.xml:17
+msgid "Ptolemaios D' Philopator"
+msgstr "Ptolemaios D' Philopator"
+
+#: simulation/templates/units/ptol_infantry_archer_b.xml:25
+msgid "Nubian Mercenary Archer"
+msgstr "Boghadair-duaise Nubach"
+
+#: simulation/templates/units/ptol_infantry_archer_b.xml:26
+msgid "Kousít Misthophóros Toxótēs"
+msgstr "Kousít Misthophóros Toxótēs"
+
+#: simulation/templates/units/ptol_infantry_javelinist_b.xml:14
+msgid "Mercenary Thureos Skirmisher"
+msgstr "Streupaire-duaise Tuireos"
+
+#: simulation/templates/units/ptol_infantry_javelinist_b.xml:15
+msgid "Thureophóros Akrobolistḗs"
+msgstr "Thureophóros Akrobolistḗs"
+
+#: simulation/templates/units/ptol_infantry_pikeman_b.xml:14
+msgid "Egyptian Pikeman"
+msgstr "Pìcear Èipheiteach"
+
+#: simulation/templates/units/ptol_infantry_pikeman_b.xml:15
+msgid "Phalaggomákhimos"
+msgstr "Phalaggomákhimos"
+
+#: simulation/templates/units/ptol_infantry_slinger_b.xml:14
+msgid "Judean Slinger"
+msgstr "Sleaghair Iudèach"
+
+#: simulation/templates/units/ptol_infantry_slinger_b.xml:15
+msgid "Hebraikós Sphendonḗtēs"
+msgstr "Hebraikós Sphendonḗtēs"
+
+#: simulation/templates/units/ptol_infantry_spearman_merc_b.xml:21
+msgid "Mercenary Thureos Spearman"
+msgstr "Sleaghaire-duaise Tuireos"
+
+#: simulation/templates/units/ptol_infantry_spearman_merc_b.xml:22
+msgid "Thureophóros Misthophóros"
+msgstr "Thureophóros Misthophóros"
+
+#: simulation/templates/units/ptol_infantry_swordsman_merc_b.xml:21
+msgid "Gallikós Mistophorós"
+msgstr "Gallikós Mistophorós"
+
+#: simulation/templates/units/ptol_ship_bireme.xml:6
+#: simulation/templates/units/sele_ship_bireme.xml:6
+msgid "Dierēs"
+msgstr "Dierēs"
+
+#: simulation/templates/units/ptol_ship_quinquereme.xml:5
+msgid "Octḗrēs"
+msgstr "Octḗrēs"
+
+#: simulation/templates/units/ptol_ship_trireme.xml:5
+msgid "Pentḗrēs"
+msgstr "Pentḗrēs"
+
+#: simulation/templates/units/ptol_support_female_citizen.xml:5
+msgid "Gýnē Aigýptia"
+msgstr "Gýnē Aigýptia"
+
+#: simulation/templates/units/ptol_support_female_citizen.xml:6
+msgid "Egyptian Woman"
+msgstr "Boireannach Èipheiteach"
+
+#: simulation/templates/units/ptol_support_healer_b.xml:6
+msgid "Egyptian Priest"
+msgstr "Sagart Èipheiteach"
+
+#: simulation/templates/units/ptol_support_healer_b.xml:7
+msgid "Hiereús Aigýptios"
+msgstr "Hiereús Aigýptios"
+
+#: simulation/templates/units/rome_cavalry_javelinist_b.xml:7
+msgid "Italian Allied Cavalry"
+msgstr "Eachraidh caidreabhach Eadailteach"
+
+#: simulation/templates/units/rome_cavalry_javelinist_b.xml:8
+msgid "Eques Socius"
+msgstr "Eques Socius"
+
+#: simulation/templates/units/rome_cavalry_spearman_b.xml:7
+msgid "Roman Cavalry"
+msgstr "Eachraidh Ròmanach"
+
+#: simulation/templates/units/rome_cavalry_spearman_b.xml:8
+msgid "Eques Romanus"
+msgstr "Eques Romanus"
+
+#: simulation/templates/units/rome_centurio_imperial.xml:17
+msgid "Roman Centurion"
+msgstr "Ceann-cheud Ròmanach"
+
+#: simulation/templates/units/rome_centurio_imperial.xml:18
+msgid "Centurio Legionarius"
+msgstr "Centurio Legionarius"
+
+#: simulation/templates/units/rome_champion_cavalry.xml:6
+msgid "Eques Consularis"
+msgstr "Eques Consularis"
+
+#: simulation/templates/units/rome_champion_cavalry.xml:7
+msgid "Consular Bodyguard"
+msgstr "Lèine-chrios a' chonsail"
+
+#: simulation/templates/units/rome_champion_infantry.xml:6
+msgid "Italic Heavy Infantry"
+msgstr "Coisridh throm Eadailteach"
+
+#: simulation/templates/units/rome_champion_infantry.xml:7
+msgid "Extraordinarius"
+msgstr "Extraordinarius"
+
+#: simulation/templates/units/rome_hero_marcellus.xml:12
+msgid "Sword of Rome Aura"
+msgstr "Aura claidheamh na Ròimhe"
+
+#: simulation/templates/units/rome_hero_marcellus.xml:13
+msgid "+5 attack for Roman units within sight of him."
+msgstr "+5 air ionnsaighean nan aonadan Romanach am broinn astar lèirsinne."
+
+#: simulation/templates/units/rome_hero_marcellus.xml:20
+msgid "Marcus Claudius Marcellus"
+msgstr "Marcus Claudius Marcellus"
+
+#: simulation/templates/units/rome_hero_maximus.xml:12
+msgid "Shield of Rome Aura"
+msgstr "Aura sgiath na Ròimhe"
+
+#: simulation/templates/units/rome_hero_maximus.xml:13
+msgid "+1 armour for all units and structures."
+msgstr "+1 de dh'armachd airson gach aonad 's togalach."
+
+#: simulation/templates/units/rome_hero_maximus.xml:19
+msgid "Quintus Fabius Maximus"
+msgstr "Quintus Fabius Maximus"
+
+#: simulation/templates/units/rome_hero_scipio.xml:6
+msgid "Scipio Africanus"
+msgstr "Scipio Africanus"
+
+#: simulation/templates/units/rome_hero_scipio.xml:9
+msgid ""
+"\"Divide and Conquer\" Ability: Convert groups of enemy units to his side "
+"for 500 Metal. (Not implemented)"
+msgstr "Comas \"Dealaich 's ceannsaich\": Iompaich buidhnean de dh'aonadan an nàmhad dhan taobh aige airson 500 de mheatailt. (chan eil seo ri làimh fhathast)"
+
+#: simulation/templates/units/rome_infantry_javelinist_b.xml:15
+msgid "Roman Skirmisher"
+msgstr "Streupaire Ròmanach"
+
+#: simulation/templates/units/rome_infantry_javelinist_b.xml:16
+msgid "Veles"
+msgstr "Veles"
+
+#: simulation/templates/units/rome_infantry_spearman_b.xml:15
+msgid "Veteran Spearman"
+msgstr "Sleaghair seann-ghaisgeach"
+
+#: simulation/templates/units/rome_infantry_spearman_b.xml:16
+msgid "Triarius"
+msgstr "Triarius"
+
+#: simulation/templates/units/rome_infantry_swordsman_b.xml:16
+msgid "Roman Swordsman"
+msgstr "Claidheamhair Ròmanach"
+
+#: simulation/templates/units/rome_infantry_swordsman_b.xml:17
+msgid "Hastatus"
+msgstr "Hastatus"
+
+#: simulation/templates/units/rome_legionnaire_imperial.xml:14
+msgid "Roman Legionnaire"
+msgstr "Lèigiunach Ròmanach"
+
+#: simulation/templates/units/rome_legionnaire_imperial.xml:15
+msgid "Legionarius Romanus"
+msgstr "Legionarius Romanus"
+
+#: simulation/templates/units/rome_legionnaire_marian.xml:6
+msgid "Marian Legionaire"
+msgstr "Lèigiunach Mairiach"
+
+#: simulation/templates/units/rome_legionnaire_marian.xml:7
+msgid "Marian Legionarius"
+msgstr "Marian Legionarius"
+
+#: simulation/templates/units/rome_mechanical_siege_onager_unpacked.xml:32
+msgid "Ballista"
+msgstr "Bogha-tilgeil"
+
+#: simulation/templates/units/rome_mechanical_siege_ram.xml:9
+msgid "Aries"
+msgstr "Aries"
+
+#: simulation/templates/units/rome_ship_bireme.xml:5
+msgid "Liburnus"
+msgstr "Liburnus"
+
+#: simulation/templates/units/rome_ship_fishing.xml:5
+msgid "Navicula Piscatoria"
+msgstr "Navicula Piscatoria"
+
+#: simulation/templates/units/rome_ship_merchant.xml:9
+msgid "Corbita"
+msgstr "Corbita"
+
+#: simulation/templates/units/rome_ship_quinquereme.xml:5
+msgid "Quinqueremis Romana"
+msgstr "Quinqueremis Romana"
+
+#: simulation/templates/units/rome_ship_quinquereme.xml:6
+msgid "Roman Quinquereme"
+msgstr "Còig-ràmhach Ròmanach"
+
+#: simulation/templates/units/rome_ship_trireme.xml:8
+msgid "Triremis Romana"
+msgstr "Triremis Romana"
+
+#: simulation/templates/units/rome_ship_trireme.xml:9
+msgid "Roman Trireme"
+msgstr "Trì-ràmhach Ròmanach"
+
+#: simulation/templates/units/rome_support_female_citizen.xml:6
+msgid "Romana"
+msgstr "Romana"
+
+#: simulation/templates/units/rome_support_female_citizen.xml:7
+msgid "Roman Woman"
+msgstr "Boireannach Ròmanach"
+
+#: simulation/templates/units/rome_support_healer_b.xml:7
+msgid "State Priest"
+msgstr "Sagart na stàite"
+
+#: simulation/templates/units/rome_support_healer_b.xml:8
+msgid "Pontifex Minor"
+msgstr "Pontifex Minor"
+
+#: simulation/templates/units/rome_support_trader.xml:10
+msgid "Plebeian Merchant"
+msgstr "Marsanta poblach"
+
+#: simulation/templates/units/rome_support_trader.xml:11
+msgid "Mercator Plebeius"
+msgstr "Mercator Plebeius"
+
+#: simulation/templates/units/samnite_skirmisher.xml:5
+msgid "Samnite Skirmisher"
+msgstr "Streupaire Samnaidheach"
+
+#: simulation/templates/units/samnite_skirmisher.xml:6
+msgid "(Samnite Skirmisher)"
+msgstr "(Streupaire Samnaidheach)"
+
+#: simulation/templates/units/samnite_skirmisher.xml:7
+msgid ""
+"Mercenary skirmisher.\n"
+"Bonus vs. Archers and Spearmen."
+msgstr "Streupaire-duaise.\nBuannachd an aghaidh bhoghadairean is shleaghairean."
+
+#: simulation/templates/units/samnite_spearman.xml:5
+msgid "Samnite Spearman"
+msgstr "Sleaghair Samnaidheach"
+
+#: simulation/templates/units/samnite_spearman.xml:6
+msgid "(Samnite Spearman)"
+msgstr "(Sleaghair Samnaidheach)"
+
+#: simulation/templates/units/samnite_spearman.xml:7
+msgid ""
+"Mercenary spearman.\n"
+"Bonus vs. All Cavalry Units."
+msgstr "Sleaghair-duaise.\nBuannachd an aghaidh gach eachraidh."
+
+#: simulation/templates/units/samnite_swordsman.xml:6
+msgid "(Samnite Swordsman)"
+msgstr "(Claidheamhair Samnaidheach)"
+
+#: simulation/templates/units/samnite_swordsman.xml:7
+msgid "Bonus vs. All Spear Units."
+msgstr "Buannachd an aghaidh a h-uile sleaghair."
+
+#: simulation/templates/units/sele_cavalry_archer_b.xml:8
+msgid "Dahae Horse Archer"
+msgstr "Boghadair eachraidh Dathaidh"
+
+#: simulation/templates/units/sele_cavalry_archer_b.xml:9
+msgid "Hippotoxotès Dahae"
+msgstr "Hippotoxotès Dahae"
+
+#: simulation/templates/units/sele_cavalry_javelinist.xml:7
+msgid "Militia Cavalry"
+msgstr "Eachraidh mailisidhe"
+
+#: simulation/templates/units/sele_cavalry_javelinist.xml:8
+msgid "Hippakontistès Politès"
+msgstr "Hippakontistès Politès"
+
+#: simulation/templates/units/sele_cavalry_javelinist_b.xml:8
+msgid "Hippeus Medikos"
+msgstr "Hippeus Medikos"
+
+#: simulation/templates/units/sele_cavalry_spearman_merc_b.xml:8
+msgid "Hippos Hetairike"
+msgstr "Hippos Hetairike"
+
+#: simulation/templates/units/sele_champion_cavalry.xml:6
+msgid "Seleucid Cataphract"
+msgstr "Cataphrag Seleucach"
+
+#: simulation/templates/units/sele_champion_cavalry.xml:7
+msgid "Seleukidón Kataphraktos"
+msgstr "Seleukidón Kataphraktos"
+
+#: simulation/templates/units/sele_champion_chariot.xml:11
+msgid "Scythed Chariot"
+msgstr "Feun-speala"
+
+#: simulation/templates/units/sele_champion_chariot.xml:12
+msgid "Drepanèphoros"
+msgstr "Drepanèphoros"
+
+#: simulation/templates/units/sele_champion_elephant.xml:6
+msgid "Armored War Elephant"
+msgstr "Ailbhean cogaidh armaichte"
+
+#: simulation/templates/units/sele_champion_elephant.xml:7
+msgid "Thorakisménos Eléphantos"
+msgstr "Thorakisménos Eléphantos"
+
+#: simulation/templates/units/sele_champion_infantry_pikeman.xml:6
+msgid "Silver Shield Pikeman"
+msgstr "Pìcear sgèithe airgid"
+
+#: simulation/templates/units/sele_champion_infantry_pikeman.xml:7
+msgid "Phalangitès Argyraspis"
+msgstr "Phalangitès Argyraspis"
+
+#: simulation/templates/units/sele_champion_infantry_swordsman.xml:6
+msgid "Romanized Heavy Swordsman"
+msgstr "Claidheamhair trom Ròmanach"
+
+#: simulation/templates/units/sele_champion_infantry_swordsman.xml:7
+msgid "Thorakitès Rhomaïkós"
+msgstr "Thorakitès Rhomaïkós"
+
+#: simulation/templates/units/sele_hero_antiochus_great.xml:12
+msgid "Ilarchès Aura"
+msgstr "Aura Ilarchès"
+
+#: simulation/templates/units/sele_hero_antiochus_great.xml:13
+msgid "All cavalry gains +2 levels of all armour types."
+msgstr "Gheibh a h-uile aonad eachraidh +2 air gach seòrsa de dh'armachd."
+
+#: simulation/templates/units/sele_hero_antiochus_great.xml:19
+msgid "Antiochus III \"The Great\""
+msgstr "Antiochus III \"Mòr\""
+
+#: simulation/templates/units/sele_hero_antiochus_great.xml:20
+msgid "Antiokhos G' Mégās"
+msgstr "Antiokhos G' Mégās"
+
+#: simulation/templates/units/sele_hero_antiochus_righteous.xml:12
+msgid "Conquest Aura"
+msgstr "Aura ceannsachaidh"
+
+#: simulation/templates/units/sele_hero_antiochus_righteous.xml:13
+msgid ""
+"All nearby enemy buildings, siege engines, and ships have their health "
+"reduced by 20%."
+msgstr "Thèid an t-slàinte aig a h-uile togalach, inneal-sèiste 's long an nàmhad a lùghdachadh le 20%."
+
+#: simulation/templates/units/sele_hero_antiochus_righteous.xml:20
+msgid "Antiochus IV \"The Righteous\""
+msgstr "Antiochus IV \"An t-ionracan\""
+
+#: simulation/templates/units/sele_hero_antiochus_righteous.xml:21
+msgid "Antiokhos D' Epiphanes"
+msgstr "Antiokhos D' Epiphanes"
+
+#: simulation/templates/units/sele_hero_seleucus_victor.xml:13
+msgid "Zooiarchos Aura"
+msgstr "Aura ceannard ailbhein"
+
+#: simulation/templates/units/sele_hero_seleucus_victor.xml:14
+msgid "Boosts War Elephant attack and speed +20% within his vision."
+msgstr "Gheibh ailbheanan am broinn astar lèirsinne buannachd air an ionnsaigh 's an gluasad le +20%."
+
+#: simulation/templates/units/sele_hero_seleucus_victor.xml:21
+msgid "Seleucus I \"The Victor\""
+msgstr "Seleucus I \"Am buadhair\""
+
+#: simulation/templates/units/sele_hero_seleucus_victor.xml:22
+msgid "Seleukos A' Nikator"
+msgstr "Seleukos A' Nikator"
+
+#: simulation/templates/units/sele_infantry_archer_merc_b.xml:14
+msgid "Syrian Archer"
+msgstr "Boghadair Siridheach"
+
+#: simulation/templates/units/sele_infantry_archer_merc_b.xml:15
+msgid "Toxótēs Syrías"
+msgstr "Toxótēs Syrías"
+
+#: simulation/templates/units/sele_infantry_javelinist_b.xml:14
+msgid "Arab Javelineer"
+msgstr "Gathadair Arabach"
+
+#: simulation/templates/units/sele_infantry_javelinist_b.xml:15
+msgid "Pezakontistès Aravikós"
+msgstr "Pezakontistès Aravikós"
+
+#: simulation/templates/units/sele_infantry_pikeman_b.xml:14
+msgid "Bronze Shield Pikeman"
+msgstr "Pìcear sgèithe umha"
+
+#: simulation/templates/units/sele_infantry_pikeman_b.xml:15
+msgid "Chalkaspides"
+msgstr "Chalkaspides"
+
+#: simulation/templates/units/sele_infantry_spearman_b.xml:14
+msgid "Militia Thureos Spearman"
+msgstr "Sleaghaire-mailisidh Tuireos"
+
+#: simulation/templates/units/sele_infantry_spearman_b.xml:15
+msgid "Thureophóros Politès"
+msgstr "Thureophóros Politès"
+
+#: simulation/templates/units/sele_ship_quinquereme.xml:5
+msgid "Pentères"
+msgstr "Pentères"
+
+#: simulation/templates/units/sele_ship_trireme.xml:5
+msgid "Seleukidó̱n Triērēs"
+msgstr "Seleukidó̱n Triērēs"
+
+#: simulation/templates/units/sele_ship_trireme.xml:6
+msgid "Seleucid Trireme"
+msgstr "Trì-ràmhach Seleucach"
+
+#: simulation/templates/units/sele_support_female_citizen.xml:6
+msgid "Syrías Gýnē"
+msgstr "Syrías Gýnē"
+
+#: simulation/templates/units/sele_support_female_citizen.xml:7
+msgid "Syrian Woman"
+msgstr "Boireannach Siridheach"
+
+#: simulation/templates/units/spart_cavalry_javelinist_b.xml:7
+msgid "Perioikoi Cavalryman"
+msgstr "Eachraidh Peireogais"
+
+#: simulation/templates/units/spart_cavalry_javelinist_b.xml:8
+msgid "Pródromos Perioïkós"
+msgstr "Pródromos Perioïkós"
+
+#: simulation/templates/units/spart_cavalry_spearman_b.xml:7
+msgid "Allied Greek Cavalry"
+msgstr "Eachraidh caidreabhach Greugach"
+
+#: simulation/templates/units/spart_cavalry_spearman_b.xml:8
+msgid "Hippeús Symmakhikós"
+msgstr "Hippeús Symmakhikós"
+
+#: simulation/templates/units/spart_champion_infantry_pike.xml:6
+msgid "Spartan Pikeman"
+msgstr "Pìcear Spartach"
+
+#: simulation/templates/units/spart_champion_infantry_pike.xml:7
+msgid "Phalangites Spartiatis"
+msgstr "Phalangites Spartiatis"
+
+#: simulation/templates/units/spart_champion_infantry_spear.xml:6
+msgid "Spartan Hoplite"
+msgstr "Hoiplid Spartach"
+
+#: simulation/templates/units/spart_champion_infantry_spear.xml:7
+msgid "Spartiátēs"
+msgstr "Spartiátēs"
+
+#: simulation/templates/units/spart_champion_infantry_sword.xml:16
+msgid "Skiritai Commando"
+msgstr "Coisridh Sgiriteach"
+
+#: simulation/templates/units/spart_champion_infantry_sword.xml:17
+msgid "Ékdromos Skirítēs"
+msgstr "Ékdromos Skirítēs"
+
+#: simulation/templates/units/spart_hero_agis.xml:9
+msgid "Agis III"
+msgstr "Agis III"
+
+#: simulation/templates/units/spart_hero_agis.xml:10
+msgid "Agis"
+msgstr "Agis"
+
+#: simulation/templates/units/spart_hero_agis.xml:11
+msgid ""
+"No hero aura. Has 2x health of other infantry heroes. Basically a very tough"
+" hoplite."
+msgstr "Gun aura gaisgich. Tha 2x de shlàinte aige an coimeas curaidhean coisridh eile. ’S e hoiplid glè bhuan a th’ ann."
+
+#: simulation/templates/units/spart_hero_brasidas.xml:14
+msgid "Helot Reforms"
+msgstr "Aura ath-leasachadh Heileotais"
+
+#: simulation/templates/units/spart_hero_brasidas.xml:15
+msgid ""
+"Helot Skirmishers within sight of him gain +2 attack and +1 all armor types."
+msgstr "Gheibh gach streupaire Heileotais am broinn astar lèirsinne +2 air an ionnsaigh 's +1 air gach seòrsa de dh'armachd."
+
+#: simulation/templates/units/spart_hero_brasidas.xml:22
+#: simulation/templates/units/spart_hero_brasidas.xml:23
+msgid "Brasidas"
+msgstr "Brasidas"
+
+#: simulation/templates/units/spart_hero_leonidas.xml:11
+msgid "Last Stand Aura"
+msgstr "Aura seasamh deireannach"
+
+#: simulation/templates/units/spart_hero_leonidas.xml:12
+msgid "+20% attack for nearby Hoplites and Spartiates."
+msgstr "Gheibh gach hoiplid 's spàrtach am fagas +20% air an ionnsaigh."
+
+#: simulation/templates/units/spart_hero_leonidas.xml:19
+msgid "Leonidas I"
+msgstr "Leonidas I"
+
+#: simulation/templates/units/spart_hero_leonidas.xml:20
+msgid "Leōnídēs"
+msgstr "Leōnídēs"
+
+#: simulation/templates/units/spart_infantry_javelinist_b.xml:14
+msgid "Helot Skirmisher"
+msgstr "Streupaire Heileotais"
+
+#: simulation/templates/units/spart_infantry_javelinist_b.xml:15
+msgid "Akontistḗs Heílōs"
+msgstr "Akontistḗs Heílōs"
+
+#: simulation/templates/units/spart_infantry_spearman_b.xml:14
+msgid "Perioikoi Hoplite"
+msgstr "Hoiplid Peireogais"
+
+#: simulation/templates/units/spart_infantry_spearman_b.xml:15
+msgid "Hoplítēs Períoikos"
+msgstr "Hoplítēs Períoikos"
+
+#: simulation/templates/units/spart_support_female_citizen.xml:26
+msgid "Spartan Woman"
+msgstr "Boireannach Spartach"
+
+#: simulation/templates/units/spart_support_female_citizen.xml:27
+msgid "Spartiâtis"
+msgstr "Spartiâtis"
+
+#: simulation/templates/units/spart_support_trader.xml:9
+msgid "Émporos Períoikos"
+msgstr "Émporos Períoikos"
+
+#: simulation/templates/units/theb_champion_spearman.xml:6
+#: simulation/templates/units/thebes_sacred_band_hoplitai.xml:6
+msgid "Theban Sacred Band Hoplite"
+msgstr "Hoplaid còmhlain naoimh Thìba"
+
+#: simulation/templates/units/theb_champion_spearman.xml:7
+msgid "Hieròs Lókhos tôn Thebôn"
+msgstr "Hieròs Lókhos tôn Thebôn"
+
+#: simulation/templates/units/theb_champion_swordsman.xml:6
+#: simulation/templates/units/thespian_melanochitones.xml:6
+msgid "Thespian Black Cloak"
+msgstr "Cleòca dubh Teaspaidheach"
+
+#: simulation/templates/units/theb_champion_swordsman.xml:7
+#: simulation/templates/units/thespian_melanochitones.xml:7
+msgid "Melanochitones"
+msgstr "Melanochitones"
+
+#: simulation/templates/units/theb_mechanical_siege_fireraiser.xml:22
+msgid "Fire Raiser"
+msgstr "Inneal togail teine"
+
+#: simulation/templates/units/theb_mechanical_siege_fireraiser.xml:23
+msgid "Pyrobolos"
+msgstr "Pyrobolos"
+
+#: simulation/templates/units/thebes_sacred_band_hoplitai.xml:7
+msgid "Hieros Lochos Hoplites"
+msgstr "Hieros Lochos Hoplites"
+
+#: simulation/templates/units/thebes_sacred_band_hoplitai.xml:8
+msgid "Champion Spearman."
+msgstr "Laoch sleaghair."
+
+#: simulation/templates/units/thrace_black_cloak.xml:20
+msgid "Thracian Black Cloak"
+msgstr "Cleòca dubh Tràcach"
+
+#: simulation/templates/units/thrace_black_cloak.xml:21
+msgid "Rhomphaiaphoros"
+msgstr "Rhomphaiaphoros"
+
+#: simulation/templates/units/viking_longboat.xml:5
+msgid "Longboat"
+msgstr "Birlinn"

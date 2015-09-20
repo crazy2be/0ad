@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Mesh">
+      <mesh>skeletal/goat.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Golden-fleece">
+      <textures><texture file="skeletal/special_fleece.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+</actor>

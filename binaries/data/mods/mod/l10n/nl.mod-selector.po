@@ -1,0 +1,142 @@
+# Translation template for Pyrogenesis - Mod Selector.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the Pyrogenesis - Mod Selector project.
+# 
+# Translators:
+# Michiel <mvdijk@mivadi.com>, 2014
+# niektb <niektb95@gmail.com>, 2014
+# Sander Deryckere, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2014-11-09 02:36+0100\n"
+"PO-Revision-Date: 2015-06-15 11:40+0000\n"
+"Last-Translator: Sander Deryckere\n"
+"Language-Team: Dutch (http://www.transifex.com/p/0ad/language/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: gui/modmod/modmod.js:30 gui/modmod/modmod.xml:(heading):94
+#: gui/modmod/modmod.xml:(heading):135
+msgid "Name"
+msgstr "Naam"
+
+#: gui/modmod/modmod.js:30
+msgid "Folder"
+msgstr "Map"
+
+#: gui/modmod/modmod.js:30
+msgid "Label"
+msgstr "Label"
+
+#: gui/modmod/modmod.js:30 gui/modmod/modmod.xml:(heading):97
+#: gui/modmod/modmod.xml:(heading):138
+msgid "Version"
+msgstr "Versie"
+
+#: gui/modmod/modmod.js:36
+msgid "Type: Any"
+msgstr "Alle"
+
+#: gui/modmod/modmod.js:62 gui/modmod/modmod.js:308
+msgid "Filter"
+msgstr "Filter"
+
+#: gui/modmod/modmod.js:74
+msgid "Message: Mods Loaded."
+msgstr "Mods geladen"
+
+#: gui/modmod/modmod.js:372
+msgid "All dependencies met"
+msgstr "Alle afhankelijkheden akkoord"
+
+#: gui/modmod/modmod.js:498
+msgid "No mod has been selected."
+msgstr "Geen mod geselecteerd"
+
+#: gui/modmod/modmod.xml:116
+msgid "Description"
+msgstr "Omschrijving"
+
+#: gui/modmod/modmod.xml:(caption):10
+msgid "Modifications"
+msgstr "Aanpassingen"
+
+#: gui/modmod/modmod.xml:(caption):18
+msgid "Reset Filters"
+msgstr "Reset Filters"
+
+#: gui/modmod/modmod.xml:(caption):52
+msgid "Negate"
+msgstr "Ontkennen"
+
+#: gui/modmod/modmod.xml:(caption):59
+msgid "Sorting:"
+msgstr "Sortering:"
+
+#: gui/modmod/modmod.xml:(caption):71
+msgid "Descending."
+msgstr "Aflopend."
+
+#: gui/modmod/modmod.xml:(caption):87
+msgid "Available Mods"
+msgstr "Beschikbare Mods"
+
+#: gui/modmod/modmod.xml:(caption):119
+msgid "Enable"
+msgstr "Activeer"
+
+#: gui/modmod/modmod.xml:(caption):128
+msgid "Enabled Mods"
+msgstr "Mods Activieren"
+
+#: gui/modmod/modmod.xml:(caption):158
+msgid "Up"
+msgstr "Omhoog"
+
+#: gui/modmod/modmod.xml:(caption):162
+msgid "X"
+msgstr "X"
+
+#: gui/modmod/modmod.xml:(caption):166
+msgid "Down"
+msgstr "Omlaag"
+
+#: gui/modmod/modmod.xml:(caption):174
+msgid "Quit"
+msgstr "Stoppen"
+
+#: gui/modmod/modmod.xml:(caption):179
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: gui/modmod/modmod.xml:(caption):184
+msgid "Save Configuration"
+msgstr "Configuratie Opslaan"
+
+#: gui/modmod/modmod.xml:(caption):189
+msgid "Start Mods"
+msgstr "Start Mods"
+
+#: gui/modmod/modmod.xml:(heading):100 gui/modmod/modmod.xml:(heading):141
+msgid "(Folder)"
+msgstr "(Map)"
+
+#: gui/modmod/modmod.xml:(heading):103 gui/modmod/modmod.xml:(heading):144
+msgid "Mod Label"
+msgstr "Mod label"
+
+#: gui/modmod/modmod.xml:(heading):106 gui/modmod/modmod.xml:(heading):147
+msgid "Mod Type"
+msgstr "Mod type"
+
+#: gui/modmod/modmod.xml:(heading):109 gui/modmod/modmod.xml:(heading):150
+msgid "Dependencies"
+msgstr "Afhankelijkheden"
+
+#: gui/modmod/modmod.xml:(heading):112 gui/modmod/modmod.xml:(heading):153
+msgid "Website"
+msgstr "Website"

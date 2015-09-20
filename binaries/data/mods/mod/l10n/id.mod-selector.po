@@ -1,0 +1,142 @@
+# Translation template for Pyrogenesis - Mod Selector.
+# Copyright © 2014 Wildfire Games
+# This file is distributed under the same license as the Pyrogenesis - Mod Selector project.
+# 
+# Translators:
+# Fqn Kdgzd <furqonklondigizoid@gundamfan.com>, 2014
+# Joshua C <jrandiny2@gmail.com>, 2014
+# Samuel Christo Randiny <srandiny@gmail.com>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: 0 A.D.\n"
+"POT-Creation-Date: 2014-11-09 02:36+0100\n"
+"PO-Revision-Date: 2015-02-18 11:51+0000\n"
+"Last-Translator: Samuel Christo Randiny <srandiny@gmail.com>\n"
+"Language-Team: Indonesian (http://www.transifex.com/projects/p/0ad/language/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: gui/modmod/modmod.js:30 gui/modmod/modmod.xml:(heading):94
+#: gui/modmod/modmod.xml:(heading):135
+msgid "Name"
+msgstr "Nama"
+
+#: gui/modmod/modmod.js:30
+msgid "Folder"
+msgstr "Folder"
+
+#: gui/modmod/modmod.js:30
+msgid "Label"
+msgstr "Label"
+
+#: gui/modmod/modmod.js:30 gui/modmod/modmod.xml:(heading):97
+#: gui/modmod/modmod.xml:(heading):138
+msgid "Version"
+msgstr "Versi"
+
+#: gui/modmod/modmod.js:36
+msgid "Type: Any"
+msgstr "Tipe: Apa Saja"
+
+#: gui/modmod/modmod.js:62 gui/modmod/modmod.js:308
+msgid "Filter"
+msgstr "Filter"
+
+#: gui/modmod/modmod.js:74
+msgid "Message: Mods Loaded."
+msgstr "Pesan: Mod Berhasil Dimuat"
+
+#: gui/modmod/modmod.js:372
+msgid "All dependencies met"
+msgstr "Semua keperluan terpenuhi"
+
+#: gui/modmod/modmod.js:498
+msgid "No mod has been selected."
+msgstr "Tidak ada mod yang dipilih."
+
+#: gui/modmod/modmod.xml:116
+msgid "Description"
+msgstr "Deskripsi"
+
+#: gui/modmod/modmod.xml:(caption):10
+msgid "Modifications"
+msgstr "Modifikasi"
+
+#: gui/modmod/modmod.xml:(caption):18
+msgid "Reset Filters"
+msgstr "Reset Filters"
+
+#: gui/modmod/modmod.xml:(caption):52
+msgid "Negate"
+msgstr "Menegatifkan"
+
+#: gui/modmod/modmod.xml:(caption):59
+msgid "Sorting:"
+msgstr "Penyortiran:"
+
+#: gui/modmod/modmod.xml:(caption):71
+msgid "Descending."
+msgstr "Menurun."
+
+#: gui/modmod/modmod.xml:(caption):87
+msgid "Available Mods"
+msgstr "Mods Tersedia"
+
+#: gui/modmod/modmod.xml:(caption):119
+msgid "Enable"
+msgstr "Aktifkan"
+
+#: gui/modmod/modmod.xml:(caption):128
+msgid "Enabled Mods"
+msgstr "Aktifkan Mods"
+
+#: gui/modmod/modmod.xml:(caption):158
+msgid "Up"
+msgstr "Naik"
+
+#: gui/modmod/modmod.xml:(caption):162
+msgid "X"
+msgstr "X"
+
+#: gui/modmod/modmod.xml:(caption):166
+msgid "Down"
+msgstr "Turun"
+
+#: gui/modmod/modmod.xml:(caption):174
+msgid "Quit"
+msgstr "Keluar"
+
+#: gui/modmod/modmod.xml:(caption):179
+msgid "Cancel"
+msgstr "Batal"
+
+#: gui/modmod/modmod.xml:(caption):184
+msgid "Save Configuration"
+msgstr "Simpan Konfigurasi"
+
+#: gui/modmod/modmod.xml:(caption):189
+msgid "Start Mods"
+msgstr "Jalankan Mods"
+
+#: gui/modmod/modmod.xml:(heading):100 gui/modmod/modmod.xml:(heading):141
+msgid "(Folder)"
+msgstr "(Folder)"
+
+#: gui/modmod/modmod.xml:(heading):103 gui/modmod/modmod.xml:(heading):144
+msgid "Mod Label"
+msgstr "Label Mod"
+
+#: gui/modmod/modmod.xml:(heading):106 gui/modmod/modmod.xml:(heading):147
+msgid "Mod Type"
+msgstr "Tipe Mod"
+
+#: gui/modmod/modmod.xml:(heading):109 gui/modmod/modmod.xml:(heading):150
+msgid "Dependencies"
+msgstr "Keperluan"
+
+#: gui/modmod/modmod.xml:(heading):112 gui/modmod/modmod.xml:(heading):153
+msgid "Website"
+msgstr "Website"
