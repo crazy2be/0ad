@@ -33,9 +33,16 @@
     <RegenRate>0</RegenRate>
     <Unhealable>false</Unhealable>
   </Health>
+  <ResourceSupply>
+    <Amount>50</Amount>
+    <Type>treasure.food</Type>
+    <Type>treasure.wood</Type>
+    <KillBeforeGather>true</KillBeforeGather>
+    <MaxGatherers>8</MaxGatherers>
+  </ResourceSupply>
   <Identity>
     <GenericName>Unit</GenericName>
-    <Classes datatype="tokens">Unit ConquestCritical</Classes>
+    <Classes datatype="tokens">Unit Animal Organic Domestic ConquestCritical</Classes>
     <Formations datatype="tokens">
       formations/null
     </Formations>
