@@ -1,4 +1,11 @@
-#ifdef WINDOWS
+#include "precompiled.h"
+
+#include "scriptinterface/ScriptInterface.h"
+#include "scriptinterface/ScriptVal.h"
+
+#include "ps/scripting/JSInterface_Firebase.h"
+
+#ifdef _WIN32
 #include <winsock2.h>
 #include <WS2tcpip.h>
 #include <windows.h>
@@ -31,6 +38,8 @@ typedef int SOCKET;
 using std::cout;
 using std::endl;
 using std::string;
+
+// BEGIN SCRIPT INTERFACE
 
 inline string to_string(int num) {
 	if (num == 0) return "0";
@@ -81,12 +90,22 @@ SOCKET http_socket_open(SOCKADDR* addr) {
 	SOCKET webSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 	if (webSocket == INVALID_SOCKET) {
 		cout << "Creation of the Socket Failed" << endl;
+#ifdef _WIN32
+		int err = WSAGetLastError();
+		WSACleanup();
+		debug_printf("send failed with error: %d\n", err);
+#endif
 		return -1;
 	}
 
 	//cout << "Connecting..." << endl;
 	if (connect(webSocket, addr, sizeof(*addr)) != 0) {
 		cout << "Could not connect" << endl;
+#ifdef _WIN32
+		int err = WSAGetLastError();
+		WSACleanup();
+		debug_printf("send failed with error: %d\n", err);
+#endif
 		closesocket(webSocket);
 		return -1;
 	}
@@ -104,6 +123,11 @@ void http_socket_request(int webSocket, string method, string path, string data)
 	int sentBytes = send(webSocket, httpRequest.c_str(), httpRequest.size(), 0);
 	if (sentBytes < (int)httpRequest.size() || sentBytes == SOCKET_ERROR) {
 		cout << "Could not send the request to the Server" << endl;
+#ifdef _WIN32
+		int err = WSAGetLastError();
+		WSACleanup();
+		debug_printf("send failed with error: %d\n", err);
+#endif
 		return;
 	}
 
@@ -119,6 +143,28 @@ void http_socket_request(int webSocket, string method, string path, string data)
 // 		}
 // 	}
 }
+
+#ifdef _WIN32
+//http://stackoverflow.com/questions/10905892/equivalent-of-gettimeday-for-windows
+int gettimeofday(struct timeval * tp, struct timezone * tzp)
+{
+	// Note: some broken versions only have 8 trailing zero's, the correct epoch has 9 trailing zero's
+	static const uint64_t EPOCH = ((uint64_t)116444736000000000ULL);
+
+	SYSTEMTIME  system_time;
+	FILETIME    file_time;
+	uint64_t    time;
+
+	GetSystemTime(&system_time);
+	SystemTimeToFileTime(&system_time, &file_time);
+	time = ((uint64_t)file_time.dwLowDateTime);
+	time += ((uint64_t)file_time.dwHighDateTime) << 32;
+
+	tp->tv_sec = (long)((time - EPOCH) / 10000000L);
+	tp->tv_usec = (long)(system_time.wMilliseconds * 1000);
+	return 0;
+}
+#endif
 
 long long usec() {
 	struct timeval tv;
@@ -154,15 +200,10 @@ void http_socket_init() {
 //	WSACleanup();
 }
 
-// BEGIN SCRIPT INTERFACE
-#include "precompiled.h"
-
-#include "scriptinterface/ScriptInterface.h"
-#include "scriptinterface/ScriptVal.h"
-
-#include "ps/scripting/JSInterface_Firebase.h"
 
 SOCKADDR GLOBAL_addr = {};
+
+
 void JSI_Firebase::FirebaseHTTP(ScriptInterface::CxPrivate* UNUSED(pCxPrivate), std::string method, std::string path, std::string data)
 {
 	long long start = usec();
@@ -180,4 +221,3 @@ void JSI_Firebase::RegisterScriptFunctions(ScriptInterface& scriptInterface)
 	scriptInterface.RegisterFunction<void, std::string, std::string, std::string, &JSI_Firebase::FirebaseHTTP>("FirebaseHTTP");
 	std::cout << "REGISTERINGED SCRIPT FUNCTION" << std::endl;
 }
-

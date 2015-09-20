@@ -75,3 +75,10 @@ long.*.po
 
 
 .svn
+
+build/workspaces/vc2013
+
+test_Debug
+binaries/system
+firebase_proxy.js
+node_modules
