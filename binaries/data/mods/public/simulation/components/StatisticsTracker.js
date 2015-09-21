@@ -236,6 +236,9 @@ StatisticsTracker.prototype.changeCount = function(cmpUnit, entity, quantity) {
 	
 	changeValue(playerID, unitString, "count", quantity);
 	
+	cmpPlayer.FirebaseHTTP("PUT", "/units/" + unitString + "/countTotal.json",
+			JSON.stringify({count: getValue(playerID, unitString, "count"), time: { ".sv": "timestamp" }}));
+	
 	cmpPlayer.FirebaseHTTP("POST", "/units/" + unitString + "/count.json",
 			JSON.stringify({count: getValue(playerID, unitString, "count"), time: { ".sv": "timestamp" }}));
 			
