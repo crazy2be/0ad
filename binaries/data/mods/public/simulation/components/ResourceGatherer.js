@@ -60,7 +60,7 @@ var UID = 0;
 
 ResourceGatherer.prototype.Init = function()
 {
-	this.id = "unit-" + UID++;
+	//this.id = "unit-" + UID++;
 	this.carrying = {}; // { generic type: integer amount currently carried }
 	// (Note that this component supports carrying multiple types of resources,
 	// each with an independent capacity, but the rest of the game currently
@@ -336,7 +336,7 @@ ResourceGatherer.prototype.IsCarryingAnythingExcept = function(exceptedType)
 ResourceGatherer.prototype.CommitResources = function(types)
 {
 	if(!this.id) {
-		this.id = "unit-" + UID++;
+		//this.id = "unit-" + UID++;
 	}
 	
 	let cmpPlayer = QueryOwnerInterface(this.entity, IID_Player);
