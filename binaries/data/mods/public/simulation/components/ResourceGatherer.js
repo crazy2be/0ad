@@ -345,7 +345,7 @@ ResourceGatherer.prototype.CommitResources = function(types)
 		for each (let type in types) {
 			if (type in this.carrying)
 			{
-				cmpPlayer.AddResource(type, this.carrying[type], this.id);
+				cmpPlayer.AddResource(type, this.carrying[type]);
 				delete this.carrying[type];
 			}
 		}
