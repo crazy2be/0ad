@@ -201,8 +201,20 @@ StatisticsTracker.prototype.CounterIncrement = function(cmpIdentity, counter, ty
 		this[counter][type]++;
 };
 
-var unitCountLookup = {};
-var unitValueLookup = {};
+var kvpLookup = {};
+function kvpHash(playerID, unitString, name) {
+	return playerID + "|" + unitString + "|" + name;
+}
+function getValue(playerID, unitString, name) {
+	return kvpLookup[kvpHash(playerID, unitString, name)];
+}
+function setValue(playerID, unitString, name, value) {
+	kvpLookup[kvpHash(playerID, unitString, name)] = value;
+}
+function changeValue(playerID, unitString, name, change) {
+	kvpLookup[kvpHash(playerID, unitString, name)] = kvpLookup[kvpHash(playerID, unitString, name)] || 0;
+	kvpLookup[kvpHash(playerID, unitString, name)] += change;
+}
 
 function getUnitString(cmpUnit) {
 	var unitString = "";
@@ -218,12 +230,14 @@ StatisticsTracker.prototype.changeCount = function(cmpUnit, entity, quantity) {
 	
 	var unitString = getUnitString(cmpUnit);
 	if(!unitString) return;
-	var unitCounts = unitCountLookup[unitString] = unitCountLookup[unitString] || {};
-	unitCounts[unitString] = (unitCounts[unitString] || 0) + quantity;
-		
+	
 	var cmpPlayer = Engine.QueryInterface(this.entity, IID_Player);
-	cmpPlayer.FirebaseHTTP("PUT", "/units/" + unitString + "/count.json",
-			JSON.stringify(unitCounts[unitString]));
+	var playerID = cmpPlayer.GetPlayerID();
+	
+	changeValue(playerID, unitString, "count", quantity);
+	
+	cmpPlayer.FirebaseHTTP("POST", "/units/" + unitString + "/count.json",
+			JSON.stringify({count: getValue(playerID, unitString, "count"), time: { ".sv": "timestamp" }}));
 			
 	cmpPlayer.FirebaseHTTP("POST", "/units/" + unitString + "/countChanged.json",
 			JSON.stringify({quantity: quantity, time: { ".sv": "timestamp" }}));
@@ -232,15 +246,17 @@ StatisticsTracker.prototype.changeCount = function(cmpUnit, entity, quantity) {
 	var cmpCost = Engine.QueryInterface(entity, IID_Cost);
 	var costs = cmpCost.GetResourceCosts();
 	
-	var unitValues = unitValueLookup[unitString] = unitValueLookup[unitString] || {};
-	unitValues[unitString] = (unitValues[unitString] || 0) + quantity;
-	
+	var newValues = {};
 	for (var type in costs) {
-		unitValues[type] = (unitValues[type] || 0) + costs[type] * quantity;
+		changeValue(playerID, unitString, type, costs[type] * quantity);
+		newValues[type] = getValue(playerID, unitString, type);
 	}
 	
 	cmpPlayer.FirebaseHTTP("POST", "/units/" + unitString + "/values.json",
-			JSON.stringify({values: unitValues, time: { ".sv": "timestamp" }}));
+			JSON.stringify({
+				newValues: newValues, 
+				time: { ".sv": "timestamp" }
+			}));
 }
 
 /** 
