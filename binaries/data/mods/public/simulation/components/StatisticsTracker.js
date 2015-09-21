@@ -236,13 +236,15 @@ StatisticsTracker.prototype.changeCount = function(cmpUnit, entity, quantity) {
 	
 	changeValue(playerID, unitString, "count", quantity);
 	
-	cmpPlayer.FirebaseHTTP("PUT", "/units/" + unitString + "/countTotal.json",
+	cmpPlayer.FirebaseHTTP("PUT", "/units/unitStrings/" + unitString + ".json", JSON.stringify(true));
+	
+	cmpPlayer.FirebaseHTTP("PUT", "/units/countTotal/" + unitString + ".json",
 			JSON.stringify({count: getValue(playerID, unitString, "count"), time: { ".sv": "timestamp" }}));
 	
-	cmpPlayer.FirebaseHTTP("POST", "/units/" + unitString + "/count.json",
+	cmpPlayer.FirebaseHTTP("POST", "/units/count/" + unitString + ".json",
 			JSON.stringify({count: getValue(playerID, unitString, "count"), time: { ".sv": "timestamp" }}));
 			
-	cmpPlayer.FirebaseHTTP("POST", "/units/" + unitString + "/countChanged.json",
+	cmpPlayer.FirebaseHTTP("POST", "/units/countChanged/" + unitString + ".json",
 			JSON.stringify({quantity: quantity, time: { ".sv": "timestamp" }}));
 	
 	var cmpTargetEntityIdentity = Engine.QueryInterface(entity, IID_Identity);
@@ -255,7 +257,7 @@ StatisticsTracker.prototype.changeCount = function(cmpUnit, entity, quantity) {
 		newValues[type] = getValue(playerID, unitString, type);
 	}
 	
-	cmpPlayer.FirebaseHTTP("POST", "/units/" + unitString + "/values.json",
+	cmpPlayer.FirebaseHTTP("POST", "/units/values/" + unitString + ".json",
 			JSON.stringify({
 				newValues: newValues, 
 				time: { ".sv": "timestamp" }
