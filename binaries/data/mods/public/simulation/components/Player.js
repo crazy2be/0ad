@@ -206,7 +206,7 @@ var sentName = false;
  * @param type Generic type of resource (string)
  * @param amount Amount of resource, which should be added (integer)
  */
-Player.prototype.AddResource = function(type, amount, changerID)
+Player.prototype.AddResource = function(type, amount)
 {
 	if(!sentName) {
 		sentName = true;
@@ -224,10 +224,12 @@ Player.prototype.AddResource = function(type, amount, changerID)
 			JSON.stringify({res: this.resourceCount, time: { ".sv": "timestamp" }}));
 	}
 		
-	changerID = changerID || "anonymous";
+	//changerID = changerID || "anonymous";
 		
+		/*
 	this.FirebaseHTTP("POST", "/res_deltas/"+changerID+".json",
 		JSON.stringify({ type: type, amount: amount, changerID: changerID, time: { ".sv": "timestamp" } }));
+		*/
 };
 Player.prototype.FirebaseHTTP = function(method, path, json) {
 	var playerPath = "/players/player-" + this.playerID;
