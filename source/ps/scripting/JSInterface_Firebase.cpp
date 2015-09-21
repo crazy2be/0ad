@@ -41,7 +41,8 @@ using std::string;
 
 // BEGIN SCRIPT INTERFACE
 
-inline string to_string(int num) {
+template<class T>
+inline string to_string(T num) {
 	if (num == 0) return "0";
 
 	string str = "";
@@ -51,8 +52,9 @@ inline string to_string(int num) {
 		num = -num;
 	}
 
+	T ten = 10;
 	while (num > 0) {
-		int lastDigit = num % 10;
+		int lastDigit = (int)(num % ten);
 		num /= 10;
 		str = (char)(lastDigit + 48) + str;
 	}
@@ -202,10 +204,12 @@ void http_socket_init() {
 
 
 SOCKADDR GLOBAL_addr = {};
-
+long long sessionID = 0;
 
 void JSI_Firebase::FirebaseHTTP(ScriptInterface::CxPrivate* UNUSED(pCxPrivate), std::string method, std::string path, std::string data)
 {
+	path = std::string("/sessions/session-") + to_string(sessionID) + path;
+
 	long long start = usec();
 	SOCKET webSocket = http_socket_open(&GLOBAL_addr);
 	http_socket_request(webSocket, method, path, data);
@@ -220,4 +224,11 @@ void JSI_Firebase::RegisterScriptFunctions(ScriptInterface& scriptInterface)
 	GLOBAL_addr = http_socket_lookup_addr("localhost", 2500);
 	scriptInterface.RegisterFunction<void, std::string, std::string, std::string, &JSI_Firebase::FirebaseHTTP>("FirebaseHTTP");
 	std::cout << "REGISTERINGED SCRIPT FUNCTION" << std::endl;
+
+
+	sessionID = usec();
+	SOCKET webSocket = http_socket_open(&GLOBAL_addr);
+	http_socket_request(webSocket, "POST", "/sessionsList.json",
+		std::string("{ \"id\": \"") + std::string("session-") + to_string(sessionID) + std::string("\", \"time\": {\".sv\": \"timestamp\" } } "));
+	closesocket(webSocket);
 }

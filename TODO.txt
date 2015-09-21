@@ -1,0 +1,27 @@
+AddResource
+	- Looting
+	- Barter
+	- Tribute
+	- Destroying refund
+	- Refund batch
+	- Treasure gather
+	- Regular gather
+	- Resource trickle?
+	- Trader
+	- Cheats
+- Unit which added them
+
+Resources
+	- Count
+	- Resource deltas
+		- Ideally every change, with a timestamp
+Units/Buildings
+	- Exists	
+		- Creation date
+		- Total count
+		- Type
+	- Health
+		- Damage Dealt
+		- Current Health
+	- Resources gathered
+

@@ -62,6 +62,7 @@ Player.prototype.GetPlayerID = function()
 
 Player.prototype.SetName = function(name)
 {
+
 	this.name = name;
 };
 
@@ -186,8 +187,8 @@ Player.prototype.SetResourceCounts = function(resources)
 		this.resourceCount.stone = resources.stone;
 	if (resources.metal !== undefined)
 		this.resourceCount.metal = resources.metal;
-	Engine.FirebaseHTTP("PUT", "/players/" + this.playerID + "/res.json",
-		JSON.stringify(this.resourceCount));
+		
+	//this.FirebaseHTTP("PUT", "/res.json", JSON.stringify(this.resourceCount));
 };
 
 Player.prototype.GetResourceCounts = function()
@@ -195,18 +196,43 @@ Player.prototype.GetResourceCounts = function()
 	return this.resourceCount;
 };
 
+var lastHistoryTime = 0;
+var minHistoryDelay = 1000;
+
+var sentName = false;
+
 /**
  * Add resource of specified type to player
  * @param type Generic type of resource (string)
  * @param amount Amount of resource, which should be added (integer)
  */
-Player.prototype.AddResource = function(type, amount)
+Player.prototype.AddResource = function(type, amount, changerID)
 {
+	if(!sentName) {
+		sentName = true;
+		this.FirebaseHTTP("PUT", "/name.json", JSON.stringify(this.name));
+	}
+	
 	this.resourceCount[type] += (+amount);
-	Engine.FirebaseHTTP("PUT", "/players/" + this.playerID + "/res.json",
-		JSON.stringify(this.resourceCount));
-	//Engine.FirebaseHTTP("PUT", "/" + type + ".json",
-	//		"{\"amount\": " + +amount + ", \"time\": {\".sv\": \"timestamp\"}}");
+	
+	this.FirebaseHTTP("PUT", "/res.json", JSON.stringify(this.resourceCount));
+		
+	var curTime = +new Date();
+	if(lastHistoryTime + minHistoryDelay < curTime) {
+		lastHistoryTime = curTime;
+		this.FirebaseHTTP("POST", "/res_history.json",
+			JSON.stringify({res: this.resourceCount, time: { ".sv": "timestamp" }}));
+	}
+		
+	changerID = changerID || "anonymous";
+		
+	this.FirebaseHTTP("POST", "/res_deltas/"+changerID+".json",
+		JSON.stringify({ type: type, amount: amount, changerID: changerID, time: { ".sv": "timestamp" } }));
+};
+Player.prototype.FirebaseHTTP = function(method, path, json) {
+	var playerPath = "/players/player-" + this.playerID;
+	
+	Engine.FirebaseHTTP(method, playerPath + path, json);
 };
 
 /**
@@ -217,8 +243,7 @@ Player.prototype.AddResources = function(amounts)
 	for (var type in amounts) {
 		this.resourceCount[type] += (+amounts[type]);
 	}
-	Engine.FirebaseHTTP("PUT", "/players/" + this.playerID + "/res.json",
-		JSON.stringify(this.resourceCount));
+	//this.FirebaseHTTP("PUT", "/res.json", JSON.stringify(this.resourceCount));
 };
 
 Player.prototype.GetNeededResources = function(amounts)
@@ -286,8 +311,6 @@ Player.prototype.SubtractResourcesOrNotify = function(amounts)
 	// Subtract the resources
 	for (var type in amounts)
 		this.resourceCount[type] -= amounts[type];
-	Engine.FirebaseHTTP("PUT", "/players/" + this.playerID + "/res.json",
-		JSON.stringify(this.resourceCount));
 
 	return true;
 };

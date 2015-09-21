@@ -92,7 +92,7 @@ Barter.prototype.ExchangeResources = function(playerEntity, resourceToSell, reso
 	var amountsToSubtract = {};
 	amountsToSubtract[resourceToSell] = amount;
 	if (cmpPlayer.TrySubtractResources(amountsToSubtract))
-	{
+{
 		var amountToAdd = Math.round(prices["sell"][resourceToSell] / prices["buy"][resourceToBuy] * amount);
 		cmpPlayer.AddResource(resourceToBuy, amountToAdd);
 		var numberOfDeals = Math.round(amount / 100);

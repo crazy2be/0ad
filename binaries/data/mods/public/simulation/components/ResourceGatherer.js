@@ -56,8 +56,11 @@ ResourceGatherer.prototype.Schema =
 		"</interleave>" +
 	"</element>";
 
+var UID = 0;
+
 ResourceGatherer.prototype.Init = function()
 {
+	this.id = "unit-" + UID++;
 	this.carrying = {}; // { generic type: integer amount currently carried }
 	// (Note that this component supports carrying multiple types of resources,
 	// each with an independent capacity, but the rest of the game currently
@@ -205,9 +208,12 @@ ResourceGatherer.prototype.TryInstantGather = function(target)
  */
 ResourceGatherer.prototype.PerformGather = function(target)
 {
-	if (!this.GetTargetGatherRate(target))
+	var gatherRate = this.GetTargetGatherRate(target);
+	
+	if (!gatherRate) {
 		return { "exhausted": true };
-
+	}
+		
 	let gatherAmount = 1;
 
 	let cmpResourceSupply = Engine.QueryInterface(target, IID_ResourceSupply);
@@ -329,15 +335,21 @@ ResourceGatherer.prototype.IsCarryingAnythingExcept = function(exceptedType)
  */
 ResourceGatherer.prototype.CommitResources = function(types)
 {
+	if(!this.id) {
+		this.id = "unit-" + UID++;
+	}
+	
 	let cmpPlayer = QueryOwnerInterface(this.entity, IID_Player);
 
-	if (cmpPlayer)
-		for each (let type in types)
+	if (cmpPlayer) {
+		for each (let type in types) {
 			if (type in this.carrying)
 			{
-				cmpPlayer.AddResource(type, this.carrying[type]);
+				cmpPlayer.AddResource(type, this.carrying[type], this.id);
 				delete this.carrying[type];
 			}
+		}
+	}
 
 	Engine.PostMessage(this.entity, MT_ResourceCarryingChanged, { "to": this.GetCarryingStatus() });
 };
