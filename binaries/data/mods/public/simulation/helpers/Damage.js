@@ -129,10 +129,30 @@ Damage.TargetKilled = function(killerEntity, targetEntity)
 	if (cmpTargetPlayerStatisticsTracker)
 		cmpTargetPlayerStatisticsTracker.LostEntity(targetEntity);
 
+	// Looter logic [HACK BY ME]
+	var cmpKillerIdentity = Engine.QueryInterface(killerEntity, IID_Identity);
+	var percentToKiller = cmpKillerIdentity.HasClass("Tower") ? 0.2 : 1.0;
+	var cmpTargetCost = Engine.QueryInterface(targetEntity, IID_Cost);
+	var costs = cmpTargetCost.GetResourceCosts();
+	award(killerEntity, mult(costs, percentToKiller));
+	award(targetEntity, mult(costs, 1. - percentToKiller));
+
+	function mult(res, amount) {
+		var res2 = {}
+		for (var k in res) res2[k] = res[k]*amount;
+		return res2;
+	}
+	function award(ent, res) {
+		var cmpPlayer = QueryOwnerInterface(ent, IID_Player);
+		cmpPlayer.AddResources(res);
+		var cmpStatisticsTracker = QueryOwnerInterface(ent, IID_StatisticsTracker);
+		if (cmpStatisticsTracker)
+			cmpStatisticsTracker.IncreaseLootCollectedCounter(res);
+	}
 	// If killer can collect loot, let's try to collect it.
-	var cmpLooter = Engine.QueryInterface(killerEntity, IID_Looter);
-	if (cmpLooter)
-		cmpLooter.Collect(targetEntity);
+	//var cmpLooter = Engine.QueryInterface(killerEntity, IID_Looter);
+	//if (cmpLooter)
+	//	cmpLooter.Collect(targetEntity);
 };
 
 Engine.RegisterGlobal("Damage", Damage);

@@ -246,7 +246,6 @@ Health.prototype.Increase = function(amount)
 
 Health.prototype.CreateCorpse = function(leaveResources)
 {
-	print("CREATE CORPSE CALLED\n");
 	function copyPos(dst, cmpSrcPos) {
 		var cmpDstPos = Engine.QueryInterface(dst, IID_Position);
 		var pos = cmpSrcPos.GetPosition();
@@ -270,18 +269,6 @@ Health.prototype.CreateCorpse = function(leaveResources)
 		corpse = Engine.AddEntity("resource|" + templateName);
 	else {
 		corpse = Engine.AddLocalEntity("corpse|" + templateName);
-		var treasures = ["gaia/special_treasure_food_barrel",
-				 "gaia/special_treasure_food_bin",
-				 "gaia/special_treasure_food_crate",
-				 "gaia/special_treasure_food_jars",
-				 "gaia/special_treasure_metal",
-				 "gaia/special_treasure_stone",
-				 "gaia/special_treasure_wood",
-				 "gaia/special_treasure_wood",
-				 "gaia/special_treasure_wood"];
-		var treasure = Engine.AddLocalEntity("gaia/special_treasure_food_jars");
-		copyPos(treasure, cmpPosition);
-		Engine.QueryInterface(treasure, IID_Ownership).SetOwner(0);
 	}
 
 	// Copy various parameters so it looks just like us
