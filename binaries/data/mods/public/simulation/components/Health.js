@@ -246,6 +246,15 @@ Health.prototype.Increase = function(amount)
 
 Health.prototype.CreateCorpse = function(leaveResources)
 {
+	print("CREATE CORPSE CALLED\n");
+	function copyPos(dst, cmpSrcPos) {
+		var cmpDstPos = Engine.QueryInterface(dst, IID_Position);
+		var pos = cmpSrcPos.GetPosition();
+		cmpDstPos.JumpTo(pos.x, pos.z);
+		var rot = cmpSrcPos.GetRotation();
+		cmpDstPos.SetYRotation(rot.y);
+		cmpDstPos.SetXZRotation(rot.x, rot.z);
+	}
 	// If the unit died while not in the world, don't create any corpse for it
 	// since there's nowhere for the corpse to be placed
 	var cmpPosition = Engine.QueryInterface(this.entity, IID_Position);
@@ -259,17 +268,24 @@ Health.prototype.CreateCorpse = function(leaveResources)
 	var corpse;
 	if (leaveResources)
 		corpse = Engine.AddEntity("resource|" + templateName);
-	else
+	else {
 		corpse = Engine.AddLocalEntity("corpse|" + templateName);
+		var treasures = ["gaia/special_treasure_food_barrel",
+				 "gaia/special_treasure_food_bin",
+				 "gaia/special_treasure_food_crate",
+				 "gaia/special_treasure_food_jars",
+				 "gaia/special_treasure_metal",
+				 "gaia/special_treasure_stone",
+				 "gaia/special_treasure_wood",
+				 "gaia/special_treasure_wood",
+				 "gaia/special_treasure_wood"];
+		var treasure = Engine.AddLocalEntity("gaia/special_treasure_food_jars");
+		copyPos(treasure, cmpPosition);
+		Engine.QueryInterface(treasure, IID_Ownership).SetOwner(0);
+	}
 
 	// Copy various parameters so it looks just like us
-
-	var cmpCorpsePosition = Engine.QueryInterface(corpse, IID_Position);
-	var pos = cmpPosition.GetPosition();
-	cmpCorpsePosition.JumpTo(pos.x, pos.z);
-	var rot = cmpPosition.GetRotation();
-	cmpCorpsePosition.SetYRotation(rot.y);
-	cmpCorpsePosition.SetXZRotation(rot.x, rot.z);
+	copyPos(corpse, cmpPosition);
 
 	var cmpOwnership = Engine.QueryInterface(this.entity, IID_Ownership);
 	var cmpCorpseOwnership = Engine.QueryInterface(corpse, IID_Ownership);
