@@ -3,6 +3,17 @@ function StatisticsTracker() {}
 StatisticsTracker.prototype.Schema =
 	"<a:component type='system'/><empty/>";
 
+var unitsClassesLookup = {
+	"Infantry": 0,
+	"Worker": 1,
+	"Female": 2,
+	"Cavalry": 3,
+	"Champion": 4,
+	"Hero": 5,
+	"Ship": 6,
+	"Trader": 7
+};
+
 StatisticsTracker.prototype.Init = function()
 {
 	// units
@@ -15,7 +26,7 @@ StatisticsTracker.prototype.Init = function()
 		"Hero",
 		"Ship",
 		"Trader"
-	];	
+	];
 	this.unitsTrained = {
 		"Infantry": 0,
 		"Worker": 0,
@@ -190,6 +201,48 @@ StatisticsTracker.prototype.CounterIncrement = function(cmpIdentity, counter, ty
 		this[counter][type]++;
 };
 
+var unitCountLookup = {};
+var unitValueLookup = {};
+
+function getUnitString(cmpUnit) {
+	var unitString = "";
+	for each (var type in cmpUnit.GetClassesList()) {
+		if(unitsClassesLookup[type]) {
+			unitString += type;
+		}
+	}
+	return unitString;
+}
+StatisticsTracker.prototype.changeCount = function(cmpUnit, entity, quantity) {
+	if(quantity !== -1 && quantity !== +1) throw new Error("Unexpected quantity change of " + quantity);
+	
+	var unitString = getUnitString(cmpUnit);
+	if(!unitString) return;
+	var unitCounts = unitCountLookup[unitString] = unitCountLookup[unitString] || {};
+	unitCounts[unitString] = (unitCounts[unitString] || 0) + quantity;
+		
+	var cmpPlayer = Engine.QueryInterface(this.entity, IID_Player);
+	cmpPlayer.FirebaseHTTP("PUT", "/units/" + unitString + "/count.json",
+			JSON.stringify(unitCounts[unitString]));
+			
+	cmpPlayer.FirebaseHTTP("POST", "/units/" + unitString + "/countChanged.json",
+			JSON.stringify({quantity: quantity, time: { ".sv": "timestamp" }}));
+	
+	var cmpTargetEntityIdentity = Engine.QueryInterface(entity, IID_Identity);
+	var cmpCost = Engine.QueryInterface(entity, IID_Cost);
+	var costs = cmpCost.GetResourceCosts();
+	
+	var unitValues = unitValueLookup[unitString] = unitValueLookup[unitString] || {};
+	unitValues[unitString] = (unitValues[unitString] || 0) + quantity;
+	
+	for (var type in costs) {
+		unitValues[type] = (unitValues[type] || 0) + costs[type] * quantity;
+	}
+	
+	cmpPlayer.FirebaseHTTP("POST", "/units/" + unitString + "/values.json",
+			JSON.stringify({values: unitValues, time: { ".sv": "timestamp" }}));
+}
+
 /** 
  * Counts the total number of units trained as well as an individual count for 
  * each unit type. Based on templates.
@@ -204,6 +257,8 @@ StatisticsTracker.prototype.IncreaseTrainedUnitsCounter = function(trainedUnit)
 
 	for each (var type in this.unitsClasses)
 		this.CounterIncrement(cmpUnitEntityIdentity, "unitsTrained", type);
+
+	this.changeCount(cmpUnitEntityIdentity, trainedUnit, 1);
 
 	this.unitsTrained.total++;
 };
@@ -286,6 +341,8 @@ StatisticsTracker.prototype.LostEntity = function(lostEntity)
 
 	if (lostEntityIsUnit)
 	{
+		this.changeCount(cmpLostEntityIdentity, lostEntity, -1);
+		
 		for each (var type in this.unitsClasses)
 			this.CounterIncrement(cmpLostEntityIdentity, "unitsLost", type);
 

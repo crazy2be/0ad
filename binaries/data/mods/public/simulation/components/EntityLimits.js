@@ -101,6 +101,13 @@ EntityLimits.prototype.ChangeCount = function(category, value)
 {
 	if (this.count[category] !== undefined)
 		this.count[category] += value;
+		
+	var cmpPlayer = Engine.QueryInterface(this.entity, IID_Player);
+	Engine.FirebaseHTTP("PUT", 
+		"/players/player-" + cmpPlayer.GetPlayerID() 
+		+ "/buildingCounts/" + category + "/count.json", 
+		JSON.stringify(this.count[category] || 0)
+	);
 };
 
 EntityLimits.prototype.GetLimits = function()

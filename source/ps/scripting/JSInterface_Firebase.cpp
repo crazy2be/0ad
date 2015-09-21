@@ -171,7 +171,7 @@ int gettimeofday(struct timeval * tp, struct timezone * tzp)
 long long usec() {
 	struct timeval tv;
 	gettimeofday(&tv,NULL);
-	return tv.tv_usec + tv.tv_sec*1000000;
+	return tv.tv_usec + tv.tv_sec*(long long)1000000;
 }
 
 void http_socket_init() {
